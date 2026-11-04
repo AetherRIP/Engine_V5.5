@@ -1,0 +1,196 @@
+{
+  "strategy": "c",
+  "run": 9,
+  "models": {
+    "primary": "gemini-3.6-flash",
+    "lite": "gemini-3.5-flash-lite",
+    "strong": "gemini-3.6-flash",
+    "notes": [
+      "primary: gemini-3.6-flash verified on KEY_10",
+      "lite: gemini-3.1-flash-lite not verified on the first 3 healthy key(s)",
+      "lite: gemini-3.5-flash-lite verified on KEY_10",
+      "strong: gemini-3.1-pro-preview not verified on the first 3 healthy key(s)",
+      "strong: gemini-3.6-flash verified on KEY_10"
+    ]
+  },
+  "items": [],
+  "request_count": 2,
+  "invalid_responses": 1,
+  "errors": [
+    "document understanding invalid: invalid JSON: Expecting value: line 1 column 1 (char 0)",
+    "request failed: http_error UNAVAILABLE",
+    "scheme extraction failed; escalation checks are limited",
+    "b1: understanding missing for 1a, 1d, 2, 3, 4, 5, 6",
+    "b2: understanding missing for 7, 8, 9, 10, 11",
+    "b3: understanding missing for 13, 14, 15, 16b, 17, 18",
+    "b4: understanding missing for 19, 20, 21, 22, 23, 24, 25",
+    "b5: understanding missing for 26, 27, 28, 29, 30, 31",
+    "b6: understanding missing for 32, 33, 34, 35, 36, 37a, 37b"
+  ],
+  "extractions": {
+    "doc_questions": 0
+  },
+  "verification": {
+    "1a": {
+      "status": "unknown",
+      "detail": "no expected answer extracted"
+    },
+    "1d": {
+      "status": "unknown",
+      "detail": "no expected answer extracted"
+    },
+    "2": {
+      "status": "unknown",
+      "detail": "no expected answer extracted"
+    },
+    "3": {
+      "status": "unknown",
+      "detail": "no expected answer extracted"
+    },
+    "4": {
+      "status": "unknown",
+      "detail": "no expected answer extracted"
+    },
+    "5": {
+      "status": "unknown",
+      "detail": "no expected answer extracted"
+    },
+    "6": {
+      "status": "unknown",
+      "detail": "no expected answer extracted"
+    },
+    "7": {
+      "status": "unknown",
+      "detail": "no expected answer extracted"
+    },
+    "8": {
+      "status": "unknown",
+      "detail": "no expected answer extracted"
+    },
+    "9": {
+      "status": "unknown",
+      "detail": "no expected answer extracted"
+    },
+    "10": {
+      "status": "unknown",
+      "detail": "no expected answer extracted"
+    },
+    "11": {
+      "status": "unknown",
+      "detail": "no expected answer extracted"
+    },
+    "13": {
+      "status": "unknown",
+      "detail": "no expected answer extracted"
+    },
+    "14": {
+      "status": "unknown",
+      "detail": "no expected answer extracted"
+    },
+    "15": {
+      "status": "unknown",
+      "detail": "no expected answer extracted"
+    },
+    "16b": {
+      "status": "unknown",
+      "detail": "no expected answer extracted"
+    },
+    "17": {
+      "status": "unknown",
+      "detail": "no expected answer extracted"
+    },
+    "18": {
+      "status": "unknown",
+      "detail": "no expected answer extracted"
+    },
+    "19": {
+      "status": "unknown",
+      "detail": "no expected answer extracted"
+    },
+    "20": {
+      "status": "unknown",
+      "detail": "no expected answer extracted"
+    },
+    "21": {
+      "status": "unknown",
+      "detail": "no expected answer extracted"
+    },
+    "22": {
+      "status": "unknown",
+      "detail": "no expected answer extracted"
+    },
+    "23": {
+      "status": "unknown",
+      "detail": "no expected answer extracted"
+    },
+    "24": {
+      "status": "unknown",
+      "detail": "no expected answer extracted"
+    },
+    "25": {
+      "status": "unknown",
+      "detail": "no expected answer extracted"
+    },
+    "26": {
+      "status": "unknown",
+      "detail": "no expected answer extracted"
+    },
+    "27": {
+      "status": "unknown",
+      "detail": "no expected answer extracted"
+    },
+    "28": {
+      "status": "unknown",
+      "detail": "no expected answer extracted"
+    },
+    "29": {
+      "status": "unknown",
+      "detail": "no expected answer extracted"
+    },
+    "30": {
+      "status": "unknown",
+      "detail": "no expected answer extracted"
+    },
+    "31": {
+      "status": "unknown",
+      "detail": "no expected answer extracted"
+    },
+    "32": {
+      "status": "unknown",
+      "detail": "no expected answer extracted"
+    },
+    "33": {
+      "status": "unknown",
+      "detail": "no expected answer extracted"
+    },
+    "34": {
+      "status": "unknown",
+      "detail": "no expected answer extracted"
+    },
+    "35": {
+      "status": "unknown",
+      "detail": "no expected answer extracted"
+    },
+    "36": {
+      "status": "unknown",
+      "detail": "no expected answer extracted"
+    },
+    "37a": {
+      "status": "unknown",
+      "detail": "no expected answer extracted"
+    },
+    "37b": {
+      "status": "unknown",
+      "detail": "no expected answer extracted"
+    }
+  },
+  "escalations": [],
+  "escalation_changes": [],
+  "completion_status": "incomplete_output",
+  "splits": [],
+  "started_at": "2026-11-03T19:43:03+00:00",
+  "finished_at": "2026-11-03T19:48:20+00:00",
+  "attempt_id": "c-rerun-20261103T194303Z",
+  "attempt_status": "pending",
+  "rerun_of": "c"
+}

@@ -1,0 +1,928 @@
+{
+  "21": {
+    "item": "21",
+    "status": "valid",
+    "validation": {
+      "accepted": true,
+      "reasons": [],
+      "checks": {
+        "criteria_count": 2,
+        "awarded": 2,
+        "true_count": 2,
+        "evidence": true
+      }
+    },
+    "item_result": {
+      "id": "21",
+      "student_answer": "4n^3 + 8n^2 - 60n",
+      "awarded": 2,
+      "max_marks": 2,
+      "criteria": [
+        {
+          "code": "M1",
+          "awarded": true,
+          "reason": "Correct partial expansion shown: 4n(n^2 + 5n - 3n - 15) or 4n(n^2 + 2n - 15)."
+        },
+        {
+          "code": "A1",
+          "awarded": true,
+          "reason": "Correct final simplified expression obtained: 4n^3 + 8n^2 - 60n."
+        }
+      ],
+      "confidence": 1.0,
+      "flags": [],
+      "reason": "The student has written a correct partial expansion 4n(n^2 + 5n - 3n - 15) and correctly fully expanded and simplified it to 4n^3 + 8n^2 - 60n."
+    },
+    "request": {
+      "timestamp": "2026-11-03T22:29:29.953+00:00",
+      "strategy": "h",
+      "run": 900,
+      "batch": "escalate-21",
+      "paper_id": "paper-01",
+      "item_ids": [
+        "21"
+      ],
+      "provider": "google",
+      "model": "gemini-3.6-flash",
+      "purpose": "escalation",
+      "key_label": "KEY_01",
+      "pool": "POOL_SHARED_1",
+      "key_validity": "VALID",
+      "quota_state": "AVAILABLE",
+      "finish_reason": "STOP",
+      "network_state": "REACHABLE",
+      "input_tokens": 2589,
+      "output_tokens": 302,
+      "cached_tokens": null,
+      "thoughts_tokens": null,
+      "total_tokens": 2891,
+      "image_tokens": 2194,
+      "reported_usage": true,
+      "estimated_usage": false,
+      "cost_usd": 0.00307425,
+      "cost_estimated": false,
+      "latency_ms": 4371,
+      "http_status": 200,
+      "error_class": "",
+      "error_code": "",
+      "error_message": "",
+      "retry_after_s": null,
+      "cooldown_s": null,
+      "attempt": 1,
+      "started_at": "2026-11-03T22:29:25.578+00:00",
+      "finished_at": "2026-11-03T22:29:29.952+00:00",
+      "cooldown_wait_s": 0.0,
+      "escalated": true,
+      "success": true
+    },
+    "cost_usd": 0.00307425,
+    "response": {
+      "status": "ok",
+      "http_status": 200,
+      "finish_reason": "STOP",
+      "model": "gemini-3.6-flash",
+      "usage": {
+        "input_tokens": 2589,
+        "output_tokens": 302,
+        "cached_tokens": null,
+        "thoughts_tokens": null,
+        "total_tokens": 2891,
+        "image_tokens": 2194,
+        "reported": true
+      },
+      "text": "{\n  \"items\": [\n    {\n      \"id\": \"21\",\n      \"awarded\": 2,\n      \"criteria\": [\n        {\n          \"code\": \"M1\",\n          \"awarded\": true,\n          \"reason\": \"Correct partial expansion shown: 4n(n^2 + 5n - 3n - 15) or 4n(n^2 + 2n - 15).\"\n        },\n        {\n          \"code\": \"A1\",\n          \"awarded\": true,\n          \"reason\": \"Correct final simplified expression obtained: 4n^3 + 8n^2 - 60n.\"\n        }\n      ],\n      \"confidence\": 1.0,\n      \"flags\": [],\n      \"max_marks\": 2,\n      \"reason\": \"The student has written a correct partial expansion 4n(n^2 + 5n - 3n - 15) and correctly fully expanded and simplified it to 4n^3 + 8n^2 - 60n.\",\n      \"student_answer\": \"4n^3 + 8n^2 - 60n\"\n    }\n  ],\n  \"notes\": \"Targeted evaluation for question 21 completed.\",\n  \"paper_total\": 2\n}",
+      "attempts": []
+    },
+    "model": "gemini-3.6-flash",
+    "source": {
+      "student_page": 4,
+      "scheme_page": 8,
+      "student_page_path": "anonymized_samples\\student_p04.png",
+      "scheme_page_path": "anonymized_samples\\scheme_p08.png",
+      "student_page_sha256": "e036746762d41cfd00c8eda0ad1830c1d7a9077e096c4d08a244f16fe5a5cea6",
+      "scheme_page_sha256": "fe6cd7d0be56a213c4d91ff58550439cf1bfc3f6da11473343ace6c80acb09fa",
+      "images_uploaded": 2
+    },
+    "escalated_at": "2026-11-03T22:29:29+00:00",
+    "selected_by": [
+      "h-medium@a3",
+      "h-high@a3"
+    ]
+  },
+  "23": {
+    "item": "23",
+    "status": "valid",
+    "validation": {
+      "accepted": true,
+      "reasons": [],
+      "checks": {
+        "criteria_count": 3,
+        "awarded": 3,
+        "true_count": 3,
+        "evidence": true
+      }
+    },
+    "item_result": {
+      "id": "23",
+      "student_answer": "2x^3 - 7x^2 - 43x - 42",
+      "awarded": 3,
+      "max_marks": 3,
+      "criteria": [
+        {
+          "code": "M1",
+          "awarded": true,
+          "reason": "Correctly expanded two brackets (2x + 3)(x - 7) = 2x^2 - 14x + 3x - 21 (at least 3 of 4 correct terms)."
+        },
+        {
+          "code": "M1dep",
+          "awarded": true,
+          "reason": "Correctly multiplied the simplified quadratic (2x^2 - 11x - 21) by (x + 2) to get 2x^3 - 11x^2 - 21x + 4x^2 - 22x - 42."
+        },
+        {
+          "code": "A1",
+          "awarded": true,
+          "reason": "Final simplified answer is correctly 2x^3 - 7x^2 - 43x - 42."
+        }
+      ],
+      "confidence": 1.0,
+      "flags": [],
+      "reason": "The student correctly expanded the second pair of brackets, multiplied by the remaining factor (x + 2), and simplified to the correct final expression 2x^3 - 7x^2 - 43x - 42."
+    },
+    "request": {
+      "timestamp": "2026-11-03T22:29:33.589+00:00",
+      "strategy": "h",
+      "run": 900,
+      "batch": "escalate-23",
+      "paper_id": "paper-01",
+      "item_ids": [
+        "23"
+      ],
+      "provider": "google",
+      "model": "gemini-3.6-flash",
+      "purpose": "escalation",
+      "key_label": "KEY_02",
+      "pool": "POOL_SHARED_1",
+      "key_validity": "VALID",
+      "quota_state": "AVAILABLE",
+      "finish_reason": "STOP",
+      "network_state": "REACHABLE",
+      "input_tokens": 2592,
+      "output_tokens": 404,
+      "cached_tokens": null,
+      "thoughts_tokens": null,
+      "total_tokens": 2996,
+      "image_tokens": 2194,
+      "reported_usage": true,
+      "estimated_usage": false,
+      "cost_usd": 0.003459,
+      "cost_estimated": false,
+      "latency_ms": 3526,
+      "http_status": 200,
+      "error_class": "",
+      "error_code": "",
+      "error_message": "",
+      "retry_after_s": null,
+      "cooldown_s": null,
+      "attempt": 1,
+      "started_at": "2026-11-03T22:29:30.058+00:00",
+      "finished_at": "2026-11-03T22:29:33.588+00:00",
+      "cooldown_wait_s": 0.0,
+      "escalated": true,
+      "success": true
+    },
+    "cost_usd": 0.003459,
+    "response": {
+      "status": "ok",
+      "http_status": 200,
+      "finish_reason": "STOP",
+      "model": "gemini-3.6-flash",
+      "usage": {
+        "input_tokens": 2592,
+        "output_tokens": 404,
+        "cached_tokens": null,
+        "thoughts_tokens": null,
+        "total_tokens": 2996,
+        "image_tokens": 2194,
+        "reported": true
+      },
+      "text": "{\n  \"items\": [\n    {\n      \"id\": \"23\",\n      \"awarded\": 3,\n      \"criteria\": [\n        {\n          \"code\": \"M1\",\n          \"awarded\": true,\n          \"reason\": \"Correctly expanded two brackets (2x + 3)(x - 7) = 2x^2 - 14x + 3x - 21 (at least 3 of 4 correct terms).\"\n        },\n        {\n          \"code\": \"M1dep\",\n          \"awarded\": true,\n          \"reason\": \"Correctly multiplied the simplified quadratic (2x^2 - 11x - 21) by (x + 2) to get 2x^3 - 11x^2 - 21x + 4x^2 - 22x - 42.\"\n        },\n        {\n          \"code\": \"A1\",\n          \"awarded\": true,\n          \"reason\": \"Final simplified answer is correctly 2x^3 - 7x^2 - 43x - 42.\"\n        }\n      ],\n      \"confidence\": 1.0,\n      \"flags\": [],\n      \"max_marks\": 3,\n      \"reason\": \"The student correctly expanded the second pair of brackets, multiplied by the remaining factor (x + 2), and simplified to the correct final expression 2x^3 - 7x^2 - 43x - 42.\",\n      \"student_answer\": \"2x^3 - 7x^2 - 43x - 42\"\n    }\n  ],\n  \"notes\": \"Question 23 evaluated strictly against the mark scheme.\",\n  \"paper_total\": 3\n}",
+      "attempts": []
+    },
+    "model": "gemini-3.6-flash",
+    "source": {
+      "student_page": 4,
+      "scheme_page": 9,
+      "student_page_path": "anonymized_samples\\student_p04.png",
+      "scheme_page_path": "anonymized_samples\\scheme_p09.png",
+      "student_page_sha256": "e036746762d41cfd00c8eda0ad1830c1d7a9077e096c4d08a244f16fe5a5cea6",
+      "scheme_page_sha256": "a0f59f579078f21f301b900e5f88d365949f7615a9a80839776e305e7b2754a6",
+      "images_uploaded": 2
+    },
+    "escalated_at": "2026-11-03T22:29:33+00:00",
+    "selected_by": [
+      "h-high@a2",
+      "h-high@a3"
+    ]
+  },
+  "26": {
+    "item": "26",
+    "status": "valid",
+    "validation": {
+      "accepted": true,
+      "reasons": [],
+      "checks": {
+        "criteria_count": 3,
+        "awarded": 2,
+        "true_count": 2,
+        "evidence": true
+      }
+    },
+    "item_result": {
+      "id": "26",
+      "student_answer": "20x^3 - 31x^2 + 63x - 18",
+      "awarded": 2,
+      "max_marks": 3,
+      "criteria": [
+        {
+          "code": "M1_1",
+          "awarded": true,
+          "reason": "Correctly expanded two brackets (x-3)(5x+6) to get 5x^2 + 6x - 15x - 18."
+        },
+        {
+          "code": "M1_2",
+          "awarded": true,
+          "reason": "Multiplied the resulting quadratic (5x^2 - 9x - 18) by the remaining bracket (4x + 1) to produce 20x^3 - 36x^2 - 72x + 5x^2 - 9x - 18, correctly getting at least 3 out of 6 terms."
+        },
+        {
+          "code": "A1",
+          "awarded": false,
+          "reason": "Final simplified expression 20x^3 - 31x^2 + 63x - 18 has an arithmetic sign error in combining -72x and -9x (wrote +63x instead of -81x)."
+        }
+      ],
+      "confidence": 1.0,
+      "flags": [],
+      "reason": "The student correctly expanded two brackets and then multiplied by the third bracket, earning both method marks. However, they made a calculation error in combining -72x - 9x = -81x, so the final accuracy mark is not awarded."
+    },
+    "request": {
+      "timestamp": "2026-11-03T22:29:37.268+00:00",
+      "strategy": "h",
+      "run": 900,
+      "batch": "escalate-26",
+      "paper_id": "paper-01",
+      "item_ids": [
+        "26"
+      ],
+      "provider": "google",
+      "model": "gemini-3.6-flash",
+      "purpose": "escalation",
+      "key_label": "KEY_05",
+      "pool": "POOL_SHARED_1",
+      "key_validity": "VALID",
+      "quota_state": "AVAILABLE",
+      "finish_reason": "STOP",
+      "network_state": "REACHABLE",
+      "input_tokens": 2594,
+      "output_tokens": 436,
+      "cached_tokens": null,
+      "thoughts_tokens": null,
+      "total_tokens": 3030,
+      "image_tokens": 2194,
+      "reported_usage": true,
+      "estimated_usage": false,
+      "cost_usd": 0.0035805,
+      "cost_estimated": false,
+      "latency_ms": 3575,
+      "http_status": 200,
+      "error_class": "",
+      "error_code": "",
+      "error_message": "",
+      "retry_after_s": null,
+      "cooldown_s": null,
+      "attempt": 1,
+      "started_at": "2026-11-03T22:29:33.688+00:00",
+      "finished_at": "2026-11-03T22:29:37.266+00:00",
+      "cooldown_wait_s": 0.0,
+      "escalated": true,
+      "success": true
+    },
+    "cost_usd": 0.0035805,
+    "response": {
+      "status": "ok",
+      "http_status": 200,
+      "finish_reason": "STOP",
+      "model": "gemini-3.6-flash",
+      "usage": {
+        "input_tokens": 2594,
+        "output_tokens": 436,
+        "cached_tokens": null,
+        "thoughts_tokens": null,
+        "total_tokens": 3030,
+        "image_tokens": 2194,
+        "reported": true
+      },
+      "text": "{\n  \"items\": [\n    {\n      \"id\": \"26\",\n      \"awarded\": 2,\n      \"criteria\": [\n        {\n          \"code\": \"M1_1\",\n          \"awarded\": true,\n          \"reason\": \"Correctly expanded two brackets (x-3)(5x+6) to get 5x^2 + 6x - 15x - 18.\"\n        },\n        {\n          \"code\": \"M1_2\",\n          \"awarded\": true,\n          \"reason\": \"Multiplied the resulting quadratic (5x^2 - 9x - 18) by the remaining bracket (4x + 1) to produce 20x^3 - 36x^2 - 72x + 5x^2 - 9x - 18, correctly getting at least 3 out of 6 terms.\"\n        },\n        {\n          \"code\": \"A1\",\n          \"awarded\": false,\n          \"reason\": \"Final simplified expression 20x^3 - 31x^2 + 63x - 18 has an arithmetic sign error in combining -72x and -9x (wrote +63x instead of -81x).\"\n        }\n      ],\n      \"confidence\": 1.0,\n      \"flags\": [],\n      \"max_marks\": 3,\n      \"reason\": \"The student correctly expanded two brackets and then multiplied by the third bracket, earning both method marks. However, they made a calculation error in combining -72x - 9x = -81x, so the final accuracy mark is not awarded.\",\n      \"student_answer\": \"20x^3 - 31x^2 + 63x - 18\"\n    }\n  ],\n  \"notes\": \"Question 26 marked.\",\n  \"paper_total\": 2\n}",
+      "attempts": []
+    },
+    "model": "gemini-3.6-flash",
+    "source": {
+      "student_page": 5,
+      "scheme_page": 10,
+      "student_page_path": "anonymized_samples\\student_p05.png",
+      "scheme_page_path": "anonymized_samples\\scheme_p10.png",
+      "student_page_sha256": "e2f41a758de488354e1816b1e1f12745d50bb545112460b9a98e8f9a1a6e1175",
+      "scheme_page_sha256": "466e32247856d645fd2d1194e5001c34aafec73c3c3d1b1357c13c92ed8e1a69",
+      "images_uploaded": 2
+    },
+    "escalated_at": "2026-11-03T22:29:37+00:00",
+    "selected_by": [
+      "h-low@a2",
+      "h-medium@a2",
+      "h-high@a2",
+      "h-high@a3"
+    ]
+  },
+  "28": {
+    "item": "28",
+    "status": "valid",
+    "validation": {
+      "accepted": true,
+      "reasons": [],
+      "checks": {
+        "criteria_count": 3,
+        "awarded": 3,
+        "true_count": 3,
+        "evidence": true
+      }
+    },
+    "item_result": {
+      "id": "28",
+      "student_answer": "x^3 + 3x^2 - 6x - 8",
+      "awarded": 3,
+      "max_marks": 3,
+      "criteria": [
+        {
+          "code": "M1",
+          "awarded": true,
+          "reason": "Correctly expanded two brackets (x-2)(x+1) to x^2 + x - 2x - 2 = x^2 - x - 2 with no errors."
+        },
+        {
+          "code": "M1",
+          "awarded": true,
+          "reason": "Expanded (x+4)(x^2 - x - 2) to x^3 - x^2 - 2x + 4x^2 - 4x - 8, which has at least 3 terms correct out of a maximum of 6 terms."
+        },
+        {
+          "code": "A1",
+          "awarded": true,
+          "reason": "Correctly simplified final answer x^3 + 3x^2 - 6x - 8."
+        }
+      ],
+      "confidence": 1.0,
+      "flags": [],
+      "reason": "The student correctly expanded the first pair of brackets and then fully expanded and simplified the resulting cubic expression correctly to obtain x^3 + 3x^2 - 6x - 8."
+    },
+    "request": {
+      "timestamp": "2026-11-03T22:29:41.313+00:00",
+      "strategy": "h",
+      "run": 900,
+      "batch": "escalate-28",
+      "paper_id": "paper-01",
+      "item_ids": [
+        "28"
+      ],
+      "provider": "google",
+      "model": "gemini-3.6-flash",
+      "purpose": "escalation",
+      "key_label": "KEY_06",
+      "pool": "POOL_SHARED_1",
+      "key_validity": "VALID",
+      "quota_state": "AVAILABLE",
+      "finish_reason": "STOP",
+      "network_state": "REACHABLE",
+      "input_tokens": 2592,
+      "output_tokens": 370,
+      "cached_tokens": null,
+      "thoughts_tokens": null,
+      "total_tokens": 2962,
+      "image_tokens": 2194,
+      "reported_usage": true,
+      "estimated_usage": false,
+      "cost_usd": 0.0033315,
+      "cost_estimated": false,
+      "latency_ms": 3901,
+      "http_status": 200,
+      "error_class": "",
+      "error_code": "",
+      "error_message": "",
+      "retry_after_s": null,
+      "cooldown_s": null,
+      "attempt": 1,
+      "started_at": "2026-11-03T22:29:37.408+00:00",
+      "finished_at": "2026-11-03T22:29:41.312+00:00",
+      "cooldown_wait_s": 0.0,
+      "escalated": true,
+      "success": true
+    },
+    "cost_usd": 0.0033315,
+    "response": {
+      "status": "ok",
+      "http_status": 200,
+      "finish_reason": "STOP",
+      "model": "gemini-3.6-flash",
+      "usage": {
+        "input_tokens": 2592,
+        "output_tokens": 370,
+        "cached_tokens": null,
+        "thoughts_tokens": null,
+        "total_tokens": 2962,
+        "image_tokens": 2194,
+        "reported": true
+      },
+      "text": "{\n  \"items\": [\n    {\n      \"id\": \"28\",\n      \"awarded\": 3,\n      \"criteria\": [\n        {\n          \"code\": \"M1\",\n          \"awarded\": true,\n          \"reason\": \"Correctly expanded two brackets (x-2)(x+1) to x^2 + x - 2x - 2 = x^2 - x - 2 with no errors.\"\n        },\n        {\n          \"code\": \"M1\",\n          \"awarded\": true,\n          \"reason\": \"Expanded (x+4)(x^2 - x - 2) to x^3 - x^2 - 2x + 4x^2 - 4x - 8, which has at least 3 terms correct out of a maximum of 6 terms.\"\n        },\n        {\n          \"code\": \"A1\",\n          \"awarded\": true,\n          \"reason\": \"Correctly simplified final answer x^3 + 3x^2 - 6x - 8.\"\n        }\n      ],\n      \"confidence\": 1.0,\n      \"flags\": [],\n      \"max_marks\": 3,\n      \"reason\": \"The student correctly expanded the first pair of brackets and then fully expanded and simplified the resulting cubic expression correctly to obtain x^3 + 3x^2 - 6x - 8.\",\n      \"student_answer\": \"x^3 + 3x^2 - 6x - 8\"\n    }\n  ],\n  \"notes\": \"Question 28 marked successfully.\",\n  \"paper_total\": 3\n}",
+      "attempts": []
+    },
+    "model": "gemini-3.6-flash",
+    "source": {
+      "student_page": 5,
+      "scheme_page": 12,
+      "student_page_path": "anonymized_samples\\student_p05.png",
+      "scheme_page_path": "anonymized_samples\\scheme_p12.png",
+      "student_page_sha256": "e2f41a758de488354e1816b1e1f12745d50bb545112460b9a98e8f9a1a6e1175",
+      "scheme_page_sha256": "ec64c685516bdbaddaf6ebae764174f6a298cd159d85b7c96b3a1d0caaa1ba7a",
+      "images_uploaded": 2
+    },
+    "escalated_at": "2026-11-03T22:29:41+00:00",
+    "selected_by": [
+      "h-low@a3",
+      "h-medium@a3",
+      "h-high@a3"
+    ]
+  },
+  "30": {
+    "item": "30",
+    "status": "valid",
+    "validation": {
+      "accepted": true,
+      "reasons": [],
+      "checks": {
+        "criteria_count": 3,
+        "awarded": 2,
+        "true_count": 2,
+        "evidence": true
+      }
+    },
+    "item_result": {
+      "id": "30",
+      "student_answer": "22x^3 - 28x^2 - 12x",
+      "awarded": 2,
+      "max_marks": 3,
+      "criteria": [
+        {
+          "code": "M1_1",
+          "awarded": true,
+          "reason": "Correct expansion of two factors: 4x(3x + 1) = 12x^2 + 4x."
+        },
+        {
+          "code": "M1_2",
+          "awarded": true,
+          "reason": "Correct expansion of the remaining factor by student's (12x^2 + 4x)(2x - 3), giving four terms with at most one error (student writes 22x^3 - 36x^2 + 8x^2 - 12x, which has one arithmetic error 12*2 = 22 instead of 24)."
+        },
+        {
+          "code": "A1",
+          "awarded": false,
+          "reason": "Final simplified answer is incorrect (22x^3 - 28x^2 - 12x instead of 24x^3 - 28x^2 - 12x)."
+        }
+      ],
+      "confidence": 1.0,
+      "flags": [],
+      "reason": "First M1 awarded for expanding two factors to 12x^2 + 4x. Second M1 awarded for expanding by the third factor allowing one error (wrote 22x^3 instead of 24x^3). Accuracy mark A1 lost due to incorrect final answer."
+    },
+    "request": {
+      "timestamp": "2026-11-03T22:29:45.253+00:00",
+      "strategy": "h",
+      "run": 900,
+      "batch": "escalate-30",
+      "paper_id": "paper-01",
+      "item_ids": [
+        "30"
+      ],
+      "provider": "google",
+      "model": "gemini-3.6-flash",
+      "purpose": "escalation",
+      "key_label": "KEY_09",
+      "pool": "POOL_SHARED_1",
+      "key_validity": "VALID",
+      "quota_state": "AVAILABLE",
+      "finish_reason": "STOP",
+      "network_state": "REACHABLE",
+      "input_tokens": 2592,
+      "output_tokens": 435,
+      "cached_tokens": null,
+      "thoughts_tokens": null,
+      "total_tokens": 3027,
+      "image_tokens": 2194,
+      "reported_usage": true,
+      "estimated_usage": false,
+      "cost_usd": 0.00357525,
+      "cost_estimated": false,
+      "latency_ms": 3838,
+      "http_status": 200,
+      "error_class": "",
+      "error_code": "",
+      "error_message": "",
+      "retry_after_s": null,
+      "cooldown_s": null,
+      "attempt": 1,
+      "started_at": "2026-11-03T22:29:41.411+00:00",
+      "finished_at": "2026-11-03T22:29:45.251+00:00",
+      "cooldown_wait_s": 0.0,
+      "escalated": true,
+      "success": true
+    },
+    "cost_usd": 0.00357525,
+    "response": {
+      "status": "ok",
+      "http_status": 200,
+      "finish_reason": "STOP",
+      "model": "gemini-3.6-flash",
+      "usage": {
+        "input_tokens": 2592,
+        "output_tokens": 435,
+        "cached_tokens": null,
+        "thoughts_tokens": null,
+        "total_tokens": 3027,
+        "image_tokens": 2194,
+        "reported": true
+      },
+      "text": "{\n  \"items\": [\n    {\n      \"id\": \"30\",\n      \"awarded\": 2,\n      \"criteria\": [\n        {\n          \"code\": \"M1_1\",\n          \"awarded\": true,\n          \"reason\": \"Correct expansion of two factors: 4x(3x + 1) = 12x^2 + 4x.\"\n        },\n        {\n          \"code\": \"M1_2\",\n          \"awarded\": true,\n          \"reason\": \"Correct expansion of the remaining factor by student's (12x^2 + 4x)(2x - 3), giving four terms with at most one error (student writes 22x^3 - 36x^2 + 8x^2 - 12x, which has one arithmetic error 12*2 = 22 instead of 24).\"\n        },\n        {\n          \"code\": \"A1\",\n          \"awarded\": false,\n          \"reason\": \"Final simplified answer is incorrect (22x^3 - 28x^2 - 12x instead of 24x^3 - 28x^2 - 12x).\"\n        }\n      ],\n      \"confidence\": 1.0,\n      \"flags\": [],\n      \"max_marks\": 3,\n      \"reason\": \"First M1 awarded for expanding two factors to 12x^2 + 4x. Second M1 awarded for expanding by the third factor allowing one error (wrote 22x^3 instead of 24x^3). Accuracy mark A1 lost due to incorrect final answer.\",\n      \"student_answer\": \"22x^3 - 28x^2 - 12x\"\n    }\n  ],\n  \"notes\": \"Targeted marking completed for question 30.\",\n  \"paper_total\": 2\n}",
+      "attempts": []
+    },
+    "model": "gemini-3.6-flash",
+    "source": {
+      "student_page": 5,
+      "scheme_page": 14,
+      "student_page_path": "anonymized_samples\\student_p05.png",
+      "scheme_page_path": "anonymized_samples\\scheme_p14.png",
+      "student_page_sha256": "e2f41a758de488354e1816b1e1f12745d50bb545112460b9a98e8f9a1a6e1175",
+      "scheme_page_sha256": "acd333ba7c346ed7ed830968eb59b041fb51c63610f269e96e683e058b873c09",
+      "images_uploaded": 2
+    },
+    "escalated_at": "2026-11-03T22:29:45+00:00",
+    "selected_by": [
+      "h-high@a2",
+      "h-high@a3"
+    ]
+  },
+  "31": {
+    "item": "31",
+    "status": "valid",
+    "validation": {
+      "accepted": true,
+      "reasons": [],
+      "checks": {
+        "criteria_count": 3,
+        "awarded": 1,
+        "true_count": 1,
+        "evidence": true
+      }
+    },
+    "item_result": {
+      "id": "31",
+      "student_answer": "8x^3 - 6x^2 - 60x",
+      "awarded": 1,
+      "max_marks": 3,
+      "criteria": [
+        {
+          "code": "M1",
+          "awarded": true,
+          "reason": "Correct initial expansion of 4x(x - 5) to (4x^2 - 20x)."
+        },
+        {
+          "code": "M1ft",
+          "awarded": false,
+          "reason": "Incorrect expansion of (4x^2 - 20x)(2x + 3), wrote 8x^3 + 12x^2 - 18x^2 - 60x instead of -40x^2, which has multiple errors."
+        },
+        {
+          "code": "A1",
+          "awarded": false,
+          "reason": "Final answer 8x^3 - 6x^2 - 60x is incorrect."
+        }
+      ],
+      "confidence": 1.0,
+      "flags": [],
+      "reason": "Student correctly expanded 4x(x-5) to 4x^2 - 20x to earn the first M1 mark. However, in the second expansion step they made errors (-18x^2 instead of -40x^2), failing to earn M1ft, and obtained an incorrect final expression."
+    },
+    "request": {
+      "timestamp": "2026-11-03T22:29:52.936+00:00",
+      "strategy": "h",
+      "run": 900,
+      "batch": "escalate-31",
+      "paper_id": "paper-01",
+      "item_ids": [
+        "31"
+      ],
+      "provider": "google",
+      "model": "gemini-3.6-flash",
+      "purpose": "escalation",
+      "key_label": "KEY_11",
+      "pool": "POOL_OBSERVED_3",
+      "key_validity": "VALID",
+      "quota_state": "AVAILABLE",
+      "finish_reason": "STOP",
+      "network_state": "REACHABLE",
+      "input_tokens": 2591,
+      "output_tokens": 277,
+      "cached_tokens": null,
+      "thoughts_tokens": null,
+      "total_tokens": 2868,
+      "image_tokens": 2194,
+      "reported_usage": true,
+      "estimated_usage": false,
+      "cost_usd": 0.002982,
+      "cost_estimated": false,
+      "latency_ms": 3004,
+      "http_status": 200,
+      "error_class": "",
+      "error_code": "",
+      "error_message": "",
+      "retry_after_s": null,
+      "cooldown_s": null,
+      "attempt": 2,
+      "started_at": "2026-11-03T22:29:49.928+00:00",
+      "finished_at": "2026-11-03T22:29:52.935+00:00",
+      "cooldown_wait_s": 0.0,
+      "escalated": true,
+      "success": true
+    },
+    "cost_usd": 0.002982,
+    "response": {
+      "status": "ok",
+      "http_status": 200,
+      "finish_reason": "STOP",
+      "model": "gemini-3.6-flash",
+      "usage": {
+        "input_tokens": 2591,
+        "output_tokens": 277,
+        "cached_tokens": null,
+        "thoughts_tokens": null,
+        "total_tokens": 2868,
+        "image_tokens": 2194,
+        "reported": true
+      },
+      "text": "{\"items\":[{\"id\":\"31\",\"awarded\":1,\"criteria\":[{\"code\":\"M1\",\"awarded\":true,\"reason\":\"Correct initial expansion of 4x(x - 5) to (4x^2 - 20x).\"},{\"code\":\"M1ft\",\"awarded\":false,\"reason\":\"Incorrect expansion of (4x^2 - 20x)(2x + 3), wrote 8x^3 + 12x^2 - 18x^2 - 60x instead of -40x^2, which has multiple errors.\"},{\"code\":\"A1\",\"awarded\":false,\"reason\":\"Final answer 8x^3 - 6x^2 - 60x is incorrect.\"}],\"confidence\":1.0,\"flags\":[],\"max_marks\":3,\"reason\":\"Student correctly expanded 4x(x-5) to 4x^2 - 20x to earn the first M1 mark. However, in the second expansion step they made errors (-18x^2 instead of -40x^2), failing to earn M1ft, and obtained an incorrect final expression.\",\"student_answer\":\"8x^3 - 6x^2 - 60x\"}],\"notes\":\"\",\"paper_total\":1}",
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": "http_error",
+          "key": "KEY_10"
+        }
+      ]
+    },
+    "model": "gemini-3.6-flash",
+    "source": {
+      "student_page": 5,
+      "scheme_page": 15,
+      "student_page_path": "anonymized_samples\\student_p05.png",
+      "scheme_page_path": "anonymized_samples\\scheme_p15.png",
+      "student_page_sha256": "e2f41a758de488354e1816b1e1f12745d50bb545112460b9a98e8f9a1a6e1175",
+      "scheme_page_sha256": "a1d126b2bbc54ff93033363409f5ffc1fe8fa01bd3e02f4c00063c1f1a4d1342",
+      "images_uploaded": 2
+    },
+    "escalated_at": "2026-11-03T22:29:52+00:00",
+    "selected_by": [
+      "h-high@a2",
+      "h-high@a3"
+    ]
+  },
+  "32": {
+    "item": "32",
+    "status": "valid",
+    "validation": {
+      "accepted": true,
+      "reasons": [],
+      "checks": {
+        "criteria_count": 3,
+        "awarded": 3,
+        "true_count": 3,
+        "evidence": true
+      }
+    },
+    "item_result": {
+      "id": "32",
+      "student_answer": "15x^3 + 10x^2 - 40x",
+      "awarded": 3,
+      "max_marks": 3,
+      "criteria": [
+        {
+          "code": "M1_1",
+          "awarded": true,
+          "reason": "Correctly multiplied two factors first to get (5x^2 + 10x)."
+        },
+        {
+          "code": "M1_2",
+          "awarded": true,
+          "reason": "Correctly expanded by the third factor to get 15x^3 - 20x^2 + 30x^2 - 40x."
+        },
+        {
+          "code": "A1",
+          "awarded": true,
+          "reason": "Fully correct simplified answer 15x^3 + 10x^2 - 40x."
+        }
+      ],
+      "confidence": 1.0,
+      "flags": [],
+      "reason": "The student expanded 5x(x + 2) correctly to (5x^2 + 10x), then multiplied by (3x - 4) to yield 15x^3 - 20x^2 + 30x^2 - 40x, and finally simplified correctly to 15x^3 + 10x^2 - 40x."
+    },
+    "request": {
+      "timestamp": "2026-11-03T22:29:56.541+00:00",
+      "strategy": "h",
+      "run": 900,
+      "batch": "escalate-32",
+      "paper_id": "paper-01",
+      "item_ids": [
+        "32"
+      ],
+      "provider": "google",
+      "model": "gemini-3.6-flash",
+      "purpose": "escalation",
+      "key_label": "KEY_12",
+      "pool": "POOL_OBSERVED_3",
+      "key_validity": "VALID",
+      "quota_state": "AVAILABLE",
+      "finish_reason": "STOP",
+      "network_state": "REACHABLE",
+      "input_tokens": 2591,
+      "output_tokens": 380,
+      "cached_tokens": null,
+      "thoughts_tokens": null,
+      "total_tokens": 2971,
+      "image_tokens": 2194,
+      "reported_usage": true,
+      "estimated_usage": false,
+      "cost_usd": 0.00336825,
+      "cost_estimated": false,
+      "latency_ms": 3511,
+      "http_status": 200,
+      "error_class": "",
+      "error_code": "",
+      "error_message": "",
+      "retry_after_s": null,
+      "cooldown_s": null,
+      "attempt": 1,
+      "started_at": "2026-11-03T22:29:53.027+00:00",
+      "finished_at": "2026-11-03T22:29:56.540+00:00",
+      "cooldown_wait_s": 0.0,
+      "escalated": true,
+      "success": true
+    },
+    "cost_usd": 0.00336825,
+    "response": {
+      "status": "ok",
+      "http_status": 200,
+      "finish_reason": "STOP",
+      "model": "gemini-3.6-flash",
+      "usage": {
+        "input_tokens": 2591,
+        "output_tokens": 380,
+        "cached_tokens": null,
+        "thoughts_tokens": null,
+        "total_tokens": 2971,
+        "image_tokens": 2194,
+        "reported": true
+      },
+      "text": "{\n  \"items\": [\n    {\n      \"id\": \"32\",\n      \"awarded\": 3,\n      \"criteria\": [\n        {\n          \"code\": \"M1_1\",\n          \"awarded\": true,\n          \"reason\": \"Correctly multiplied two factors first to get (5x^2 + 10x).\"\n        },\n        {\n          \"code\": \"M1_2\",\n          \"awarded\": true,\n          \"reason\": \"Correctly expanded by the third factor to get 15x^3 - 20x^2 + 30x^2 - 40x.\"\n        },\n        {\n          \"code\": \"A1\",\n          \"awarded\": true,\n          \"reason\": \"Fully correct simplified answer 15x^3 + 10x^2 - 40x.\"\n        }\n      ],\n      \"confidence\": 1.0,\n      \"flags\": [],\n      \"max_marks\": 3,\n      \"reason\": \"The student expanded 5x(x + 2) correctly to (5x^2 + 10x), then multiplied by (3x - 4) to yield 15x^3 - 20x^2 + 30x^2 - 40x, and finally simplified correctly to 15x^3 + 10x^2 - 40x.\",\n      \"student_answer\": \"15x^3 + 10x^2 - 40x\"\n    }\n  ],\n  \"notes\": \"Question 32 marked successfully.\",\n  \"paper_total\": 3\n}",
+      "attempts": []
+    },
+    "model": "gemini-3.6-flash",
+    "source": {
+      "student_page": 6,
+      "scheme_page": 16,
+      "student_page_path": "anonymized_samples\\student_p06.png",
+      "scheme_page_path": "anonymized_samples\\scheme_p16.png",
+      "student_page_sha256": "a1b4ccdb3de5ce942cd29ec407202ba52d9f8355f6848c3b2f71be1f96f34547",
+      "scheme_page_sha256": "6eb041d622533ef78b0b785ad85f2e382df8cc25ebcace8fe49290a8c10a925e",
+      "images_uploaded": 2
+    },
+    "escalated_at": "2026-11-03T22:29:56+00:00",
+    "selected_by": [
+      "h-medium@a3",
+      "h-high@a3"
+    ]
+  },
+  "36": {
+    "item": "36",
+    "status": "valid",
+    "validation": {
+      "accepted": true,
+      "reasons": [],
+      "checks": {
+        "criteria_count": 3,
+        "awarded": 1,
+        "true_count": 1,
+        "evidence": true
+      }
+    },
+    "item_result": {
+      "id": "36",
+      "student_answer": "3x^3 + 34x^2 + 86x - 72",
+      "awarded": 1,
+      "max_marks": 3,
+      "criteria": [
+        {
+          "code": "M1",
+          "awarded": true,
+          "reason": "Correct expansion of two brackets: (x + 6)^2 = x^2 + 12x + 36"
+        },
+        {
+          "code": "M1ft",
+          "awarded": false,
+          "reason": "In multiplying by the 3rd bracket, student wrote -22x instead of -24x, but also made a second error by writing +108x instead of +108x (wait, (3x)*(36)=108x, (-2)*(12x)=-24x, student wrote -22x), making two errors in this multiplication step (3x^3 + 36x^2 + 108x - 2x^2 - 22x - 72). Only one further e"
+        },
+        {
+          "code": "A1",
+          "awarded": false,
+          "reason": "Final answer 3x^3 + 34x^2 + 86x - 72 is incorrect (correct is 3x^3 + 34x^2 + 84x - 72)."
+        }
+      ],
+      "confidence": 1.0,
+      "flags": [],
+      "reason": "Student correctly expanded (x+6)^2 = x^2+12x+36 for M1. However, when multiplying by (3x-2), student got 3x^3 + 36x^2 + 108x - 2x^2 - 22x - 72, which has two errors (-22x instead of -24x, and inappropriate ft/arithmetic), failing M1ft. A1 is not awarded due to incorrect final answer."
+    },
+    "request": {
+      "timestamp": "2026-11-03T22:30:00.238+00:00",
+      "strategy": "h",
+      "run": 900,
+      "batch": "escalate-36",
+      "paper_id": "paper-01",
+      "item_ids": [
+        "36"
+      ],
+      "provider": "google",
+      "model": "gemini-3.6-flash",
+      "purpose": "escalation",
+      "key_label": "KEY_13",
+      "pool": "POOL_OBSERVED_3",
+      "key_validity": "VALID",
+      "quota_state": "AVAILABLE",
+      "finish_reason": "STOP",
+      "network_state": "REACHABLE",
+      "input_tokens": 2593,
+      "output_tokens": 428,
+      "cached_tokens": null,
+      "thoughts_tokens": null,
+      "total_tokens": 3021,
+      "image_tokens": 2194,
+      "reported_usage": true,
+      "estimated_usage": false,
+      "cost_usd": 0.00354975,
+      "cost_estimated": false,
+      "latency_ms": 3596,
+      "http_status": 200,
+      "error_class": "",
+      "error_code": "",
+      "error_message": "",
+      "retry_after_s": null,
+      "cooldown_s": null,
+      "attempt": 1,
+      "started_at": "2026-11-03T22:29:56.638+00:00",
+      "finished_at": "2026-11-03T22:30:00.237+00:00",
+      "cooldown_wait_s": 0.0,
+      "escalated": true,
+      "success": true
+    },
+    "cost_usd": 0.00354975,
+    "response": {
+      "status": "ok",
+      "http_status": 200,
+      "finish_reason": "STOP",
+      "model": "gemini-3.6-flash",
+      "usage": {
+        "input_tokens": 2593,
+        "output_tokens": 428,
+        "cached_tokens": null,
+        "thoughts_tokens": null,
+        "total_tokens": 3021,
+        "image_tokens": 2194,
+        "reported": true
+      },
+      "text": "{\"items\":[{\"id\":\"36\",\"awarded\":1,\"criteria\":[{\"code\":\"M1\",\"awarded\":true,\"reason\":\"Correct expansion of two brackets: (x + 6)^2 = x^2 + 12x + 36\"},{\"code\":\"M1ft\",\"awarded\":false,\"reason\":\"In multiplying by the 3rd bracket, student wrote -22x instead of -24x, but also made a second error by writing +108x instead of +108x (wait, (3x)*(36)=108x, (-2)*(12x)=-24x, student wrote -22x), making two errors in this multiplication step (3x^3 + 36x^2 + 108x - 2x^2 - 22x - 72). Only one further error is allowed for M1ft.\"},{\"code\":\"A1\",\"awarded\":false,\"reason\":\"Final answer 3x^3 + 34x^2 + 86x - 72 is incorrect (correct is 3x^3 + 34x^2 + 84x - 72).\"}],\"confidence\":1,\"flags\":[],\"max_marks\":3,\"reason\":\"Student correctly expanded (x+6)^2 = x^2+12x+36 for M1. However, when multiplying by (3x-2), student got 3x^3 + 36x^2 + 108x - 2x^2 - 22x - 72, which has two errors (-22x instead of -24x, and inappropriate ft/arithmetic), failing M1ft. A1 is not awarded due to incorrect final answer.\",\"student_answer\":\"3x^3 + 34x^2 + 86x - 72\"}],\"notes\":\"Targeted single question grading for Q36\",\"paper_total\":1}",
+      "attempts": []
+    },
+    "model": "gemini-3.6-flash",
+    "source": {
+      "student_page": 6,
+      "scheme_page": 20,
+      "student_page_path": "anonymized_samples\\student_p06.png",
+      "scheme_page_path": "anonymized_samples\\scheme_p20.png",
+      "student_page_sha256": "a1b4ccdb3de5ce942cd29ec407202ba52d9f8355f6848c3b2f71be1f96f34547",
+      "scheme_page_sha256": "35ca5b1198e2aeca598e4bcde06f3372a334a83738b39f186fe8ba47064a688b",
+      "images_uploaded": 2
+    },
+    "escalated_at": "2026-11-03T22:30:00+00:00",
+    "selected_by": [
+      "h-medium@a2",
+      "h-high@a2",
+      "h-medium@a3",
+      "h-high@a3"
+    ]
+  }
+}

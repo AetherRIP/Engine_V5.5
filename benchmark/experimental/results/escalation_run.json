@@ -1,0 +1,157 @@
+{
+  "kind": "live_targeted_escalation",
+  "measurement_kind": "live_provider_response",
+  "generated_at": "2026-11-03T22:29:25+00:00",
+  "policies": {
+    "h-low": "Conservative: escalate only structural and evidence integrity failures.",
+    "h-medium": "Moderate and rule-based: residual integrity failures plus deterministic marking contradictions. No model-reported confidence.",
+    "h-high": "Aggressive: every deterministic contradiction plus model flags and any algebraic divergence from the printed answer."
+  },
+  "selected_items": {
+    "26": [
+      "h-low@a2",
+      "h-medium@a2",
+      "h-high@a2",
+      "h-high@a3"
+    ],
+    "36": [
+      "h-medium@a2",
+      "h-high@a2",
+      "h-medium@a3",
+      "h-high@a3"
+    ],
+    "23": [
+      "h-high@a2",
+      "h-high@a3"
+    ],
+    "30": [
+      "h-high@a2",
+      "h-high@a3"
+    ],
+    "31": [
+      "h-high@a2",
+      "h-high@a3"
+    ],
+    "28": [
+      "h-low@a3",
+      "h-medium@a3",
+      "h-high@a3"
+    ],
+    "21": [
+      "h-medium@a3",
+      "h-high@a3"
+    ],
+    "32": [
+      "h-medium@a3",
+      "h-high@a3"
+    ]
+  },
+  "attempted": [
+    {
+      "item": "21",
+      "status": "valid",
+      "http_status": 200,
+      "error_code": "",
+      "cost_usd": 0.00307425,
+      "reasons": [],
+      "selected_by": [
+        "h-medium@a3",
+        "h-high@a3"
+      ]
+    },
+    {
+      "item": "23",
+      "status": "valid",
+      "http_status": 200,
+      "error_code": "",
+      "cost_usd": 0.003459,
+      "reasons": [],
+      "selected_by": [
+        "h-high@a2",
+        "h-high@a3"
+      ]
+    },
+    {
+      "item": "26",
+      "status": "valid",
+      "http_status": 200,
+      "error_code": "",
+      "cost_usd": 0.0035805,
+      "reasons": [],
+      "selected_by": [
+        "h-low@a2",
+        "h-medium@a2",
+        "h-high@a2",
+        "h-high@a3"
+      ]
+    },
+    {
+      "item": "28",
+      "status": "valid",
+      "http_status": 200,
+      "error_code": "",
+      "cost_usd": 0.0033315,
+      "reasons": [],
+      "selected_by": [
+        "h-low@a3",
+        "h-medium@a3",
+        "h-high@a3"
+      ]
+    },
+    {
+      "item": "30",
+      "status": "valid",
+      "http_status": 200,
+      "error_code": "",
+      "cost_usd": 0.00357525,
+      "reasons": [],
+      "selected_by": [
+        "h-high@a2",
+        "h-high@a3"
+      ]
+    },
+    {
+      "item": "31",
+      "status": "valid",
+      "http_status": 200,
+      "error_code": "",
+      "cost_usd": 0.002982,
+      "reasons": [],
+      "selected_by": [
+        "h-high@a2",
+        "h-high@a3"
+      ]
+    },
+    {
+      "item": "32",
+      "status": "valid",
+      "http_status": 200,
+      "error_code": "",
+      "cost_usd": 0.00336825,
+      "reasons": [],
+      "selected_by": [
+        "h-medium@a3",
+        "h-high@a3"
+      ]
+    },
+    {
+      "item": "36",
+      "status": "valid",
+      "http_status": 200,
+      "error_code": "",
+      "cost_usd": 0.00354975,
+      "reasons": [],
+      "selected_by": [
+        "h-medium@a2",
+        "h-high@a2",
+        "h-medium@a3",
+        "h-high@a3"
+      ]
+    }
+  ],
+  "reused": [],
+  "skipped": [],
+  "stopped_reason": "",
+  "ledger": "results\\h_usage.jsonl",
+  "eligible_keys": 15
+}

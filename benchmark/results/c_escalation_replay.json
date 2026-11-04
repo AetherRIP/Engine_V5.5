@@ -1,0 +1,161 @@
+{
+  "kind": "offline_replay",
+  "measurement_kind": "replay_not_live",
+  "label": "Historical C1/C2 raw differences plus C5/C6 differences recovered by the fixed classifier, replayed through the repaired escalation guard; no provider calls, no new benchmark run, and no raw files rewritten.",
+  "generated_at": "2026-11-03T14:52:06+00:00",
+  "live_api_calls": 0,
+  "raw_files_modified": false,
+  "source_runs": [
+    1,
+    2,
+    5,
+    6
+  ],
+  "source_artifacts": [
+    "raw/c_run1.json",
+    "raw/c_run2.json",
+    "raw/c_run5.json",
+    "raw/c_run6.json"
+  ],
+  "historical_raw": {
+    "runs": [
+      1,
+      2
+    ],
+    "raw_different": 4
+  },
+  "current_raw": {
+    "runs": [
+      5,
+      6
+    ],
+    "raw_different": 0,
+    "re_evaluated_different": 6,
+    "by_run": {
+      "5": 4,
+      "6": 2
+    }
+  },
+  "raw_different": 4,
+  "different_checks": 10,
+  "pre_fix": {
+    "escalations": 0,
+    "escalation_gap": true
+  },
+  "fixed": {
+    "escalations": 10,
+    "escalation_gap": false
+  },
+  "records": [
+    {
+      "source_kind": "historical_raw_different",
+      "source_run": 1,
+      "item": "31",
+      "raw_status": "different",
+      "re_evaluated_status": "different",
+      "difference": "difference 22*x**2",
+      "pre_fix_escalated": false,
+      "fixed_escalated": true,
+      "fixed_reason": "SymPy says transcribed answer differs from the scheme's expected answer"
+    },
+    {
+      "source_kind": "historical_raw_different",
+      "source_run": 2,
+      "item": "26",
+      "raw_status": "different",
+      "re_evaluated_status": "different",
+      "difference": "difference 144*x",
+      "pre_fix_escalated": false,
+      "fixed_escalated": true,
+      "fixed_reason": "SymPy says transcribed answer differs from the scheme's expected answer"
+    },
+    {
+      "source_kind": "historical_raw_different",
+      "source_run": 2,
+      "item": "31",
+      "raw_status": "different",
+      "re_evaluated_status": "different",
+      "difference": "difference 22*x**2",
+      "pre_fix_escalated": false,
+      "fixed_escalated": true,
+      "fixed_reason": "SymPy says transcribed answer differs from the scheme's expected answer"
+    },
+    {
+      "source_kind": "historical_raw_different",
+      "source_run": 2,
+      "item": "36",
+      "raw_status": "different",
+      "re_evaluated_status": "different",
+      "difference": "difference 2*x",
+      "pre_fix_escalated": false,
+      "fixed_escalated": true,
+      "fixed_reason": "SymPy says transcribed answer differs from the scheme's expected answer"
+    },
+    {
+      "source_kind": "recovered_from_raw_unknown",
+      "source_run": 5,
+      "item": "26",
+      "raw_status": "unknown",
+      "re_evaluated_status": "different",
+      "difference": "difference 144*x",
+      "pre_fix_escalated": false,
+      "fixed_escalated": true,
+      "fixed_reason": "SymPy says transcribed answer differs from the scheme's expected answer"
+    },
+    {
+      "source_kind": "recovered_from_raw_unknown",
+      "source_run": 5,
+      "item": "30",
+      "raw_status": "unknown",
+      "re_evaluated_status": "different",
+      "difference": "difference -2*x**3",
+      "pre_fix_escalated": false,
+      "fixed_escalated": true,
+      "fixed_reason": "SymPy says transcribed answer differs from the scheme's expected answer"
+    },
+    {
+      "source_kind": "recovered_from_raw_unknown",
+      "source_run": 5,
+      "item": "31",
+      "raw_status": "unknown",
+      "re_evaluated_status": "different",
+      "difference": "difference 22*x**2",
+      "pre_fix_escalated": false,
+      "fixed_escalated": true,
+      "fixed_reason": "SymPy says transcribed answer differs from the scheme's expected answer"
+    },
+    {
+      "source_kind": "recovered_from_raw_unknown",
+      "source_run": 5,
+      "item": "36",
+      "raw_status": "unknown",
+      "re_evaluated_status": "different",
+      "difference": "difference 2*x",
+      "pre_fix_escalated": false,
+      "fixed_escalated": true,
+      "fixed_reason": "SymPy says transcribed answer differs from the scheme's expected answer"
+    },
+    {
+      "source_kind": "recovered_from_raw_unknown",
+      "source_run": 6,
+      "item": "31",
+      "raw_status": "unknown",
+      "re_evaluated_status": "different",
+      "difference": "difference 22*x**2",
+      "pre_fix_escalated": false,
+      "fixed_escalated": true,
+      "fixed_reason": "SymPy says transcribed answer differs from the scheme's expected answer"
+    },
+    {
+      "source_kind": "recovered_from_raw_unknown",
+      "source_run": 6,
+      "item": "36",
+      "raw_status": "unknown",
+      "re_evaluated_status": "different",
+      "difference": "difference 2*x",
+      "pre_fix_escalated": false,
+      "fixed_escalated": true,
+      "fixed_reason": "SymPy says transcribed answer differs from the scheme's expected answer"
+    }
+  ]
+}

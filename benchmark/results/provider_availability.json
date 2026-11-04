@@ -1,0 +1,51 @@
+{
+  "status": "provider_capacity_suspected_not_auth_or_quota",
+  "full_document_503_rows": 43,
+  "full_document_503_by_model": {
+    "gemini-3.6-flash": 35,
+    "gemini-3.5-flash-lite": 7,
+    "gemini-3.5-flash": 1
+  },
+  "full_document_503_error_codes": {
+    "UNAVAILABLE": 43
+  },
+  "benchmark_429_rows": 6,
+  "benchmark_auth_failure_rows": 0,
+  "healthy_keys": [
+    "KEY_01",
+    "KEY_02",
+    "KEY_05",
+    "KEY_06",
+    "KEY_09",
+    "KEY_10",
+    "KEY_11",
+    "KEY_12",
+    "KEY_13",
+    "KEY_14",
+    "KEY_15",
+    "KEY_16",
+    "KEY_17",
+    "KEY_19",
+    "KEY_20"
+  ],
+  "available_healthy_keys": [
+    "KEY_01",
+    "KEY_02",
+    "KEY_05",
+    "KEY_06",
+    "KEY_09",
+    "KEY_10",
+    "KEY_11",
+    "KEY_12",
+    "KEY_13",
+    "KEY_14",
+    "KEY_15",
+    "KEY_16",
+    "KEY_17",
+    "KEY_19",
+    "KEY_20"
+  ],
+  "finding": "The failed full-document requests returned HTTP 503 UNAVAILABLE ('model is currently experiencing high demand'), not 401/403 and not 429 quota errors. Healthy keys with AVAILABLE quota remain. The earlier one-token model probe succeeded, so the block is request/model capacity, not key validity or project quota. A smaller single-item context is the quota-conscious test.",
+  "selected_model": "gemini-3.6-flash",
+  "selected_model_basis": "It produced the successful C11 document response and the C5/C6 primary results; a single student page plus one scheme page is a much smaller request than the failed whole-document context. No new model probe is spent for this evidence run."
+}

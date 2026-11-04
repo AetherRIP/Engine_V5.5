@@ -1,0 +1,783 @@
+{
+  "updated_at": "2026-11-03T22:30:00+00:00",
+  "keys": [
+    {
+      "label": "KEY_01",
+      "key_validity": "VALID",
+      "quota_state": "AVAILABLE",
+      "network_state": "REACHABLE",
+      "pool": "POOL_SHARED_1",
+      "cooldown_remaining_s": 0,
+      "cooldown_kind": "",
+      "last_error_code": "UNAVAILABLE",
+      "last_quota_id": "GenerateRequestsPerDayPerProjectPerModel-FreeTier",
+      "requests": 11,
+      "successes": 7,
+      "failures": 3,
+      "rate_limit_hits": 1,
+      "benchmark_successes": 7,
+      "probe_state": "healthy"
+    },
+    {
+      "label": "KEY_02",
+      "key_validity": "VALID",
+      "quota_state": "AVAILABLE",
+      "network_state": "REACHABLE",
+      "pool": "POOL_SHARED_1",
+      "cooldown_remaining_s": 0,
+      "cooldown_kind": "",
+      "last_error_code": "UNAVAILABLE",
+      "last_quota_id": "GenerateRequestsPerDayPerProjectPerModel-FreeTier",
+      "requests": 9,
+      "successes": 4,
+      "failures": 4,
+      "rate_limit_hits": 1,
+      "benchmark_successes": 4,
+      "probe_state": "healthy"
+    },
+    {
+      "label": "KEY_03",
+      "key_validity": "VALID",
+      "quota_state": "UNKNOWN",
+      "network_state": "REACHABLE",
+      "pool": "POOL_UNKNOWN_KEY_03",
+      "cooldown_remaining_s": 0,
+      "cooldown_kind": "",
+      "last_error_code": "",
+      "last_quota_id": "",
+      "requests": 1,
+      "successes": 0,
+      "failures": 0,
+      "rate_limit_hits": 0,
+      "benchmark_successes": 0,
+      "probe_state": "http_error"
+    },
+    {
+      "label": "KEY_04",
+      "key_validity": "VALID",
+      "quota_state": "UNKNOWN",
+      "network_state": "REACHABLE",
+      "pool": "POOL_UNKNOWN_KEY_04",
+      "cooldown_remaining_s": 0,
+      "cooldown_kind": "",
+      "last_error_code": "",
+      "last_quota_id": "",
+      "requests": 1,
+      "successes": 0,
+      "failures": 0,
+      "rate_limit_hits": 0,
+      "benchmark_successes": 0,
+      "probe_state": "http_error"
+    },
+    {
+      "label": "KEY_05",
+      "key_validity": "VALID",
+      "quota_state": "AVAILABLE",
+      "network_state": "REACHABLE",
+      "pool": "POOL_SHARED_1",
+      "cooldown_remaining_s": 0,
+      "cooldown_kind": "",
+      "last_error_code": "UNAVAILABLE",
+      "last_quota_id": "GenerateRequestsPerDayPerProjectPerModel-FreeTier",
+      "requests": 9,
+      "successes": 4,
+      "failures": 4,
+      "rate_limit_hits": 1,
+      "benchmark_successes": 4,
+      "probe_state": "healthy"
+    },
+    {
+      "label": "KEY_06",
+      "key_validity": "VALID",
+      "quota_state": "AVAILABLE",
+      "network_state": "REACHABLE",
+      "pool": "POOL_SHARED_1",
+      "cooldown_remaining_s": 0,
+      "cooldown_kind": "",
+      "last_error_code": "UNAVAILABLE",
+      "last_quota_id": "GenerateRequestsPerDayPerProjectPerModel-FreeTier",
+      "requests": 8,
+      "successes": 5,
+      "failures": 2,
+      "rate_limit_hits": 1,
+      "benchmark_successes": 5,
+      "probe_state": "healthy"
+    },
+    {
+      "label": "KEY_07",
+      "key_validity": "INVALID",
+      "quota_state": "UNKNOWN",
+      "network_state": "REACHABLE",
+      "pool": "POOL_EXCLUDED_KEY_07",
+      "cooldown_remaining_s": 0,
+      "cooldown_kind": "",
+      "last_error_code": "UNAUTHENTICATED",
+      "last_quota_id": "",
+      "requests": 0,
+      "successes": 0,
+      "failures": 0,
+      "rate_limit_hits": 0,
+      "benchmark_successes": 0,
+      "probe_state": "invalid_key"
+    },
+    {
+      "label": "KEY_08",
+      "key_validity": "INVALID",
+      "quota_state": "UNKNOWN",
+      "network_state": "REACHABLE",
+      "pool": "POOL_EXCLUDED_KEY_08",
+      "cooldown_remaining_s": 0,
+      "cooldown_kind": "",
+      "last_error_code": "UNAUTHENTICATED",
+      "last_quota_id": "",
+      "requests": 0,
+      "successes": 0,
+      "failures": 0,
+      "rate_limit_hits": 0,
+      "benchmark_successes": 0,
+      "probe_state": "invalid_key"
+    },
+    {
+      "label": "KEY_09",
+      "key_validity": "VALID",
+      "quota_state": "AVAILABLE",
+      "network_state": "REACHABLE",
+      "pool": "POOL_SHARED_1",
+      "cooldown_remaining_s": 0,
+      "cooldown_kind": "",
+      "last_error_code": "UNAVAILABLE",
+      "last_quota_id": "GenerateRequestsPerDayPerProjectPerModel-FreeTier",
+      "requests": 7,
+      "successes": 5,
+      "failures": 1,
+      "rate_limit_hits": 1,
+      "benchmark_successes": 5,
+      "probe_state": "healthy"
+    },
+    {
+      "label": "KEY_10",
+      "key_validity": "VALID",
+      "quota_state": "AVAILABLE",
+      "network_state": "REACHABLE",
+      "pool": "POOL_OBSERVED_2",
+      "cooldown_remaining_s": 0,
+      "cooldown_kind": "",
+      "last_error_code": "UNAVAILABLE",
+      "last_quota_id": "GenerateRequestsPerDayPerProjectPerModel-FreeTier",
+      "requests": 8,
+      "successes": 6,
+      "failures": 2,
+      "rate_limit_hits": 1,
+      "benchmark_successes": 5,
+      "probe_state": "healthy"
+    },
+    {
+      "label": "KEY_11",
+      "key_validity": "VALID",
+      "quota_state": "AVAILABLE",
+      "network_state": "REACHABLE",
+      "pool": "POOL_OBSERVED_3",
+      "cooldown_remaining_s": 0,
+      "cooldown_kind": "",
+      "last_error_code": "UNAVAILABLE",
+      "last_quota_id": "GenerateRequestsPerDayPerProjectPerModel-FreeTier",
+      "requests": 14,
+      "successes": 12,
+      "failures": 2,
+      "rate_limit_hits": 1,
+      "benchmark_successes": 11,
+      "probe_state": "healthy"
+    },
+    {
+      "label": "KEY_12",
+      "key_validity": "VALID",
+      "quota_state": "AVAILABLE",
+      "network_state": "REACHABLE",
+      "pool": "POOL_OBSERVED_3",
+      "cooldown_remaining_s": 0,
+      "cooldown_kind": "",
+      "last_error_code": "UNAVAILABLE",
+      "last_quota_id": "GenerateRequestsPerDayPerProjectPerModel-FreeTier",
+      "requests": 12,
+      "successes": 10,
+      "failures": 2,
+      "rate_limit_hits": 1,
+      "benchmark_successes": 9,
+      "probe_state": "healthy"
+    },
+    {
+      "label": "KEY_13",
+      "key_validity": "VALID",
+      "quota_state": "AVAILABLE",
+      "network_state": "REACHABLE",
+      "pool": "POOL_OBSERVED_3",
+      "cooldown_remaining_s": 0,
+      "cooldown_kind": "",
+      "last_error_code": "UNAVAILABLE",
+      "last_quota_id": "",
+      "requests": 15,
+      "successes": 12,
+      "failures": 3,
+      "rate_limit_hits": 0,
+      "benchmark_successes": 11,
+      "probe_state": "healthy"
+    },
+    {
+      "label": "KEY_14",
+      "key_validity": "VALID",
+      "quota_state": "AVAILABLE",
+      "network_state": "REACHABLE",
+      "pool": "POOL_OBSERVED_3",
+      "cooldown_remaining_s": 0,
+      "cooldown_kind": "",
+      "last_error_code": "UNAVAILABLE",
+      "last_quota_id": "GenerateRequestsPerDayPerProjectPerModel-FreeTier",
+      "requests": 11,
+      "successes": 9,
+      "failures": 2,
+      "rate_limit_hits": 1,
+      "benchmark_successes": 8,
+      "probe_state": "healthy"
+    },
+    {
+      "label": "KEY_15",
+      "key_validity": "VALID",
+      "quota_state": "AVAILABLE",
+      "network_state": "REACHABLE",
+      "pool": "POOL_OBSERVED_3",
+      "cooldown_remaining_s": 0,
+      "cooldown_kind": "",
+      "last_error_code": "UNAVAILABLE",
+      "last_quota_id": "GenerateRequestsPerDayPerProjectPerModel-FreeTier",
+      "requests": 12,
+      "successes": 10,
+      "failures": 2,
+      "rate_limit_hits": 1,
+      "benchmark_successes": 9,
+      "probe_state": "healthy"
+    },
+    {
+      "label": "KEY_16",
+      "key_validity": "VALID",
+      "quota_state": "AVAILABLE",
+      "network_state": "REACHABLE",
+      "pool": "POOL_OBSERVED_3",
+      "cooldown_remaining_s": 0,
+      "cooldown_kind": "",
+      "last_error_code": "UNAVAILABLE",
+      "last_quota_id": "GenerateRequestsPerDayPerProjectPerModel-FreeTier",
+      "requests": 6,
+      "successes": 4,
+      "failures": 2,
+      "rate_limit_hits": 1,
+      "benchmark_successes": 3,
+      "probe_state": "healthy"
+    },
+    {
+      "label": "KEY_17",
+      "key_validity": "VALID",
+      "quota_state": "AVAILABLE",
+      "network_state": "REACHABLE",
+      "pool": "POOL_SHARED_1",
+      "cooldown_remaining_s": 0,
+      "cooldown_kind": "",
+      "last_error_code": "UNAVAILABLE",
+      "last_quota_id": "GenerateRequestsPerDayPerProjectPerModel-FreeTier",
+      "requests": 5,
+      "successes": 2,
+      "failures": 2,
+      "rate_limit_hits": 1,
+      "benchmark_successes": 2,
+      "probe_state": "healthy"
+    },
+    {
+      "label": "KEY_18",
+      "key_validity": "VALID",
+      "quota_state": "UNKNOWN",
+      "network_state": "REACHABLE",
+      "pool": "POOL_UNKNOWN_KEY_18",
+      "cooldown_remaining_s": 0,
+      "cooldown_kind": "",
+      "last_error_code": "",
+      "last_quota_id": "",
+      "requests": 1,
+      "successes": 0,
+      "failures": 0,
+      "rate_limit_hits": 0,
+      "benchmark_successes": 0,
+      "probe_state": "http_error"
+    },
+    {
+      "label": "KEY_19",
+      "key_validity": "VALID",
+      "quota_state": "AVAILABLE",
+      "network_state": "REACHABLE",
+      "pool": "POOL_OBSERVED_3",
+      "cooldown_remaining_s": 0,
+      "cooldown_kind": "",
+      "last_error_code": "UNAVAILABLE",
+      "last_quota_id": "",
+      "requests": 12,
+      "successes": 10,
+      "failures": 2,
+      "rate_limit_hits": 0,
+      "benchmark_successes": 9,
+      "probe_state": "healthy"
+    },
+    {
+      "label": "KEY_20",
+      "key_validity": "VALID",
+      "quota_state": "AVAILABLE",
+      "network_state": "REACHABLE",
+      "pool": "POOL_OBSERVED_3",
+      "cooldown_remaining_s": 0,
+      "cooldown_kind": "",
+      "last_error_code": "UNAVAILABLE",
+      "last_quota_id": "",
+      "requests": 13,
+      "successes": 12,
+      "failures": 1,
+      "rate_limit_hits": 0,
+      "benchmark_successes": 11,
+      "probe_state": "healthy"
+    }
+  ],
+  "events": [
+    {
+      "at": "2026-11-02T23:30:29+00:00",
+      "event": "pool_shared_quota_id",
+      "keys": [
+        "KEY_01",
+        "KEY_02",
+        "KEY_05",
+        "KEY_06",
+        "KEY_09",
+        "KEY_17"
+      ],
+      "pool": "POOL_SHARED_1",
+      "quota_id": "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+    },
+    {
+      "at": "2026-11-02T23:30:57+00:00",
+      "event": "rate_limited",
+      "key": "KEY_10",
+      "quota_id": "GenerateRequestsPerDayPerProjectPerModel-FreeTier",
+      "cooldown_s": 30541.0,
+      "kind": "daily"
+    },
+    {
+      "at": "2026-11-02T23:31:30+00:00",
+      "event": "pool_observed_independent",
+      "keys": [
+        "KEY_10",
+        "KEY_12"
+      ],
+      "pool": "POOL_OBSERVED_2",
+      "quota_id": "GenerateRequestsPerDayPerProjectPerModel-FreeTier",
+      "evidence": "one key answered immediately after the other was rate-limited"
+    },
+    {
+      "at": "2026-11-02T23:32:40+00:00",
+      "event": "pool_observed_independent",
+      "keys": [
+        "KEY_10",
+        "KEY_13"
+      ],
+      "pool": "POOL_OBSERVED_2",
+      "quota_id": "GenerateRequestsPerDayPerProjectPerModel-FreeTier",
+      "evidence": "one key answered immediately after the other was rate-limited"
+    },
+    {
+      "at": "2026-11-02T23:33:33+00:00",
+      "event": "rate_limited",
+      "key": "KEY_16",
+      "quota_id": "GenerateRequestsPerDayPerProjectPerModel-FreeTier",
+      "cooldown_s": 30385.0,
+      "kind": "daily"
+    },
+    {
+      "at": "2026-11-02T23:33:44+00:00",
+      "event": "pool_observed_independent",
+      "keys": [
+        "KEY_16",
+        "KEY_20"
+      ],
+      "pool": "POOL_OBSERVED_3",
+      "quota_id": "GenerateRequestsPerDayPerProjectPerModel-FreeTier",
+      "evidence": "one key answered immediately after the other was rate-limited"
+    },
+    {
+      "at": "2026-11-02T23:33:49+00:00",
+      "event": "pool_observed_independent",
+      "keys": [
+        "KEY_16",
+        "KEY_11"
+      ],
+      "pool": "POOL_OBSERVED_3",
+      "quota_id": "GenerateRequestsPerDayPerProjectPerModel-FreeTier",
+      "evidence": "one key answered immediately after the other was rate-limited"
+    },
+    {
+      "at": "2026-11-02T23:34:03+00:00",
+      "event": "pool_observed_independent",
+      "keys": [
+        "KEY_16",
+        "KEY_12"
+      ],
+      "pool": "POOL_OBSERVED_3",
+      "quota_id": "GenerateRequestsPerDayPerProjectPerModel-FreeTier",
+      "evidence": "one key answered immediately after the other was rate-limited"
+    },
+    {
+      "at": "2026-11-02T23:34:07+00:00",
+      "event": "pool_observed_independent",
+      "keys": [
+        "KEY_16",
+        "KEY_13"
+      ],
+      "pool": "POOL_OBSERVED_3",
+      "quota_id": "GenerateRequestsPerDayPerProjectPerModel-FreeTier",
+      "evidence": "one key answered immediately after the other was rate-limited"
+    },
+    {
+      "at": "2026-11-02T23:34:10+00:00",
+      "event": "pool_observed_independent",
+      "keys": [
+        "KEY_16",
+        "KEY_14"
+      ],
+      "pool": "POOL_OBSERVED_3",
+      "quota_id": "GenerateRequestsPerDayPerProjectPerModel-FreeTier",
+      "evidence": "one key answered immediately after the other was rate-limited"
+    },
+    {
+      "at": "2026-11-02T23:34:16+00:00",
+      "event": "pool_observed_independent",
+      "keys": [
+        "KEY_16",
+        "KEY_15"
+      ],
+      "pool": "POOL_OBSERVED_3",
+      "quota_id": "GenerateRequestsPerDayPerProjectPerModel-FreeTier",
+      "evidence": "one key answered immediately after the other was rate-limited"
+    },
+    {
+      "at": "2026-11-02T23:34:23+00:00",
+      "event": "pool_observed_independent",
+      "keys": [
+        "KEY_16",
+        "KEY_19"
+      ],
+      "pool": "POOL_OBSERVED_3",
+      "quota_id": "GenerateRequestsPerDayPerProjectPerModel-FreeTier",
+      "evidence": "one key answered immediately after the other was rate-limited"
+    },
+    {
+      "at": "2026-11-02T23:34:34+00:00",
+      "event": "pool_observed_independent",
+      "keys": [
+        "KEY_16",
+        "KEY_11"
+      ],
+      "pool": "POOL_OBSERVED_3",
+      "quota_id": "GenerateRequestsPerDayPerProjectPerModel-FreeTier",
+      "evidence": "one key answered immediately after the other was rate-limited"
+    },
+    {
+      "at": "2026-11-02T23:34:41+00:00",
+      "event": "pool_observed_independent",
+      "keys": [
+        "KEY_16",
+        "KEY_12"
+      ],
+      "pool": "POOL_OBSERVED_3",
+      "quota_id": "GenerateRequestsPerDayPerProjectPerModel-FreeTier",
+      "evidence": "one key answered immediately after the other was rate-limited"
+    },
+    {
+      "at": "2026-11-02T23:34:49+00:00",
+      "event": "pool_observed_independent",
+      "keys": [
+        "KEY_16",
+        "KEY_13"
+      ],
+      "pool": "POOL_OBSERVED_3",
+      "quota_id": "GenerateRequestsPerDayPerProjectPerModel-FreeTier",
+      "evidence": "one key answered immediately after the other was rate-limited"
+    },
+    {
+      "at": "2026-11-02T23:34:57+00:00",
+      "event": "pool_observed_independent",
+      "keys": [
+        "KEY_16",
+        "KEY_14"
+      ],
+      "pool": "POOL_OBSERVED_3",
+      "quota_id": "GenerateRequestsPerDayPerProjectPerModel-FreeTier",
+      "evidence": "one key answered immediately after the other was rate-limited"
+    },
+    {
+      "at": "2026-11-02T23:35:17+00:00",
+      "event": "pool_observed_independent",
+      "keys": [
+        "KEY_16",
+        "KEY_15"
+      ],
+      "pool": "POOL_OBSERVED_3",
+      "quota_id": "GenerateRequestsPerDayPerProjectPerModel-FreeTier",
+      "evidence": "one key answered immediately after the other was rate-limited"
+    },
+    {
+      "at": "2026-11-02T23:37:49+00:00",
+      "event": "rate_limited",
+      "key": "KEY_12",
+      "quota_id": "GenerateRequestsPerDayPerProjectPerModel-FreeTier",
+      "cooldown_s": 30129.0,
+      "kind": "daily"
+    },
+    {
+      "at": "2026-11-02T23:37:55+00:00",
+      "event": "pool_observed_independent",
+      "keys": [
+        "KEY_12",
+        "KEY_11"
+      ],
+      "pool": "POOL_OBSERVED_3",
+      "quota_id": "GenerateRequestsPerDayPerProjectPerModel-FreeTier",
+      "evidence": "one key answered immediately after the other was rate-limited"
+    },
+    {
+      "at": "2026-11-02T23:37:59+00:00",
+      "event": "pool_observed_independent",
+      "keys": [
+        "KEY_12",
+        "KEY_13"
+      ],
+      "pool": "POOL_OBSERVED_3",
+      "quota_id": "GenerateRequestsPerDayPerProjectPerModel-FreeTier",
+      "evidence": "one key answered immediately after the other was rate-limited"
+    },
+    {
+      "at": "2026-11-02T23:38:05+00:00",
+      "event": "pool_observed_independent",
+      "keys": [
+        "KEY_12",
+        "KEY_14"
+      ],
+      "pool": "POOL_OBSERVED_3",
+      "quota_id": "GenerateRequestsPerDayPerProjectPerModel-FreeTier",
+      "evidence": "one key answered immediately after the other was rate-limited"
+    },
+    {
+      "at": "2026-11-02T23:38:15+00:00",
+      "event": "pool_observed_independent",
+      "keys": [
+        "KEY_12",
+        "KEY_15"
+      ],
+      "pool": "POOL_OBSERVED_3",
+      "quota_id": "GenerateRequestsPerDayPerProjectPerModel-FreeTier",
+      "evidence": "one key answered immediately after the other was rate-limited"
+    },
+    {
+      "at": "2026-11-02T23:38:19+00:00",
+      "event": "pool_observed_independent",
+      "keys": [
+        "KEY_12",
+        "KEY_19"
+      ],
+      "pool": "POOL_OBSERVED_3",
+      "quota_id": "GenerateRequestsPerDayPerProjectPerModel-FreeTier",
+      "evidence": "one key answered immediately after the other was rate-limited"
+    },
+    {
+      "at": "2026-11-02T23:38:22+00:00",
+      "event": "pool_observed_independent",
+      "keys": [
+        "KEY_12",
+        "KEY_20"
+      ],
+      "pool": "POOL_OBSERVED_3",
+      "quota_id": "GenerateRequestsPerDayPerProjectPerModel-FreeTier",
+      "evidence": "one key answered immediately after the other was rate-limited"
+    },
+    {
+      "at": "2026-11-02T23:38:28+00:00",
+      "event": "pool_observed_independent",
+      "keys": [
+        "KEY_12",
+        "KEY_11"
+      ],
+      "pool": "POOL_OBSERVED_3",
+      "quota_id": "GenerateRequestsPerDayPerProjectPerModel-FreeTier",
+      "evidence": "one key answered immediately after the other was rate-limited"
+    },
+    {
+      "at": "2026-11-02T23:38:34+00:00",
+      "event": "pool_observed_independent",
+      "keys": [
+        "KEY_12",
+        "KEY_13"
+      ],
+      "pool": "POOL_OBSERVED_3",
+      "quota_id": "GenerateRequestsPerDayPerProjectPerModel-FreeTier",
+      "evidence": "one key answered immediately after the other was rate-limited"
+    },
+    {
+      "at": "2026-11-02T23:38:34+00:00",
+      "event": "rate_limited",
+      "key": "KEY_14",
+      "quota_id": "GenerateRequestsPerDayPerProjectPerModel-FreeTier",
+      "cooldown_s": 30084.0,
+      "kind": "daily"
+    },
+    {
+      "at": "2026-11-02T23:38:41+00:00",
+      "event": "pool_observed_independent",
+      "keys": [
+        "KEY_14",
+        "KEY_20"
+      ],
+      "pool": "POOL_OBSERVED_3",
+      "quota_id": "GenerateRequestsPerDayPerProjectPerModel-FreeTier",
+      "evidence": "one key answered immediately after the other was rate-limited"
+    },
+    {
+      "at": "2026-11-02T23:38:41+00:00",
+      "event": "rate_limited",
+      "key": "KEY_11",
+      "quota_id": "GenerateRequestsPerDayPerProjectPerModel-FreeTier",
+      "cooldown_s": 30077.0,
+      "kind": "daily"
+    },
+    {
+      "at": "2026-11-02T23:38:50+00:00",
+      "event": "pool_observed_independent",
+      "keys": [
+        "KEY_11",
+        "KEY_15"
+      ],
+      "pool": "POOL_OBSERVED_3",
+      "quota_id": "GenerateRequestsPerDayPerProjectPerModel-FreeTier",
+      "evidence": "one key answered immediately after the other was rate-limited"
+    },
+    {
+      "at": "2026-11-02T23:38:57+00:00",
+      "event": "pool_observed_independent",
+      "keys": [
+        "KEY_11",
+        "KEY_19"
+      ],
+      "pool": "POOL_OBSERVED_3",
+      "quota_id": "GenerateRequestsPerDayPerProjectPerModel-FreeTier",
+      "evidence": "one key answered immediately after the other was rate-limited"
+    },
+    {
+      "at": "2026-11-02T23:39:04+00:00",
+      "event": "pool_observed_independent",
+      "keys": [
+        "KEY_11",
+        "KEY_20"
+      ],
+      "pool": "POOL_OBSERVED_3",
+      "quota_id": "GenerateRequestsPerDayPerProjectPerModel-FreeTier",
+      "evidence": "one key answered immediately after the other was rate-limited"
+    },
+    {
+      "at": "2026-11-02T23:39:21+00:00",
+      "event": "pool_observed_independent",
+      "keys": [
+        "KEY_11",
+        "KEY_13"
+      ],
+      "pool": "POOL_OBSERVED_3",
+      "quota_id": "GenerateRequestsPerDayPerProjectPerModel-FreeTier",
+      "evidence": "one key answered immediately after the other was rate-limited"
+    },
+    {
+      "at": "2026-11-02T23:39:23+00:00",
+      "event": "rate_limited",
+      "key": "KEY_15",
+      "quota_id": "GenerateRequestsPerDayPerProjectPerModel-FreeTier",
+      "cooldown_s": 30036.0,
+      "kind": "daily"
+    },
+    {
+      "at": "2026-11-02T23:39:57+00:00",
+      "event": "pool_observed_independent",
+      "keys": [
+        "KEY_15",
+        "KEY_19"
+      ],
+      "pool": "POOL_OBSERVED_3",
+      "quota_id": "GenerateRequestsPerDayPerProjectPerModel-FreeTier",
+      "evidence": "one key answered immediately after the other was rate-limited"
+    },
+    {
+      "at": "2026-11-02T23:40:00+00:00",
+      "event": "pool_observed_independent",
+      "keys": [
+        "KEY_15",
+        "KEY_20"
+      ],
+      "pool": "POOL_OBSERVED_3",
+      "quota_id": "GenerateRequestsPerDayPerProjectPerModel-FreeTier",
+      "evidence": "one key answered immediately after the other was rate-limited"
+    },
+    {
+      "at": "2026-11-02T23:40:03+00:00",
+      "event": "pool_observed_independent",
+      "keys": [
+        "KEY_15",
+        "KEY_13"
+      ],
+      "pool": "POOL_OBSERVED_3",
+      "quota_id": "GenerateRequestsPerDayPerProjectPerModel-FreeTier",
+      "evidence": "one key answered immediately after the other was rate-limited"
+    },
+    {
+      "at": "2026-11-02T23:40:07+00:00",
+      "event": "pool_observed_independent",
+      "keys": [
+        "KEY_15",
+        "KEY_19"
+      ],
+      "pool": "POOL_OBSERVED_3",
+      "quota_id": "GenerateRequestsPerDayPerProjectPerModel-FreeTier",
+      "evidence": "one key answered immediately after the other was rate-limited"
+    },
+    {
+      "at": "2026-11-02T23:40:11+00:00",
+      "event": "pool_observed_independent",
+      "keys": [
+        "KEY_15",
+        "KEY_20"
+      ],
+      "pool": "POOL_OBSERVED_3",
+      "quota_id": "GenerateRequestsPerDayPerProjectPerModel-FreeTier",
+      "evidence": "one key answered immediately after the other was rate-limited"
+    },
+    {
+      "at": "2026-11-02T23:40:14+00:00",
+      "event": "pool_observed_independent",
+      "keys": [
+        "KEY_15",
+        "KEY_13"
+      ],
+      "pool": "POOL_OBSERVED_3",
+      "quota_id": "GenerateRequestsPerDayPerProjectPerModel-FreeTier",
+      "evidence": "one key answered immediately after the other was rate-limited"
+    },
+    {
+      "at": "2026-11-02T23:40:20+00:00",
+      "event": "pool_observed_independent",
+      "keys": [
+        "KEY_15",
+        "KEY_19"
+      ],
+      "pool": "POOL_OBSERVED_3",
+      "quota_id": "GenerateRequestsPerDayPerProjectPerModel-FreeTier",
+      "evidence": "one key answered immediately after the other was rate-limited"
+    }
+  ]
+}

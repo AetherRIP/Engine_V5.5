@@ -1,0 +1,3405 @@
+{
+  "strategy": "c",
+  "paper_id": "paper-01",
+  "models": {
+    "primary": "gemini-3.6-flash",
+    "lite": "gemini-3.5-flash-lite",
+    "strong": "gemini-3.6-flash",
+    "notes": [
+      "primary: gemini-3.6-flash verified on KEY_10",
+      "lite: gemini-3.1-flash-lite not verified on the first 3 healthy key(s)",
+      "lite: gemini-3.5-flash-lite verified on KEY_10",
+      "strong: gemini-3.1-pro-preview not verified on the first 3 healthy key(s)",
+      "strong: gemini-3.6-flash verified on KEY_10"
+    ]
+  },
+  "runs": [
+    {
+      "run": 1,
+      "request_count": 8,
+      "invalid_responses": 0,
+      "completion_status": "complete",
+      "errors": [
+        "missing items: 7, 8, 9, 10, 11, 13, 14, 15, 16b, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37a, 37b",
+        "missing items: 1a, 1d, 2, 3, 4, 5, 6, 13, 14, 15, 16b, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37a, 37b",
+        "missing items: 1a, 1d, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37a, 37b",
+        "missing items: 1a, 1d, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 16b, 17, 18, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37a, 37b",
+        "missing items: 1a, 1d, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 16b, 17, 18, 19, 20, 21, 22, 23, 24, 25, 32, 33, 34, 35, 36, 37a, 37b",
+        "missing items: 1a, 1d, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 16b, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31"
+      ],
+      "items": [
+        {
+          "id": "1a",
+          "student_answer": "24-18y",
+          "awarded": 1,
+          "max_marks": 1,
+          "criteria": [
+            {
+              "code": "B1",
+              "awarded": true,
+              "reason": "Correct expansion 24 - 18y"
+            }
+          ],
+          "confidence": 1.0,
+          "flags": [],
+          "reason": "Fully correct",
+          "source": "primary"
+        },
+        {
+          "id": "1d",
+          "student_answer": "= y^2 + 8y - 20",
+          "awarded": 2,
+          "max_marks": 2,
+          "criteria": [
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": "3 or 4 correct terms found"
+            },
+            {
+              "code": "A1",
+              "awarded": true,
+              "reason": "Fully correct answer y^2 + 8y - 20"
+            }
+          ],
+          "confidence": 1.0,
+          "flags": [],
+          "reason": "All correct",
+          "source": "primary"
+        },
+        {
+          "id": "2",
+          "student_answer": "10p - 15",
+          "awarded": 1,
+          "max_marks": 1,
+          "criteria": [
+            {
+              "code": "B1",
+              "awarded": true,
+              "reason": "Correct expansion 10p - 15"
+            }
+          ],
+          "confidence": 1.0,
+          "flags": [],
+          "reason": "Correct",
+          "source": "primary"
+        },
+        {
+          "id": "3",
+          "student_answer": "= x^2 + 4x - 5",
+          "awarded": 2,
+          "max_marks": 2,
+          "criteria": [
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": "Correct expansion terms shown"
+            },
+            {
+              "code": "A1",
+              "awarded": true,
+              "reason": "Correct simplified answer x^2 + 4x - 5"
+            }
+          ],
+          "confidence": 1.0,
+          "flags": [],
+          "reason": "Correct",
+          "source": "primary"
+        },
+        {
+          "id": "4",
+          "student_answer": "= t^2 + t - 20",
+          "awarded": 2,
+          "max_marks": 2,
+          "criteria": [
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": "Correct expansion terms shown"
+            },
+            {
+              "code": "A1",
+              "awarded": true,
+              "reason": "Correct simplified answer t^2 + t - 20"
+            }
+          ],
+          "confidence": 1.0,
+          "flags": [],
+          "reason": "Correct",
+          "source": "primary"
+        },
+        {
+          "id": "5",
+          "student_answer": "x^2 + 2x",
+          "awarded": 1,
+          "max_marks": 1,
+          "criteria": [
+            {
+              "code": "B1",
+              "awarded": true,
+              "reason": "Correct answer x^2 + 2x"
+            }
+          ],
+          "confidence": 1.0,
+          "flags": [],
+          "reason": "Correct",
+          "source": "primary"
+        },
+        {
+          "id": "6",
+          "student_answer": "= 24x",
+          "awarded": 3,
+          "max_marks": 3,
+          "criteria": [
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": "Any one correct expansion obtained"
+            },
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": "Dealt correctly with the negative sign"
+            },
+            {
+              "code": "A1",
+              "awarded": true,
+              "reason": "Final answer 24x"
+            }
+          ],
+          "confidence": 1.0,
+          "flags": [],
+          "reason": "All steps correctly completed",
+          "source": "primary"
+        },
+        {
+          "id": "7",
+          "student_answer": "x^2 - 7x - 18",
+          "awarded": 2,
+          "max_marks": 2,
+          "criteria": [
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": "Four correct terms shown: x^2 + 2x - 9x - 18"
+            },
+            {
+              "code": "A1",
+              "awarded": true,
+              "reason": "Correct simplified answer x^2 - 7x - 18"
+            }
+          ],
+          "confidence": 1.0,
+          "flags": [],
+          "reason": "All terms correct and fully simplified.",
+          "source": "primary"
+        },
+        {
+          "id": "8",
+          "student_answer": "8y^2 + 10y - 3",
+          "awarded": 2,
+          "max_marks": 2,
+          "criteria": [
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": "Four correct terms shown: 8y^2 - 2y + 12y - 3"
+            },
+            {
+              "code": "A1",
+              "awarded": true,
+              "reason": "Correct simplified answer 8y^2 + 10y - 3"
+            }
+          ],
+          "confidence": 1.0,
+          "flags": [],
+          "reason": "All terms correct and fully simplified.",
+          "source": "primary"
+        },
+        {
+          "id": "9",
+          "student_answer": "10x + 22",
+          "awarded": 2,
+          "max_marks": 2,
+          "criteria": [
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": "Four correct terms shown: 8x + 12 + 2x + 10"
+            },
+            {
+              "code": "A1",
+              "awarded": true,
+              "reason": "Correct simplified answer 10x + 22"
+            }
+          ],
+          "confidence": 1.0,
+          "flags": [],
+          "reason": "All terms expanded correctly and simplified.",
+          "source": "primary"
+        },
+        {
+          "id": "10",
+          "student_answer": "8y - 2",
+          "awarded": 2,
+          "max_marks": 2,
+          "criteria": [
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": "Four correct terms shown: 6y + 6 + 2y - 8"
+            },
+            {
+              "code": "A1",
+              "awarded": true,
+              "reason": "Correct simplified answer 8y - 2"
+            }
+          ],
+          "confidence": 1.0,
+          "flags": [],
+          "reason": "All terms expanded correctly and simplified.",
+          "source": "primary"
+        },
+        {
+          "id": "11",
+          "student_answer": "24x - 9",
+          "awarded": 3,
+          "max_marks": 3,
+          "criteria": [
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": "Expansion of 4x(x + 3) and (2x - 3)^2 correctly shown"
+            },
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": "Fully correct expansions with correct removal of brackets"
+            },
+            {
+              "code": "A1",
+              "awarded": true,
+              "reason": "Correct final answer 24x - 9"
+            }
+          ],
+          "confidence": 1.0,
+          "flags": [],
+          "reason": "All expansions and sign changes correctly executed.",
+          "source": "primary"
+        },
+        {
+          "id": "13",
+          "student_answer": "2x^2 + 19x + 24",
+          "awarded": 3,
+          "max_marks": 3,
+          "criteria": [
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": "At least 3 terms correct in expansion of first pair of brackets"
+            },
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": "At least 3 terms correct in expansion of second pair of brackets"
+            },
+            {
+              "code": "A1",
+              "awarded": true,
+              "reason": "Correct final answer 2x^2 + 19x + 24"
+            }
+          ],
+          "confidence": 1.0,
+          "flags": [],
+          "reason": "All expansion steps and simplification are correct.",
+          "source": "primary"
+        },
+        {
+          "id": "14",
+          "student_answer": "k^2 + 4k - 45",
+          "awarded": 2,
+          "max_marks": 2,
+          "criteria": [
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": "All 4 terms correct"
+            },
+            {
+              "code": "A1",
+              "awarded": true,
+              "reason": "Correct final expression k^2 + 4k - 45"
+            }
+          ],
+          "confidence": 1.0,
+          "flags": [],
+          "reason": "All expansion and simplification steps correct.",
+          "source": "primary"
+        },
+        {
+          "id": "15",
+          "student_answer": "12p + 15",
+          "awarded": 1,
+          "max_marks": 1,
+          "criteria": [
+            {
+              "code": "B1",
+              "awarded": true,
+              "reason": "Correct expansion 12p + 15"
+            }
+          ],
+          "confidence": 1.0,
+          "flags": [],
+          "reason": "Correct answer given.",
+          "source": "primary"
+        },
+        {
+          "id": "16b",
+          "student_answer": "2p^2 - 3p",
+          "awarded": 1,
+          "max_marks": 1,
+          "criteria": [
+            {
+              "code": "B1",
+              "awarded": true,
+              "reason": "Correct expansion 2p^2 - 3p"
+            }
+          ],
+          "confidence": 1.0,
+          "flags": [],
+          "reason": "Correct answer given.",
+          "source": "primary"
+        },
+        {
+          "id": "17",
+          "student_answer": "x^2 - 3x - 18",
+          "awarded": 2,
+          "max_marks": 2,
+          "criteria": [
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": "4 correct terms"
+            },
+            {
+              "code": "A1",
+              "awarded": true,
+              "reason": "Correct final expression x^2 - 3x - 18"
+            }
+          ],
+          "confidence": 1.0,
+          "flags": [],
+          "reason": "All expansion and simplification steps correct.",
+          "source": "primary"
+        },
+        {
+          "id": "18",
+          "student_answer": "2x^3 - 5x^2 - 28x + 15",
+          "awarded": 3,
+          "max_marks": 3,
+          "criteria": [
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": "Expansion of first two brackets correct"
+            },
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": "Second expansion with correct terms"
+            },
+            {
+              "code": "A1",
+              "awarded": true,
+              "reason": "Correct final answer 2x^3 - 5x^2 - 28x + 15"
+            }
+          ],
+          "confidence": 1.0,
+          "flags": [],
+          "reason": "All expansions and final simplification are correct.",
+          "source": "primary"
+        },
+        {
+          "id": "19",
+          "student_answer": "3x^2 + 5xy - 12y^2",
+          "awarded": 2,
+          "max_marks": 2,
+          "criteria": [
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": "All 4 correct terms present in working"
+            },
+            {
+              "code": "A1",
+              "awarded": true,
+              "reason": "Fully correct simplified answer"
+            }
+          ],
+          "confidence": 1.0,
+          "flags": [],
+          "reason": "All terms correct",
+          "source": "primary"
+        },
+        {
+          "id": "20",
+          "student_answer": "e^2 - 2e - 15",
+          "awarded": 2,
+          "max_marks": 2,
+          "criteria": [
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": "4 correct terms ignoring signs / 3 correct terms"
+            },
+            {
+              "code": "A1",
+              "awarded": true,
+              "reason": "Correct expanded and simplified answer"
+            }
+          ],
+          "confidence": 1.0,
+          "flags": [],
+          "reason": "All terms correct",
+          "source": "primary"
+        },
+        {
+          "id": "21",
+          "student_answer": "4n^3 + 8n^2 - 60n",
+          "awarded": 2,
+          "max_marks": 2,
+          "criteria": [
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": "Correct partial expansion shown"
+            },
+            {
+              "code": "A1",
+              "awarded": true,
+              "reason": "Fully correct final answer"
+            }
+          ],
+          "confidence": 1.0,
+          "flags": [],
+          "reason": "Correct expansion and simplification",
+          "source": "primary"
+        },
+        {
+          "id": "22",
+          "student_answer": "x^2 + 7x - 18",
+          "awarded": 2,
+          "max_marks": 2,
+          "criteria": [
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": "4 correct terms present in working"
+            },
+            {
+              "code": "A1",
+              "awarded": true,
+              "reason": "Correct final expression"
+            }
+          ],
+          "confidence": 1.0,
+          "flags": [],
+          "reason": "Correct expansion",
+          "source": "primary"
+        },
+        {
+          "id": "23",
+          "student_answer": "2x^3 - 7x^2 - 43x - 42",
+          "awarded": 3,
+          "max_marks": 3,
+          "criteria": [
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": "Multiplying first pair of brackets gives 3 out of 4 correct terms (minor error in middle term arithmetic ignored or handled via product)"
+            },
+            {
+              "code": "M1dep",
+              "awarded": true,
+              "reason": "Multiplying by the 3rd bracket correctly yielding all terms"
+            },
+            {
+              "code": "A1",
+              "awarded": true,
+              "reason": "Fully correct final answer"
+            }
+          ],
+          "confidence": 0.95,
+          "flags": [],
+          "reason": "Correct expansion and final simplification",
+          "source": "primary"
+        },
+        {
+          "id": "24",
+          "student_answer": "m^2 - 3m - 40",
+          "awarded": 2,
+          "max_marks": 2,
+          "criteria": [
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": "4 correct terms in expansion"
+            },
+            {
+              "code": "A1",
+              "awarded": true,
+              "reason": "Correct simplified answer"
+            }
+          ],
+          "confidence": 1.0,
+          "flags": [],
+          "reason": "Correct expansion",
+          "source": "primary"
+        },
+        {
+          "id": "25",
+          "student_answer": "x^2 - 3x - 10",
+          "awarded": 2,
+          "max_marks": 2,
+          "criteria": [
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": "4 correct terms in expansion"
+            },
+            {
+              "code": "A1",
+              "awarded": true,
+              "reason": "Correct simplified answer"
+            }
+          ],
+          "confidence": 1.0,
+          "flags": [],
+          "reason": "Correct expansion",
+          "source": "primary"
+        },
+        {
+          "id": "26",
+          "student_answer": "20x^3 - 31x^2 - 81x - 18",
+          "awarded": 3,
+          "max_marks": 3,
+          "criteria": [
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": "Multiplying two brackets correctly: (x - 3)(5x + 6) = 5x^2 + 6x - 15x - 18 = 5x^2 - 9x - 18"
+            },
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": "Multiplying by the third bracket, getting all 6 terms correct."
+            },
+            {
+              "code": "A1",
+              "awarded": true,
+              "reason": "Correct final answer: 20x^3 - 31x^2 - 81x - 18"
+            }
+          ],
+          "confidence": 1.0,
+          "flags": [],
+          "reason": "Fully correct expansion and simplification.",
+          "source": "primary"
+        },
+        {
+          "id": "27",
+          "student_answer": "2x^3 - 16x^2 + 30x",
+          "awarded": 3,
+          "max_marks": 3,
+          "criteria": [
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": "Multiplying two brackets correctly: (x - 5)(x - 3) = x^2 - 8x + 15"
+            },
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": "Multiplying the product by 2x correctly"
+            },
+            {
+              "code": "A1",
+              "awarded": true,
+              "reason": "Correct final answer: 2x^3 - 16x^2 + 30x"
+            }
+          ],
+          "confidence": 1.0,
+          "flags": [],
+          "reason": "Fully correct expansion and simplification.",
+          "source": "primary"
+        },
+        {
+          "id": "28",
+          "student_answer": "x^3 + 3x^2 - 6x - 8",
+          "awarded": 3,
+          "max_marks": 3,
+          "criteria": [
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": "Multiplying out two brackets correctly: (x - 2)(x + 1) = x^2 - x - 2"
+            },
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": "Multiplying by the third bracket giving correct terms"
+            },
+            {
+              "code": "A1",
+              "awarded": true,
+              "reason": "Correct final answer: x^3 + 3x^2 - 6x - 8"
+            }
+          ],
+          "confidence": 1.0,
+          "flags": [],
+          "reason": "Fully correct expansion and simplification.",
+          "source": "primary"
+        },
+        {
+          "id": "29",
+          "student_answer": "2x^2 + 29x",
+          "awarded": 2,
+          "max_marks": 2,
+          "criteria": [
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": "Correct expansion of both parts: 8x^2 + 20x and 6x^2 - 9x"
+            },
+            {
+              "code": "A1",
+              "awarded": true,
+              "reason": "Correct final answer: 2x^2 + 29x"
+            }
+          ],
+          "confidence": 1.0,
+          "flags": [],
+          "reason": "Fully correct expansion and simplification.",
+          "source": "primary"
+        },
+        {
+          "id": "30",
+          "student_answer": "24x^3 - 28x^2 - 12x",
+          "awarded": 3,
+          "max_marks": 3,
+          "criteria": [
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": "Expanding two factors: 4x(3x + 1) = 12x^2 + 4x"
+            },
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": "Expanding by the third factor: (12x^2 + 4x)(2x - 3) = 24x^3 - 36x^2 + 8x^2 - 12x"
+            },
+            {
+              "code": "A1",
+              "awarded": true,
+              "reason": "Correct simplification: 24x^3 - 28x^2 - 12x"
+            }
+          ],
+          "confidence": 1.0,
+          "flags": [],
+          "reason": "Fully correct expansion and simplification.",
+          "source": "primary"
+        },
+        {
+          "id": "31",
+          "student_answer": "8x^3 - 6x^2 - 60x",
+          "awarded": 2,
+          "max_marks": 3,
+          "criteria": [
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": "Expanding 4x(x - 5) correctly as 4x^2 - 20x"
+            },
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": "Expanding by the third factor (2x + 3) giving 8x^3 + 12x^2 - 40x^2 - 60x, student wrote + 12x^2 - 18x^2 which is an arithmetic error in combination (-36x vs -40x)."
+            },
+            {
+              "code": "A1",
+              "awarded": false,
+              "reason": "Incorrect final answer due to simplification error (-6x^2 instead of -28x^2)."
+            }
+          ],
+          "confidence": 1.0,
+          "flags": [],
+          "reason": "First two method marks awarded, but final accuracy mark lost due to simplification error.",
+          "source": "primary"
+        },
+        {
+          "id": "32",
+          "student_answer": "15x^3 + 10x^2 - 40x",
+          "awarded": 3,
+          "max_marks": 3,
+          "criteria": [
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": "Correctly expanded first two factors: (5x^2 + 10x)(3x - 4)"
+            },
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": "Correctly expanded by the third factor: 15x^3 - 20x^2 + 30x^2 - 40x"
+            },
+            {
+              "code": "A1",
+              "awarded": true,
+              "reason": "Correct final answer: 15x^3 + 10x^2 - 40x"
+            }
+          ],
+          "confidence": 1.0,
+          "flags": [],
+          "reason": "All steps are correct.",
+          "source": "primary"
+        },
+        {
+          "id": "33",
+          "student_answer": "3n^3 - 7n^2 - 20n",
+          "awarded": 2,
+          "max_marks": 2,
+          "criteria": [
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": "Correct partial expansion (n^2 - 4n)(3n + 5) leading to 3n^3 + 5n^2 - 12n^2 - 20n"
+            },
+            {
+              "code": "A1",
+              "awarded": true,
+              "reason": "Correct final simplified expression: 3n^3 - 7n^2 - 20n"
+            }
+          ],
+          "confidence": 1.0,
+          "flags": [],
+          "reason": "Fully correct.",
+          "source": "primary"
+        },
+        {
+          "id": "34",
+          "student_answer": "12x^3 - 60x^2 + 75x",
+          "awarded": 3,
+          "max_marks": 3,
+          "criteria": [
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": "Correctly expanded (2x - 5)^2 to 4x^2 - 20x + 25"
+            },
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": "Correctly multiplied by 3x to get 12x^3 - 60x^2 + 75x"
+            },
+            {
+              "code": "A1",
+              "awarded": true,
+              "reason": "Correct final answer: 12x^3 - 60x^2 + 75x"
+            }
+          ],
+          "confidence": 1.0,
+          "flags": [],
+          "reason": "All steps correct.",
+          "source": "primary"
+        },
+        {
+          "id": "35",
+          "student_answer": "30x^3 + 25x^2 - 20x",
+          "awarded": 3,
+          "max_marks": 3,
+          "criteria": [
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": "Correctly expanded first two factors: (15x^2 + 20x)(2x - 1)"
+            },
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": "Correctly expanded by the third factor: 30x^3 - 15x^2 + 40x^2 - 20x"
+            },
+            {
+              "code": "A1",
+              "awarded": true,
+              "reason": "Correct final answer: 30x^3 + 25x^2 - 20x"
+            }
+          ],
+          "confidence": 1.0,
+          "flags": [],
+          "reason": "Fully correct working and answer.",
+          "source": "primary"
+        },
+        {
+          "id": "36",
+          "student_answer": "3x^3 + 34x^2 + 84x - 72",
+          "awarded": 3,
+          "max_marks": 3,
+          "criteria": [
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": "Correctly expanded two brackets (x + 6)^2 = x^2 + 12x + 36"
+            },
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": "Correctly multiplied by the third bracket (3x - 2)"
+            },
+            {
+              "code": "A1",
+              "awarded": true,
+              "reason": "Correct final simplified expansion: 3x^3 + 34x^2 + 84x - 72"
+            }
+          ],
+          "confidence": 1.0,
+          "flags": [],
+          "reason": "Fully correct.",
+          "source": "primary"
+        },
+        {
+          "id": "37a",
+          "student_answer": "-3x^3 - 7x^2 + 22x + 8",
+          "awarded": 3,
+          "max_marks": 3,
+          "criteria": [
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": "Correctly expanded two brackets: (2 - x)(4 + x) = 8 + 2x - 4x - x^2"
+            },
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": "Correctly multiplied by the third bracket (3x + 1)"
+            },
+            {
+              "code": "A1",
+              "awarded": true,
+              "reason": "Correct simplified final answer: -3x^3 - 7x^2 + 22x + 8"
+            }
+          ],
+          "confidence": 1.0,
+          "flags": [],
+          "reason": "Fully correct working.",
+          "source": "primary"
+        },
+        {
+          "id": "37b",
+          "student_answer": "",
+          "awarded": 0,
+          "max_marks": 3,
+          "criteria": [
+            {
+              "code": "M1",
+              "awarded": false,
+              "reason": "No working provided"
+            },
+            {
+              "code": "M1",
+              "awarded": false,
+              "reason": "No working provided"
+            },
+            {
+              "code": "A1",
+              "awarded": false,
+              "reason": "No answer provided"
+            }
+          ],
+          "confidence": 1.0,
+          "flags": [],
+          "reason": "Blank answer.",
+          "source": "primary"
+        }
+      ],
+      "extractions": {
+        "doc_questions": 38
+      },
+      "escalations": [],
+      "verification": {
+        "1a": {
+          "status": "equivalent",
+          "detail": "simplify(student - expected) = 0"
+        },
+        "1d": {
+          "status": "unknown",
+          "detail": "SyntaxError",
+          "student": "=y**2+8y-20",
+          "expected": "y**2+8y-20"
+        },
+        "2": {
+          "status": "equivalent",
+          "detail": "simplify(student - expected) = 0"
+        },
+        "3": {
+          "status": "unknown",
+          "detail": "SyntaxError",
+          "student": "=x**2+4x-5",
+          "expected": "x**2+4x-5"
+        },
+        "4": {
+          "status": "unknown",
+          "detail": "SyntaxError",
+          "student": "=t**2+t-20",
+          "expected": "t**2+t-20"
+        },
+        "5": {
+          "status": "equivalent",
+          "detail": "simplify(student - expected) = 0"
+        },
+        "6": {
+          "status": "unknown",
+          "detail": "SyntaxError",
+          "student": "=24x",
+          "expected": "24x"
+        },
+        "7": {
+          "status": "unknown",
+          "detail": "SyntaxError",
+          "student": "=x**2-7x-18",
+          "expected": "x**2-7x-18"
+        },
+        "8": {
+          "status": "unknown",
+          "detail": "SyntaxError",
+          "student": "=8y**2+10y-3",
+          "expected": "8y**2+10y-3"
+        },
+        "9": {
+          "status": "unknown",
+          "detail": "SyntaxError",
+          "student": "=10x+22",
+          "expected": "10x+22"
+        },
+        "10": {
+          "status": "unknown",
+          "detail": "SyntaxError",
+          "student": "=8y-2",
+          "expected": "8y-2"
+        },
+        "11": {
+          "status": "unknown",
+          "detail": "SyntaxError",
+          "student": "=24x-9",
+          "expected": "24x-9or3(8x-3)"
+        },
+        "13": {
+          "status": "unknown",
+          "detail": "SyntaxError",
+          "student": "=2x**2+19x+24",
+          "expected": "2x**2+19x+24"
+        },
+        "14": {
+          "status": "unknown",
+          "detail": "SyntaxError",
+          "student": "=k**2+4k-45",
+          "expected": "k**2+4k-45"
+        },
+        "15": {
+          "status": "equivalent",
+          "detail": "simplify(student - expected) = 0"
+        },
+        "16b": {
+          "status": "equivalent",
+          "detail": "simplify(student - expected) = 0"
+        },
+        "17": {
+          "status": "unknown",
+          "detail": "SyntaxError",
+          "student": "=x**2-3x-18",
+          "expected": "x**2-3x-18"
+        },
+        "18": {
+          "status": "equivalent",
+          "detail": "simplify(student - expected) = 0"
+        },
+        "19": {
+          "status": "equivalent",
+          "detail": "simplify(student - expected) = 0"
+        },
+        "20": {
+          "status": "unknown",
+          "detail": "SyntaxError",
+          "student": "=e**2-2e-15",
+          "expected": "e**2-2e-15"
+        },
+        "21": {
+          "status": "equivalent",
+          "detail": "simplify(student - expected) = 0"
+        },
+        "22": {
+          "status": "unknown",
+          "detail": "SyntaxError",
+          "student": "=x**2+7x-18",
+          "expected": "x**2+7x-18"
+        },
+        "23": {
+          "status": "equivalent",
+          "detail": "simplify(student - expected) = 0"
+        },
+        "24": {
+          "status": "unknown",
+          "detail": "SyntaxError",
+          "student": "=m**2-3m-40",
+          "expected": "m**2-3m-40"
+        },
+        "25": {
+          "status": "unknown",
+          "detail": "SyntaxError",
+          "student": "=x**2-3x-10",
+          "expected": "x**2-3x-10"
+        },
+        "26": {
+          "status": "equivalent",
+          "detail": "simplify(student - expected) = 0"
+        },
+        "27": {
+          "status": "equivalent",
+          "detail": "simplify(student - expected) = 0"
+        },
+        "28": {
+          "status": "equivalent",
+          "detail": "simplify(student - expected) = 0"
+        },
+        "29": {
+          "status": "equivalent",
+          "detail": "simplify(student - expected) = 0"
+        },
+        "30": {
+          "status": "equivalent",
+          "detail": "simplify(student - expected) = 0"
+        },
+        "31": {
+          "status": "different",
+          "detail": "difference 22*x**2"
+        },
+        "32": {
+          "status": "equivalent",
+          "detail": "simplify(student - expected) = 0"
+        },
+        "33": {
+          "status": "equivalent",
+          "detail": "simplify(student - expected) = 0"
+        },
+        "34": {
+          "status": "equivalent",
+          "detail": "simplify(student - expected) = 0"
+        },
+        "35": {
+          "status": "equivalent",
+          "detail": "simplify(student - expected) = 0"
+        },
+        "36": {
+          "status": "equivalent",
+          "detail": "simplify(student - expected) = 0"
+        },
+        "37a": {
+          "status": "equivalent",
+          "detail": "simplify(student - expected) = 0"
+        },
+        "37b": {
+          "status": "unknown",
+          "detail": "empty side",
+          "student": "",
+          "expected": "a**3b**2"
+        }
+      },
+      "splits": null
+    },
+    {
+      "run": 2,
+      "request_count": 8,
+      "invalid_responses": 0,
+      "completion_status": "complete",
+      "errors": [
+        "missing items: 7, 8, 9, 10, 11, 13, 14, 15, 16b, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37a, 37b",
+        "missing items: 1a, 1d, 2, 3, 4, 5, 6, 13, 14, 15, 16b, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37a, 37b",
+        "missing items: 1a, 1d, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37a, 37b",
+        "missing items: 1a, 1d, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 16b, 17, 18, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37a, 37b",
+        "missing items: 1a, 1d, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 16b, 17, 18, 19, 20, 21, 22, 23, 24, 25, 32, 33, 34, 35, 36, 37a, 37b",
+        "missing items: 1a, 1d, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 16b, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31"
+      ],
+      "items": [
+        {
+          "id": "1a",
+          "student_answer": "24-18y",
+          "awarded": 1,
+          "max_marks": 1,
+          "criteria": [
+            {
+              "code": "B1",
+              "awarded": true,
+              "reason": "Correct expansion 24 - 18y"
+            }
+          ],
+          "confidence": 1.0,
+          "flags": [],
+          "reason": "Student gave the exact expected answer.",
+          "source": "primary"
+        },
+        {
+          "id": "1d",
+          "student_answer": "=y^2+8y-20",
+          "awarded": 2,
+          "max_marks": 2,
+          "criteria": [
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": "4 correct terms obtained in working"
+            },
+            {
+              "code": "A1",
+              "awarded": true,
+              "reason": "Correct simplified answer y^2+8y-20"
+            }
+          ],
+          "confidence": 1.0,
+          "flags": [],
+          "reason": "All terms correct and fully simplified.",
+          "source": "primary"
+        },
+        {
+          "id": "2",
+          "student_answer": "10p-15",
+          "awarded": 1,
+          "max_marks": 1,
+          "criteria": [
+            {
+              "code": "B1",
+              "awarded": true,
+              "reason": "Correct expansion 10p - 15"
+            }
+          ],
+          "confidence": 1.0,
+          "flags": [],
+          "reason": "Correct answer.",
+          "source": "primary"
+        },
+        {
+          "id": "3",
+          "student_answer": "=x^2+4x-5",
+          "awarded": 2,
+          "max_marks": 2,
+          "criteria": [
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": "4 correct terms shown in working"
+            },
+            {
+              "code": "A1",
+              "awarded": true,
+              "reason": "Correct simplified answer x^2+4x-5"
+            }
+          ],
+          "confidence": 1.0,
+          "flags": [],
+          "reason": "All terms and simplified form are correct.",
+          "source": "primary"
+        },
+        {
+          "id": "4",
+          "student_answer": "=t^2+t-20",
+          "awarded": 2,
+          "max_marks": 2,
+          "criteria": [
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": "Four correct terms shown in working"
+            },
+            {
+              "code": "A1",
+              "awarded": true,
+              "reason": "Correct simplified answer t^2+t-20"
+            }
+          ],
+          "confidence": 1.0,
+          "flags": [],
+          "reason": "Completely correct.",
+          "source": "primary"
+        },
+        {
+          "id": "5",
+          "student_answer": "x^2+2x",
+          "awarded": 1,
+          "max_marks": 1,
+          "criteria": [
+            {
+              "code": "B1",
+              "awarded": true,
+              "reason": "Correct expansion x^2 + 2x"
+            }
+          ],
+          "confidence": 1.0,
+          "flags": [],
+          "reason": "Correct answer.",
+          "source": "primary"
+        },
+        {
+          "id": "6",
+          "student_answer": "=24x",
+          "awarded": 3,
+          "max_marks": 3,
+          "criteria": [
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": "First bracket correctly expanded"
+            },
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": "Dealt correctly with the negative sign inside the second bracket expansion"
+            },
+            {
+              "code": "A1",
+              "awarded": true,
+              "reason": "Final simplified answer 24x"
+            }
+          ],
+          "confidence": 1.0,
+          "flags": [],
+          "reason": "All steps fully correct.",
+          "source": "primary"
+        },
+        {
+          "id": "7",
+          "student_answer": "=x^2-7x-18",
+          "awarded": 2,
+          "max_marks": 2,
+          "criteria": [
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": "Four correct terms shown: x^2 + 2x - 9x - 18"
+            },
+            {
+              "code": "A1",
+              "awarded": true,
+              "reason": "Correct simplified answer x^2 - 7x - 18"
+            }
+          ],
+          "confidence": 1.0,
+          "flags": [],
+          "reason": "Student got all terms and simplified correctly.",
+          "source": "primary"
+        },
+        {
+          "id": "8",
+          "student_answer": "=8y^2+10y-3",
+          "awarded": 2,
+          "max_marks": 2,
+          "criteria": [
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": "Four correct terms shown: 8y^2 - 2y + 12y - 3"
+            },
+            {
+              "code": "A1",
+              "awarded": true,
+              "reason": "Correct simplified answer 8y^2 + 10y - 3"
+            }
+          ],
+          "confidence": 1.0,
+          "flags": [],
+          "reason": "Student expanded and simplified correctly.",
+          "source": "primary"
+        },
+        {
+          "id": "9",
+          "student_answer": "=10x+22",
+          "awarded": 2,
+          "max_marks": 2,
+          "criteria": [
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": "All terms correct (8x + 12 + 2x + 10)"
+            },
+            {
+              "code": "A1",
+              "awarded": true,
+              "reason": "Correct final answer 10x + 22"
+            }
+          ],
+          "confidence": 1.0,
+          "flags": [],
+          "reason": "All expansions and collection of terms correct.",
+          "source": "primary"
+        },
+        {
+          "id": "10",
+          "student_answer": "=8y-2",
+          "awarded": 2,
+          "max_marks": 2,
+          "criteria": [
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": "All terms correct (6y + 6 + 2y - 8)"
+            },
+            {
+              "code": "A1",
+              "awarded": true,
+              "reason": "Correct final answer 8y - 2"
+            }
+          ],
+          "confidence": 1.0,
+          "flags": [],
+          "reason": "All expansions and collection of terms correct.",
+          "source": "primary"
+        },
+        {
+          "id": "11",
+          "student_answer": "=24x-9",
+          "awarded": 3,
+          "max_marks": 3,
+          "criteria": [
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": "Expansion of 4x(x + 3) and (2x - 3)^2 correct"
+            },
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": "Fully correct expansions with correct removal of bracket"
+            },
+            {
+              "code": "A1",
+              "awarded": true,
+              "reason": "Correct final answer 24x - 9"
+            }
+          ],
+          "confidence": 1.0,
+          "flags": [],
+          "reason": "Student correctly expanded both parts, handled the negative sign, and simplified to 24x - 9.",
+          "source": "primary"
+        },
+        {
+          "id": "13",
+          "student_answer": "=2x^2+19x+24",
+          "awarded": 3,
+          "max_marks": 3,
+          "criteria": [
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": "At least 3 terms correct in expansion of first pair of brackets"
+            },
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": "At least 3 terms correct in expansion of second pair of brackets"
+            },
+            {
+              "code": "A1",
+              "awarded": true,
+              "reason": "Correct final answer 2x^2 + 19x + 24"
+            }
+          ],
+          "confidence": 1.0,
+          "flags": [],
+          "reason": "All expansions and simplification correct.",
+          "source": "primary"
+        },
+        {
+          "id": "14",
+          "student_answer": "=k^2+4k-45",
+          "awarded": 2,
+          "max_marks": 2,
+          "criteria": [
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": "All 4 terms correct in expansion"
+            },
+            {
+              "code": "A1",
+              "awarded": true,
+              "reason": "Correct simplified answer k^2 + 4k - 45"
+            }
+          ],
+          "confidence": 1.0,
+          "flags": [],
+          "reason": "Correct expansion and simplification.",
+          "source": "primary"
+        },
+        {
+          "id": "15",
+          "student_answer": "12p+15",
+          "awarded": 1,
+          "max_marks": 1,
+          "criteria": [
+            {
+              "code": "B1",
+              "awarded": true,
+              "reason": "Correct answer 12p + 15"
+            }
+          ],
+          "confidence": 1.0,
+          "flags": [],
+          "reason": "Correct expansion.",
+          "source": "primary"
+        },
+        {
+          "id": "16b",
+          "student_answer": "2p^2-3p",
+          "awarded": 1,
+          "max_marks": 1,
+          "criteria": [
+            {
+              "code": "B1",
+              "awarded": true,
+              "reason": "Correct answer 2p^2 - 3p"
+            }
+          ],
+          "confidence": 1.0,
+          "flags": [],
+          "reason": "Correct expansion.",
+          "source": "primary"
+        },
+        {
+          "id": "17",
+          "student_answer": "=x^2-3x-18",
+          "awarded": 2,
+          "max_marks": 2,
+          "criteria": [
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": "4 correct terms ignoring signs / correct expansion"
+            },
+            {
+              "code": "A1",
+              "awarded": true,
+              "reason": "Correct simplified answer x^2 - 3x - 18"
+            }
+          ],
+          "confidence": 1.0,
+          "flags": [],
+          "reason": "Correct expansion and simplification.",
+          "source": "primary"
+        },
+        {
+          "id": "18",
+          "student_answer": "2x^3-5x^2-28x+15",
+          "awarded": 3,
+          "max_marks": 3,
+          "criteria": [
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": "Expansion of first two brackets (at least 3 of 4 terms correct)"
+            },
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": "Second expansion with correct number of terms and follow-through"
+            },
+            {
+              "code": "A1",
+              "awarded": true,
+              "reason": "Correct final answer 2x^3 - 5x^2 - 28x + 15"
+            }
+          ],
+          "confidence": 1.0,
+          "flags": [],
+          "reason": "All expansions and final simplification are correct.",
+          "source": "primary"
+        },
+        {
+          "id": "19",
+          "student_answer": "3x^2+5xy-12y^2",
+          "awarded": 2,
+          "max_marks": 2,
+          "criteria": [
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": "All 4 correct terms expanded"
+            },
+            {
+              "code": "A1",
+              "awarded": true,
+              "reason": "Correct simplified answer 3x^2 + 5xy - 12y^2"
+            }
+          ],
+          "confidence": 1.0,
+          "flags": [],
+          "reason": "Fully correct",
+          "source": "primary"
+        },
+        {
+          "id": "20",
+          "student_answer": "=e^2-2e-15",
+          "awarded": 2,
+          "max_marks": 2,
+          "criteria": [
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": "4 correct terms"
+            },
+            {
+              "code": "A1",
+              "awarded": true,
+              "reason": "Correct simplified answer e^2 - 2e - 15"
+            }
+          ],
+          "confidence": 1.0,
+          "flags": [],
+          "reason": "Fully correct",
+          "source": "primary"
+        },
+        {
+          "id": "21",
+          "student_answer": "4n^3+8n^2-60n",
+          "awarded": 2,
+          "max_marks": 2,
+          "criteria": [
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": "Correct partial expansion shown"
+            },
+            {
+              "code": "A1",
+              "awarded": true,
+              "reason": "Correct final answer 4n^3 + 8n^2 - 60n"
+            }
+          ],
+          "confidence": 1.0,
+          "flags": [],
+          "reason": "Fully correct",
+          "source": "primary"
+        },
+        {
+          "id": "22",
+          "student_answer": "=x^2+7x-18",
+          "awarded": 2,
+          "max_marks": 2,
+          "criteria": [
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": "4 correct terms"
+            },
+            {
+              "code": "A1",
+              "awarded": true,
+              "reason": "Correct simplified answer x^2 + 7x - 18"
+            }
+          ],
+          "confidence": 1.0,
+          "flags": [],
+          "reason": "Fully correct",
+          "source": "primary"
+        },
+        {
+          "id": "23",
+          "student_answer": "2x^3-7x^2-43x-42",
+          "awarded": 3,
+          "max_marks": 3,
+          "criteria": [
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": "First pair of brackets multiplied correctly (3 out of 4 terms correct)"
+            },
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": "Product multiplied by the third bracket, getting at least 4 out of 8 terms correct"
+            },
+            {
+              "code": "A1",
+              "awarded": true,
+              "reason": "Fully correct expansion and simplification"
+            }
+          ],
+          "confidence": 1.0,
+          "flags": [],
+          "reason": "Fully correct",
+          "source": "primary"
+        },
+        {
+          "id": "24",
+          "student_answer": "=m^2-3m-40",
+          "awarded": 2,
+          "max_marks": 2,
+          "criteria": [
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": "4 correct terms"
+            },
+            {
+              "code": "A1",
+              "awarded": true,
+              "reason": "Correct simplified answer m^2 - 3m - 40"
+            }
+          ],
+          "confidence": 1.0,
+          "flags": [],
+          "reason": "Fully correct",
+          "source": "primary"
+        },
+        {
+          "id": "25",
+          "student_answer": "=x^2-3x-10",
+          "awarded": 2,
+          "max_marks": 2,
+          "criteria": [
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": "4 correct terms"
+            },
+            {
+              "code": "A1",
+              "awarded": true,
+              "reason": "Correct simplified answer x^2 - 3x - 10"
+            }
+          ],
+          "confidence": 1.0,
+          "flags": [],
+          "reason": "Fully correct",
+          "source": "primary"
+        },
+        {
+          "id": "26",
+          "student_answer": "20x^3-31x^2+63x-18",
+          "awarded": 2,
+          "max_marks": 3,
+          "criteria": [
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": "Expanded two brackets correctly: (x - 3)(5x + 6) = 5x^2 + 6x - 15x - 18"
+            },
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": "Multiplied out the product by the third bracket, getting more than 4 terms correct"
+            },
+            {
+              "code": "A1",
+              "awarded": false,
+              "reason": "Incorrect final answer sign error on x term"
+            }
+          ],
+          "confidence": 1.0,
+          "flags": [],
+          "reason": "Student made an arithmetic error in the final combination (+63x instead of -81x).",
+          "source": "primary"
+        },
+        {
+          "id": "27",
+          "student_answer": "2x^3-16x^2+30x",
+          "awarded": 3,
+          "max_marks": 3,
+          "criteria": [
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": "Multiplying the two brackets correctly"
+            },
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": "Multiplying by 2x correctly"
+            },
+            {
+              "code": "A1",
+              "awarded": true,
+              "reason": "Correct answer 2x^3 - 16x^2 + 30x"
+            }
+          ],
+          "confidence": 1.0,
+          "flags": [],
+          "reason": "Fully correct working and answer.",
+          "source": "primary"
+        },
+        {
+          "id": "28",
+          "student_answer": "x^3+3x^2-6x-8",
+          "awarded": 3,
+          "max_marks": 3,
+          "criteria": [
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": "First two brackets multiplied correctly"
+            },
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": "All terms correct for the final expansion"
+            },
+            {
+              "code": "A1",
+              "awarded": true,
+              "reason": "Correct simplified answer x^3 + 3x^2 - 6x - 8"
+            }
+          ],
+          "confidence": 1.0,
+          "flags": [],
+          "reason": "Fully correct.",
+          "source": "primary"
+        },
+        {
+          "id": "29",
+          "student_answer": "2x^2+29x",
+          "awarded": 2,
+          "max_marks": 2,
+          "criteria": [
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": "All 4 terms correct after expansion"
+            },
+            {
+              "code": "A1",
+              "awarded": true,
+              "reason": "Correct final answer 2x^2 + 29x"
+            }
+          ],
+          "confidence": 1.0,
+          "flags": [],
+          "reason": "Fully correct.",
+          "source": "primary"
+        },
+        {
+          "id": "30",
+          "student_answer": "24x^3-28x^2-12x",
+          "awarded": 3,
+          "max_marks": 3,
+          "criteria": [
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": "First two factors expanded correctly"
+            },
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": "Third factor expanded correctly"
+            },
+            {
+              "code": "A1",
+              "awarded": true,
+              "reason": "Correct answer 24x^3 - 28x^2 - 12x"
+            }
+          ],
+          "confidence": 1.0,
+          "flags": [],
+          "reason": "Fully correct.",
+          "source": "primary"
+        },
+        {
+          "id": "31",
+          "student_answer": "8x^3-6x^2-60x",
+          "awarded": 2,
+          "max_marks": 3,
+          "criteria": [
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": "First two factors expanded correctly"
+            },
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": "Attempted expansion by third factor with minor error"
+            },
+            {
+              "code": "A1",
+              "awarded": false,
+              "reason": "Incorrect x^2 coefficient in answer (-6x^2 instead of -28x^2)"
+            }
+          ],
+          "confidence": 1.0,
+          "flags": [],
+          "reason": "Student wrote +12x^2 - 18x^2 incorrectly combining to -6x^2 instead of -28x^2 in working.",
+          "source": "primary"
+        },
+        {
+          "id": "32",
+          "student_answer": "15x^3+10x^2-40x",
+          "awarded": 3,
+          "max_marks": 3,
+          "criteria": [
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": "Correct intention to multiply all 3 factors by expanding 2 factors first: (5x^2 + 10x)(3x - 4)."
+            },
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": "Expanding by the third factor correctly: 15x^3 - 20x^2 + 30x^2 - 40x."
+            },
+            {
+              "code": "A1",
+              "awarded": true,
+              "reason": "Final simplified answer is correct: 15x^3 + 10x^2 - 40x."
+            }
+          ],
+          "confidence": 1.0,
+          "flags": [],
+          "reason": "All steps are correct.",
+          "source": "primary"
+        },
+        {
+          "id": "33",
+          "student_answer": "3n^3-7n^2-20n",
+          "awarded": 2,
+          "max_marks": 2,
+          "criteria": [
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": "Correct partial expansion (n^2 - 4n)(3n + 5) leading to 3n^3 + 5n^2 - 12n^2 - 20n."
+            },
+            {
+              "code": "A1",
+              "awarded": true,
+              "reason": "Correct final simplified expression: 3n^3 - 7n^2 - 20n."
+            }
+          ],
+          "confidence": 1.0,
+          "flags": [],
+          "reason": "All steps are correct.",
+          "source": "primary"
+        },
+        {
+          "id": "34",
+          "student_answer": "12x^3-60x^2+75x",
+          "awarded": 3,
+          "max_marks": 3,
+          "criteria": [
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": "Correct expansion of (2x - 5)^2 as 4x^2 - 20x + 25."
+            },
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": "Correct multiplication of the squared term by 3x."
+            },
+            {
+              "code": "A1",
+              "awarded": true,
+              "reason": "Correct final answer: 12x^3 - 60x^2 + 75x."
+            }
+          ],
+          "confidence": 1.0,
+          "flags": [],
+          "reason": "All steps are correct.",
+          "source": "primary"
+        },
+        {
+          "id": "35",
+          "student_answer": "30x^3+25x^2-20x",
+          "awarded": 3,
+          "max_marks": 3,
+          "criteria": [
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": "Correct intention to multiply all 3 factors by multiplying 2 factors first: (15x^2 + 20x)(2x - 1)."
+            },
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": "Expanding by the third factor correctly: 30x^3 - 15x^2 + 40x^2 - 20x."
+            },
+            {
+              "code": "A1",
+              "awarded": true,
+              "reason": "Final simplified answer is correct: 30x^3 + 25x^2 - 20x."
+            }
+          ],
+          "confidence": 1.0,
+          "flags": [],
+          "reason": "All steps are correct.",
+          "source": "primary"
+        },
+        {
+          "id": "36",
+          "student_answer": "3x^3+34x^2+86x-72",
+          "awarded": 2,
+          "max_marks": 3,
+          "criteria": [
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": "Correct method to expand two brackets: (x + 6)^2 = x^2 + 12x + 36."
+            },
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": "Correct method to multiply by the 3rd bracket: (3x - 2)(x^2 + 12x + 36) = 3x^3 + 36x^2 + 108x - 2x^2 - 24x - 72 (note student wrote -22x instead of -24x)."
+            },
+            {
+              "code": "A1",
+              "awarded": false,
+              "reason": "Final answer is incorrect due to arithmetic error (-22x instead of -24x, leading to +86x instead of +84x)."
+            }
+          ],
+          "confidence": 1.0,
+          "flags": [],
+          "reason": "First two M marks awarded, but final accuracy mark lost due to an arithmetic slip.",
+          "source": "primary"
+        },
+        {
+          "id": "37a",
+          "student_answer": "-3x^3-7x^2+22x+8",
+          "awarded": 3,
+          "max_marks": 3,
+          "criteria": [
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": "Correct method to expand two brackets: (2 - x)(4 + x) = 8 + 2x - 4x - x^2."
+            },
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": "Correct method to multiply by the 3rd bracket: (3x + 1)(8 - 2x - x^2) = 24x - 6x^2 - 3x^3 + 8 - 2x - x^2."
+            },
+            {
+              "code": "A1",
+              "awarded": true,
+              "reason": "Correct simplified final answer: -3x^3 - 7x^2 + 22x + 8."
+            }
+          ],
+          "confidence": 1.0,
+          "flags": [],
+          "reason": "All steps are correct.",
+          "source": "primary"
+        },
+        {
+          "id": "37b",
+          "student_answer": "",
+          "awarded": 0,
+          "max_marks": 3,
+          "criteria": [
+            {
+              "code": "M1",
+              "awarded": false,
+              "reason": "No working or answer provided."
+            },
+            {
+              "code": "M1",
+              "awarded": false,
+              "reason": "No working or answer provided."
+            },
+            {
+              "code": "A1",
+              "awarded": false,
+              "reason": "No working or answer provided."
+            }
+          ],
+          "confidence": 1.0,
+          "flags": [],
+          "reason": "Left blank.",
+          "source": "primary"
+        }
+      ],
+      "extractions": {
+        "doc_questions": 38
+      },
+      "escalations": [],
+      "verification": {
+        "1a": {
+          "status": "equivalent",
+          "detail": "simplify(student - expected) = 0"
+        },
+        "1d": {
+          "status": "unknown",
+          "detail": "SyntaxError",
+          "student": "=y**2+8y-20",
+          "expected": "y**2+8y-20"
+        },
+        "2": {
+          "status": "equivalent",
+          "detail": "simplify(student - expected) = 0"
+        },
+        "3": {
+          "status": "unknown",
+          "detail": "SyntaxError",
+          "student": "=x**2+4x-5",
+          "expected": "x**2+4x-5"
+        },
+        "4": {
+          "status": "unknown",
+          "detail": "SyntaxError",
+          "student": "=t**2+t-20",
+          "expected": "t**2+t-20"
+        },
+        "5": {
+          "status": "equivalent",
+          "detail": "simplify(student - expected) = 0"
+        },
+        "6": {
+          "status": "unknown",
+          "detail": "SyntaxError",
+          "student": "=24x",
+          "expected": "24x"
+        },
+        "7": {
+          "status": "unknown",
+          "detail": "SyntaxError",
+          "student": "=x**2-7x-18",
+          "expected": "x**2-7x-18"
+        },
+        "8": {
+          "status": "unknown",
+          "detail": "SyntaxError",
+          "student": "=8y**2+10y-3",
+          "expected": "8y**2+10y-3"
+        },
+        "9": {
+          "status": "unknown",
+          "detail": "SyntaxError",
+          "student": "=10x+22",
+          "expected": "10x+22"
+        },
+        "10": {
+          "status": "unknown",
+          "detail": "SyntaxError",
+          "student": "=8y-2",
+          "expected": "8y-2"
+        },
+        "11": {
+          "status": "unknown",
+          "detail": "SyntaxError",
+          "student": "=24x-9",
+          "expected": "24x-9or3(8x-3)"
+        },
+        "13": {
+          "status": "unknown",
+          "detail": "SyntaxError",
+          "student": "=2x**2+19x+24",
+          "expected": "2x**2+19x+24"
+        },
+        "14": {
+          "status": "unknown",
+          "detail": "SyntaxError",
+          "student": "=k**2+4k-45",
+          "expected": "k**2+4k-45"
+        },
+        "15": {
+          "status": "equivalent",
+          "detail": "simplify(student - expected) = 0"
+        },
+        "16b": {
+          "status": "equivalent",
+          "detail": "simplify(student - expected) = 0"
+        },
+        "17": {
+          "status": "unknown",
+          "detail": "SyntaxError",
+          "student": "=x**2-3x-18",
+          "expected": "x**2-3x-18"
+        },
+        "18": {
+          "status": "equivalent",
+          "detail": "simplify(student - expected) = 0"
+        },
+        "19": {
+          "status": "equivalent",
+          "detail": "simplify(student - expected) = 0"
+        },
+        "20": {
+          "status": "unknown",
+          "detail": "SyntaxError",
+          "student": "=e**2-2e-15",
+          "expected": "e**2-2e-15"
+        },
+        "21": {
+          "status": "equivalent",
+          "detail": "simplify(student - expected) = 0"
+        },
+        "22": {
+          "status": "unknown",
+          "detail": "SyntaxError",
+          "student": "=x**2+7x-18",
+          "expected": "x**2+7x-18"
+        },
+        "23": {
+          "status": "equivalent",
+          "detail": "simplify(student - expected) = 0"
+        },
+        "24": {
+          "status": "unknown",
+          "detail": "SyntaxError",
+          "student": "=m**2-3m-40",
+          "expected": "m**2-3m-40"
+        },
+        "25": {
+          "status": "unknown",
+          "detail": "SyntaxError",
+          "student": "=x**2-3x-10",
+          "expected": "x**2-3x-10"
+        },
+        "26": {
+          "status": "different",
+          "detail": "difference 144*x"
+        },
+        "27": {
+          "status": "equivalent",
+          "detail": "simplify(student - expected) = 0"
+        },
+        "28": {
+          "status": "equivalent",
+          "detail": "simplify(student - expected) = 0"
+        },
+        "29": {
+          "status": "equivalent",
+          "detail": "simplify(student - expected) = 0"
+        },
+        "30": {
+          "status": "equivalent",
+          "detail": "simplify(student - expected) = 0"
+        },
+        "31": {
+          "status": "different",
+          "detail": "difference 22*x**2"
+        },
+        "32": {
+          "status": "equivalent",
+          "detail": "simplify(student - expected) = 0"
+        },
+        "33": {
+          "status": "equivalent",
+          "detail": "simplify(student - expected) = 0"
+        },
+        "34": {
+          "status": "equivalent",
+          "detail": "simplify(student - expected) = 0"
+        },
+        "35": {
+          "status": "equivalent",
+          "detail": "simplify(student - expected) = 0"
+        },
+        "36": {
+          "status": "different",
+          "detail": "difference 2*x"
+        },
+        "37a": {
+          "status": "equivalent",
+          "detail": "simplify(student - expected) = 0"
+        },
+        "37b": {
+          "status": "unknown",
+          "detail": "empty side",
+          "student": "",
+          "expected": "a**3*b**2"
+        }
+      },
+      "splits": null
+    }
+  ],
+  "accuracy": [
+    {
+      "strategy": "c",
+      "run": 1,
+      "items_expected": 38,
+      "items_returned": 38,
+      "completion_status": "complete",
+      "coverage": 1.0,
+      "items_exact": 35,
+      "item_exact_accuracy": 0.9211,
+      "paper_score_awarded": 83,
+      "paper_score_expected": 80,
+      "score_error": 3,
+      "exact_paper_score": false,
+      "mean_absolute_score_error": 0.079,
+      "false_awards": 3,
+      "false_deductions": 0,
+      "criterion_precision": 0.9639,
+      "criterion_recall": 1.0,
+      "criterion_f1": 0.9816,
+      "criterion_counts": {
+        "tp": 80,
+        "fp": 3,
+        "fn": 0,
+        "tn": 4
+      },
+      "criterion_rows": [
+        {
+          "item": "1a",
+          "criterion": "B1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "1d",
+          "criterion": "M1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "1d",
+          "criterion": "A1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "2",
+          "criterion": "B1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "3",
+          "criterion": "M1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "3",
+          "criterion": "A1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "4",
+          "criterion": "M1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "4",
+          "criterion": "A1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "5",
+          "criterion": "B1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "6",
+          "criterion": "M1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "6",
+          "criterion": "M1#1",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "6",
+          "criterion": "A1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "7",
+          "criterion": "M1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "7",
+          "criterion": "A1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "8",
+          "criterion": "M1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "8",
+          "criterion": "A1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "9",
+          "criterion": "M1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "9",
+          "criterion": "A1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "10",
+          "criterion": "M1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "10",
+          "criterion": "A1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "11",
+          "criterion": "M1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "11",
+          "criterion": "M1#1",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "11",
+          "criterion": "A1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "13",
+          "criterion": "M1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "13",
+          "criterion": "M1#1",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "13",
+          "criterion": "A1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "14",
+          "criterion": "M1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "14",
+          "criterion": "A1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "15",
+          "criterion": "B1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "16b",
+          "criterion": "B1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "17",
+          "criterion": "M1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "17",
+          "criterion": "A1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "18",
+          "criterion": "M1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "18",
+          "criterion": "M1#1",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "18",
+          "criterion": "A1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "19",
+          "criterion": "M1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "19",
+          "criterion": "A1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "20",
+          "criterion": "M1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "20",
+          "criterion": "A1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "21",
+          "criterion": "M1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "21",
+          "criterion": "A1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "22",
+          "criterion": "M1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "22",
+          "criterion": "A1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "23",
+          "criterion": "M1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "23",
+          "criterion": "M1#1",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "23",
+          "criterion": "A1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "24",
+          "criterion": "M1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "24",
+          "criterion": "A1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "25",
+          "criterion": "M1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "25",
+          "criterion": "A1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "26",
+          "criterion": "M1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "26",
+          "criterion": "M1#1",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "26",
+          "criterion": "A1#0",
+          "expected": false,
+          "awarded": true
+        },
+        {
+          "item": "27",
+          "criterion": "M1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "27",
+          "criterion": "M1#1",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "27",
+          "criterion": "A1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "28",
+          "criterion": "M1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "28",
+          "criterion": "M1#1",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "28",
+          "criterion": "A1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "29",
+          "criterion": "M1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "29",
+          "criterion": "A1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "30",
+          "criterion": "M1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "30",
+          "criterion": "M1#1",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "30",
+          "criterion": "A1#0",
+          "expected": false,
+          "awarded": true
+        },
+        {
+          "item": "31",
+          "criterion": "M1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "31",
+          "criterion": "M1#1",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "31",
+          "criterion": "A1#0",
+          "expected": false,
+          "awarded": false
+        },
+        {
+          "item": "32",
+          "criterion": "M1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "32",
+          "criterion": "M1#1",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "32",
+          "criterion": "A1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "33",
+          "criterion": "M1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "33",
+          "criterion": "A1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "34",
+          "criterion": "M1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "34",
+          "criterion": "M1#1",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "34",
+          "criterion": "A1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "35",
+          "criterion": "M1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "35",
+          "criterion": "M1#1",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "35",
+          "criterion": "A1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "36",
+          "criterion": "M1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "36",
+          "criterion": "M1#1",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "36",
+          "criterion": "A1#0",
+          "expected": false,
+          "awarded": true
+        },
+        {
+          "item": "37a",
+          "criterion": "M1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "37a",
+          "criterion": "M1#1",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "37a",
+          "criterion": "A1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "37b",
+          "criterion": "M1#0",
+          "expected": false,
+          "awarded": false
+        },
+        {
+          "item": "37b",
+          "criterion": "M1#1",
+          "expected": false,
+          "awarded": false
+        },
+        {
+          "item": "37b",
+          "criterion": "A1#0",
+          "expected": false,
+          "awarded": false
+        }
+      ],
+      "unresolved_items": [],
+      "unresolved_count": 0,
+      "invalid_responses": 0,
+      "verification_status_counts": {
+        "equivalent": 20,
+        "unknown": 17,
+        "different": 1
+      },
+      "verification_different": 1,
+      "escalation_count": 0,
+      "escalation_gap": true,
+      "hallucination_suspects": [],
+      "errors": [
+        "missing items: 7, 8, 9, 10, 11, 13, 14, 15, 16b, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37a, 37b",
+        "missing items: 1a, 1d, 2, 3, 4, 5, 6, 13, 14, 15, 16b, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37a, 37b",
+        "missing items: 1a, 1d, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37a, 37b",
+        "missing items: 1a, 1d, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 16b, 17, 18, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37a, 37b",
+        "missing items: 1a, 1d, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 16b, 17, 18, 19, 20, 21, 22, 23, 24, 25, 32, 33, 34, 35, 36, 37a, 37b",
+        "missing items: 1a, 1d, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 16b, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31"
+      ],
+      "strict_correct": false,
+      "near_correct_within_one": false,
+      "reference_status": "candidate_not_teacher_certified"
+    },
+    {
+      "strategy": "c",
+      "run": 2,
+      "items_expected": 38,
+      "items_returned": 38,
+      "completion_status": "complete",
+      "coverage": 1.0,
+      "items_exact": 37,
+      "item_exact_accuracy": 0.9737,
+      "paper_score_awarded": 81,
+      "paper_score_expected": 80,
+      "score_error": 1,
+      "exact_paper_score": false,
+      "mean_absolute_score_error": 0.026,
+      "false_awards": 1,
+      "false_deductions": 0,
+      "criterion_precision": 0.9877,
+      "criterion_recall": 1.0,
+      "criterion_f1": 0.9938,
+      "criterion_counts": {
+        "tp": 80,
+        "fp": 1,
+        "fn": 0,
+        "tn": 6
+      },
+      "criterion_rows": [
+        {
+          "item": "1a",
+          "criterion": "B1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "1d",
+          "criterion": "M1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "1d",
+          "criterion": "A1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "2",
+          "criterion": "B1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "3",
+          "criterion": "M1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "3",
+          "criterion": "A1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "4",
+          "criterion": "M1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "4",
+          "criterion": "A1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "5",
+          "criterion": "B1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "6",
+          "criterion": "M1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "6",
+          "criterion": "M1#1",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "6",
+          "criterion": "A1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "7",
+          "criterion": "M1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "7",
+          "criterion": "A1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "8",
+          "criterion": "M1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "8",
+          "criterion": "A1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "9",
+          "criterion": "M1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "9",
+          "criterion": "A1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "10",
+          "criterion": "M1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "10",
+          "criterion": "A1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "11",
+          "criterion": "M1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "11",
+          "criterion": "M1#1",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "11",
+          "criterion": "A1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "13",
+          "criterion": "M1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "13",
+          "criterion": "M1#1",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "13",
+          "criterion": "A1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "14",
+          "criterion": "M1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "14",
+          "criterion": "A1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "15",
+          "criterion": "B1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "16b",
+          "criterion": "B1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "17",
+          "criterion": "M1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "17",
+          "criterion": "A1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "18",
+          "criterion": "M1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "18",
+          "criterion": "M1#1",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "18",
+          "criterion": "A1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "19",
+          "criterion": "M1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "19",
+          "criterion": "A1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "20",
+          "criterion": "M1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "20",
+          "criterion": "A1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "21",
+          "criterion": "M1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "21",
+          "criterion": "A1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "22",
+          "criterion": "M1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "22",
+          "criterion": "A1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "23",
+          "criterion": "M1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "23",
+          "criterion": "M1#1",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "23",
+          "criterion": "A1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "24",
+          "criterion": "M1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "24",
+          "criterion": "A1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "25",
+          "criterion": "M1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "25",
+          "criterion": "A1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "26",
+          "criterion": "M1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "26",
+          "criterion": "M1#1",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "26",
+          "criterion": "A1#0",
+          "expected": false,
+          "awarded": false
+        },
+        {
+          "item": "27",
+          "criterion": "M1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "27",
+          "criterion": "M1#1",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "27",
+          "criterion": "A1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "28",
+          "criterion": "M1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "28",
+          "criterion": "M1#1",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "28",
+          "criterion": "A1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "29",
+          "criterion": "M1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "29",
+          "criterion": "A1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "30",
+          "criterion": "M1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "30",
+          "criterion": "M1#1",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "30",
+          "criterion": "A1#0",
+          "expected": false,
+          "awarded": true
+        },
+        {
+          "item": "31",
+          "criterion": "M1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "31",
+          "criterion": "M1#1",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "31",
+          "criterion": "A1#0",
+          "expected": false,
+          "awarded": false
+        },
+        {
+          "item": "32",
+          "criterion": "M1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "32",
+          "criterion": "M1#1",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "32",
+          "criterion": "A1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "33",
+          "criterion": "M1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "33",
+          "criterion": "A1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "34",
+          "criterion": "M1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "34",
+          "criterion": "M1#1",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "34",
+          "criterion": "A1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "35",
+          "criterion": "M1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "35",
+          "criterion": "M1#1",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "35",
+          "criterion": "A1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "36",
+          "criterion": "M1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "36",
+          "criterion": "M1#1",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "36",
+          "criterion": "A1#0",
+          "expected": false,
+          "awarded": false
+        },
+        {
+          "item": "37a",
+          "criterion": "M1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "37a",
+          "criterion": "M1#1",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "37a",
+          "criterion": "A1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "37b",
+          "criterion": "M1#0",
+          "expected": false,
+          "awarded": false
+        },
+        {
+          "item": "37b",
+          "criterion": "M1#1",
+          "expected": false,
+          "awarded": false
+        },
+        {
+          "item": "37b",
+          "criterion": "A1#0",
+          "expected": false,
+          "awarded": false
+        }
+      ],
+      "unresolved_items": [],
+      "unresolved_count": 0,
+      "invalid_responses": 0,
+      "verification_status_counts": {
+        "equivalent": 18,
+        "unknown": 17,
+        "different": 3
+      },
+      "verification_different": 3,
+      "escalation_count": 0,
+      "escalation_gap": true,
+      "hallucination_suspects": [],
+      "errors": [
+        "missing items: 7, 8, 9, 10, 11, 13, 14, 15, 16b, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37a, 37b",
+        "missing items: 1a, 1d, 2, 3, 4, 5, 6, 13, 14, 15, 16b, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37a, 37b",
+        "missing items: 1a, 1d, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37a, 37b",
+        "missing items: 1a, 1d, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 16b, 17, 18, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37a, 37b",
+        "missing items: 1a, 1d, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 16b, 17, 18, 19, 20, 21, 22, 23, 24, 25, 32, 33, 34, 35, 36, 37a, 37b",
+        "missing items: 1a, 1d, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 16b, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31"
+      ],
+      "strict_correct": false,
+      "near_correct_within_one": true,
+      "reference_status": "candidate_not_teacher_certified"
+    }
+  ],
+  "usage": {
+    "requests": 17,
+    "successful_requests": 16,
+    "failed_requests": 1,
+    "failure_rate": 0.0588,
+    "retries": 1,
+    "rate_limit_failures": 1,
+    "rate_limit_rate": 0.0588,
+    "cooldown_s_total": 60072.0,
+    "cooldown_events": 2,
+    "input_tokens": 82284,
+    "output_tokens": 37219,
+    "cached_tokens": 56066,
+    "thoughts_tokens": null,
+    "total_tokens": 119503,
+    "image_tokens": 61572,
+    "reported_token_rows": 16,
+    "estimated_token_rows": 0,
+    "cost_usd": 0.13643275,
+    "cost_rows": 16,
+    "cost_estimated_rows": 1,
+    "latency_ms_sum": 180590,
+    "latency_ms_mean": 11286.9,
+    "latency_ms_p50": 8363.0,
+    "latency_ms_max": 36933,
+    "cache_savings_estimate_usd": 0.0420495,
+    "keys_used": [
+      "KEY_11",
+      "KEY_12",
+      "KEY_13",
+      "KEY_14",
+      "KEY_15",
+      "KEY_19",
+      "KEY_20"
+    ],
+    "pools_used": [
+      "POOL_OBSERVED_3"
+    ]
+  }
+}

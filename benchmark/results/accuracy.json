@@ -1,0 +1,3465 @@
+{
+  "reference": {
+    "status": "candidate_not_teacher_certified",
+    "warning": "Accuracy is measured against a scheme-derived candidate reference that no teacher has certified. Treat every figure as provisional."
+  },
+  "strategies": {
+    "a": {
+      "runs": [
+        {
+          "strategy": "a",
+          "run": 2,
+          "items_expected": 38,
+          "items_returned": 38,
+          "completion_status": "complete",
+          "coverage": 1.0,
+          "items_exact": 35,
+          "item_exact_accuracy": 0.9211,
+          "paper_score_awarded": 77,
+          "paper_score_expected": 80,
+          "score_error": -3,
+          "exact_paper_score": false,
+          "mean_absolute_score_error": 0.132,
+          "false_awards": 1,
+          "false_deductions": 4,
+          "criterion_precision": 0.9868,
+          "criterion_recall": 0.9375,
+          "criterion_f1": 0.9615,
+          "criterion_counts": {
+            "tp": 75,
+            "fp": 1,
+            "fn": 5,
+            "tn": 6
+          },
+          "criterion_rows": [
+            {
+              "item": "1a",
+              "criterion": "B1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "1d",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "1d",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "2",
+              "criterion": "B1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "3",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "3",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "4",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "4",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "5",
+              "criterion": "B1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "6",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "6",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "6",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "7",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "7",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "8",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "8",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "9",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "9",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "10",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "10",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "11",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "11",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "11",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "13",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "13",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "13",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "14",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "14",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "15",
+              "criterion": "B1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "16b",
+              "criterion": "B1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "17",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "17",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "18",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "18",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "18",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "19",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "19",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "20",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "20",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "21",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "21",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "22",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "22",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "23",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "23",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "23",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "24",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "24",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "25",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "25",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "26",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "26",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "26",
+              "criterion": "A1#0",
+              "expected": false,
+              "awarded": false
+            },
+            {
+              "item": "27",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "27",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "27",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "28",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "28",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "28",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "29",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "29",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "30",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "30",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "30",
+              "criterion": "A1#0",
+              "expected": false,
+              "awarded": false
+            },
+            {
+              "item": "31",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "31",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "31",
+              "criterion": "A1#0",
+              "expected": false,
+              "awarded": false
+            },
+            {
+              "item": "32",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "32",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "32",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "33",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "33",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "34",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "34",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "34",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "35",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "35",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "35",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "36",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "36",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "36",
+              "criterion": "A1#0",
+              "expected": false,
+              "awarded": true
+            },
+            {
+              "item": "37a",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "37a",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "37a",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "37b",
+              "criterion": "M1#0",
+              "expected": false,
+              "awarded": false
+            },
+            {
+              "item": "37b",
+              "criterion": "M1#1",
+              "expected": false,
+              "awarded": false
+            },
+            {
+              "item": "37b",
+              "criterion": "A1#0",
+              "expected": false,
+              "awarded": false
+            }
+          ],
+          "unresolved_items": [],
+          "unresolved_count": 0,
+          "invalid_responses": 0,
+          "verification_status_counts": {},
+          "verification_different": 0,
+          "escalation_count": 0,
+          "escalation_gap": false,
+          "hallucination_suspects": [],
+          "errors": [],
+          "strict_correct": false,
+          "near_correct_within_one": false,
+          "reference_status": "candidate_not_teacher_certified"
+        },
+        {
+          "strategy": "a",
+          "run": 3,
+          "items_expected": 38,
+          "items_returned": 38,
+          "completion_status": "complete",
+          "coverage": 1.0,
+          "items_exact": 31,
+          "item_exact_accuracy": 0.8158,
+          "paper_score_awarded": 72,
+          "paper_score_expected": 80,
+          "score_error": -8,
+          "exact_paper_score": false,
+          "mean_absolute_score_error": 0.263,
+          "false_awards": 1,
+          "false_deductions": 9,
+          "criterion_precision": 0.9861,
+          "criterion_recall": 0.8875,
+          "criterion_f1": 0.9342,
+          "criterion_counts": {
+            "tp": 71,
+            "fp": 1,
+            "fn": 9,
+            "tn": 6
+          },
+          "criterion_rows": [
+            {
+              "item": "1a",
+              "criterion": "B1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "1d",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "1d",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "2",
+              "criterion": "B1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "3",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "3",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "4",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "4",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "5",
+              "criterion": "B1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "6",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "6",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "6",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "7",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "7",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "8",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "8",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "9",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "9",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "10",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "10",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "11",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "11",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "11",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "13",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "13",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "13",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "14",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "14",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "15",
+              "criterion": "B1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "16b",
+              "criterion": "B1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "17",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "17",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "18",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "18",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "18",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "19",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "19",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "20",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "20",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "21",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "21",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "22",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "22",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "23",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "23",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "23",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "24",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "24",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "25",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "25",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "26",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "26",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "26",
+              "criterion": "A1#0",
+              "expected": false,
+              "awarded": false
+            },
+            {
+              "item": "27",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "27",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "27",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "28",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "28",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "28",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "29",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "29",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "30",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "30",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "30",
+              "criterion": "A1#0",
+              "expected": false,
+              "awarded": false
+            },
+            {
+              "item": "31",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "31",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "31",
+              "criterion": "A1#0",
+              "expected": false,
+              "awarded": false
+            },
+            {
+              "item": "32",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "32",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "32",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "33",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "33",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "34",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "34",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "34",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "35",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "35",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "35",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "36",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "36",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "36",
+              "criterion": "A1#0",
+              "expected": false,
+              "awarded": true
+            },
+            {
+              "item": "37a",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "37a",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "37a",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "37b",
+              "criterion": "M1#0",
+              "expected": false,
+              "awarded": false
+            },
+            {
+              "item": "37b",
+              "criterion": "M1#1",
+              "expected": false,
+              "awarded": false
+            },
+            {
+              "item": "37b",
+              "criterion": "A1#0",
+              "expected": false,
+              "awarded": false
+            }
+          ],
+          "unresolved_items": [],
+          "unresolved_count": 0,
+          "invalid_responses": 0,
+          "verification_status_counts": {},
+          "verification_different": 0,
+          "escalation_count": 0,
+          "escalation_gap": false,
+          "hallucination_suspects": [],
+          "errors": [],
+          "strict_correct": false,
+          "near_correct_within_one": false,
+          "reference_status": "candidate_not_teacher_certified"
+        }
+      ],
+      "summary": {
+        "runs": 2,
+        "strict_correct": 0,
+        "coverage": 1.0,
+        "item_exact_accuracy": 0.8684,
+        "mean_absolute_score_error": 0.1975,
+        "criterion_precision": 0.9865,
+        "criterion_recall": 0.9125,
+        "criterion_f1": 0.9479,
+        "false_awards": 1,
+        "false_deductions": 6.5,
+        "unresolved_count": 0
+      }
+    },
+    "b": {
+      "runs": [
+        {
+          "strategy": "b",
+          "run": 1,
+          "items_expected": 38,
+          "items_returned": 38,
+          "completion_status": "complete",
+          "coverage": 1.0,
+          "items_exact": 35,
+          "item_exact_accuracy": 0.9211,
+          "paper_score_awarded": 74,
+          "paper_score_expected": 80,
+          "score_error": -6,
+          "exact_paper_score": false,
+          "mean_absolute_score_error": 0.158,
+          "false_awards": 0,
+          "false_deductions": 6,
+          "criterion_precision": 1.0,
+          "criterion_recall": 0.925,
+          "criterion_f1": 0.961,
+          "criterion_counts": {
+            "tp": 74,
+            "fp": 0,
+            "fn": 6,
+            "tn": 7
+          },
+          "criterion_rows": [
+            {
+              "item": "1a",
+              "criterion": "B1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "1d",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "1d",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "2",
+              "criterion": "B1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "3",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "3",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "4",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "4",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "5",
+              "criterion": "B1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "6",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "6",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "6",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "7",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "7",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "8",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "8",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "9",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "9",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "10",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "10",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "11",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "11",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "11",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "13",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "13",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "13",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "14",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "14",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "15",
+              "criterion": "B1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "16b",
+              "criterion": "B1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "17",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "17",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "18",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "18",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "18",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "19",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "19",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "20",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "20",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "21",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "21",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "22",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "22",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "23",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "23",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "23",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "24",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "24",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "25",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "25",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "26",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "26",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "26",
+              "criterion": "A1#0",
+              "expected": false,
+              "awarded": false
+            },
+            {
+              "item": "27",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "27",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "27",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "28",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "28",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "28",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "29",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "29",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "30",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "30",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "30",
+              "criterion": "A1#0",
+              "expected": false,
+              "awarded": false
+            },
+            {
+              "item": "31",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "31",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "31",
+              "criterion": "A1#0",
+              "expected": false,
+              "awarded": false
+            },
+            {
+              "item": "32",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "32",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "32",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "33",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "33",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "34",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "34",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "34",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "35",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "35",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "35",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "36",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "36",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "36",
+              "criterion": "A1#0",
+              "expected": false,
+              "awarded": false
+            },
+            {
+              "item": "37a",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "37a",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "37a",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "37b",
+              "criterion": "M1#0",
+              "expected": false,
+              "awarded": false
+            },
+            {
+              "item": "37b",
+              "criterion": "M1#1",
+              "expected": false,
+              "awarded": false
+            },
+            {
+              "item": "37b",
+              "criterion": "A1#0",
+              "expected": false,
+              "awarded": false
+            }
+          ],
+          "unresolved_items": [],
+          "unresolved_count": 0,
+          "invalid_responses": 0,
+          "verification_status_counts": {},
+          "verification_different": 0,
+          "escalation_count": 0,
+          "escalation_gap": false,
+          "hallucination_suspects": [],
+          "errors": [
+            "missing items: 7, 8, 9, 10, 11, 13, 14, 15, 16b, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37a, 37b",
+            "missing items: 1a, 1d, 2, 3, 4, 5, 6, 13, 14, 15, 16b, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37a, 37b",
+            "missing items: 1a, 1d, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37a, 37b",
+            "missing items: 1a, 1d, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 16b, 17, 18, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37a, 37b",
+            "missing items: 1a, 1d, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 16b, 17, 18, 19, 20, 21, 22, 23, 24, 25, 32, 33, 34, 35, 36, 37a, 37b",
+            "missing items: 1a, 1d, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 16b, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31"
+          ],
+          "strict_correct": false,
+          "near_correct_within_one": false,
+          "reference_status": "candidate_not_teacher_certified"
+        },
+        {
+          "strategy": "b",
+          "run": 2,
+          "items_expected": 38,
+          "items_returned": 38,
+          "completion_status": "complete",
+          "coverage": 1.0,
+          "items_exact": 35,
+          "item_exact_accuracy": 0.9211,
+          "paper_score_awarded": 74,
+          "paper_score_expected": 80,
+          "score_error": -6,
+          "exact_paper_score": false,
+          "mean_absolute_score_error": 0.158,
+          "false_awards": 0,
+          "false_deductions": 6,
+          "criterion_precision": 1.0,
+          "criterion_recall": 0.925,
+          "criterion_f1": 0.961,
+          "criterion_counts": {
+            "tp": 74,
+            "fp": 0,
+            "fn": 6,
+            "tn": 7
+          },
+          "criterion_rows": [
+            {
+              "item": "1a",
+              "criterion": "B1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "1d",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "1d",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "2",
+              "criterion": "B1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "3",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "3",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "4",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "4",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "5",
+              "criterion": "B1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "6",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "6",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "6",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "7",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "7",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "8",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "8",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "9",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "9",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "10",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "10",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "11",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "11",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "11",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "13",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "13",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "13",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "14",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "14",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "15",
+              "criterion": "B1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "16b",
+              "criterion": "B1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "17",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "17",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "18",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "18",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "18",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "19",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "19",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "20",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "20",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "21",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "21",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "22",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "22",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "23",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "23",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "23",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "24",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "24",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "25",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "25",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "26",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "26",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "26",
+              "criterion": "A1#0",
+              "expected": false,
+              "awarded": false
+            },
+            {
+              "item": "27",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "27",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "27",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "28",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "28",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "28",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "29",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "29",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "30",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "30",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "30",
+              "criterion": "A1#0",
+              "expected": false,
+              "awarded": false
+            },
+            {
+              "item": "31",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "31",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "31",
+              "criterion": "A1#0",
+              "expected": false,
+              "awarded": false
+            },
+            {
+              "item": "32",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "32",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "32",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "33",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "33",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "34",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "34",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "34",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "35",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "35",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "35",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "36",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "36",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "36",
+              "criterion": "A1#0",
+              "expected": false,
+              "awarded": false
+            },
+            {
+              "item": "37a",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "37a",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "37a",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "37b",
+              "criterion": "M1#0",
+              "expected": false,
+              "awarded": false
+            },
+            {
+              "item": "37b",
+              "criterion": "M1#1",
+              "expected": false,
+              "awarded": false
+            },
+            {
+              "item": "37b",
+              "criterion": "A1#0",
+              "expected": false,
+              "awarded": false
+            }
+          ],
+          "unresolved_items": [],
+          "unresolved_count": 0,
+          "invalid_responses": 0,
+          "verification_status_counts": {},
+          "verification_different": 0,
+          "escalation_count": 0,
+          "escalation_gap": false,
+          "hallucination_suspects": [],
+          "errors": [
+            "missing items: 7, 8, 9, 10, 11, 13, 14, 15, 16b, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37a, 37b",
+            "missing items: 1a, 1d, 2, 3, 4, 5, 6, 13, 14, 15, 16b, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37a, 37b",
+            "missing items: 1a, 1d, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37a, 37b",
+            "missing items: 1a, 1d, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 16b, 17, 18, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37a, 37b",
+            "missing items: 1a, 1d, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 16b, 17, 18, 19, 20, 21, 22, 23, 24, 25, 32, 33, 34, 35, 36, 37a, 37b",
+            "missing items: 1a, 1d, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 16b, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31"
+          ],
+          "strict_correct": false,
+          "near_correct_within_one": false,
+          "reference_status": "candidate_not_teacher_certified"
+        }
+      ],
+      "summary": {
+        "runs": 2,
+        "strict_correct": 0,
+        "coverage": 1.0,
+        "item_exact_accuracy": 0.9211,
+        "mean_absolute_score_error": 0.158,
+        "criterion_precision": 1.0,
+        "criterion_recall": 0.925,
+        "criterion_f1": 0.961,
+        "false_awards": 0,
+        "false_deductions": 6,
+        "unresolved_count": 0
+      }
+    },
+    "c": {
+      "runs": [
+        {
+          "strategy": "c",
+          "run": 5,
+          "items_expected": 38,
+          "items_returned": 38,
+          "completion_status": "complete",
+          "coverage": 1.0,
+          "items_exact": 36,
+          "item_exact_accuracy": 0.9474,
+          "paper_score_awarded": 78,
+          "paper_score_expected": 80,
+          "score_error": -2,
+          "exact_paper_score": false,
+          "mean_absolute_score_error": 0.053,
+          "false_awards": 0,
+          "false_deductions": 2,
+          "criterion_precision": 1.0,
+          "criterion_recall": 0.975,
+          "criterion_f1": 0.9873,
+          "criterion_counts": {
+            "tp": 78,
+            "fp": 0,
+            "fn": 2,
+            "tn": 7
+          },
+          "criterion_rows": [
+            {
+              "item": "1a",
+              "criterion": "B1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "1d",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "1d",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "2",
+              "criterion": "B1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "3",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "3",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "4",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "4",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "5",
+              "criterion": "B1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "6",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "6",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "6",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "7",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "7",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "8",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "8",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "9",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "9",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "10",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "10",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "11",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "11",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "11",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "13",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "13",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "13",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "14",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "14",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "15",
+              "criterion": "B1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "16b",
+              "criterion": "B1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "17",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "17",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "18",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "18",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "18",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "19",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "19",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "20",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "20",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "21",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "21",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "22",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "22",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "23",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "23",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "23",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "24",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "24",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "25",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "25",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "26",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "26",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "26",
+              "criterion": "A1#0",
+              "expected": false,
+              "awarded": false
+            },
+            {
+              "item": "27",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "27",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "27",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "28",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "28",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "28",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "29",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "29",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "30",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "30",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "30",
+              "criterion": "A1#0",
+              "expected": false,
+              "awarded": false
+            },
+            {
+              "item": "31",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "31",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "31",
+              "criterion": "A1#0",
+              "expected": false,
+              "awarded": false
+            },
+            {
+              "item": "32",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "32",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "32",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "33",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "33",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "34",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "34",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "34",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "35",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "35",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "35",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "36",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "36",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "36",
+              "criterion": "A1#0",
+              "expected": false,
+              "awarded": false
+            },
+            {
+              "item": "37a",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "37a",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "37a",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "37b",
+              "criterion": "M1#0",
+              "expected": false,
+              "awarded": false
+            },
+            {
+              "item": "37b",
+              "criterion": "M1#1",
+              "expected": false,
+              "awarded": false
+            },
+            {
+              "item": "37b",
+              "criterion": "A1#0",
+              "expected": false,
+              "awarded": false
+            }
+          ],
+          "unresolved_items": [],
+          "unresolved_count": 0,
+          "invalid_responses": 0,
+          "verification_status_counts": {
+            "equivalent": 3,
+            "unknown": 35
+          },
+          "verification_different": 0,
+          "escalation_count": 0,
+          "escalation_gap": false,
+          "hallucination_suspects": [],
+          "errors": [
+            "missing items: 7, 8, 9, 10, 11, 13, 14, 15, 16b, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37a, 37b",
+            "missing items: 1a, 1d, 2, 3, 4, 5, 6, 13, 14, 15, 16b, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37a, 37b",
+            "missing items: 1a, 1d, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37a, 37b",
+            "missing items: 1a, 1d, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 16b, 17, 18, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37a, 37b",
+            "missing items: 1a, 1d, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 16b, 17, 18, 19, 20, 21, 22, 23, 24, 25, 32, 33, 34, 35, 36, 37a, 37b",
+            "missing items: 1a, 1d, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 16b, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31"
+          ],
+          "strict_correct": false,
+          "near_correct_within_one": false,
+          "reference_status": "candidate_not_teacher_certified"
+        },
+        {
+          "strategy": "c",
+          "run": 6,
+          "items_expected": 38,
+          "items_returned": 38,
+          "completion_status": "complete",
+          "coverage": 1.0,
+          "items_exact": 36,
+          "item_exact_accuracy": 0.9474,
+          "paper_score_awarded": 82,
+          "paper_score_expected": 80,
+          "score_error": 2,
+          "exact_paper_score": false,
+          "mean_absolute_score_error": 0.053,
+          "false_awards": 2,
+          "false_deductions": 0,
+          "criterion_precision": 0.9756,
+          "criterion_recall": 1.0,
+          "criterion_f1": 0.9877,
+          "criterion_counts": {
+            "tp": 80,
+            "fp": 2,
+            "fn": 0,
+            "tn": 5
+          },
+          "criterion_rows": [
+            {
+              "item": "1a",
+              "criterion": "B1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "1d",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "1d",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "2",
+              "criterion": "B1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "3",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "3",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "4",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "4",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "5",
+              "criterion": "B1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "6",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "6",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "6",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "7",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "7",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "8",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "8",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "9",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "9",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "10",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "10",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "11",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "11",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "11",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "13",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "13",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "13",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "14",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "14",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "15",
+              "criterion": "B1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "16b",
+              "criterion": "B1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "17",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "17",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "18",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "18",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "18",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "19",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "19",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "20",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "20",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "21",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "21",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "22",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "22",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "23",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "23",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "23",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "24",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "24",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "25",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "25",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "26",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "26",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "26",
+              "criterion": "A1#0",
+              "expected": false,
+              "awarded": true
+            },
+            {
+              "item": "27",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "27",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "27",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "28",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "28",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "28",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "29",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "29",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "30",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "30",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "30",
+              "criterion": "A1#0",
+              "expected": false,
+              "awarded": true
+            },
+            {
+              "item": "31",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "31",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "31",
+              "criterion": "A1#0",
+              "expected": false,
+              "awarded": false
+            },
+            {
+              "item": "32",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "32",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "32",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "33",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "33",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "34",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "34",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "34",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "35",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "35",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "35",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "36",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "36",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "36",
+              "criterion": "A1#0",
+              "expected": false,
+              "awarded": false
+            },
+            {
+              "item": "37a",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "37a",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "37a",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "37b",
+              "criterion": "M1#0",
+              "expected": false,
+              "awarded": false
+            },
+            {
+              "item": "37b",
+              "criterion": "M1#1",
+              "expected": false,
+              "awarded": false
+            },
+            {
+              "item": "37b",
+              "criterion": "A1#0",
+              "expected": false,
+              "awarded": false
+            }
+          ],
+          "unresolved_items": [],
+          "unresolved_count": 0,
+          "invalid_responses": 0,
+          "verification_status_counts": {
+            "equivalent": 3,
+            "unknown": 35
+          },
+          "verification_different": 0,
+          "escalation_count": 0,
+          "escalation_gap": false,
+          "hallucination_suspects": [],
+          "errors": [
+            "missing items: 7, 8, 9, 10, 11, 13, 14, 15, 16b, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37a, 37b",
+            "missing items: 1a, 1d, 2, 3, 4, 5, 6, 13, 14, 15, 16b, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37a, 37b",
+            "missing items: 1a, 1d, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37a, 37b",
+            "missing items: 1a, 1d, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 16b, 17, 18, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37a, 37b",
+            "missing items: 1a, 1d, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 16b, 17, 18, 19, 20, 21, 22, 23, 24, 25, 32, 33, 34, 35, 36, 37a, 37b",
+            "missing items: 1a, 1d, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 16b, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31"
+          ],
+          "strict_correct": false,
+          "near_correct_within_one": false,
+          "reference_status": "candidate_not_teacher_certified"
+        }
+      ],
+      "summary": {
+        "runs": 2,
+        "strict_correct": 0,
+        "coverage": 1.0,
+        "item_exact_accuracy": 0.9474,
+        "mean_absolute_score_error": 0.053,
+        "criterion_precision": 0.9878,
+        "criterion_recall": 0.9875,
+        "criterion_f1": 0.9875,
+        "false_awards": 1,
+        "false_deductions": 1,
+        "unresolved_count": 0
+      }
+    }
+  }
+}

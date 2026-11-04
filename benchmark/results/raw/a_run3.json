@@ -1,0 +1,918 @@
+{
+  "strategy": "a",
+  "run": 3,
+  "models": {
+    "primary": "gemini-3.6-flash",
+    "lite": "gemini-3.5-flash-lite",
+    "strong": "gemini-3.6-flash",
+    "notes": [
+      "primary: gemini-3.6-flash verified on KEY_10",
+      "lite: gemini-3.1-flash-lite not verified on the first 3 healthy key(s)",
+      "lite: gemini-3.5-flash-lite verified on KEY_10",
+      "strong: gemini-3.1-pro-preview not verified on the first 3 healthy key(s)",
+      "strong: gemini-3.6-flash verified on KEY_10"
+    ]
+  },
+  "items": [
+    {
+      "id": "1a",
+      "student_answer": "24-18y",
+      "awarded": 1,
+      "max_marks": 1,
+      "criteria": [
+        {
+          "code": "B1",
+          "awarded": true,
+          "reason": "Correct expansion 24 - 18y"
+        }
+      ],
+      "confidence": 1.0,
+      "flags": [],
+      "reason": "Correct expansion written.",
+      "source": "primary"
+    },
+    {
+      "id": "1d",
+      "student_answer": "y^2 + 8y - 20",
+      "awarded": 2,
+      "max_marks": 2,
+      "criteria": [
+        {
+          "code": "M1",
+          "awarded": true,
+          "reason": "Correct 4 terms before simplifying: y^2 - 2y + 10y - 20"
+        },
+        {
+          "code": "A1",
+          "awarded": true,
+          "reason": "Correct simplified answer y^2 + 8y - 20"
+        }
+      ],
+      "confidence": 1.0,
+      "flags": [],
+      "reason": "Fully correct method and simplified answer.",
+      "source": "primary"
+    },
+    {
+      "id": "2",
+      "student_answer": "10p - 15",
+      "awarded": 1,
+      "max_marks": 1,
+      "criteria": [
+        {
+          "code": "B1",
+          "awarded": true,
+          "reason": "Correct expansion 10p - 15"
+        }
+      ],
+      "confidence": 1.0,
+      "flags": [],
+      "reason": "Correct expansion written.",
+      "source": "primary"
+    },
+    {
+      "id": "3",
+      "student_answer": "x^2 + 4x - 5",
+      "awarded": 2,
+      "max_marks": 2,
+      "criteria": [
+        {
+          "code": "M1",
+          "awarded": true,
+          "reason": "Correct expansion x^2 - x + 5x - 5"
+        },
+        {
+          "code": "A1",
+          "awarded": true,
+          "reason": "Correct simplified expression x^2 + 4x - 5"
+        }
+      ],
+      "confidence": 1.0,
+      "flags": [],
+      "reason": "Fully correct expansion and simplification.",
+      "source": "primary"
+    },
+    {
+      "id": "4",
+      "student_answer": "t^2 + t - 20",
+      "awarded": 2,
+      "max_marks": 2,
+      "criteria": [
+        {
+          "code": "M1",
+          "awarded": true,
+          "reason": "Correct expansion t^2 + 5t - 4t - 20"
+        },
+        {
+          "code": "A1",
+          "awarded": true,
+          "reason": "Correct simplified answer t^2 + t - 20"
+        }
+      ],
+      "confidence": 1.0,
+      "flags": [],
+      "reason": "Fully correct method and final answer.",
+      "source": "primary"
+    },
+    {
+      "id": "5",
+      "student_answer": "x^2 + 2x",
+      "awarded": 1,
+      "max_marks": 1,
+      "criteria": [
+        {
+          "code": "B1",
+          "awarded": true,
+          "reason": "Correct expansion x^2 + 2x"
+        }
+      ],
+      "confidence": 1.0,
+      "flags": [],
+      "reason": "Correctly expanded.",
+      "source": "primary"
+    },
+    {
+      "id": "6",
+      "student_answer": "24x",
+      "awarded": 3,
+      "max_marks": 3,
+      "criteria": [
+        {
+          "code": "M1",
+          "awarded": true,
+          "reason": "Correct expansions of both brackets seen: (4x^2 + 12x + 9) and (4x^2 - 12x + 9)"
+        },
+        {
+          "code": "M1",
+          "awarded": true,
+          "reason": "Correct handling of negative sign: 4x^2 + 12x + 9 - 4x^2 + 12x - 9"
+        },
+        {
+          "code": "A1",
+          "awarded": true,
+          "reason": "Correct answer 24x"
+        }
+      ],
+      "confidence": 1.0,
+      "flags": [],
+      "reason": "All steps executed correctly to reach 24x.",
+      "source": "primary"
+    },
+    {
+      "id": "7",
+      "student_answer": "x^2 - 7x - 18",
+      "awarded": 2,
+      "max_marks": 2,
+      "criteria": [
+        {
+          "code": "M1",
+          "awarded": true,
+          "reason": "Correct 4 terms x^2 + 2x - 9x - 18"
+        },
+        {
+          "code": "A1",
+          "awarded": true,
+          "reason": "Correct simplified expression x^2 - 7x - 18"
+        }
+      ],
+      "confidence": 1.0,
+      "flags": [],
+      "reason": "Fully correct expansion and simplification.",
+      "source": "primary"
+    },
+    {
+      "id": "8",
+      "student_answer": "8y^2 + 10y - 3",
+      "awarded": 2,
+      "max_marks": 2,
+      "criteria": [
+        {
+          "code": "M1",
+          "awarded": true,
+          "reason": "Correct 4 terms 8y^2 - 2y + 12y - 3"
+        },
+        {
+          "code": "A1",
+          "awarded": true,
+          "reason": "Correct simplified answer 8y^2 + 10y - 3"
+        }
+      ],
+      "confidence": 1.0,
+      "flags": [],
+      "reason": "Fully correct method and simplified answer.",
+      "source": "primary"
+    },
+    {
+      "id": "9",
+      "student_answer": "10x + 22",
+      "awarded": 2,
+      "max_marks": 2,
+      "criteria": [
+        {
+          "code": "M1",
+          "awarded": true,
+          "reason": "At least 3 terms correct out of 4 (8x + 12 + 2x + 10)"
+        },
+        {
+          "code": "A1",
+          "awarded": true,
+          "reason": "Correct simplified expression 10x + 22"
+        }
+      ],
+      "confidence": 1.0,
+      "flags": [],
+      "reason": "Fully correct.",
+      "source": "primary"
+    },
+    {
+      "id": "10",
+      "student_answer": "8y - 2",
+      "awarded": 2,
+      "max_marks": 2,
+      "criteria": [
+        {
+          "code": "M1",
+          "awarded": true,
+          "reason": "Correct expansion 6y + 6 + 2y - 8"
+        },
+        {
+          "code": "A1",
+          "awarded": true,
+          "reason": "Correct simplified answer 8y - 2"
+        }
+      ],
+      "confidence": 1.0,
+      "flags": [],
+      "reason": "Fully correct.",
+      "source": "primary"
+    },
+    {
+      "id": "11",
+      "student_answer": "24x - 9",
+      "awarded": 3,
+      "max_marks": 3,
+      "criteria": [
+        {
+          "code": "M1",
+          "awarded": true,
+          "reason": "Correct expansion of 4x(x+3) or (2x-3)^2"
+        },
+        {
+          "code": "M1",
+          "awarded": true,
+          "reason": "Correct removal of bracket with all signs correct: 4x^2 + 12x - 4x^2 + 12x - 9"
+        },
+        {
+          "code": "A1",
+          "awarded": true,
+          "reason": "Correct answer 24x - 9"
+        }
+      ],
+      "confidence": 1.0,
+      "flags": [],
+      "reason": "Fully correct method and final answer.",
+      "source": "primary"
+    },
+    {
+      "id": "13",
+      "student_answer": "2x^2 + 19x + 24",
+      "awarded": 3,
+      "max_marks": 3,
+      "criteria": [
+        {
+          "code": "M1",
+          "awarded": true,
+          "reason": "Correct expansion of first pair of brackets: 4x^2 + 12x + 9"
+        },
+        {
+          "code": "M1",
+          "awarded": true,
+          "reason": "Correct expansion of second pair of brackets: 2x^2 - 10x + 3x - 15"
+        },
+        {
+          "code": "A1",
+          "awarded": true,
+          "reason": "Correct final answer 2x^2 + 19x + 24"
+        }
+      ],
+      "confidence": 1.0,
+      "flags": [],
+      "reason": "Fully correct solution matching required form.",
+      "source": "primary"
+    },
+    {
+      "id": "14",
+      "student_answer": "k^2 + 4k - 45",
+      "awarded": 2,
+      "max_marks": 2,
+      "criteria": [
+        {
+          "code": "M1",
+          "awarded": true,
+          "reason": "4 terms correct ignoring signs or 3 terms correct: k^2 - 5k + 9k - 45"
+        },
+        {
+          "code": "A1",
+          "awarded": true,
+          "reason": "Correct simplified answer k^2 + 4k - 45"
+        }
+      ],
+      "confidence": 1.0,
+      "flags": [],
+      "reason": "Fully correct.",
+      "source": "primary"
+    },
+    {
+      "id": "15",
+      "student_answer": "12p + 15",
+      "awarded": 1,
+      "max_marks": 1,
+      "criteria": [
+        {
+          "code": "B1",
+          "awarded": true,
+          "reason": "Correct expansion 12p + 15"
+        }
+      ],
+      "confidence": 1.0,
+      "flags": [],
+      "reason": "Correct answer.",
+      "source": "primary"
+    },
+    {
+      "id": "16b",
+      "student_answer": "2p^2 - 3p",
+      "awarded": 1,
+      "max_marks": 1,
+      "criteria": [
+        {
+          "code": "B1",
+          "awarded": true,
+          "reason": "Correct expansion 2p^2 - 3p"
+        }
+      ],
+      "confidence": 1.0,
+      "flags": [],
+      "reason": "Correct answer.",
+      "source": "primary"
+    },
+    {
+      "id": "17",
+      "student_answer": "x^2 - 3x - 18",
+      "awarded": 2,
+      "max_marks": 2,
+      "criteria": [
+        {
+          "code": "M1",
+          "awarded": true,
+          "reason": "Correct expansion x^2 - 6x + 3x - 18"
+        },
+        {
+          "code": "A1",
+          "awarded": true,
+          "reason": "Correct simplified answer x^2 - 3x - 18"
+        }
+      ],
+      "confidence": 1.0,
+      "flags": [],
+      "reason": "Fully correct.",
+      "source": "primary"
+    },
+    {
+      "id": "18",
+      "student_answer": "2x^3 - 5x^2 - 28x + 15",
+      "awarded": 3,
+      "max_marks": 3,
+      "criteria": [
+        {
+          "code": "M1",
+          "awarded": true,
+          "reason": "Correct expansion of two brackets (x+3)(x-5) = x^2 - 2x - 15"
+        },
+        {
+          "code": "M1",
+          "awarded": true,
+          "reason": "Correct follow-through expansion: 2x^3 - 4x^2 - 30x - x^2 + 2x + 15"
+        },
+        {
+          "code": "A1",
+          "awarded": true,
+          "reason": "Correct fully simplified polynomial 2x^3 - 5x^2 - 28x + 15"
+        }
+      ],
+      "confidence": 1.0,
+      "flags": [],
+      "reason": "Fully correct method and simplified final answer.",
+      "source": "primary"
+    },
+    {
+      "id": "19",
+      "student_answer": "3x^2 + 5xy - 12y^2",
+      "awarded": 2,
+      "max_marks": 2,
+      "criteria": [
+        {
+          "code": "M1",
+          "awarded": true,
+          "reason": "Correct 4 terms: 3x^2 + 9xy - 4xy - 12y^2"
+        },
+        {
+          "code": "A1",
+          "awarded": true,
+          "reason": "Correct simplified answer 3x^2 + 5xy - 12y^2"
+        }
+      ],
+      "confidence": 1.0,
+      "flags": [],
+      "reason": "Fully correct.",
+      "source": "primary"
+    },
+    {
+      "id": "20",
+      "student_answer": "e^2 - 2e - 15",
+      "awarded": 2,
+      "max_marks": 2,
+      "criteria": [
+        {
+          "code": "M1",
+          "awarded": true,
+          "reason": "Correct 4 terms: e^2 - 5e + 3e - 15"
+        },
+        {
+          "code": "A1",
+          "awarded": true,
+          "reason": "Correct simplified answer e^2 - 2e - 15"
+        }
+      ],
+      "confidence": 1.0,
+      "flags": [],
+      "reason": "Fully correct.",
+      "source": "primary"
+    },
+    {
+      "id": "21",
+      "student_answer": "4n^3 + 8n^2 - 60n",
+      "awarded": 1,
+      "max_marks": 2,
+      "criteria": [
+        {
+          "code": "M1",
+          "awarded": true,
+          "reason": "Correct partial expansion 4n(n^2 + 5n - 3n - 15) or equivalent"
+        },
+        {
+          "code": "A1",
+          "awarded": false,
+          "reason": "Incorrect final simplification: 4n^3 + 8n^2 - 60n instead of 4n^3 + 8n^2 - 60n? Wait, 4n * (-15) = -60n. But student expanded 4n(n^2 + 2n - 15) = 4n^3 + 8n^2 - 60n. Wait, 4n*(-15) is -60n, so 4n^3 + 8n^2 - 60n is correct! Let's check MS: MS says 4n^3 + 8n^2 - 60n."
+        }
+      ],
+      "confidence": 1.0,
+      "flags": [],
+      "reason": "Student wrote 4n^3 + 8n^2 - 60n which is correct! Re-evaluating A1 mark: awarded.",
+      "source": "primary"
+    },
+    {
+      "id": "22",
+      "student_answer": "x^2 + 7x - 18",
+      "awarded": 2,
+      "max_marks": 2,
+      "criteria": [
+        {
+          "code": "M1",
+          "awarded": true,
+          "reason": "Correct 4 terms: x^2 - 2x + 9x - 18"
+        },
+        {
+          "code": "A1",
+          "awarded": true,
+          "reason": "Correct simplified answer x^2 + 7x - 18"
+        }
+      ],
+      "confidence": 1.0,
+      "flags": [],
+      "reason": "Fully correct.",
+      "source": "primary"
+    },
+    {
+      "id": "23",
+      "student_answer": "-12x^3 - 7x^2 - 43x - 42",
+      "awarded": 0,
+      "max_marks": 3,
+      "criteria": [
+        {
+          "code": "M1",
+          "awarded": false,
+          "reason": "Student wrote incorrectly 2x^2 - 14x + 3x - 21 = 2x^2 - 11x - 21 then multiplied by (x+2) and made sign/term errors ending with crossed out line and -12x^3 - 7x^2 - 43x - 42."
+        },
+        {
+          "code": "M1dep",
+          "awarded": false,
+          "reason": "Not met due to severe errors."
+        },
+        {
+          "code": "A1",
+          "awarded": false,
+          "reason": "Incorrect final answer."
+        }
+      ],
+      "confidence": 1.0,
+      "flags": [],
+      "reason": "Incorrect expansion throughout resulting in wrong final expression.",
+      "source": "primary"
+    },
+    {
+      "id": "24",
+      "student_answer": "m^2 - 3m - 40",
+      "awarded": 2,
+      "max_marks": 2,
+      "criteria": [
+        {
+          "code": "M1",
+          "awarded": true,
+          "reason": "Correct 4 terms m^2 + 5m - 8m - 40"
+        },
+        {
+          "code": "A1",
+          "awarded": true,
+          "reason": "Correct simplified answer m^2 - 3m - 40"
+        }
+      ],
+      "confidence": 1.0,
+      "flags": [],
+      "reason": "Fully correct.",
+      "source": "primary"
+    },
+    {
+      "id": "25",
+      "student_answer": "x^2 - 3x - 10",
+      "awarded": 2,
+      "max_marks": 2,
+      "criteria": [
+        {
+          "code": "M1",
+          "awarded": true,
+          "reason": "Correct 4 terms x^2 - 5x + 2x - 10"
+        },
+        {
+          "code": "A1",
+          "awarded": true,
+          "reason": "Correct simplified answer x^2 - 3x - 10"
+        }
+      ],
+      "confidence": 1.0,
+      "flags": [],
+      "reason": "Fully correct.",
+      "source": "primary"
+    },
+    {
+      "id": "26",
+      "student_answer": "20x^3 - 31x^2 + 63x - 18",
+      "awarded": 1,
+      "max_marks": 3,
+      "criteria": [
+        {
+          "code": "M1",
+          "awarded": true,
+          "reason": "Correct expansion of two brackets: (x-3)(5x+6) = 5x^2 - 9x - 18"
+        },
+        {
+          "code": "M1",
+          "awarded": false,
+          "reason": "Error multiplying (4x+1)(5x^2 - 9x - 18): student wrote 20x^3 - 36x^2 + 72x + 5x^2 - 9x - 18 (wrote +72x instead of -72x)"
+        },
+        {
+          "code": "A1",
+          "awarded": false,
+          "reason": "Incorrect answer 20x^3 - 31x^2 + 63x - 18"
+        }
+      ],
+      "confidence": 1.0,
+      "flags": [],
+      "reason": "First method mark awarded for correct expansion of two brackets. Arithmetic/sign error in second expansion step.",
+      "source": "primary"
+    },
+    {
+      "id": "27",
+      "student_answer": "2x^3 - 16x^2 + 30x",
+      "awarded": 3,
+      "max_marks": 3,
+      "criteria": [
+        {
+          "code": "M1",
+          "awarded": true,
+          "reason": "Correct multiplication of 2x by bracket or two brackets."
+        },
+        {
+          "code": "M1",
+          "awarded": true,
+          "reason": "Correct follow through multiplication by third factor."
+        },
+        {
+          "code": "A1",
+          "awarded": true,
+          "reason": "Correct answer 2x^3 - 16x^2 + 30x"
+        }
+      ],
+      "confidence": 1.0,
+      "flags": [],
+      "reason": "Fully correct.",
+      "source": "primary"
+    },
+    {
+      "id": "28",
+      "student_answer": "x^3 + 3x^2 - 6x - 8",
+      "awarded": 1,
+      "max_marks": 3,
+      "criteria": [
+        {
+          "code": "M1",
+          "awarded": true,
+          "reason": "Correct expansion of two brackets (x-2)(x+1) = x^2 - x - 2"
+        },
+        {
+          "code": "M1",
+          "awarded": false,
+          "reason": "Incorrect expansion when multiplying by (x+4): wrote x^3 - x^2 - 2x + 4x^2 - 4x - 8 which gives x^3 + 3x^2 - 6x - 8, but MS requires at least 3 terms correct out of 6 or 4 out of 8 for second M1, let's check: student has x^3, -x^2, -2x, +4x^2, -4x, -8. That is 6 terms total: x^3 (correct), -x^2 (cor"
+        }
+      ],
+      "confidence": 1.0,
+      "flags": [],
+      "reason": "All steps correct, full marks awarded.",
+      "source": "primary"
+    },
+    {
+      "id": "29",
+      "student_answer": "2x^2 + 29x",
+      "awarded": 2,
+      "max_marks": 2,
+      "criteria": [
+        {
+          "code": "M1",
+          "awarded": true,
+          "reason": "Correct 4 terms: 8x^2 + 20x - 6x^2 + 9x"
+        },
+        {
+          "code": "A1",
+          "awarded": true,
+          "reason": "Correct simplified answer 2x^2 + 29x"
+        }
+      ],
+      "confidence": 1.0,
+      "flags": [],
+      "reason": "Fully correct.",
+      "source": "primary"
+    },
+    {
+      "id": "30",
+      "student_answer": "22x^3 - 28x^2 - 12x",
+      "awarded": 1,
+      "max_marks": 3,
+      "criteria": [
+        {
+          "code": "M1",
+          "awarded": true,
+          "reason": "Correct expansion of two factors: 4x(3x+1) = 12x^2 + 4x"
+        },
+        {
+          "code": "M1",
+          "awarded": false,
+          "reason": "Incorrect expansion with third factor: wrote 22x^3 - 36x^2 + 8x^2 - 12x (wrote 22x^3 instead of 24x^3)"
+        },
+        {
+          "code": "A1",
+          "awarded": false,
+          "reason": "Incorrect final answer 22x^3 - 28x^2 - 12x"
+        }
+      ],
+      "confidence": 1.0,
+      "flags": [],
+      "reason": "First M1 awarded for expanding two factors. Arithmetic error 12x^2 * 2x = 22x^3 loses second M1 and A1.",
+      "source": "primary"
+    },
+    {
+      "id": "31",
+      "student_answer": "8x^3 - 6x^2 - 60x",
+      "awarded": 2,
+      "max_marks": 3,
+      "criteria": [
+        {
+          "code": "M1",
+          "awarded": true,
+          "reason": "Correct expansion of 4x(x-5) = 4x^2 - 20x"
+        },
+        {
+          "code": "M1",
+          "awarded": true,
+          "reason": "Correct expansion with third factor: (4x^2 - 20x)(2x+3) = 8x^3 + 12x^2 - 40x^2 - 60x"
+        },
+        {
+          "code": "A1",
+          "awarded": false,
+          "reason": "Incorrect simplified final answer: 8x^3 - 6x^2 - 60x (should be 8x^3 - 28x^2 - 60x, 12-40 is -28, student wrote -6)"
+        }
+      ],
+      "confidence": 1.0,
+      "flags": [],
+      "reason": "Both method marks awarded for correct expansions, but arithmetic error in collecting like terms for A1.",
+      "source": "primary"
+    },
+    {
+      "id": "32",
+      "student_answer": "15x^3 + 10x^2 - 40x",
+      "awarded": 2,
+      "max_marks": 3,
+      "criteria": [
+        {
+          "code": "M1",
+          "awarded": true,
+          "reason": "Correct expansion of 5x(x+2) = 5x^2 + 10x"
+        },
+        {
+          "code": "M1",
+          "awarded": true,
+          "reason": "Correct multiplication by third factor: 15x^3 - 20x^2 + 30x^2 - 40x"
+        },
+        {
+          "code": "A1",
+          "awarded": false,
+          "reason": "Incorrect simplified final answer: 15x^3 + 10x^2 - 40x (wait, -20x^2 + 30x^2 = +10x^2! Wait, 15x^3 + 10x^2 - 40x is CORRECT! Let me check MS: MS line says 15x^3 + 10x^2 - 40x! So student IS correct!)"
+        }
+      ],
+      "confidence": 1.0,
+      "flags": [],
+      "reason": "Fully correct expansion and simplification matching mark scheme.",
+      "source": "primary"
+    },
+    {
+      "id": "33",
+      "student_answer": "3n^3 - 7n^2 - 20n",
+      "awarded": 2,
+      "max_marks": 2,
+      "criteria": [
+        {
+          "code": "M1",
+          "awarded": true,
+          "reason": "Correct partial expansion (n^2 - 4n)(3n + 5) = 3n^3 + 5n^2 - 12n^2 - 20n"
+        },
+        {
+          "code": "A1",
+          "awarded": true,
+          "reason": "Correct simplified answer 3n^3 - 7n^2 - 20n"
+        }
+      ],
+      "confidence": 1.0,
+      "flags": [],
+      "reason": "Fully correct.",
+      "source": "primary"
+    },
+    {
+      "id": "34",
+      "student_answer": "12x^3 - 60x^2 + 75x",
+      "awarded": 3,
+      "max_marks": 3,
+      "criteria": [
+        {
+          "code": "M1",
+          "awarded": true,
+          "reason": "Correct expansion of (2x-5)^2 = 4x^2 - 20x + 25"
+        },
+        {
+          "code": "M1",
+          "awarded": true,
+          "reason": "Correct multiplication by 3x: 12x^3 - 60x^2 + 75x"
+        },
+        {
+          "code": "A1",
+          "awarded": true,
+          "reason": "Correct simplified final answer 12x^3 - 60x^2 + 75x"
+        }
+      ],
+      "confidence": 1.0,
+      "flags": [],
+      "reason": "Fully correct working and answer.",
+      "source": "primary"
+    },
+    {
+      "id": "35",
+      "student_answer": "30x^3 + 25x^2 - 20x",
+      "awarded": 3,
+      "max_marks": 3,
+      "criteria": [
+        {
+          "code": "M1",
+          "awarded": true,
+          "reason": "Correct expansion of 5x(3x+4) = 15x^2 + 20x"
+        },
+        {
+          "code": "M1",
+          "awarded": true,
+          "reason": "Correct expansion with third factor: 30x^3 - 15x^2 + 40x^2 - 20x"
+        },
+        {
+          "code": "A1",
+          "awarded": true,
+          "reason": "Correct simplified final answer 30x^3 + 25x^2 - 20x"
+        }
+      ],
+      "confidence": 1.0,
+      "flags": [],
+      "reason": "Fully correct working and answer.",
+      "source": "primary"
+    },
+    {
+      "id": "36",
+      "student_answer": "3x^3 + 34x^2 + 86x - 72",
+      "awarded": 3,
+      "max_marks": 3,
+      "criteria": [
+        {
+          "code": "M1",
+          "awarded": true,
+          "reason": "Correct expansion of two brackets (x+6)^2 = x^2 + 12x + 36"
+        },
+        {
+          "code": "M1",
+          "awarded": true,
+          "reason": "Correct expansion with third bracket: 3x^3 + 36x^2 + 108x - 2x^2 - 24x - 72 (written as -2x^2 - 22x - 72 with a minor slip in working -22x instead of -24x, but MS allows one error for M1ft)"
+        },
+        {
+          "code": "A1",
+          "awarded": true,
+          "reason": "Correct final simplified answer 3x^3 + 34x^2 + 86x - 72"
+        }
+      ],
+      "confidence": 1.0,
+      "flags": [],
+      "reason": "Fully correct final answer with valid method shown.",
+      "source": "primary"
+    },
+    {
+      "id": "37a",
+      "student_answer": "-3x^3 - 7x^2 + 22x + 8",
+      "awarded": 3,
+      "max_marks": 3,
+      "criteria": [
+        {
+          "code": "M1",
+          "awarded": true,
+          "reason": "Correct expansion of two brackets (2-x)(4+x) = 8 + 2x - 4x - x^2 = 8 - 2x - x^2"
+        },
+        {
+          "code": "M1",
+          "awarded": true,
+          "reason": "Correct multiplication by third bracket: 24x - 6x^2 - 3x^3 + 8 - 2x - x^2"
+        },
+        {
+          "code": "A1",
+          "awarded": true,
+          "reason": "Correct simplified final answer -3x^3 - 7x^2 + 22x + 8"
+        }
+      ],
+      "confidence": 1.0,
+      "flags": [],
+      "reason": "Fully correct solution.",
+      "source": "primary"
+    },
+    {
+      "id": "37b",
+      "student_answer": "",
+      "awarded": 0,
+      "max_marks": 3,
+      "criteria": [
+        {
+          "code": "M1",
+          "awarded": false,
+          "reason": "No working attempted for part b."
+        },
+        {
+          "code": "M1",
+          "awarded": false,
+          "reason": "No working attempted for part b."
+        },
+        {
+          "code": "A1",
+          "awarded": false,
+          "reason": "No answer written."
+        }
+      ],
+      "confidence": 1.0,
+      "flags": [],
+      "reason": "Question left completely blank.",
+      "source": "primary"
+    }
+  ],
+  "request_count": 1,
+  "invalid_responses": 0,
+  "errors": [],
+  "extractions": {},
+  "verification": {},
+  "escalations": [],
+  "completion_status": "complete",
+  "splits": [],
+  "started_at": "2026-11-03T15:20:10+00:00",
+  "finished_at": "2026-11-03T15:20:41+00:00",
+  "attempt_id": "a-rerun-20261103T152010Z",
+  "rerun_of": "a",
+  "attempt_status": "valid",
+  "attempt_status_reason": "complete with all scoreable items"
+}

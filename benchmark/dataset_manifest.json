@@ -1,0 +1,856 @@
+{
+  "dataset_id": "paper-01",
+  "title": "Algebraic Manipulation (Simplifying Expressions) workbook, pages 340-346",
+  "built_at": "2026-11-02T22:55:10+00:00",
+  "provenance": {
+    "project": "MATH_CHECKER_V5 (read-only)",
+    "source": "V5 temporary ingestion renders retained by the correction pipeline",
+    "original_pdf_available": false,
+    "note": "No original PDF is present in the V5 tree. The retained page renders are the highest-fidelity copy available and are preserved byte-for-byte apart from the redactions listed here.",
+    "student_identity": "No student name is visible on any selected page.",
+    "redacted": "Teacher name printed in the footer and the scanner vendor watermark."
+  },
+  "paper": {
+    "question_count": 37,
+    "markable_item_count": 38,
+    "marks": 87,
+    "marks_note": "Sum of the marks printed next to each question; see ground_truth/paper-01.json.",
+    "pages": 7,
+    "scheme_pages": 21,
+    "handwriting": true,
+    "question_range": "Q1-Q37 (Q1 has parts a and d; Q37 has parts a and b)"
+  },
+  "anonymisation": {
+    "method": "white rectangle over measured footer regions; no resampling or recompression of content",
+    "student_boxes": [
+      [
+        30,
+        1460,
+        600,
+        1570
+      ],
+      [
+        930,
+        1570,
+        1240,
+        1755
+      ]
+    ],
+    "scheme_boxes": [
+      [
+        60,
+        1000,
+        600,
+        1090
+      ]
+    ]
+  },
+  "student_pages": [
+    {
+      "page": 1,
+      "source": "C:\\Projects\\MATH_CHECKER_V5\\.tmp_paper\\p01.png",
+      "source_sha256": "146b5461db23cc158c20efd095383ce47eef37972358d7e94c3398ad02eb3c02",
+      "sample": "anonymized_samples/student_p01.png",
+      "questions": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "width": 1240,
+      "height": 1755,
+      "redactions": [
+        {
+          "name": "teacher_name_footer",
+          "box": [
+            30,
+            1460,
+            600,
+            1570
+          ],
+          "fill": "white"
+        },
+        {
+          "name": "scanner_vendor_watermark",
+          "box": [
+            930,
+            1570,
+            1240,
+            1755
+          ],
+          "fill": "white"
+        }
+      ],
+      "sha256": "0a2d8372162eb4b55b8ed0898b206e254083da24b26ec00a1fdcf8f0e45c476c"
+    },
+    {
+      "page": 2,
+      "source": "C:\\Projects\\MATH_CHECKER_V5\\.tmp_paper\\p02.png",
+      "source_sha256": "2bf9b747e41d857f7696703a78e54afbdb02058f555b540a972e6574d9268390",
+      "sample": "anonymized_samples/student_p02.png",
+      "questions": [
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "width": 1240,
+      "height": 1755,
+      "redactions": [
+        {
+          "name": "teacher_name_footer",
+          "box": [
+            30,
+            1460,
+            600,
+            1570
+          ],
+          "fill": "white"
+        },
+        {
+          "name": "scanner_vendor_watermark",
+          "box": [
+            930,
+            1570,
+            1240,
+            1755
+          ],
+          "fill": "white"
+        }
+      ],
+      "sha256": "10b2fe6d326e29d36978a19d31921357c45966ad7df12f874b4ee698e82b1a6b"
+    },
+    {
+      "page": 3,
+      "source": "C:\\Projects\\MATH_CHECKER_V5\\.tmp_paper\\p03.png",
+      "source_sha256": "b4d8136f5b4b4033105062c2703000889e9c579a2414feaf8e391877d4a569d6",
+      "sample": "anonymized_samples/student_p03.png",
+      "questions": [
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18"
+      ],
+      "width": 1240,
+      "height": 1755,
+      "redactions": [
+        {
+          "name": "teacher_name_footer",
+          "box": [
+            30,
+            1460,
+            600,
+            1570
+          ],
+          "fill": "white"
+        },
+        {
+          "name": "scanner_vendor_watermark",
+          "box": [
+            930,
+            1570,
+            1240,
+            1755
+          ],
+          "fill": "white"
+        }
+      ],
+      "sha256": "005651f225bc5aa607a0b75522897fda01a4de7688d021dea5ea548b4aa3d81e"
+    },
+    {
+      "page": 4,
+      "source": "C:\\Projects\\MATH_CHECKER_V5\\.tmp_paper\\p04.png",
+      "source_sha256": "c1b3b48db82e467c01568efdfc9083da4b9beedb91f17be05f0cc0d02bb7a02c",
+      "sample": "anonymized_samples/student_p04.png",
+      "questions": [
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25"
+      ],
+      "width": 1240,
+      "height": 1755,
+      "redactions": [
+        {
+          "name": "teacher_name_footer",
+          "box": [
+            30,
+            1460,
+            600,
+            1570
+          ],
+          "fill": "white"
+        },
+        {
+          "name": "scanner_vendor_watermark",
+          "box": [
+            930,
+            1570,
+            1240,
+            1755
+          ],
+          "fill": "white"
+        }
+      ],
+      "sha256": "e036746762d41cfd00c8eda0ad1830c1d7a9077e096c4d08a244f16fe5a5cea6"
+    },
+    {
+      "page": 5,
+      "source": "C:\\Projects\\MATH_CHECKER_V5\\.tmp_paper\\p05.png",
+      "source_sha256": "d85a51eaa7ee406cc4302fcafdf96d1729a878dd704d9bf4356ee31eec3e8cba",
+      "sample": "anonymized_samples/student_p05.png",
+      "questions": [
+        "26",
+        "27",
+        "28",
+        "29",
+        "30",
+        "31"
+      ],
+      "width": 1240,
+      "height": 1755,
+      "redactions": [
+        {
+          "name": "teacher_name_footer",
+          "box": [
+            30,
+            1460,
+            600,
+            1570
+          ],
+          "fill": "white"
+        },
+        {
+          "name": "scanner_vendor_watermark",
+          "box": [
+            930,
+            1570,
+            1240,
+            1755
+          ],
+          "fill": "white"
+        }
+      ],
+      "sha256": "e2f41a758de488354e1816b1e1f12745d50bb545112460b9a98e8f9a1a6e1175"
+    },
+    {
+      "page": 6,
+      "source": "C:\\Projects\\MATH_CHECKER_V5\\.tmp_paper\\p06.png",
+      "source_sha256": "e0d81d11ed56fe9e945b7551979cec067618c5e59a51045184b21f382981d363",
+      "sample": "anonymized_samples/student_p06.png",
+      "questions": [
+        "32",
+        "33",
+        "34",
+        "35",
+        "36"
+      ],
+      "width": 1240,
+      "height": 1755,
+      "redactions": [
+        {
+          "name": "teacher_name_footer",
+          "box": [
+            30,
+            1460,
+            600,
+            1570
+          ],
+          "fill": "white"
+        },
+        {
+          "name": "scanner_vendor_watermark",
+          "box": [
+            930,
+            1570,
+            1240,
+            1755
+          ],
+          "fill": "white"
+        }
+      ],
+      "sha256": "a1b4ccdb3de5ce942cd29ec407202ba52d9f8355f6848c3b2f71be1f96f34547"
+    },
+    {
+      "page": 7,
+      "source": "C:\\Projects\\MATH_CHECKER_V5\\.tmp_paper\\p07.png",
+      "source_sha256": "4412b74b1ea273d2f35f08ae3cf6a6dec58ca4dab4ad49f57da72e0663711d53",
+      "sample": "anonymized_samples/student_p07.png",
+      "questions": [
+        "37"
+      ],
+      "width": 1240,
+      "height": 1755,
+      "redactions": [
+        {
+          "name": "teacher_name_footer",
+          "box": [
+            30,
+            1460,
+            600,
+            1570
+          ],
+          "fill": "white"
+        },
+        {
+          "name": "scanner_vendor_watermark",
+          "box": [
+            930,
+            1570,
+            1240,
+            1755
+          ],
+          "fill": "white"
+        }
+      ],
+      "sha256": "404310dad5dd2056e0f31df4fc772847eee3ebd9aee97302d6f1dbb73e1d6074"
+    }
+  ],
+  "scheme_pages": [
+    {
+      "page": 1,
+      "source": "C:\\Projects\\MATH_CHECKER_V5\\.tmp_scheme_pages\\page-01.png",
+      "source_sha256": "cb090765fa0053dd0b6c5b9caf8904e780ab3febcebf207b537bf11fcb8d753f",
+      "sample": "anonymized_samples/scheme_p01.png",
+      "width": 1540,
+      "height": 1190,
+      "redactions": [
+        {
+          "name": "teacher_name_footer",
+          "box": [
+            60,
+            1000,
+            600,
+            1090
+          ],
+          "fill": "white"
+        }
+      ],
+      "sha256": "9c7bdc91a195bba6edaa8a7788d7a51e3597806138615e1d422c8d78b606c3d3"
+    },
+    {
+      "page": 2,
+      "source": "C:\\Projects\\MATH_CHECKER_V5\\.tmp_scheme_pages\\page-02.png",
+      "source_sha256": "0ccfc59e0f5316d1ef9d6b1d2934cc45897549fe2d163e9808d298a299b03698",
+      "sample": "anonymized_samples/scheme_p02.png",
+      "width": 1540,
+      "height": 1190,
+      "redactions": [
+        {
+          "name": "teacher_name_footer",
+          "box": [
+            60,
+            1000,
+            600,
+            1090
+          ],
+          "fill": "white"
+        }
+      ],
+      "sha256": "bd68df30d3b6f0239276378c8444669539556dc6cb48af8d516f70054d072ef7"
+    },
+    {
+      "page": 3,
+      "source": "C:\\Projects\\MATH_CHECKER_V5\\.tmp_scheme_pages\\page-03.png",
+      "source_sha256": "c3c189e6db494bb82153da5c1ba5d60e7aa25a48980f04cbc31c6476ad06d280",
+      "sample": "anonymized_samples/scheme_p03.png",
+      "width": 1540,
+      "height": 1190,
+      "redactions": [
+        {
+          "name": "teacher_name_footer",
+          "box": [
+            60,
+            1000,
+            600,
+            1090
+          ],
+          "fill": "white"
+        }
+      ],
+      "sha256": "4a15f9d5459964905fdbe75e7b3ed01cb19a27aa279f1946cff1bd193d0f1712"
+    },
+    {
+      "page": 4,
+      "source": "C:\\Projects\\MATH_CHECKER_V5\\.tmp_scheme_pages\\page-04.png",
+      "source_sha256": "677760b6d14d225ad339219f38cf8f13e22832418e9f0980301ea3d6f87f520f",
+      "sample": "anonymized_samples/scheme_p04.png",
+      "width": 1540,
+      "height": 1190,
+      "redactions": [
+        {
+          "name": "teacher_name_footer",
+          "box": [
+            60,
+            1000,
+            600,
+            1090
+          ],
+          "fill": "white"
+        }
+      ],
+      "sha256": "d30edd3e00f64e068a7f450bcbdd9392a4fe8c58cc2b5c6f7b89dff4833252e5"
+    },
+    {
+      "page": 5,
+      "source": "C:\\Projects\\MATH_CHECKER_V5\\.tmp_scheme_pages\\page-05.png",
+      "source_sha256": "1c3bc3b366128b9bf49a318720c535aa99f82e2937c743d630d536bdc7cc19a2",
+      "sample": "anonymized_samples/scheme_p05.png",
+      "width": 1540,
+      "height": 1190,
+      "redactions": [
+        {
+          "name": "teacher_name_footer",
+          "box": [
+            60,
+            1000,
+            600,
+            1090
+          ],
+          "fill": "white"
+        }
+      ],
+      "sha256": "fbddf57f8812dde0d9a665b717a15cdae66375d8e4e90b8bdb41ebaaf003292c"
+    },
+    {
+      "page": 6,
+      "source": "C:\\Projects\\MATH_CHECKER_V5\\.tmp_scheme_pages\\page-06.png",
+      "source_sha256": "a1591afa1644ed643741d2d7757b0bc50a31ac82eb72a5f030520030569e31f5",
+      "sample": "anonymized_samples/scheme_p06.png",
+      "width": 1540,
+      "height": 1190,
+      "redactions": [
+        {
+          "name": "teacher_name_footer",
+          "box": [
+            60,
+            1000,
+            600,
+            1090
+          ],
+          "fill": "white"
+        }
+      ],
+      "sha256": "d2ab91162e338c1f37c3ca64f770bf6c5d02e481c05c13a3298338f6fcde063d"
+    },
+    {
+      "page": 7,
+      "source": "C:\\Projects\\MATH_CHECKER_V5\\.tmp_scheme_pages\\page-07.png",
+      "source_sha256": "6dca032e8961ec1c21d2e05c3dd5b2e47bc5bbd009083fdc0a6968442acaf22a",
+      "sample": "anonymized_samples/scheme_p07.png",
+      "width": 1540,
+      "height": 1190,
+      "redactions": [
+        {
+          "name": "teacher_name_footer",
+          "box": [
+            60,
+            1000,
+            600,
+            1090
+          ],
+          "fill": "white"
+        }
+      ],
+      "sha256": "0922e6eef6d11ca7abe1ed9bf1b5f23bc4e93e9f3703951aeb1af135560ff55f"
+    },
+    {
+      "page": 8,
+      "source": "C:\\Projects\\MATH_CHECKER_V5\\.tmp_scheme_pages\\page-08.png",
+      "source_sha256": "88e21fc41c18c88c93d7ddf641419fc8aa046d817cf385ab6dff11cd7e1d2fe7",
+      "sample": "anonymized_samples/scheme_p08.png",
+      "width": 1540,
+      "height": 1190,
+      "redactions": [
+        {
+          "name": "teacher_name_footer",
+          "box": [
+            60,
+            1000,
+            600,
+            1090
+          ],
+          "fill": "white"
+        }
+      ],
+      "sha256": "fe6cd7d0be56a213c4d91ff58550439cf1bfc3f6da11473343ace6c80acb09fa"
+    },
+    {
+      "page": 9,
+      "source": "C:\\Projects\\MATH_CHECKER_V5\\.tmp_scheme_pages\\page-09.png",
+      "source_sha256": "efd178df02db4125a9602f3e898ecae6e0bdfa4f501ac9f160103cb6031f772e",
+      "sample": "anonymized_samples/scheme_p09.png",
+      "width": 1540,
+      "height": 1190,
+      "redactions": [
+        {
+          "name": "teacher_name_footer",
+          "box": [
+            60,
+            1000,
+            600,
+            1090
+          ],
+          "fill": "white"
+        }
+      ],
+      "sha256": "a0f59f579078f21f301b900e5f88d365949f7615a9a80839776e305e7b2754a6"
+    },
+    {
+      "page": 10,
+      "source": "C:\\Projects\\MATH_CHECKER_V5\\.tmp_scheme_pages\\page-10.png",
+      "source_sha256": "b8b83ac17e02a0401b55075d71990997771f18ca46abb4eceb8c7a73c7224a1f",
+      "sample": "anonymized_samples/scheme_p10.png",
+      "width": 1540,
+      "height": 1190,
+      "redactions": [
+        {
+          "name": "teacher_name_footer",
+          "box": [
+            60,
+            1000,
+            600,
+            1090
+          ],
+          "fill": "white"
+        }
+      ],
+      "sha256": "466e32247856d645fd2d1194e5001c34aafec73c3c3d1b1357c13c92ed8e1a69"
+    },
+    {
+      "page": 11,
+      "source": "C:\\Projects\\MATH_CHECKER_V5\\.tmp_scheme_pages\\page-11.png",
+      "source_sha256": "a206b568cbc97506eb4ca6ffcc67b890540d2dc1384e7f48571c0ed9c904515f",
+      "sample": "anonymized_samples/scheme_p11.png",
+      "width": 1540,
+      "height": 1190,
+      "redactions": [
+        {
+          "name": "teacher_name_footer",
+          "box": [
+            60,
+            1000,
+            600,
+            1090
+          ],
+          "fill": "white"
+        }
+      ],
+      "sha256": "d101792dd5144d2cddcfb71142873dec71b884439ae895751fa2bfb775531514"
+    },
+    {
+      "page": 12,
+      "source": "C:\\Projects\\MATH_CHECKER_V5\\.tmp_scheme_pages\\page-12.png",
+      "source_sha256": "896d909d8d9a63c1a6060865f719cddffabc7166392bf4ec5b036618319dbe58",
+      "sample": "anonymized_samples/scheme_p12.png",
+      "width": 1540,
+      "height": 1190,
+      "redactions": [
+        {
+          "name": "teacher_name_footer",
+          "box": [
+            60,
+            1000,
+            600,
+            1090
+          ],
+          "fill": "white"
+        }
+      ],
+      "sha256": "ec64c685516bdbaddaf6ebae764174f6a298cd159d85b7c96b3a1d0caaa1ba7a"
+    },
+    {
+      "page": 13,
+      "source": "C:\\Projects\\MATH_CHECKER_V5\\.tmp_scheme_pages\\page-13.png",
+      "source_sha256": "773b807a53325a6397b4115f76adf2d16d9c621e882b1276d3333b98b3fe7ffb",
+      "sample": "anonymized_samples/scheme_p13.png",
+      "width": 1540,
+      "height": 1190,
+      "redactions": [
+        {
+          "name": "teacher_name_footer",
+          "box": [
+            60,
+            1000,
+            600,
+            1090
+          ],
+          "fill": "white"
+        }
+      ],
+      "sha256": "02154b894d542ee1fcdb0f4e387d14e4ad4f3f23b7a1de4c5d59bee89da6b973"
+    },
+    {
+      "page": 14,
+      "source": "C:\\Projects\\MATH_CHECKER_V5\\.tmp_scheme_pages\\page-14.png",
+      "source_sha256": "eebfb85923886138e69089c1eb2fb77ad384eb218e664927f6fc777e5f3782e8",
+      "sample": "anonymized_samples/scheme_p14.png",
+      "width": 1540,
+      "height": 1190,
+      "redactions": [
+        {
+          "name": "teacher_name_footer",
+          "box": [
+            60,
+            1000,
+            600,
+            1090
+          ],
+          "fill": "white"
+        }
+      ],
+      "sha256": "acd333ba7c346ed7ed830968eb59b041fb51c63610f269e96e683e058b873c09"
+    },
+    {
+      "page": 15,
+      "source": "C:\\Projects\\MATH_CHECKER_V5\\.tmp_scheme_pages\\page-15.png",
+      "source_sha256": "46314013760d3891c3b31f547b09eb825122b80244d29a617d3d9bab45547392",
+      "sample": "anonymized_samples/scheme_p15.png",
+      "width": 1540,
+      "height": 1190,
+      "redactions": [
+        {
+          "name": "teacher_name_footer",
+          "box": [
+            60,
+            1000,
+            600,
+            1090
+          ],
+          "fill": "white"
+        }
+      ],
+      "sha256": "a1d126b2bbc54ff93033363409f5ffc1fe8fa01bd3e02f4c00063c1f1a4d1342"
+    },
+    {
+      "page": 16,
+      "source": "C:\\Projects\\MATH_CHECKER_V5\\.tmp_scheme_pages\\page-16.png",
+      "source_sha256": "9816d2167c3a80558ba06d37bf504bde0b3fa3e092ec9bbf7ba549cf6c905c55",
+      "sample": "anonymized_samples/scheme_p16.png",
+      "width": 1540,
+      "height": 1190,
+      "redactions": [
+        {
+          "name": "teacher_name_footer",
+          "box": [
+            60,
+            1000,
+            600,
+            1090
+          ],
+          "fill": "white"
+        }
+      ],
+      "sha256": "6eb041d622533ef78b0b785ad85f2e382df8cc25ebcace8fe49290a8c10a925e"
+    },
+    {
+      "page": 17,
+      "source": "C:\\Projects\\MATH_CHECKER_V5\\.tmp_scheme_pages\\page-17.png",
+      "source_sha256": "66bbbe633ec1d6d496521f30d468c8cfc76710854c1a501696fd5fa70fed7458",
+      "sample": "anonymized_samples/scheme_p17.png",
+      "width": 1540,
+      "height": 1190,
+      "redactions": [
+        {
+          "name": "teacher_name_footer",
+          "box": [
+            60,
+            1000,
+            600,
+            1090
+          ],
+          "fill": "white"
+        }
+      ],
+      "sha256": "51d65af45e62b9a33ec86509a04bef8cfc8a881cd9cb77eb0c3ab570a9a078db"
+    },
+    {
+      "page": 18,
+      "source": "C:\\Projects\\MATH_CHECKER_V5\\.tmp_scheme_pages\\page-18.png",
+      "source_sha256": "f50090fc6844dd11917ed51b6a2732a88d4bc58422ecd6113b79e1bbd8124e8e",
+      "sample": "anonymized_samples/scheme_p18.png",
+      "width": 1540,
+      "height": 1190,
+      "redactions": [
+        {
+          "name": "teacher_name_footer",
+          "box": [
+            60,
+            1000,
+            600,
+            1090
+          ],
+          "fill": "white"
+        }
+      ],
+      "sha256": "bb35178baac8603fc72319cec6c142ab5065d9be616d6681b0fb5996df30ee00"
+    },
+    {
+      "page": 19,
+      "source": "C:\\Projects\\MATH_CHECKER_V5\\.tmp_scheme_pages\\page-19.png",
+      "source_sha256": "daffa73cf99676f1f4965085aca72c6f47fcb54c8f78c79706875ea625ce29ff",
+      "sample": "anonymized_samples/scheme_p19.png",
+      "width": 1540,
+      "height": 1190,
+      "redactions": [
+        {
+          "name": "teacher_name_footer",
+          "box": [
+            60,
+            1000,
+            600,
+            1090
+          ],
+          "fill": "white"
+        }
+      ],
+      "sha256": "f03ad75f50982397e887c0bed40978870ba01ad35e9663d4fbe0fa9c71b4c63d"
+    },
+    {
+      "page": 20,
+      "source": "C:\\Projects\\MATH_CHECKER_V5\\.tmp_scheme_pages\\page-20.png",
+      "source_sha256": "e545bf6cb7984bcb90459cdea78fa666edcdbc22c2d1ae957e79352670ab6629",
+      "sample": "anonymized_samples/scheme_p20.png",
+      "width": 1540,
+      "height": 1190,
+      "redactions": [
+        {
+          "name": "teacher_name_footer",
+          "box": [
+            60,
+            1000,
+            600,
+            1090
+          ],
+          "fill": "white"
+        }
+      ],
+      "sha256": "35ca5b1198e2aeca598e4bcde06f3372a334a83738b39f186fe8ba47064a688b"
+    },
+    {
+      "page": 21,
+      "source": "C:\\Projects\\MATH_CHECKER_V5\\.tmp_scheme_pages\\page-21.png",
+      "source_sha256": "c8cf414f7c031c56b67226dae48096c5b6f971ab9ddcb377392e5834afa53ba1",
+      "sample": "anonymized_samples/scheme_p21.png",
+      "width": 1540,
+      "height": 1190,
+      "redactions": [
+        {
+          "name": "teacher_name_footer",
+          "box": [
+            60,
+            1000,
+            600,
+            1090
+          ],
+          "fill": "white"
+        }
+      ],
+      "sha256": "2894cca074f63f4ddb9a728fdbdfc197a7c8053bb77d62faea141c89566c3fec"
+    }
+  ],
+  "ground_truth": {
+    "path": "ground_truth/paper-01.json",
+    "status": "candidate_not_teacher_certified",
+    "basis": "printed criterion-level mark scheme plus independent re-solving"
+  },
+  "question_page_map": {
+    "1": [
+      "1a",
+      "1d",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "2": [
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "3": [
+      "13",
+      "14",
+      "15",
+      "16b",
+      "16d",
+      "17",
+      "18",
+      "19"
+    ],
+    "4": [
+      "20",
+      "21",
+      "22",
+      "23",
+      "24",
+      "25"
+    ],
+    "5": [
+      "26",
+      "27",
+      "28",
+      "29",
+      "30",
+      "31"
+    ],
+    "6": [
+      "32",
+      "33",
+      "34",
+      "35",
+      "36"
+    ],
+    "7": [
+      "37a",
+      "37b"
+    ]
+  },
+  "scheme_page_map": {
+    "1": "cover",
+    "2": "Q1-Q5",
+    "3": "Q6-Q8",
+    "4": "Q9-Q12",
+    "5": "Q13-Q15",
+    "6": "Q16-Q17",
+    "7": "Q18-Q19",
+    "8": "Q20-Q22",
+    "9": "Q23-Q24",
+    "10": "Q25-Q26",
+    "11": "Q27",
+    "12": "Q28",
+    "13": "Q29",
+    "14": "Q30",
+    "15": "Q31",
+    "16": "Q32",
+    "17": "Q33",
+    "18": "Q34",
+    "19": "Q35",
+    "20": "Q36",
+    "21": "Q37"
+  },
+  "request_encoding": "JPEG quality 88 derived from the anonymised PNGs; identical for all strategies",
+  "ground_truth_totals": {
+    "items_total": 40,
+    "items_scored": 38,
+    "items_excluded": 2,
+    "marks_available_scored": 87,
+    "candidate_marks_awarded": 80,
+    "candidate_percentage": 91.95,
+    "printed_marks_all_items": 87,
+    "excluded_marks": 4
+  }
+}

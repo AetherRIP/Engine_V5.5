@@ -1,0 +1,447 @@
+{
+  "kind": "offline_signal_analysis",
+  "measurement_kind": "derived_from_preserved_live_a_runs",
+  "live_api_calls": 0,
+  "policies": {
+    "h-low": "Conservative: escalate only structural and evidence integrity failures.",
+    "h-medium": "Moderate and rule-based: residual integrity failures plus deterministic marking contradictions. No model-reported confidence.",
+    "h-high": "Aggressive: every deterministic contradiction plus model flags and any algebraic divergence from the printed answer."
+  },
+  "frozen_signal_sets": {
+    "h-low": [
+      "S1_structure",
+      "S2_evidence_gap",
+      "S3_aggregation"
+    ],
+    "h-medium": [
+      "S1_structure",
+      "S2_evidence_gap",
+      "S3_aggregation",
+      "S4a_accuracy_without_method",
+      "S4b_full_marks_with_unawarded",
+      "S4c_partial_with_all_awarded",
+      "S5a_under_award_contradiction",
+      "S5b_over_award_contradiction",
+      "S6_model_flag"
+    ],
+    "h-high": [
+      "S1_structure",
+      "S2_evidence_gap",
+      "S3_aggregation",
+      "S4a_accuracy_without_method",
+      "S4b_full_marks_with_unawarded",
+      "S4c_partial_with_all_awarded",
+      "S5a_under_award_contradiction",
+      "S5b_over_award_contradiction",
+      "S6_model_flag",
+      "S7_low_confidence",
+      "S8_broad_answer_divergence"
+    ]
+  },
+  "caps": {
+    "h-low": 3,
+    "h-medium": 6,
+    "h-high": 8
+  },
+  "runs": {
+    "2": {
+      "awarded": 77,
+      "policies": {
+        "h-low": {
+          "candidates": 1,
+          "selected": [
+            "26"
+          ],
+          "suppressed": [],
+          "detail": [
+            {
+              "item": "26",
+              "reason": "S3_aggregation",
+              "signals": [
+                {
+                  "code": "S3_aggregation",
+                  "severity": 3,
+                  "label": "awarded total disagrees with the criteria awarded",
+                  "detail": "awarded 2 but 1 criteria awarded"
+                }
+              ]
+            }
+          ]
+        },
+        "h-medium": {
+          "candidates": 2,
+          "selected": [
+            "26",
+            "36"
+          ],
+          "suppressed": [],
+          "detail": [
+            {
+              "item": "26",
+              "reason": "S3_aggregation",
+              "signals": [
+                {
+                  "code": "S3_aggregation",
+                  "severity": 3,
+                  "label": "awarded total disagrees with the criteria awarded",
+                  "detail": "awarded 2 but 1 criteria awarded"
+                }
+              ]
+            },
+            {
+              "item": "36",
+              "reason": "S5b_over_award_contradiction",
+              "signals": [
+                {
+                  "code": "S5b_over_award_contradiction",
+                  "severity": 2,
+                  "label": "answer differs from the printed answer but full marks were awarded",
+                  "detail": "answer '3x^3 + 34x^2 + 86x - 72' differs from the printed answer but full marks awarded"
+                }
+              ]
+            }
+          ]
+        },
+        "h-high": {
+          "candidates": 5,
+          "selected": [
+            "26",
+            "36",
+            "23",
+            "30",
+            "31"
+          ],
+          "suppressed": [],
+          "detail": [
+            {
+              "item": "26",
+              "reason": "S3_aggregation",
+              "signals": [
+                {
+                  "code": "S3_aggregation",
+                  "severity": 3,
+                  "label": "awarded total disagrees with the criteria awarded",
+                  "detail": "awarded 2 but 1 criteria awarded"
+                },
+                {
+                  "code": "S8_broad_answer_divergence",
+                  "severity": 1,
+                  "label": "transcribed answer diverges from the printed answer",
+                  "detail": "answer '20x^2 - 31x^2 + 63x - 18' differs from the printed answer"
+                }
+              ]
+            },
+            {
+              "item": "36",
+              "reason": "S5b_over_award_contradiction",
+              "signals": [
+                {
+                  "code": "S5b_over_award_contradiction",
+                  "severity": 2,
+                  "label": "answer differs from the printed answer but full marks were awarded",
+                  "detail": "answer '3x^3 + 34x^2 + 86x - 72' differs from the printed answer but full marks awarded"
+                },
+                {
+                  "code": "S8_broad_answer_divergence",
+                  "severity": 1,
+                  "label": "transcribed answer diverges from the printed answer",
+                  "detail": "answer '3x^3 + 34x^2 + 86x - 72' differs from the printed answer"
+                }
+              ]
+            },
+            {
+              "item": "23",
+              "reason": "S8_broad_answer_divergence",
+              "signals": [
+                {
+                  "code": "S8_broad_answer_divergence",
+                  "severity": 1,
+                  "label": "transcribed answer diverges from the printed answer",
+                  "detail": "answer '-2x^3 - 7x^2 - 43x - 42' differs from the printed answer"
+                }
+              ]
+            },
+            {
+              "item": "30",
+              "reason": "S8_broad_answer_divergence",
+              "signals": [
+                {
+                  "code": "S8_broad_answer_divergence",
+                  "severity": 1,
+                  "label": "transcribed answer diverges from the printed answer",
+                  "detail": "answer '22x^3 - 28x^2 - 12x' differs from the printed answer"
+                }
+              ]
+            },
+            {
+              "item": "31",
+              "reason": "S8_broad_answer_divergence",
+              "signals": [
+                {
+                  "code": "S8_broad_answer_divergence",
+                  "severity": 1,
+                  "label": "transcribed answer diverges from the printed answer",
+                  "detail": "answer '8x^3 - 6x^2 - 60x' differs from the printed answer"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "3": {
+      "awarded": 72,
+      "policies": {
+        "h-low": {
+          "candidates": 1,
+          "selected": [
+            "28"
+          ],
+          "suppressed": [],
+          "detail": [
+            {
+              "item": "28",
+              "reason": "S1_structure",
+              "signals": [
+                {
+                  "code": "S1_structure",
+                  "severity": 3,
+                  "label": "criterion structure does not match the printed maximum",
+                  "detail": "2 criteria returned for 3 marks"
+                }
+              ]
+            }
+          ]
+        },
+        "h-medium": {
+          "candidates": 4,
+          "selected": [
+            "28",
+            "21",
+            "32",
+            "36"
+          ],
+          "suppressed": [],
+          "detail": [
+            {
+              "item": "28",
+              "reason": "S1_structure",
+              "signals": [
+                {
+                  "code": "S1_structure",
+                  "severity": 3,
+                  "label": "criterion structure does not match the printed maximum",
+                  "detail": "2 criteria returned for 3 marks"
+                },
+                {
+                  "code": "S5a_under_award_contradiction",
+                  "severity": 2,
+                  "label": "answer matches the printed answer but full marks were not awarded",
+                  "detail": "answer matches the printed answer but 1/3 awarded"
+                }
+              ]
+            },
+            {
+              "item": "21",
+              "reason": "S5a_under_award_contradiction",
+              "signals": [
+                {
+                  "code": "S5a_under_award_contradiction",
+                  "severity": 2,
+                  "label": "answer matches the printed answer but full marks were not awarded",
+                  "detail": "answer matches the printed answer but 1/2 awarded"
+                }
+              ]
+            },
+            {
+              "item": "32",
+              "reason": "S5a_under_award_contradiction",
+              "signals": [
+                {
+                  "code": "S5a_under_award_contradiction",
+                  "severity": 2,
+                  "label": "answer matches the printed answer but full marks were not awarded",
+                  "detail": "answer matches the printed answer but 2/3 awarded"
+                }
+              ]
+            },
+            {
+              "item": "36",
+              "reason": "S5b_over_award_contradiction",
+              "signals": [
+                {
+                  "code": "S5b_over_award_contradiction",
+                  "severity": 2,
+                  "label": "answer differs from the printed answer but full marks were awarded",
+                  "detail": "answer '3x^3 + 34x^2 + 86x - 72' differs from the printed answer but full marks awarded"
+                }
+              ]
+            }
+          ]
+        },
+        "h-high": {
+          "candidates": 8,
+          "selected": [
+            "28",
+            "21",
+            "32",
+            "36",
+            "23",
+            "26",
+            "30",
+            "31"
+          ],
+          "suppressed": [],
+          "detail": [
+            {
+              "item": "28",
+              "reason": "S1_structure",
+              "signals": [
+                {
+                  "code": "S1_structure",
+                  "severity": 3,
+                  "label": "criterion structure does not match the printed maximum",
+                  "detail": "2 criteria returned for 3 marks"
+                },
+                {
+                  "code": "S5a_under_award_contradiction",
+                  "severity": 2,
+                  "label": "answer matches the printed answer but full marks were not awarded",
+                  "detail": "answer matches the printed answer but 1/3 awarded"
+                }
+              ]
+            },
+            {
+              "item": "21",
+              "reason": "S5a_under_award_contradiction",
+              "signals": [
+                {
+                  "code": "S5a_under_award_contradiction",
+                  "severity": 2,
+                  "label": "answer matches the printed answer but full marks were not awarded",
+                  "detail": "answer matches the printed answer but 1/2 awarded"
+                }
+              ]
+            },
+            {
+              "item": "32",
+              "reason": "S5a_under_award_contradiction",
+              "signals": [
+                {
+                  "code": "S5a_under_award_contradiction",
+                  "severity": 2,
+                  "label": "answer matches the printed answer but full marks were not awarded",
+                  "detail": "answer matches the printed answer but 2/3 awarded"
+                }
+              ]
+            },
+            {
+              "item": "36",
+              "reason": "S5b_over_award_contradiction",
+              "signals": [
+                {
+                  "code": "S5b_over_award_contradiction",
+                  "severity": 2,
+                  "label": "answer differs from the printed answer but full marks were awarded",
+                  "detail": "answer '3x^3 + 34x^2 + 86x - 72' differs from the printed answer but full marks awarded"
+                },
+                {
+                  "code": "S8_broad_answer_divergence",
+                  "severity": 1,
+                  "label": "transcribed answer diverges from the printed answer",
+                  "detail": "answer '3x^3 + 34x^2 + 86x - 72' differs from the printed answer"
+                }
+              ]
+            },
+            {
+              "item": "23",
+              "reason": "S8_broad_answer_divergence",
+              "signals": [
+                {
+                  "code": "S8_broad_answer_divergence",
+                  "severity": 1,
+                  "label": "transcribed answer diverges from the printed answer",
+                  "detail": "answer '-12x^3 - 7x^2 - 43x - 42' differs from the printed answer"
+                }
+              ]
+            },
+            {
+              "item": "26",
+              "reason": "S8_broad_answer_divergence",
+              "signals": [
+                {
+                  "code": "S8_broad_answer_divergence",
+                  "severity": 1,
+                  "label": "transcribed answer diverges from the printed answer",
+                  "detail": "answer '20x^3 - 31x^2 + 63x - 18' differs from the printed answer"
+                }
+              ]
+            },
+            {
+              "item": "30",
+              "reason": "S8_broad_answer_divergence",
+              "signals": [
+                {
+                  "code": "S8_broad_answer_divergence",
+                  "severity": 1,
+                  "label": "transcribed answer diverges from the printed answer",
+                  "detail": "answer '22x^3 - 28x^2 - 12x' differs from the printed answer"
+                }
+              ]
+            },
+            {
+              "item": "31",
+              "reason": "S8_broad_answer_divergence",
+              "signals": [
+                {
+                  "code": "S8_broad_answer_divergence",
+                  "severity": 1,
+                  "label": "transcribed answer diverges from the printed answer",
+                  "detail": "answer '8x^3 - 6x^2 - 60x' differs from the printed answer"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  "confidence_calibration": {
+    "available": true,
+    "observations": 76,
+    "distinct_values": [
+      0.9,
+      0.95,
+      1.0
+    ],
+    "buckets": [
+      {
+        "confidence": 0.9,
+        "n": 1,
+        "item_accuracy": 1.0
+      },
+      {
+        "confidence": 0.95,
+        "n": 3,
+        "item_accuracy": 0.3333
+      },
+      {
+        "confidence": 1.0,
+        "n": 72,
+        "item_accuracy": 0.8889
+      }
+    ],
+    "brier": 0.1292,
+    "accuracy_at_confidence_ge_0_95": 0.8667,
+    "accuracy_at_confidence_lt_0_95": 1.0,
+    "separation": "spread present; sample is too small to calibrate a threshold",
+    "conclusion": "Model-reported confidence is not calibrated on this paper: it is saturated near 1.0 and does not order correct from incorrect items, so it is excluded from h-low and h-medium and used only as an h-high negative control."
+  },
+  "signal_frequency": {
+    "S3_aggregation": 3,
+    "S5b_over_award_contradiction": 4,
+    "S8_broad_answer_divergence": 10,
+    "S1_structure": 3,
+    "S5a_under_award_contradiction": 6
+  }
+}

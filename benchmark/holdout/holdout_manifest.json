@@ -1,0 +1,315 @@
+{
+  "manifest_id": "holdout-paper01-design-v1",
+  "status": "blocked_no_certified_papers",
+  "generated_at": "2026-11-03T22:45:11+00:00",
+  "purpose": "Teacher-certified multi-paper holdout validation of Strategy H (A + selective C).",
+  "blocked_reason": "One independent paper exists (paper-01), it is the design paper, and no reference has two independent teacher signatures. The mission stop rule applies: report dataset requirements and the frozen plan, do not evaluate.",
+  "availability": {
+    "independent_papers": 1,
+    "certified_papers": 0,
+    "candidate_papers": 1,
+    "design_paper": "paper-01",
+    "v5_source_pages": "7 student pages + 21 scheme pages, the same paper (j0*.jpg are JPEG re-encodes)",
+    "providers_called_this_phase": 0,
+    "usd_spent_this_phase": 0.0
+  },
+  "papers": [],
+  "reserved_paper": {
+    "paper_id": "paper-01",
+    "reason": "design and evaluation paper; cannot be holdout",
+    "reference_sha256": "1dc77706fab78e99dbb9d8a1e183fec9db36bac38019e7f3564fc5d5c77c120f",
+    "page_hashes": [
+      {
+        "role": "student",
+        "path": "anonymized_samples\\student_p01.png",
+        "sha256": "0a2d8372162eb4b55b8ed0898b206e254083da24b26ec00a1fdcf8f0e45c476c"
+      },
+      {
+        "role": "student",
+        "path": "anonymized_samples\\student_p02.png",
+        "sha256": "10b2fe6d326e29d36978a19d31921357c45966ad7df12f874b4ee698e82b1a6b"
+      },
+      {
+        "role": "student",
+        "path": "anonymized_samples\\student_p03.png",
+        "sha256": "005651f225bc5aa607a0b75522897fda01a4de7688d021dea5ea548b4aa3d81e"
+      },
+      {
+        "role": "student",
+        "path": "anonymized_samples\\student_p04.png",
+        "sha256": "e036746762d41cfd00c8eda0ad1830c1d7a9077e096c4d08a244f16fe5a5cea6"
+      },
+      {
+        "role": "student",
+        "path": "anonymized_samples\\student_p05.png",
+        "sha256": "e2f41a758de488354e1816b1e1f12745d50bb545112460b9a98e8f9a1a6e1175"
+      },
+      {
+        "role": "student",
+        "path": "anonymized_samples\\student_p06.png",
+        "sha256": "a1b4ccdb3de5ce942cd29ec407202ba52d9f8355f6848c3b2f71be1f96f34547"
+      },
+      {
+        "role": "student",
+        "path": "anonymized_samples\\student_p07.png",
+        "sha256": "404310dad5dd2056e0f31df4fc772847eee3ebd9aee97302d6f1dbb73e1d6074"
+      },
+      {
+        "role": "scheme",
+        "path": "anonymized_samples\\scheme_p01.png",
+        "sha256": "9c7bdc91a195bba6edaa8a7788d7a51e3597806138615e1d422c8d78b606c3d3"
+      },
+      {
+        "role": "scheme",
+        "path": "anonymized_samples\\scheme_p02.png",
+        "sha256": "bd68df30d3b6f0239276378c8444669539556dc6cb48af8d516f70054d072ef7"
+      },
+      {
+        "role": "scheme",
+        "path": "anonymized_samples\\scheme_p03.png",
+        "sha256": "4a15f9d5459964905fdbe75e7b3ed01cb19a27aa279f1946cff1bd193d0f1712"
+      },
+      {
+        "role": "scheme",
+        "path": "anonymized_samples\\scheme_p04.png",
+        "sha256": "d30edd3e00f64e068a7f450bcbdd9392a4fe8c58cc2b5c6f7b89dff4833252e5"
+      },
+      {
+        "role": "scheme",
+        "path": "anonymized_samples\\scheme_p05.png",
+        "sha256": "fbddf57f8812dde0d9a665b717a15cdae66375d8e4e90b8bdb41ebaaf003292c"
+      },
+      {
+        "role": "scheme",
+        "path": "anonymized_samples\\scheme_p06.png",
+        "sha256": "d2ab91162e338c1f37c3ca64f770bf6c5d02e481c05c13a3298338f6fcde063d"
+      },
+      {
+        "role": "scheme",
+        "path": "anonymized_samples\\scheme_p07.png",
+        "sha256": "0922e6eef6d11ca7abe1ed9bf1b5f23bc4e93e9f3703951aeb1af135560ff55f"
+      },
+      {
+        "role": "scheme",
+        "path": "anonymized_samples\\scheme_p08.png",
+        "sha256": "fe6cd7d0be56a213c4d91ff58550439cf1bfc3f6da11473343ace6c80acb09fa"
+      },
+      {
+        "role": "scheme",
+        "path": "anonymized_samples\\scheme_p09.png",
+        "sha256": "a0f59f579078f21f301b900e5f88d365949f7615a9a80839776e305e7b2754a6"
+      },
+      {
+        "role": "scheme",
+        "path": "anonymized_samples\\scheme_p10.png",
+        "sha256": "466e32247856d645fd2d1194e5001c34aafec73c3c3d1b1357c13c92ed8e1a69"
+      },
+      {
+        "role": "scheme",
+        "path": "anonymized_samples\\scheme_p11.png",
+        "sha256": "d101792dd5144d2cddcfb71142873dec71b884439ae895751fa2bfb775531514"
+      },
+      {
+        "role": "scheme",
+        "path": "anonymized_samples\\scheme_p12.png",
+        "sha256": "ec64c685516bdbaddaf6ebae764174f6a298cd159d85b7c96b3a1d0caaa1ba7a"
+      },
+      {
+        "role": "scheme",
+        "path": "anonymized_samples\\scheme_p13.png",
+        "sha256": "02154b894d542ee1fcdb0f4e387d14e4ad4f3f23b7a1de4c5d59bee89da6b973"
+      },
+      {
+        "role": "scheme",
+        "path": "anonymized_samples\\scheme_p14.png",
+        "sha256": "acd333ba7c346ed7ed830968eb59b041fb51c63610f269e96e683e058b873c09"
+      },
+      {
+        "role": "scheme",
+        "path": "anonymized_samples\\scheme_p15.png",
+        "sha256": "a1d126b2bbc54ff93033363409f5ffc1fe8fa01bd3e02f4c00063c1f1a4d1342"
+      },
+      {
+        "role": "scheme",
+        "path": "anonymized_samples\\scheme_p16.png",
+        "sha256": "6eb041d622533ef78b0b785ad85f2e382df8cc25ebcace8fe49290a8c10a925e"
+      },
+      {
+        "role": "scheme",
+        "path": "anonymized_samples\\scheme_p17.png",
+        "sha256": "51d65af45e62b9a33ec86509a04bef8cfc8a881cd9cb77eb0c3ab570a9a078db"
+      },
+      {
+        "role": "scheme",
+        "path": "anonymized_samples\\scheme_p18.png",
+        "sha256": "bb35178baac8603fc72319cec6c142ab5065d9be616d6681b0fb5996df30ee00"
+      },
+      {
+        "role": "scheme",
+        "path": "anonymized_samples\\scheme_p19.png",
+        "sha256": "f03ad75f50982397e887c0bed40978870ba01ad35e9663d4fbe0fa9c71b4c63d"
+      },
+      {
+        "role": "scheme",
+        "path": "anonymized_samples\\scheme_p20.png",
+        "sha256": "35ca5b1198e2aeca598e4bcde06f3372a334a83738b39f186fe8ba47064a688b"
+      },
+      {
+        "role": "scheme",
+        "path": "anonymized_samples\\scheme_p21.png",
+        "sha256": "2894cca074f63f4ddb9a728fdbdfc197a7c8053bb77d62faea141c89566c3fec"
+      }
+    ]
+  },
+  "frozen_config": {
+    "version": "h-paper01-v1",
+    "files": {
+      "experimental/strategy_h/config.py": "f70f8e00166f320a5046aee6014791d53c94a88b895f534b365dfd4e7a485568",
+      "experimental/strategy_h/signals.py": "af505946414614c911d1b9be9633a4b30cac78c5234b0921936121c260711d36",
+      "experimental/strategy_h/runner.py": "714bcf6438351a273be7b9a55d9d6cf03ef4a9dd3e6c2d4c712716735f00cd28",
+      "experimental/strategy_h/evidence.py": "8363e88ccb2cb88ea2694d659f08f8d7ddcc231e72183b3602f3fcc226696b54",
+      "experimental/strategy_h/evaluate.py": "8be0199677f0b2d6b1cec0f22233f8d3af6842e513279235bd6434d161110725",
+      "code/evaluator.py": "b38eab2ee84e2f3ae2de48c2dec04ee615e1f62bcf809b816fd2ed3166d26eb7",
+      "code/schema.py": "4e18ae0c18c15dde80cc28d44c4daa88d764f58f868f5afeeada41321600fd68"
+    },
+    "policies": {
+      "h-low": {
+        "signals": [
+          "S1_structure",
+          "S2_evidence_gap",
+          "S3_aggregation"
+        ],
+        "cap": 3
+      },
+      "h-medium": {
+        "signals": [
+          "S1_structure",
+          "S2_evidence_gap",
+          "S3_aggregation",
+          "S4a_accuracy_without_method",
+          "S4b_full_marks_with_unawarded",
+          "S4c_partial_with_all_awarded",
+          "S5a_under_award_contradiction",
+          "S5b_over_award_contradiction",
+          "S6_model_flag"
+        ],
+        "cap": 6
+      },
+      "h-high": {
+        "signals": [
+          "all h-medium signals",
+          "S7_low_confidence",
+          "S8_broad_answer_divergence"
+        ],
+        "cap": 8,
+        "confidence_threshold": 0.8
+      }
+    },
+    "guards": {
+      "G1_no_full_mark_downgrade": "keep A and review when an escalation would reduce a max_marks award",
+      "G2_change_needs_confirmation": "apply a change only when a second independent escalation agrees exactly",
+      "G3_magnitude_guard": "a single-step change of 2+ marks requires G2 confirmation, else review"
+    },
+    "guard_application": "offline post-processing on the same stored responses; raw and guarded reported side by side"
+  },
+  "certification_requirements": {
+    "markers": 2,
+    "marker_kind": "human_teacher",
+    "independent_blinding": true,
+    "adjudicator_required": true,
+    "min_criterion_kappa": 0.6,
+    "audit_re_mark_share": 0.1,
+    "min_scoreable_items_per_paper": 25,
+    "artifact": "certification.json",
+    "allowed_exclusions": [
+      "source_mismatch",
+      "not_printed",
+      "scheme_missing",
+      "unresolved_disagreement"
+    ],
+    "ai_reference_allowed": false
+  },
+  "dataset_requirements": {
+    "minimum_papers_for_decision": 8,
+    "recommended_papers": 10,
+    "topic_domains_min": 4,
+    "difficulty_bands_min": 3,
+    "marks_per_paper_range": [
+      45,
+      100
+    ],
+    "ambiguous_item_share_min": 0.1,
+    "independent_series_preferred": true
+  },
+  "preregistered_metrics": [
+    "criterion_precision",
+    "criterion_recall",
+    "criterion_f1",
+    "item_exact_agreement",
+    "paper_total_exact_agreement",
+    "absolute_total_mark_error",
+    "false_awards",
+    "false_deductions",
+    "criteria_escalated_share",
+    "submissions_escalated_share",
+    "changed_marks",
+    "incorrect_escalations",
+    "harmful_escalations",
+    "full_mark_downgrades",
+    "unsupported_award_escalations",
+    "human_review_rate",
+    "unresolved_disagreements",
+    "audit_completeness",
+    "schema_valid_share",
+    "provider_failure_rate",
+    "total_cost_usd",
+    "cost_per_paper_usd",
+    "cost_per_criterion_usd",
+    "incremental_escalation_cost_usd",
+    "requests_per_paper",
+    "full_document_uploads_per_paper",
+    "wall_time_s",
+    "mean_latency_ms",
+    "p95_latency_ms",
+    "cache_reuse_share",
+    "results_by_paper",
+    "results_by_topic",
+    "results_by_difficulty"
+  ],
+  "acceptance_criteria": {
+    "primary_mean_paired_delta_abs_mark_error_max": -1.0,
+    "primary_ci95_upper_max": 0.0,
+    "criterion_f1_better_on_papers_min": 7,
+    "safety_full_mark_downgrades_max": 0,
+    "safety_unsupported_evidence_max": 0,
+    "safety_audit_completeness_min": 1.0,
+    "incorrect_escalation_share_max": 0.1,
+    "harmful_escalation_share_max": 0.02,
+    "paper_net_worsening_max_marks": 2,
+    "cost_vs_c_only_max_share": 0.8,
+    "cost_vs_a_only_max_multiple": 1.6,
+    "schema_valid_share_min": 0.95,
+    "provider_failure_rate_max": 0.1,
+    "unresolved_escalation_share_max": 0.05,
+    "decision_rule": "integrate only if primary and every safety gate and the cost and reliability gates pass"
+  },
+  "statistical_plan": {
+    "unit_of_generalisation": "paper",
+    "paired_by": "paper",
+    "bootstrap_resamples": 2000,
+    "bootstrap_seed": 20261103,
+    "item_level_bootstrap": "descriptive only",
+    "multiplicity": "one primary endpoint; secondary reported with intervals only",
+    "min_papers_for_any_significance_language": 10,
+    "underpowered_below": 8
+  },
+  "stop_rules": [
+    "fewer than 8 certified papers: descriptive only, no decision",
+    "any paper uncertified: excluded entirely, never provisionally scored",
+    "provider unavailable: record failed requests and cost, report blocked, do not impute",
+    "code digest mismatch: void the run and re-register"
+  ],
+  "validation": {
+    "command": "python -m benchmark.holdout.manifest --check-code"
+  }
+}

@@ -1,0 +1,367 @@
+{
+  "generated_at": "2026-11-03T20:50:14+00:00",
+  "source": "results/api_usage.jsonl",
+  "overall": {
+    "requests": 144,
+    "successes": 95,
+    "span_s": 76213.7,
+    "requests_per_minute": 0.11,
+    "successes_per_minute": 0.07,
+    "concurrency_peak": 1,
+    "concurrency_observed_max": 1,
+    "rate_limit_failures": 6,
+    "rate_limit_rate": 0.0417,
+    "suspensions": 6,
+    "cooldown_wait_s_total": 0.0,
+    "cooldown_wait_s_max": 0.0,
+    "cooldown_wait_sources": {
+      "instrumented": 21,
+      "next_observed_use": 6,
+      "unreconstructable": 0
+    },
+    "cooldown_records": [
+      {
+        "timestamp": "2026-11-02T23:30:57.702+00:00",
+        "key": "KEY_10",
+        "strategy": "a",
+        "run": 1,
+        "wait_s": 52076.279,
+        "source": "next_observed_use",
+        "next_batch": "b4-lite"
+      },
+      {
+        "timestamp": "2026-11-02T23:33:33.395+00:00",
+        "key": "KEY_16",
+        "strategy": "b",
+        "run": 1,
+        "wait_s": 52114.857,
+        "source": "next_observed_use",
+        "next_batch": "b1-lite"
+      },
+      {
+        "timestamp": "2026-11-02T23:37:49.730+00:00",
+        "key": "KEY_12",
+        "strategy": "b",
+        "run": 2,
+        "wait_s": 51682.064,
+        "source": "next_observed_use",
+        "next_batch": "b6-lite"
+      },
+      {
+        "timestamp": "2026-11-02T23:38:34.559+00:00",
+        "key": "KEY_14",
+        "strategy": "b",
+        "run": 2,
+        "wait_s": 51714.366,
+        "source": "next_observed_use",
+        "next_batch": "extract-scheme"
+      },
+      {
+        "timestamp": "2026-11-02T23:38:41.369+00:00",
+        "key": "KEY_11",
+        "strategy": "b",
+        "run": 2,
+        "wait_s": 51621.856,
+        "source": "next_observed_use",
+        "next_batch": "b5-lite"
+      },
+      {
+        "timestamp": "2026-11-02T23:39:23.005+00:00",
+        "key": "KEY_15",
+        "strategy": "c",
+        "run": 2,
+        "wait_s": 51697.087,
+        "source": "next_observed_use",
+        "next_batch": "extract-scheme"
+      },
+      {
+        "timestamp": "2026-11-03T19:44:36.511+00:00",
+        "key": "KEY_01",
+        "strategy": "c",
+        "run": 9,
+        "wait_s": 0.0,
+        "source": "instrumented",
+        "next_batch": null
+      },
+      {
+        "timestamp": "2026-11-03T19:45:53.888+00:00",
+        "key": "KEY_02",
+        "strategy": "c",
+        "run": 9,
+        "wait_s": 0.0,
+        "source": "instrumented",
+        "next_batch": null
+      },
+      {
+        "timestamp": "2026-11-03T19:47:06.207+00:00",
+        "key": "KEY_05",
+        "strategy": "c",
+        "run": 9,
+        "wait_s": 0.0,
+        "source": "instrumented",
+        "next_batch": null
+      },
+      {
+        "timestamp": "2026-11-03T19:47:19.513+00:00",
+        "key": "KEY_06",
+        "strategy": "c",
+        "run": 9,
+        "wait_s": 0.0,
+        "source": "instrumented",
+        "next_batch": null
+      },
+      {
+        "timestamp": "2026-11-03T19:47:44.624+00:00",
+        "key": "KEY_09",
+        "strategy": "c",
+        "run": 9,
+        "wait_s": 0.0,
+        "source": "instrumented",
+        "next_batch": null
+      },
+      {
+        "timestamp": "2026-11-03T19:47:50.637+00:00",
+        "key": "KEY_10",
+        "strategy": "c",
+        "run": 9,
+        "wait_s": 0.0,
+        "source": "instrumented",
+        "next_batch": null
+      },
+      {
+        "timestamp": "2026-11-03T19:48:03.347+00:00",
+        "key": "KEY_11",
+        "strategy": "c",
+        "run": 9,
+        "wait_s": 0.0,
+        "source": "instrumented",
+        "next_batch": null
+      },
+      {
+        "timestamp": "2026-11-03T19:48:16.086+00:00",
+        "key": "KEY_12",
+        "strategy": "c",
+        "run": 9,
+        "wait_s": 0.0,
+        "source": "instrumented",
+        "next_batch": null
+      },
+      {
+        "timestamp": "2026-11-03T19:48:27.366+00:00",
+        "key": "KEY_13",
+        "strategy": "c",
+        "run": 10,
+        "wait_s": 0.0,
+        "source": "instrumented",
+        "next_batch": null
+      },
+      {
+        "timestamp": "2026-11-03T19:48:34.638+00:00",
+        "key": "KEY_14",
+        "strategy": "c",
+        "run": 10,
+        "wait_s": 0.0,
+        "source": "instrumented",
+        "next_batch": null
+      },
+      {
+        "timestamp": "2026-11-03T19:48:52.505+00:00",
+        "key": "KEY_15",
+        "strategy": "c",
+        "run": 10,
+        "wait_s": 0.0,
+        "source": "instrumented",
+        "next_batch": null
+      },
+      {
+        "timestamp": "2026-11-03T19:49:06.141+00:00",
+        "key": "KEY_16",
+        "strategy": "c",
+        "run": 10,
+        "wait_s": 0.0,
+        "source": "instrumented",
+        "next_batch": null
+      },
+      {
+        "timestamp": "2026-11-03T19:51:16.104+00:00",
+        "key": "KEY_01",
+        "strategy": "c",
+        "run": 11,
+        "wait_s": 0.0,
+        "source": "instrumented",
+        "next_batch": null
+      },
+      {
+        "timestamp": "2026-11-03T19:51:26.437+00:00",
+        "key": "KEY_02",
+        "strategy": "c",
+        "run": 11,
+        "wait_s": 0.0,
+        "source": "instrumented",
+        "next_batch": null
+      },
+      {
+        "timestamp": "2026-11-03T19:51:44.449+00:00",
+        "key": "KEY_05",
+        "strategy": "c",
+        "run": 11,
+        "wait_s": 0.0,
+        "source": "instrumented",
+        "next_batch": null
+      },
+      {
+        "timestamp": "2026-11-03T19:52:18.803+00:00",
+        "key": "KEY_06",
+        "strategy": "c",
+        "run": 11,
+        "wait_s": 0.0,
+        "source": "instrumented",
+        "next_batch": null
+      },
+      {
+        "timestamp": "2026-11-03T19:52:44.307+00:00",
+        "key": "KEY_09",
+        "strategy": "c",
+        "run": 11,
+        "wait_s": 0.0,
+        "source": "instrumented",
+        "next_batch": null
+      },
+      {
+        "timestamp": "2026-11-03T19:52:55.481+00:00",
+        "key": "KEY_10",
+        "strategy": "c",
+        "run": 11,
+        "wait_s": 0.0,
+        "source": "instrumented",
+        "next_batch": null
+      },
+      {
+        "timestamp": "2026-11-03T19:53:55.501+00:00",
+        "key": "KEY_01",
+        "strategy": "c",
+        "run": 12,
+        "wait_s": 0.0,
+        "source": "instrumented",
+        "next_batch": null
+      },
+      {
+        "timestamp": "2026-11-03T20:18:45.436+00:00",
+        "key": "KEY_01",
+        "strategy": "c",
+        "run": 13,
+        "wait_s": 0.0,
+        "source": "instrumented",
+        "next_batch": null
+      },
+      {
+        "timestamp": "2026-11-03T20:41:10.171+00:00",
+        "key": "KEY_01",
+        "strategy": "c",
+        "run": 15,
+        "wait_s": 0.0,
+        "source": "instrumented",
+        "next_batch": null
+      }
+    ]
+  },
+  "strategies": {
+    "a": {
+      "requests": 2,
+      "successes": 2,
+      "span_s": 56631.71,
+      "requests_per_minute": 0.0,
+      "successes_per_minute": 0.0,
+      "concurrency_peak": 1,
+      "concurrency_observed_max": 1,
+      "rate_limit_failures": 0,
+      "rate_limit_rate": 0.0,
+      "suspensions": 0,
+      "cooldown_wait_s_total": null,
+      "cooldown_wait_s_max": null,
+      "cooldown_wait_sources": {
+        "instrumented": 0,
+        "next_observed_use": 0,
+        "unreconstructable": 0
+      },
+      "cooldown_records": []
+    },
+    "b": {
+      "requests": 33,
+      "successes": 28,
+      "span_s": 453.69,
+      "requests_per_minute": 4.36,
+      "successes_per_minute": 3.7,
+      "concurrency_peak": 1,
+      "concurrency_observed_max": 1,
+      "rate_limit_failures": 4,
+      "rate_limit_rate": 0.1212,
+      "suspensions": 4,
+      "cooldown_wait_s_total": null,
+      "cooldown_wait_s_max": null,
+      "cooldown_wait_sources": {
+        "instrumented": 0,
+        "next_observed_use": 0,
+        "unreconstructable": 4
+      },
+      "cooldown_records": [
+        {
+          "timestamp": "2026-11-02T23:33:33.395+00:00",
+          "key": "KEY_16",
+          "strategy": "b",
+          "run": 1,
+          "wait_s": null,
+          "source": "unreconstructable",
+          "next_batch": null
+        },
+        {
+          "timestamp": "2026-11-02T23:37:49.730+00:00",
+          "key": "KEY_12",
+          "strategy": "b",
+          "run": 2,
+          "wait_s": null,
+          "source": "unreconstructable",
+          "next_batch": null
+        },
+        {
+          "timestamp": "2026-11-02T23:38:34.559+00:00",
+          "key": "KEY_14",
+          "strategy": "b",
+          "run": 2,
+          "wait_s": null,
+          "source": "unreconstructable",
+          "next_batch": null
+        },
+        {
+          "timestamp": "2026-11-02T23:38:41.369+00:00",
+          "key": "KEY_11",
+          "strategy": "b",
+          "run": 2,
+          "wait_s": null,
+          "source": "unreconstructable",
+          "next_batch": null
+        }
+      ]
+    },
+    "c": {
+      "requests": 23,
+      "successes": 16,
+      "span_s": 717.0,
+      "requests_per_minute": 1.92,
+      "successes_per_minute": 1.34,
+      "concurrency_peak": 1,
+      "concurrency_observed_max": 1,
+      "rate_limit_failures": 0,
+      "rate_limit_rate": 0.0,
+      "suspensions": 0,
+      "cooldown_wait_s_total": null,
+      "cooldown_wait_s_max": null,
+      "cooldown_wait_sources": {
+        "instrumented": 0,
+        "next_observed_use": 0,
+        "unreconstructable": 0
+      },
+      "cooldown_records": []
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "h-low@a2": {
+    "delta_f1": 0.0066,
+    "ci95": [
+      0.0,
+      0.0213
+    ],
+    "share_positive": 0.637
+  },
+  "h-low@a3": {
+    "delta_f1": 0.0138,
+    "ci95": [
+      0.0,
+      0.0444
+    ],
+    "share_positive": 0.634
+  },
+  "h-medium@a2": {
+    "delta_f1": 0.0062,
+    "ci95": [
+      -0.0015,
+      0.0214
+    ],
+    "share_positive": 0.636
+  },
+  "h-medium@a3": {
+    "delta_f1": 0.0268,
+    "ci95": [
+      0.0,
+      0.0631
+    ],
+    "share_positive": 0.963
+  },
+  "h-high@a2": {
+    "delta_f1": 0.0258,
+    "ci95": [
+      -0.0092,
+      0.0767
+    ],
+    "share_positive": 0.848
+  },
+  "h-high@a3": {
+    "delta_f1": 0.0531,
+    "ci95": [
+      0.0063,
+      0.1168
+    ],
+    "share_positive": 0.983
+  }
+}
