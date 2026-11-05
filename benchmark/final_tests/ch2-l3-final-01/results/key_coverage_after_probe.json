@@ -1,0 +1,615 @@
+{
+  "keys_total": 20,
+  "eligible_keys": 15,
+  "keys_used_in_benchmark": 0,
+  "successful_benchmark_requests": 0,
+  "unused_keys": [
+    {
+      "label": "KEY_01",
+      "reason": "not selected before the workload ended"
+    },
+    {
+      "label": "KEY_02",
+      "reason": "not selected before the workload ended"
+    },
+    {
+      "label": "KEY_03",
+      "reason": "probe state http_error"
+    },
+    {
+      "label": "KEY_04",
+      "reason": "probe state http_error"
+    },
+    {
+      "label": "KEY_05",
+      "reason": "not selected before the workload ended"
+    },
+    {
+      "label": "KEY_06",
+      "reason": "not selected before the workload ended"
+    },
+    {
+      "label": "KEY_07",
+      "reason": "invalid key (UNAUTHENTICATED)"
+    },
+    {
+      "label": "KEY_08",
+      "reason": "invalid key (UNAUTHENTICATED)"
+    },
+    {
+      "label": "KEY_09",
+      "reason": "not selected before the workload ended"
+    },
+    {
+      "label": "KEY_10",
+      "reason": "not selected before the workload ended"
+    },
+    {
+      "label": "KEY_11",
+      "reason": "not selected before the workload ended"
+    },
+    {
+      "label": "KEY_12",
+      "reason": "not selected before the workload ended"
+    },
+    {
+      "label": "KEY_13",
+      "reason": "not selected before the workload ended"
+    },
+    {
+      "label": "KEY_14",
+      "reason": "not selected before the workload ended"
+    },
+    {
+      "label": "KEY_15",
+      "reason": "not selected before the workload ended"
+    },
+    {
+      "label": "KEY_16",
+      "reason": "not selected before the workload ended"
+    },
+    {
+      "label": "KEY_17",
+      "reason": "not selected before the workload ended"
+    },
+    {
+      "label": "KEY_18",
+      "reason": "probe state http_error"
+    },
+    {
+      "label": "KEY_19",
+      "reason": "not selected before the workload ended"
+    },
+    {
+      "label": "KEY_20",
+      "reason": "not selected before the workload ended"
+    }
+  ],
+  "min_successful_requests_for_full_coverage": 15,
+  "full_coverage_achieved": false,
+  "keys": [
+    {
+      "label": "KEY_01",
+      "key_validity": "VALID",
+      "quota_state": "AVAILABLE",
+      "network_state": "REACHABLE",
+      "pool": "POOL_UNKNOWN_KEY_01",
+      "cooldown_remaining_s": 0,
+      "cooldown_kind": "",
+      "last_error_code": "",
+      "last_quota_id": "",
+      "requests": 1,
+      "successes": 1,
+      "failures": 0,
+      "rate_limit_hits": 0,
+      "benchmark_successes": 0,
+      "probe_state": "healthy"
+    },
+    {
+      "label": "KEY_02",
+      "key_validity": "VALID",
+      "quota_state": "AVAILABLE",
+      "network_state": "REACHABLE",
+      "pool": "POOL_UNKNOWN_KEY_02",
+      "cooldown_remaining_s": 0,
+      "cooldown_kind": "",
+      "last_error_code": "",
+      "last_quota_id": "",
+      "requests": 1,
+      "successes": 1,
+      "failures": 0,
+      "rate_limit_hits": 0,
+      "benchmark_successes": 0,
+      "probe_state": "healthy"
+    },
+    {
+      "label": "KEY_03",
+      "key_validity": "VALID",
+      "quota_state": "UNKNOWN",
+      "network_state": "REACHABLE",
+      "pool": "POOL_UNKNOWN_KEY_03",
+      "cooldown_remaining_s": 0,
+      "cooldown_kind": "",
+      "last_error_code": "",
+      "last_quota_id": "",
+      "requests": 1,
+      "successes": 0,
+      "failures": 0,
+      "rate_limit_hits": 0,
+      "benchmark_successes": 0,
+      "probe_state": "http_error"
+    },
+    {
+      "label": "KEY_04",
+      "key_validity": "VALID",
+      "quota_state": "UNKNOWN",
+      "network_state": "REACHABLE",
+      "pool": "POOL_UNKNOWN_KEY_04",
+      "cooldown_remaining_s": 0,
+      "cooldown_kind": "",
+      "last_error_code": "",
+      "last_quota_id": "",
+      "requests": 1,
+      "successes": 0,
+      "failures": 0,
+      "rate_limit_hits": 0,
+      "benchmark_successes": 0,
+      "probe_state": "http_error"
+    },
+    {
+      "label": "KEY_05",
+      "key_validity": "VALID",
+      "quota_state": "AVAILABLE",
+      "network_state": "REACHABLE",
+      "pool": "POOL_UNKNOWN_KEY_05",
+      "cooldown_remaining_s": 0,
+      "cooldown_kind": "",
+      "last_error_code": "",
+      "last_quota_id": "",
+      "requests": 1,
+      "successes": 1,
+      "failures": 0,
+      "rate_limit_hits": 0,
+      "benchmark_successes": 0,
+      "probe_state": "healthy"
+    },
+    {
+      "label": "KEY_06",
+      "key_validity": "VALID",
+      "quota_state": "AVAILABLE",
+      "network_state": "REACHABLE",
+      "pool": "POOL_UNKNOWN_KEY_06",
+      "cooldown_remaining_s": 0,
+      "cooldown_kind": "",
+      "last_error_code": "",
+      "last_quota_id": "",
+      "requests": 1,
+      "successes": 1,
+      "failures": 0,
+      "rate_limit_hits": 0,
+      "benchmark_successes": 0,
+      "probe_state": "healthy"
+    },
+    {
+      "label": "KEY_07",
+      "key_validity": "INVALID",
+      "quota_state": "UNKNOWN",
+      "network_state": "REACHABLE",
+      "pool": "POOL_EXCLUDED_KEY_07",
+      "cooldown_remaining_s": 0,
+      "cooldown_kind": "",
+      "last_error_code": "UNAUTHENTICATED",
+      "last_quota_id": "",
+      "requests": 0,
+      "successes": 0,
+      "failures": 0,
+      "rate_limit_hits": 0,
+      "benchmark_successes": 0,
+      "probe_state": "invalid_key"
+    },
+    {
+      "label": "KEY_08",
+      "key_validity": "INVALID",
+      "quota_state": "UNKNOWN",
+      "network_state": "REACHABLE",
+      "pool": "POOL_EXCLUDED_KEY_08",
+      "cooldown_remaining_s": 0,
+      "cooldown_kind": "",
+      "last_error_code": "UNAUTHENTICATED",
+      "last_quota_id": "",
+      "requests": 0,
+      "successes": 0,
+      "failures": 0,
+      "rate_limit_hits": 0,
+      "benchmark_successes": 0,
+      "probe_state": "invalid_key"
+    },
+    {
+      "label": "KEY_09",
+      "key_validity": "VALID",
+      "quota_state": "AVAILABLE",
+      "network_state": "REACHABLE",
+      "pool": "POOL_UNKNOWN_KEY_09",
+      "cooldown_remaining_s": 0,
+      "cooldown_kind": "",
+      "last_error_code": "",
+      "last_quota_id": "",
+      "requests": 1,
+      "successes": 1,
+      "failures": 0,
+      "rate_limit_hits": 0,
+      "benchmark_successes": 0,
+      "probe_state": "healthy"
+    },
+    {
+      "label": "KEY_10",
+      "key_validity": "VALID",
+      "quota_state": "AVAILABLE",
+      "network_state": "REACHABLE",
+      "pool": "POOL_UNKNOWN_KEY_10",
+      "cooldown_remaining_s": 0,
+      "cooldown_kind": "",
+      "last_error_code": "",
+      "last_quota_id": "",
+      "requests": 1,
+      "successes": 1,
+      "failures": 0,
+      "rate_limit_hits": 0,
+      "benchmark_successes": 0,
+      "probe_state": "healthy"
+    },
+    {
+      "label": "KEY_11",
+      "key_validity": "VALID",
+      "quota_state": "AVAILABLE",
+      "network_state": "REACHABLE",
+      "pool": "POOL_UNKNOWN_KEY_11",
+      "cooldown_remaining_s": 0,
+      "cooldown_kind": "",
+      "last_error_code": "",
+      "last_quota_id": "",
+      "requests": 1,
+      "successes": 1,
+      "failures": 0,
+      "rate_limit_hits": 0,
+      "benchmark_successes": 0,
+      "probe_state": "healthy"
+    },
+    {
+      "label": "KEY_12",
+      "key_validity": "VALID",
+      "quota_state": "AVAILABLE",
+      "network_state": "REACHABLE",
+      "pool": "POOL_UNKNOWN_KEY_12",
+      "cooldown_remaining_s": 0,
+      "cooldown_kind": "",
+      "last_error_code": "",
+      "last_quota_id": "",
+      "requests": 1,
+      "successes": 1,
+      "failures": 0,
+      "rate_limit_hits": 0,
+      "benchmark_successes": 0,
+      "probe_state": "healthy"
+    },
+    {
+      "label": "KEY_13",
+      "key_validity": "VALID",
+      "quota_state": "AVAILABLE",
+      "network_state": "REACHABLE",
+      "pool": "POOL_UNKNOWN_KEY_13",
+      "cooldown_remaining_s": 0,
+      "cooldown_kind": "",
+      "last_error_code": "",
+      "last_quota_id": "",
+      "requests": 1,
+      "successes": 1,
+      "failures": 0,
+      "rate_limit_hits": 0,
+      "benchmark_successes": 0,
+      "probe_state": "healthy"
+    },
+    {
+      "label": "KEY_14",
+      "key_validity": "VALID",
+      "quota_state": "AVAILABLE",
+      "network_state": "REACHABLE",
+      "pool": "POOL_UNKNOWN_KEY_14",
+      "cooldown_remaining_s": 0,
+      "cooldown_kind": "",
+      "last_error_code": "",
+      "last_quota_id": "",
+      "requests": 1,
+      "successes": 1,
+      "failures": 0,
+      "rate_limit_hits": 0,
+      "benchmark_successes": 0,
+      "probe_state": "healthy"
+    },
+    {
+      "label": "KEY_15",
+      "key_validity": "VALID",
+      "quota_state": "AVAILABLE",
+      "network_state": "REACHABLE",
+      "pool": "POOL_UNKNOWN_KEY_15",
+      "cooldown_remaining_s": 0,
+      "cooldown_kind": "",
+      "last_error_code": "",
+      "last_quota_id": "",
+      "requests": 1,
+      "successes": 1,
+      "failures": 0,
+      "rate_limit_hits": 0,
+      "benchmark_successes": 0,
+      "probe_state": "healthy"
+    },
+    {
+      "label": "KEY_16",
+      "key_validity": "VALID",
+      "quota_state": "AVAILABLE",
+      "network_state": "REACHABLE",
+      "pool": "POOL_UNKNOWN_KEY_16",
+      "cooldown_remaining_s": 0,
+      "cooldown_kind": "",
+      "last_error_code": "",
+      "last_quota_id": "",
+      "requests": 1,
+      "successes": 1,
+      "failures": 0,
+      "rate_limit_hits": 0,
+      "benchmark_successes": 0,
+      "probe_state": "healthy"
+    },
+    {
+      "label": "KEY_17",
+      "key_validity": "VALID",
+      "quota_state": "AVAILABLE",
+      "network_state": "REACHABLE",
+      "pool": "POOL_UNKNOWN_KEY_17",
+      "cooldown_remaining_s": 0,
+      "cooldown_kind": "",
+      "last_error_code": "",
+      "last_quota_id": "",
+      "requests": 1,
+      "successes": 1,
+      "failures": 0,
+      "rate_limit_hits": 0,
+      "benchmark_successes": 0,
+      "probe_state": "healthy"
+    },
+    {
+      "label": "KEY_18",
+      "key_validity": "VALID",
+      "quota_state": "UNKNOWN",
+      "network_state": "REACHABLE",
+      "pool": "POOL_UNKNOWN_KEY_18",
+      "cooldown_remaining_s": 0,
+      "cooldown_kind": "",
+      "last_error_code": "",
+      "last_quota_id": "",
+      "requests": 1,
+      "successes": 0,
+      "failures": 0,
+      "rate_limit_hits": 0,
+      "benchmark_successes": 0,
+      "probe_state": "http_error"
+    },
+    {
+      "label": "KEY_19",
+      "key_validity": "VALID",
+      "quota_state": "AVAILABLE",
+      "network_state": "REACHABLE",
+      "pool": "POOL_UNKNOWN_KEY_19",
+      "cooldown_remaining_s": 0,
+      "cooldown_kind": "",
+      "last_error_code": "",
+      "last_quota_id": "",
+      "requests": 1,
+      "successes": 1,
+      "failures": 0,
+      "rate_limit_hits": 0,
+      "benchmark_successes": 0,
+      "probe_state": "healthy"
+    },
+    {
+      "label": "KEY_20",
+      "key_validity": "VALID",
+      "quota_state": "AVAILABLE",
+      "network_state": "REACHABLE",
+      "pool": "POOL_UNKNOWN_KEY_20",
+      "cooldown_remaining_s": 0,
+      "cooldown_kind": "",
+      "last_error_code": "",
+      "last_quota_id": "",
+      "requests": 1,
+      "successes": 1,
+      "failures": 0,
+      "rate_limit_hits": 0,
+      "benchmark_successes": 0,
+      "probe_state": "healthy"
+    }
+  ],
+  "pools": {
+    "POOL_UNKNOWN_KEY_01": {
+      "keys": [
+        "KEY_01"
+      ],
+      "requests": 1,
+      "successes": 1,
+      "benchmark_successes": 0,
+      "rate_limit_hits": 0
+    },
+    "POOL_UNKNOWN_KEY_02": {
+      "keys": [
+        "KEY_02"
+      ],
+      "requests": 1,
+      "successes": 1,
+      "benchmark_successes": 0,
+      "rate_limit_hits": 0
+    },
+    "POOL_UNKNOWN_KEY_03": {
+      "keys": [
+        "KEY_03"
+      ],
+      "requests": 1,
+      "successes": 0,
+      "benchmark_successes": 0,
+      "rate_limit_hits": 0
+    },
+    "POOL_UNKNOWN_KEY_04": {
+      "keys": [
+        "KEY_04"
+      ],
+      "requests": 1,
+      "successes": 0,
+      "benchmark_successes": 0,
+      "rate_limit_hits": 0
+    },
+    "POOL_UNKNOWN_KEY_05": {
+      "keys": [
+        "KEY_05"
+      ],
+      "requests": 1,
+      "successes": 1,
+      "benchmark_successes": 0,
+      "rate_limit_hits": 0
+    },
+    "POOL_UNKNOWN_KEY_06": {
+      "keys": [
+        "KEY_06"
+      ],
+      "requests": 1,
+      "successes": 1,
+      "benchmark_successes": 0,
+      "rate_limit_hits": 0
+    },
+    "POOL_EXCLUDED_KEY_07": {
+      "keys": [
+        "KEY_07"
+      ],
+      "requests": 0,
+      "successes": 0,
+      "benchmark_successes": 0,
+      "rate_limit_hits": 0
+    },
+    "POOL_EXCLUDED_KEY_08": {
+      "keys": [
+        "KEY_08"
+      ],
+      "requests": 0,
+      "successes": 0,
+      "benchmark_successes": 0,
+      "rate_limit_hits": 0
+    },
+    "POOL_UNKNOWN_KEY_09": {
+      "keys": [
+        "KEY_09"
+      ],
+      "requests": 1,
+      "successes": 1,
+      "benchmark_successes": 0,
+      "rate_limit_hits": 0
+    },
+    "POOL_UNKNOWN_KEY_10": {
+      "keys": [
+        "KEY_10"
+      ],
+      "requests": 1,
+      "successes": 1,
+      "benchmark_successes": 0,
+      "rate_limit_hits": 0
+    },
+    "POOL_UNKNOWN_KEY_11": {
+      "keys": [
+        "KEY_11"
+      ],
+      "requests": 1,
+      "successes": 1,
+      "benchmark_successes": 0,
+      "rate_limit_hits": 0
+    },
+    "POOL_UNKNOWN_KEY_12": {
+      "keys": [
+        "KEY_12"
+      ],
+      "requests": 1,
+      "successes": 1,
+      "benchmark_successes": 0,
+      "rate_limit_hits": 0
+    },
+    "POOL_UNKNOWN_KEY_13": {
+      "keys": [
+        "KEY_13"
+      ],
+      "requests": 1,
+      "successes": 1,
+      "benchmark_successes": 0,
+      "rate_limit_hits": 0
+    },
+    "POOL_UNKNOWN_KEY_14": {
+      "keys": [
+        "KEY_14"
+      ],
+      "requests": 1,
+      "successes": 1,
+      "benchmark_successes": 0,
+      "rate_limit_hits": 0
+    },
+    "POOL_UNKNOWN_KEY_15": {
+      "keys": [
+        "KEY_15"
+      ],
+      "requests": 1,
+      "successes": 1,
+      "benchmark_successes": 0,
+      "rate_limit_hits": 0
+    },
+    "POOL_UNKNOWN_KEY_16": {
+      "keys": [
+        "KEY_16"
+      ],
+      "requests": 1,
+      "successes": 1,
+      "benchmark_successes": 0,
+      "rate_limit_hits": 0
+    },
+    "POOL_UNKNOWN_KEY_17": {
+      "keys": [
+        "KEY_17"
+      ],
+      "requests": 1,
+      "successes": 1,
+      "benchmark_successes": 0,
+      "rate_limit_hits": 0
+    },
+    "POOL_UNKNOWN_KEY_18": {
+      "keys": [
+        "KEY_18"
+      ],
+      "requests": 1,
+      "successes": 0,
+      "benchmark_successes": 0,
+      "rate_limit_hits": 0
+    },
+    "POOL_UNKNOWN_KEY_19": {
+      "keys": [
+        "KEY_19"
+      ],
+      "requests": 1,
+      "successes": 1,
+      "benchmark_successes": 0,
+      "rate_limit_hits": 0
+    },
+    "POOL_UNKNOWN_KEY_20": {
+      "keys": [
+        "KEY_20"
+      ],
+      "requests": 1,
+      "successes": 1,
+      "benchmark_successes": 0,
+      "rate_limit_hits": 0
+    }
+  },
+  "events": []
+}

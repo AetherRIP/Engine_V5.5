@@ -1,0 +1,5775 @@
+{
+  "paper_id": "ch2-l3-final-01",
+  "generated_at": "2026-11-05T13:47:45+00:00",
+  "reference_status": "user_ruled_not_teacher_signed",
+  "paper_max_marks": 87,
+  "paper_reference_marks": 76,
+  "definitions": {
+    "correctly_assessed_paper": "paper total exactly equal to the candidate reference, all scoreable items returned, no unresolved item, and no invalid response",
+    "near_correct": "paper total within one mark of the candidate reference and full coverage",
+    "cost": "provider-reported tokens x published per-million prices; None when unpublished",
+    "quota_efficiency": "correctly assessed papers per 1,000 benchmark requests",
+    "within_band": "paper total inside the human tolerance band around the 76-mark centre; exact equality to 76 is reported separately"
+  },
+  "strategies": {
+    "a": {
+      "runs": 2,
+      "attempt_id": null,
+      "models": {
+        "primary": "gemini-3.6-flash",
+        "lite": "gemini-3.1-flash-lite",
+        "strong": "gemini-3.6-flash",
+        "notes": [
+          "primary: gemini-3.6-flash verified on KEY_01",
+          "lite: gemini-3.1-flash-lite verified on KEY_01",
+          "strong: gemini-3.1-pro-preview not verified on the first 3 healthy key(s)",
+          "strong: gemini-3.6-flash verified on KEY_01"
+        ]
+      },
+      "paper_max_marks": 87,
+      "paper_reference_marks": 76,
+      "accuracy": {
+        "runs": 2,
+        "strict_correct": 0,
+        "coverage": 0.5,
+        "item_exact_accuracy": 0.3684,
+        "mean_absolute_score_error": 1.1975,
+        "criterion_precision": 0.4776,
+        "criterion_recall": 0.421,
+        "criterion_f1": 0.8951,
+        "false_awards": 1.5,
+        "false_deductions": 44,
+        "unresolved_count": 19
+      },
+      "accuracy_per_run": [
+        {
+          "strategy": "a",
+          "run": 1,
+          "items_expected": 38,
+          "items_returned": 0,
+          "completion_status": "incomplete_request",
+          "coverage": 0.0,
+          "items_exact": 1,
+          "item_exact_accuracy": 0.0263,
+          "paper_score_awarded": 0,
+          "paper_score_expected": 76,
+          "score_error": -76,
+          "exact_paper_score": false,
+          "mean_absolute_score_error": 2,
+          "false_awards": 0,
+          "false_deductions": 76,
+          "criterion_precision": 0.0,
+          "criterion_recall": 0.0,
+          "criterion_f1": null,
+          "criterion_counts": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 76,
+            "tn": 11
+          },
+          "criterion_rows": [
+            {
+              "item": "1a",
+              "criterion": "B1#0",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "1d",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "1d",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "2",
+              "criterion": "B1#0",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "3",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "3",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "4",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "4",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "5",
+              "criterion": "B1#0",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "6",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "6",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "6",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "7",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "7",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "8",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "8",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "9",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "9",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "10",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "10",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "11",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "11",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "11",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "13",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "13",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "13",
+              "criterion": "A1#0",
+              "expected": false,
+              "awarded": false
+            },
+            {
+              "item": "14",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "14",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "15",
+              "criterion": "B1#0",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "16b",
+              "criterion": "B1#0",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "17",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "17",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "18",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "18",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "18",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "19",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "19",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "20",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "20",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "21",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "21",
+              "criterion": "A1#0",
+              "expected": false,
+              "awarded": false
+            },
+            {
+              "item": "22",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "22",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "23",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "23",
+              "criterion": "M1#1",
+              "expected": false,
+              "awarded": false
+            },
+            {
+              "item": "23",
+              "criterion": "A1#0",
+              "expected": false,
+              "awarded": false
+            },
+            {
+              "item": "24",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "24",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "25",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "25",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "26",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "26",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "26",
+              "criterion": "A1#0",
+              "expected": false,
+              "awarded": false
+            },
+            {
+              "item": "27",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "27",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "27",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "28",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "28",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "28",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "29",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "29",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "30",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "30",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "30",
+              "criterion": "A1#0",
+              "expected": false,
+              "awarded": false
+            },
+            {
+              "item": "31",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "31",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "31",
+              "criterion": "A1#0",
+              "expected": false,
+              "awarded": false
+            },
+            {
+              "item": "32",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "32",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "32",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "33",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "33",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "34",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "34",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "34",
+              "criterion": "A1#0",
+              "expected": false,
+              "awarded": false
+            },
+            {
+              "item": "35",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "35",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "35",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "36",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "36",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "36",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "37a",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "37a",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "37a",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "37b",
+              "criterion": "M1#0",
+              "expected": false,
+              "awarded": false
+            },
+            {
+              "item": "37b",
+              "criterion": "M1#1",
+              "expected": false,
+              "awarded": false
+            },
+            {
+              "item": "37b",
+              "criterion": "A1#0",
+              "expected": false,
+              "awarded": false
+            }
+          ],
+          "unresolved_items": [
+            "1a",
+            "1d",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "13",
+            "14",
+            "15",
+            "16b",
+            "17",
+            "18",
+            "19",
+            "20",
+            "21",
+            "22",
+            "23",
+            "24",
+            "25",
+            "26",
+            "27",
+            "28",
+            "29",
+            "30",
+            "31",
+            "32",
+            "33",
+            "34",
+            "35",
+            "36",
+            "37a",
+            "37b"
+          ],
+          "unresolved_count": 38,
+          "invalid_responses": 0,
+          "verification_status_counts": {},
+          "verification_different": 0,
+          "escalation_count": 0,
+          "escalation_gap": false,
+          "hallucination_suspects": [],
+          "errors": [
+            "request failed: http_error UNAVAILABLE",
+            "whole-paper request failed (http_error UNAVAILABLE); 38 item(s) unresolved"
+          ],
+          "strict_correct": false,
+          "near_correct_within_one": false,
+          "reference_status": "user_ruled_not_teacher_signed"
+        },
+        {
+          "strategy": "a",
+          "run": 2,
+          "items_expected": 38,
+          "items_returned": 38,
+          "completion_status": "complete",
+          "coverage": 1.0,
+          "items_exact": 27,
+          "item_exact_accuracy": 0.7105,
+          "paper_score_awarded": 67,
+          "paper_score_expected": 76,
+          "score_error": -9,
+          "exact_paper_score": false,
+          "mean_absolute_score_error": 0.395,
+          "false_awards": 3,
+          "false_deductions": 12,
+          "criterion_precision": 0.9552,
+          "criterion_recall": 0.8421,
+          "criterion_f1": 0.8951,
+          "criterion_counts": {
+            "tp": 64,
+            "fp": 3,
+            "fn": 12,
+            "tn": 8
+          },
+          "criterion_rows": [
+            {
+              "item": "1a",
+              "criterion": "B1#0",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "1d",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "1d",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "2",
+              "criterion": "B1#0",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "3",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "3",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "4",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "4",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "5",
+              "criterion": "B1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "6",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "6",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "6",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "7",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "7",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "8",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "8",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "9",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "9",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "10",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "10",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "11",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "11",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "11",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "13",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "13",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "13",
+              "criterion": "A1#0",
+              "expected": false,
+              "awarded": false
+            },
+            {
+              "item": "14",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "14",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "15",
+              "criterion": "B1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "16b",
+              "criterion": "B1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "17",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "17",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "18",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "18",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "18",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "19",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "19",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "20",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "20",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "21",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "21",
+              "criterion": "A1#0",
+              "expected": false,
+              "awarded": false
+            },
+            {
+              "item": "22",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "22",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "23",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "23",
+              "criterion": "M1#1",
+              "expected": false,
+              "awarded": false
+            },
+            {
+              "item": "23",
+              "criterion": "A1#0",
+              "expected": false,
+              "awarded": false
+            },
+            {
+              "item": "24",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "24",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "25",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "25",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "26",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "26",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "26",
+              "criterion": "A1#0",
+              "expected": false,
+              "awarded": false
+            },
+            {
+              "item": "27",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "27",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "27",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "28",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "28",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "28",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "29",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "29",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "30",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "30",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "30",
+              "criterion": "A1#0",
+              "expected": false,
+              "awarded": true
+            },
+            {
+              "item": "31",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "31",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "31",
+              "criterion": "A1#0",
+              "expected": false,
+              "awarded": true
+            },
+            {
+              "item": "32",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "32",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "32",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "33",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "33",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "34",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "34",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "34",
+              "criterion": "A1#0",
+              "expected": false,
+              "awarded": true
+            },
+            {
+              "item": "35",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "35",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "35",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "36",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "36",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "36",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "37a",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "37a",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "37a",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "37b",
+              "criterion": "M1#0",
+              "expected": false,
+              "awarded": false
+            },
+            {
+              "item": "37b",
+              "criterion": "M1#1",
+              "expected": false,
+              "awarded": false
+            },
+            {
+              "item": "37b",
+              "criterion": "A1#0",
+              "expected": false,
+              "awarded": false
+            }
+          ],
+          "unresolved_items": [],
+          "unresolved_count": 0,
+          "invalid_responses": 0,
+          "verification_status_counts": {},
+          "verification_different": 0,
+          "escalation_count": 0,
+          "escalation_gap": false,
+          "hallucination_suspects": [],
+          "errors": [],
+          "strict_correct": false,
+          "near_correct_within_one": false,
+          "reference_status": "user_ruled_not_teacher_signed"
+        }
+      ],
+      "disagreements": [
+        {
+          "run": 1,
+          "item": "1a",
+          "awarded": null,
+          "expected": 1,
+          "reason": ""
+        },
+        {
+          "run": 1,
+          "item": "1d",
+          "awarded": null,
+          "expected": 2,
+          "reason": ""
+        },
+        {
+          "run": 1,
+          "item": "2",
+          "awarded": null,
+          "expected": 1,
+          "reason": ""
+        },
+        {
+          "run": 1,
+          "item": "3",
+          "awarded": null,
+          "expected": 2,
+          "reason": ""
+        },
+        {
+          "run": 1,
+          "item": "4",
+          "awarded": null,
+          "expected": 2,
+          "reason": ""
+        },
+        {
+          "run": 1,
+          "item": "5",
+          "awarded": null,
+          "expected": 1,
+          "reason": ""
+        },
+        {
+          "run": 1,
+          "item": "6",
+          "awarded": null,
+          "expected": 3,
+          "reason": ""
+        },
+        {
+          "run": 1,
+          "item": "7",
+          "awarded": null,
+          "expected": 2,
+          "reason": ""
+        },
+        {
+          "run": 1,
+          "item": "8",
+          "awarded": null,
+          "expected": 2,
+          "reason": ""
+        },
+        {
+          "run": 1,
+          "item": "9",
+          "awarded": null,
+          "expected": 2,
+          "reason": ""
+        },
+        {
+          "run": 1,
+          "item": "10",
+          "awarded": null,
+          "expected": 2,
+          "reason": ""
+        },
+        {
+          "run": 1,
+          "item": "11",
+          "awarded": null,
+          "expected": 3,
+          "reason": ""
+        },
+        {
+          "run": 1,
+          "item": "13",
+          "awarded": null,
+          "expected": 2,
+          "reason": ""
+        },
+        {
+          "run": 1,
+          "item": "14",
+          "awarded": null,
+          "expected": 2,
+          "reason": ""
+        },
+        {
+          "run": 1,
+          "item": "15",
+          "awarded": null,
+          "expected": 1,
+          "reason": ""
+        },
+        {
+          "run": 1,
+          "item": "16b",
+          "awarded": null,
+          "expected": 1,
+          "reason": ""
+        },
+        {
+          "run": 1,
+          "item": "17",
+          "awarded": null,
+          "expected": 2,
+          "reason": ""
+        },
+        {
+          "run": 1,
+          "item": "18",
+          "awarded": null,
+          "expected": 3,
+          "reason": ""
+        },
+        {
+          "run": 1,
+          "item": "19",
+          "awarded": null,
+          "expected": 2,
+          "reason": ""
+        },
+        {
+          "run": 1,
+          "item": "20",
+          "awarded": null,
+          "expected": 2,
+          "reason": ""
+        },
+        {
+          "run": 1,
+          "item": "21",
+          "awarded": null,
+          "expected": 1,
+          "reason": ""
+        },
+        {
+          "run": 1,
+          "item": "22",
+          "awarded": null,
+          "expected": 2,
+          "reason": ""
+        },
+        {
+          "run": 1,
+          "item": "23",
+          "awarded": null,
+          "expected": 1,
+          "reason": ""
+        },
+        {
+          "run": 1,
+          "item": "24",
+          "awarded": null,
+          "expected": 2,
+          "reason": ""
+        },
+        {
+          "run": 1,
+          "item": "25",
+          "awarded": null,
+          "expected": 2,
+          "reason": ""
+        },
+        {
+          "run": 1,
+          "item": "26",
+          "awarded": null,
+          "expected": 2,
+          "reason": ""
+        },
+        {
+          "run": 1,
+          "item": "27",
+          "awarded": null,
+          "expected": 3,
+          "reason": ""
+        },
+        {
+          "run": 1,
+          "item": "28",
+          "awarded": null,
+          "expected": 3,
+          "reason": ""
+        },
+        {
+          "run": 1,
+          "item": "29",
+          "awarded": null,
+          "expected": 2,
+          "reason": ""
+        },
+        {
+          "run": 1,
+          "item": "30",
+          "awarded": null,
+          "expected": 2,
+          "reason": ""
+        },
+        {
+          "run": 1,
+          "item": "31",
+          "awarded": null,
+          "expected": 2,
+          "reason": ""
+        },
+        {
+          "run": 1,
+          "item": "32",
+          "awarded": null,
+          "expected": 3,
+          "reason": ""
+        },
+        {
+          "run": 1,
+          "item": "33",
+          "awarded": null,
+          "expected": 2,
+          "reason": ""
+        },
+        {
+          "run": 1,
+          "item": "34",
+          "awarded": null,
+          "expected": 2,
+          "reason": ""
+        },
+        {
+          "run": 1,
+          "item": "35",
+          "awarded": null,
+          "expected": 3,
+          "reason": ""
+        },
+        {
+          "run": 1,
+          "item": "36",
+          "awarded": null,
+          "expected": 3,
+          "reason": ""
+        },
+        {
+          "run": 1,
+          "item": "37a",
+          "awarded": null,
+          "expected": 3,
+          "reason": ""
+        },
+        {
+          "run": 1,
+          "item": "37b",
+          "awarded": null,
+          "expected": 0,
+          "reason": ""
+        },
+        {
+          "run": 2,
+          "item": "1a",
+          "awarded": 0,
+          "expected": 1,
+          "reason": "Student wrote 84 - 18y instead of 24 - 18y."
+        },
+        {
+          "run": 2,
+          "item": "2",
+          "awarded": 0,
+          "expected": 1,
+          "reason": "Incorrect expansion: wrote 6p - 15 instead of 10p - 15."
+        },
+        {
+          "run": 2,
+          "item": "13",
+          "awarded": 1,
+          "expected": 2,
+          "reason": "M1 awarded for at least 3 correct terms in expanding a pair of brackets, but made errors in expanding/subtracting to get final answer."
+        },
+        {
+          "run": 2,
+          "item": "24",
+          "awarded": 0,
+          "expected": 2,
+          "reason": "Wait, student wrote m^2 - 3m - 40. This matches the scheme's correct answer. So both M1 and A1 are awarded."
+        },
+        {
+          "run": 2,
+          "item": "26",
+          "awarded": 1,
+          "expected": 2,
+          "reason": "M1 for attempting expansion of brackets, but final result is incorrect."
+        },
+        {
+          "run": 2,
+          "item": "28",
+          "awarded": 1,
+          "expected": 3,
+          "reason": "First M1 awarded for two brackets multiplied correctly."
+        },
+        {
+          "run": 2,
+          "item": "30",
+          "awarded": 3,
+          "expected": 2,
+          "reason": "Fully correct working shown."
+        },
+        {
+          "run": 2,
+          "item": "31",
+          "awarded": 3,
+          "expected": 2,
+          "reason": "Fully correct."
+        },
+        {
+          "run": 2,
+          "item": "34",
+          "awarded": 3,
+          "expected": 2,
+          "reason": "Fully correct."
+        },
+        {
+          "run": 2,
+          "item": "36",
+          "awarded": 1,
+          "expected": 3,
+          "reason": "First M1 awarded for expanding two brackets."
+        },
+        {
+          "run": 2,
+          "item": "37a",
+          "awarded": 1,
+          "expected": 3,
+          "reason": "Correct expansion and simplification. Student wrote -3x^3 - 7x^2 + 22x + 8."
+        }
+      ],
+      "run_meta": [
+        {
+          "run": 1,
+          "completion_status": "incomplete_request",
+          "request_count": 1,
+          "splits": [],
+          "errors": [
+            "request failed: http_error UNAVAILABLE",
+            "whole-paper request failed (http_error UNAVAILABLE); 38 item(s) unresolved"
+          ],
+          "extractions": {},
+          "escalations": [],
+          "escalation_changes": []
+        },
+        {
+          "run": 2,
+          "completion_status": "complete",
+          "request_count": 1,
+          "splits": [],
+          "errors": [],
+          "extractions": {},
+          "escalations": [],
+          "escalation_changes": []
+        }
+      ],
+      "throughput": {
+        "requests": 7,
+        "successes": 1,
+        "span_s": 849.06,
+        "requests_per_minute": 0.49,
+        "successes_per_minute": 0.07,
+        "concurrency_peak": 1,
+        "concurrency_observed_max": 1,
+        "rate_limit_failures": 0,
+        "rate_limit_rate": 0.0,
+        "suspensions": 0,
+        "cooldown_wait_s_total": 0.0,
+        "cooldown_wait_s_max": 0.0,
+        "cooldown_wait_sources": {
+          "instrumented": 7,
+          "next_observed_use": 0,
+          "unreconstructable": 0
+        },
+        "cooldown_records": [
+          {
+            "timestamp": "2026-11-05T13:28:27.410+00:00",
+            "key": "KEY_01",
+            "strategy": "a",
+            "run": 1,
+            "wait_s": 0.0,
+            "source": "instrumented",
+            "next_batch": null
+          },
+          {
+            "timestamp": "2026-11-05T13:28:36.602+00:00",
+            "key": "KEY_02",
+            "strategy": "a",
+            "run": 1,
+            "wait_s": 0.0,
+            "source": "instrumented",
+            "next_batch": null
+          },
+          {
+            "timestamp": "2026-11-05T13:28:49.024+00:00",
+            "key": "KEY_05",
+            "strategy": "a",
+            "run": 1,
+            "wait_s": 0.0,
+            "source": "instrumented",
+            "next_batch": null
+          },
+          {
+            "timestamp": "2026-11-05T13:28:59.413+00:00",
+            "key": "KEY_06",
+            "strategy": "a",
+            "run": 1,
+            "wait_s": 0.0,
+            "source": "instrumented",
+            "next_batch": null
+          },
+          {
+            "timestamp": "2026-11-05T13:39:50.590+00:00",
+            "key": "KEY_02",
+            "strategy": "a",
+            "run": 2,
+            "wait_s": 0.0,
+            "source": "instrumented",
+            "next_batch": null
+          },
+          {
+            "timestamp": "2026-11-05T13:41:16.434+00:00",
+            "key": "KEY_05",
+            "strategy": "a",
+            "run": 2,
+            "wait_s": 0.0,
+            "source": "instrumented",
+            "next_batch": null
+          },
+          {
+            "timestamp": "2026-11-05T13:42:18.437+00:00",
+            "key": "KEY_06",
+            "strategy": "a",
+            "run": 2,
+            "wait_s": 0.0,
+            "source": "instrumented",
+            "next_batch": null
+          }
+        ]
+      },
+      "usage": {
+        "requests": 7,
+        "successful_requests": 1,
+        "failed_requests": 6,
+        "failure_rate": 0.8571,
+        "retries": 9,
+        "rate_limit_failures": 0,
+        "rate_limit_rate": 0.0,
+        "cooldown_s_total": null,
+        "cooldown_events": 0,
+        "cooldown_wait_s_total": 0.0,
+        "cooldown_wait_s_max": 0.0,
+        "cooldown_wait_rows": 7,
+        "input_tokens": 31818,
+        "output_tokens": 5704,
+        "cached_tokens": null,
+        "thoughts_tokens": null,
+        "total_tokens": 37522,
+        "image_tokens": 30786,
+        "reported_token_rows": 1,
+        "estimated_token_rows": 0,
+        "cost_usd": 0.0452535,
+        "cost_rows": 1,
+        "cost_estimated_rows": 6,
+        "latency_ms_sum": 60469,
+        "latency_ms_mean": 60469,
+        "latency_ms_p50": 60469,
+        "latency_ms_max": 60469,
+        "cache_savings_estimate_usd": null,
+        "keys_used": [
+          "KEY_06"
+        ],
+        "pools_used": [
+          "POOL_UNKNOWN_KEY_06"
+        ]
+      },
+      "extraction": {
+        "requests": 0
+      },
+      "marking": {
+        "requests": 7,
+        "successful_requests": 1,
+        "failed_requests": 6,
+        "failure_rate": 0.8571,
+        "retries": 9,
+        "rate_limit_failures": 0,
+        "rate_limit_rate": 0.0,
+        "cooldown_s_total": null,
+        "cooldown_events": 0,
+        "cooldown_wait_s_total": 0.0,
+        "cooldown_wait_s_max": 0.0,
+        "cooldown_wait_rows": 7,
+        "input_tokens": 31818,
+        "output_tokens": 5704,
+        "cached_tokens": null,
+        "thoughts_tokens": null,
+        "total_tokens": 37522,
+        "image_tokens": 30786,
+        "reported_token_rows": 1,
+        "estimated_token_rows": 0,
+        "cost_usd": 0.0452535,
+        "cost_rows": 1,
+        "cost_estimated_rows": 6,
+        "latency_ms_sum": 60469,
+        "latency_ms_mean": 60469,
+        "latency_ms_p50": 60469,
+        "latency_ms_max": 60469,
+        "cache_savings_estimate_usd": null,
+        "keys_used": [
+          "KEY_06"
+        ],
+        "pools_used": [
+          "POOL_UNKNOWN_KEY_06"
+        ]
+      },
+      "escalation": {
+        "requests": 0
+      },
+      "escalations_total": 0,
+      "correctly_assessed_papers": 0,
+      "near_correct_papers": 0,
+      "within_three_papers": 0,
+      "cost_per_paper_usd": 0.02262675,
+      "cost_per_correctly_assessed_paper_usd": null,
+      "cost_per_near_correct_paper_usd": null,
+      "cost_per_paper_within_3_marks_usd": null,
+      "quota_efficiency_papers_per_1000_requests": 0.0,
+      "requests_per_paper": 3.5,
+      "wall_clock": {
+        "span_s": 849.06,
+        "requests_per_minute": 0.49,
+        "successes_per_minute": 0.07
+      },
+      "per_run": {
+        "1": {
+          "requests": 4,
+          "successful_requests": 0,
+          "failed_requests": 4,
+          "failure_rate": 1.0,
+          "retries": 6,
+          "rate_limit_failures": 0,
+          "rate_limit_rate": 0.0,
+          "cooldown_s_total": null,
+          "cooldown_events": 0,
+          "cooldown_wait_s_total": 0.0,
+          "cooldown_wait_s_max": 0.0,
+          "cooldown_wait_rows": 4,
+          "input_tokens": null,
+          "output_tokens": null,
+          "cached_tokens": null,
+          "thoughts_tokens": null,
+          "total_tokens": null,
+          "image_tokens": null,
+          "reported_token_rows": 0,
+          "estimated_token_rows": 0,
+          "cost_usd": null,
+          "cost_rows": 0,
+          "cost_estimated_rows": 4,
+          "latency_ms_sum": 0,
+          "latency_ms_mean": null,
+          "latency_ms_p50": null,
+          "latency_ms_max": null,
+          "cache_savings_estimate_usd": null,
+          "keys_used": [],
+          "pools_used": []
+        },
+        "2": {
+          "requests": 3,
+          "successful_requests": 1,
+          "failed_requests": 2,
+          "failure_rate": 0.6667,
+          "retries": 3,
+          "rate_limit_failures": 0,
+          "rate_limit_rate": 0.0,
+          "cooldown_s_total": null,
+          "cooldown_events": 0,
+          "cooldown_wait_s_total": 0.0,
+          "cooldown_wait_s_max": 0.0,
+          "cooldown_wait_rows": 3,
+          "input_tokens": 31818,
+          "output_tokens": 5704,
+          "cached_tokens": null,
+          "thoughts_tokens": null,
+          "total_tokens": 37522,
+          "image_tokens": 30786,
+          "reported_token_rows": 1,
+          "estimated_token_rows": 0,
+          "cost_usd": 0.0452535,
+          "cost_rows": 1,
+          "cost_estimated_rows": 2,
+          "latency_ms_sum": 60469,
+          "latency_ms_mean": 60469,
+          "latency_ms_p50": 60469,
+          "latency_ms_max": 60469,
+          "cache_savings_estimate_usd": null,
+          "keys_used": [
+            "KEY_06"
+          ],
+          "pools_used": [
+            "POOL_UNKNOWN_KEY_06"
+          ]
+        }
+      },
+      "band_accuracy_per_run": [
+        {
+          "strategy": "a",
+          "run": 1,
+          "paper_score_awarded": 0,
+          "paper_score_max": 87,
+          "reference_center": 76,
+          "reference_band": [
+            74,
+            78
+          ],
+          "signed_error": -76,
+          "absolute_error": 76,
+          "coverage": 0.0,
+          "exact_center": false,
+          "within_one": false,
+          "within_band": false,
+          "criterion_f1": null,
+          "criterion_precision": 0.0,
+          "criterion_recall": 0.0,
+          "item_exact_accuracy": 0.0263,
+          "false_awards": 0,
+          "false_deductions": 76,
+          "unresolved_count": 38,
+          "completion_status": "incomplete_request",
+          "strict_correct": false
+        },
+        {
+          "strategy": "a",
+          "run": 2,
+          "paper_score_awarded": 67,
+          "paper_score_max": 87,
+          "reference_center": 76,
+          "reference_band": [
+            74,
+            78
+          ],
+          "signed_error": -9,
+          "absolute_error": 9,
+          "coverage": 1.0,
+          "exact_center": false,
+          "within_one": false,
+          "within_band": false,
+          "criterion_f1": 0.8951,
+          "criterion_precision": 0.9552,
+          "criterion_recall": 0.8421,
+          "item_exact_accuracy": 0.7105,
+          "false_awards": 3,
+          "false_deductions": 12,
+          "unresolved_count": 0,
+          "completion_status": "complete",
+          "strict_correct": false
+        }
+      ],
+      "band_summary": {
+        "runs": 2,
+        "exact_center": 0,
+        "within_one": 0,
+        "within_band": 0,
+        "mean_absolute_error": 42.5,
+        "max_absolute_error": 76,
+        "mean_signed_error": -42.5,
+        "mean_criterion_f1": 0.8951,
+        "total_false_awards": 3,
+        "total_false_deductions": 88,
+        "mean_item_exact_accuracy": 0.3684,
+        "unresolved_total": 38
+      },
+      "cost_per_within_band_paper_usd": null
+    },
+    "b": {
+      "runs": 1,
+      "attempt_id": null,
+      "models": {
+        "primary": "gemini-3.6-flash",
+        "lite": "gemini-3.1-flash-lite",
+        "strong": "gemini-3.6-flash",
+        "notes": [
+          "primary: gemini-3.6-flash verified on KEY_01",
+          "lite: gemini-3.1-flash-lite verified on KEY_01",
+          "strong: gemini-3.1-pro-preview not verified on the first 3 healthy key(s)",
+          "strong: gemini-3.6-flash verified on KEY_01"
+        ]
+      },
+      "paper_max_marks": 87,
+      "paper_reference_marks": 76,
+      "accuracy": {
+        "runs": 1,
+        "strict_correct": 0,
+        "coverage": 0.6579,
+        "item_exact_accuracy": 0.5789,
+        "mean_absolute_score_error": 0.974,
+        "criterion_precision": 0.9737,
+        "criterion_recall": 0.4868,
+        "criterion_f1": 0.6491,
+        "false_awards": 1,
+        "false_deductions": 36,
+        "unresolved_count": 13
+      },
+      "accuracy_per_run": [
+        {
+          "strategy": "b",
+          "run": 1,
+          "items_expected": 38,
+          "items_returned": 25,
+          "completion_status": "incomplete_output",
+          "coverage": 0.6579,
+          "items_exact": 22,
+          "item_exact_accuracy": 0.5789,
+          "paper_score_awarded": 41,
+          "paper_score_expected": 76,
+          "score_error": -35,
+          "exact_paper_score": false,
+          "mean_absolute_score_error": 0.974,
+          "false_awards": 1,
+          "false_deductions": 36,
+          "criterion_precision": 0.9737,
+          "criterion_recall": 0.4868,
+          "criterion_f1": 0.6491,
+          "criterion_counts": {
+            "tp": 37,
+            "fp": 1,
+            "fn": 39,
+            "tn": 10
+          },
+          "criterion_rows": [
+            {
+              "item": "1a",
+              "criterion": "B1#0",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "1d",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "1d",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "2",
+              "criterion": "B1#0",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "3",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "3",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "4",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "4",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "5",
+              "criterion": "B1#0",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "6",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "6",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "6",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "7",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "7",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "8",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "8",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "9",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "9",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "10",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "10",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "11",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "11",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "11",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "13",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "13",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "13",
+              "criterion": "A1#0",
+              "expected": false,
+              "awarded": false
+            },
+            {
+              "item": "14",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "14",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "15",
+              "criterion": "B1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "16b",
+              "criterion": "B1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "17",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "17",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "18",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "18",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "18",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "19",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "19",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "20",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "20",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "21",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "21",
+              "criterion": "A1#0",
+              "expected": false,
+              "awarded": true
+            },
+            {
+              "item": "22",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "22",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "23",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "23",
+              "criterion": "M1#1",
+              "expected": false,
+              "awarded": false
+            },
+            {
+              "item": "23",
+              "criterion": "A1#0",
+              "expected": false,
+              "awarded": false
+            },
+            {
+              "item": "24",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "24",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "25",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "25",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "26",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "26",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "26",
+              "criterion": "A1#0",
+              "expected": false,
+              "awarded": false
+            },
+            {
+              "item": "27",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "27",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "27",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "28",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "28",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "28",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "29",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "29",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "30",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "30",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "30",
+              "criterion": "A1#0",
+              "expected": false,
+              "awarded": false
+            },
+            {
+              "item": "31",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "31",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "31",
+              "criterion": "A1#0",
+              "expected": false,
+              "awarded": false
+            },
+            {
+              "item": "32",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "32",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "32",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "33",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "33",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "34",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "34",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "34",
+              "criterion": "A1#0",
+              "expected": false,
+              "awarded": false
+            },
+            {
+              "item": "35",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "35",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "35",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "36",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "36",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "36",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "37a",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "37a",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "37a",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "37b",
+              "criterion": "M1#0",
+              "expected": false,
+              "awarded": false
+            },
+            {
+              "item": "37b",
+              "criterion": "M1#1",
+              "expected": false,
+              "awarded": false
+            },
+            {
+              "item": "37b",
+              "criterion": "A1#0",
+              "expected": false,
+              "awarded": false
+            }
+          ],
+          "unresolved_items": [
+            "26",
+            "27",
+            "28",
+            "29",
+            "30",
+            "31",
+            "32",
+            "33",
+            "34",
+            "35",
+            "36",
+            "37a",
+            "37b"
+          ],
+          "unresolved_count": 13,
+          "invalid_responses": 0,
+          "verification_status_counts": {},
+          "verification_different": 0,
+          "escalation_count": 0,
+          "escalation_gap": false,
+          "hallucination_suspects": [],
+          "errors": [
+            "request failed: http_error UNAVAILABLE",
+            "scheme extraction failed; marking cannot proceed faithfully",
+            "request failed: http_error UNAVAILABLE",
+            "request failed: http_error UNAVAILABLE",
+            "request failed: http_error UNAVAILABLE",
+            "request failed: quota RESOURCE_EXHAUSTED",
+            "request failed: quota RESOURCE_EXHAUSTED",
+            "request failed: quota RESOURCE_EXHAUSTED",
+            "request failed: quota RESOURCE_EXHAUSTED",
+            "missing items: 7, 8, 9, 10, 11, 13, 14, 15, 16b, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37a, 37b",
+            "missing items: 1a, 1d, 2, 3, 4, 5, 6, 13, 14, 15, 16b, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37a, 37b",
+            "missing items: 1a, 1d, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37a, 37b",
+            "missing items: 1a, 1d, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 16b, 17, 18, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37a, 37b",
+            "b5: no transcription for 26, 27, 28, 29, 30, 31; left unresolved",
+            "b6: no transcription for 32, 33, 34, 35, 36, 37a, 37b; left unresolved"
+          ],
+          "strict_correct": false,
+          "near_correct_within_one": false,
+          "reference_status": "user_ruled_not_teacher_signed"
+        }
+      ],
+      "disagreements": [
+        {
+          "run": 1,
+          "item": "7",
+          "awarded": 0,
+          "expected": 2,
+          "reason": "Question left blank."
+        },
+        {
+          "run": 1,
+          "item": "8",
+          "awarded": 0,
+          "expected": 2,
+          "reason": "Question left blank."
+        },
+        {
+          "run": 1,
+          "item": "19",
+          "awarded": 0,
+          "expected": 2,
+          "reason": "Blank response."
+        },
+        {
+          "run": 1,
+          "item": "21",
+          "awarded": 2,
+          "expected": 1,
+          "reason": "Correct expansion and final expression."
+        },
+        {
+          "run": 1,
+          "item": "26",
+          "awarded": null,
+          "expected": 2,
+          "reason": ""
+        },
+        {
+          "run": 1,
+          "item": "27",
+          "awarded": null,
+          "expected": 3,
+          "reason": ""
+        },
+        {
+          "run": 1,
+          "item": "28",
+          "awarded": null,
+          "expected": 3,
+          "reason": ""
+        },
+        {
+          "run": 1,
+          "item": "29",
+          "awarded": null,
+          "expected": 2,
+          "reason": ""
+        },
+        {
+          "run": 1,
+          "item": "30",
+          "awarded": null,
+          "expected": 2,
+          "reason": ""
+        },
+        {
+          "run": 1,
+          "item": "31",
+          "awarded": null,
+          "expected": 2,
+          "reason": ""
+        },
+        {
+          "run": 1,
+          "item": "32",
+          "awarded": null,
+          "expected": 3,
+          "reason": ""
+        },
+        {
+          "run": 1,
+          "item": "33",
+          "awarded": null,
+          "expected": 2,
+          "reason": ""
+        },
+        {
+          "run": 1,
+          "item": "34",
+          "awarded": null,
+          "expected": 2,
+          "reason": ""
+        },
+        {
+          "run": 1,
+          "item": "35",
+          "awarded": null,
+          "expected": 3,
+          "reason": ""
+        },
+        {
+          "run": 1,
+          "item": "36",
+          "awarded": null,
+          "expected": 3,
+          "reason": ""
+        },
+        {
+          "run": 1,
+          "item": "37a",
+          "awarded": null,
+          "expected": 3,
+          "reason": ""
+        },
+        {
+          "run": 1,
+          "item": "37b",
+          "awarded": null,
+          "expected": 0,
+          "reason": ""
+        }
+      ],
+      "run_meta": [
+        {
+          "run": 1,
+          "completion_status": "incomplete_output",
+          "request_count": 18,
+          "splits": [],
+          "errors": [
+            "request failed: http_error UNAVAILABLE",
+            "scheme extraction failed; marking cannot proceed faithfully",
+            "request failed: http_error UNAVAILABLE",
+            "request failed: http_error UNAVAILABLE",
+            "request failed: http_error UNAVAILABLE",
+            "request failed: quota RESOURCE_EXHAUSTED",
+            "request failed: quota RESOURCE_EXHAUSTED",
+            "request failed: quota RESOURCE_EXHAUSTED",
+            "request failed: quota RESOURCE_EXHAUSTED",
+            "missing items: 7, 8, 9, 10, 11, 13, 14, 15, 16b, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37a, 37b",
+            "missing items: 1a, 1d, 2, 3, 4, 5, 6, 13, 14, 15, 16b, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37a, 37b",
+            "missing items: 1a, 1d, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37a, 37b",
+            "missing items: 1a, 1d, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 16b, 17, 18, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37a, 37b",
+            "b5: no transcription for 26, 27, 28, 29, 30, 31; left unresolved",
+            "b6: no transcription for 32, 33, 34, 35, 36, 37a, 37b; left unresolved"
+          ],
+          "extractions": {
+            "scheme_questions": 0,
+            "student_questions": 25,
+            "retried_ids": [
+              "19",
+              "20",
+              "21",
+              "22",
+              "23",
+              "24",
+              "25",
+              "26",
+              "27",
+              "28",
+              "29",
+              "30",
+              "31",
+              "32",
+              "33",
+              "34",
+              "35",
+              "36",
+              "37a",
+              "37b",
+              "7",
+              "8"
+            ],
+            "retry_requests": 6,
+            "empty_after_retry": [
+              "19",
+              "26",
+              "27",
+              "28",
+              "29",
+              "30",
+              "31",
+              "32",
+              "33",
+              "34",
+              "35",
+              "36",
+              "37a",
+              "37b",
+              "7",
+              "8"
+            ]
+          },
+          "escalations": [],
+          "escalation_changes": []
+        }
+      ],
+      "throughput": {
+        "requests": 49,
+        "successes": 10,
+        "span_s": 390.78,
+        "requests_per_minute": 7.52,
+        "successes_per_minute": 1.54,
+        "concurrency_peak": 1,
+        "concurrency_observed_max": 1,
+        "rate_limit_failures": 14,
+        "rate_limit_rate": 0.2857,
+        "suspensions": 14,
+        "cooldown_wait_s_total": 0.0,
+        "cooldown_wait_s_max": 0.0,
+        "cooldown_wait_sources": {
+          "instrumented": 49,
+          "next_observed_use": 0,
+          "unreconstructable": 0
+        },
+        "cooldown_records": [
+          {
+            "timestamp": "2026-11-05T13:33:46.758+00:00",
+            "key": "KEY_01",
+            "strategy": "b",
+            "run": 1,
+            "wait_s": 0.0,
+            "source": "instrumented",
+            "next_batch": null
+          },
+          {
+            "timestamp": "2026-11-05T13:33:50.252+00:00",
+            "key": "KEY_09",
+            "strategy": "b",
+            "run": 1,
+            "wait_s": 0.0,
+            "source": "instrumented",
+            "next_batch": null
+          },
+          {
+            "timestamp": "2026-11-05T13:33:54.881+00:00",
+            "key": "KEY_13",
+            "strategy": "b",
+            "run": 1,
+            "wait_s": 0.0,
+            "source": "instrumented",
+            "next_batch": null
+          },
+          {
+            "timestamp": "2026-11-05T13:33:56.105+00:00",
+            "key": "KEY_17",
+            "strategy": "b",
+            "run": 1,
+            "wait_s": 0.0,
+            "source": "instrumented",
+            "next_batch": null
+          },
+          {
+            "timestamp": "2026-11-05T13:33:58.113+00:00",
+            "key": "KEY_05",
+            "strategy": "b",
+            "run": 1,
+            "wait_s": 0.0,
+            "source": "instrumented",
+            "next_batch": null
+          },
+          {
+            "timestamp": "2026-11-05T13:34:01.697+00:00",
+            "key": "KEY_14",
+            "strategy": "b",
+            "run": 1,
+            "wait_s": 0.0,
+            "source": "instrumented",
+            "next_batch": null
+          },
+          {
+            "timestamp": "2026-11-05T13:34:06.292+00:00",
+            "key": "KEY_02",
+            "strategy": "b",
+            "run": 1,
+            "wait_s": 0.0,
+            "source": "instrumented",
+            "next_batch": null
+          },
+          {
+            "timestamp": "2026-11-05T13:34:07.560+00:00",
+            "key": "KEY_16",
+            "strategy": "b",
+            "run": 1,
+            "wait_s": 0.0,
+            "source": "instrumented",
+            "next_batch": null
+          },
+          {
+            "timestamp": "2026-11-05T13:34:09.554+00:00",
+            "key": "KEY_12",
+            "strategy": "b",
+            "run": 1,
+            "wait_s": 0.0,
+            "source": "instrumented",
+            "next_batch": null
+          },
+          {
+            "timestamp": "2026-11-05T13:34:13.144+00:00",
+            "key": "KEY_15",
+            "strategy": "b",
+            "run": 1,
+            "wait_s": 0.0,
+            "source": "instrumented",
+            "next_batch": null
+          },
+          {
+            "timestamp": "2026-11-05T13:34:17.837+00:00",
+            "key": "KEY_06",
+            "strategy": "b",
+            "run": 1,
+            "wait_s": 0.0,
+            "source": "instrumented",
+            "next_batch": null
+          },
+          {
+            "timestamp": "2026-11-05T13:34:19.163+00:00",
+            "key": "KEY_11",
+            "strategy": "b",
+            "run": 1,
+            "wait_s": 0.0,
+            "source": "instrumented",
+            "next_batch": null
+          },
+          {
+            "timestamp": "2026-11-05T13:34:21.145+00:00",
+            "key": "KEY_10",
+            "strategy": "b",
+            "run": 1,
+            "wait_s": 0.0,
+            "source": "instrumented",
+            "next_batch": null
+          },
+          {
+            "timestamp": "2026-11-05T13:34:24.735+00:00",
+            "key": "KEY_20",
+            "strategy": "b",
+            "run": 1,
+            "wait_s": 0.0,
+            "source": "instrumented",
+            "next_batch": null
+          },
+          {
+            "timestamp": "2026-11-05T13:29:08.924+00:00",
+            "key": "KEY_09",
+            "strategy": "b",
+            "run": 1,
+            "wait_s": 0.0,
+            "source": "instrumented",
+            "next_batch": null
+          },
+          {
+            "timestamp": "2026-11-05T13:30:04.326+00:00",
+            "key": "KEY_10",
+            "strategy": "b",
+            "run": 1,
+            "wait_s": 0.0,
+            "source": "instrumented",
+            "next_batch": null
+          },
+          {
+            "timestamp": "2026-11-05T13:30:13.848+00:00",
+            "key": "KEY_11",
+            "strategy": "b",
+            "run": 1,
+            "wait_s": 0.0,
+            "source": "instrumented",
+            "next_batch": null
+          },
+          {
+            "timestamp": "2026-11-05T13:30:47.832+00:00",
+            "key": "KEY_12",
+            "strategy": "b",
+            "run": 1,
+            "wait_s": 0.0,
+            "source": "instrumented",
+            "next_batch": null
+          },
+          {
+            "timestamp": "2026-11-05T13:31:15.297+00:00",
+            "key": "KEY_13",
+            "strategy": "b",
+            "run": 1,
+            "wait_s": 0.0,
+            "source": "instrumented",
+            "next_batch": null
+          },
+          {
+            "timestamp": "2026-11-05T13:31:19.606+00:00",
+            "key": "KEY_14",
+            "strategy": "b",
+            "run": 1,
+            "wait_s": 0.0,
+            "source": "instrumented",
+            "next_batch": null
+          },
+          {
+            "timestamp": "2026-11-05T13:31:22.710+00:00",
+            "key": "KEY_15",
+            "strategy": "b",
+            "run": 1,
+            "wait_s": 0.0,
+            "source": "instrumented",
+            "next_batch": null
+          },
+          {
+            "timestamp": "2026-11-05T13:31:30.872+00:00",
+            "key": "KEY_16",
+            "strategy": "b",
+            "run": 1,
+            "wait_s": 0.0,
+            "source": "instrumented",
+            "next_batch": null
+          },
+          {
+            "timestamp": "2026-11-05T13:31:34.924+00:00",
+            "key": "KEY_17",
+            "strategy": "b",
+            "run": 1,
+            "wait_s": 0.0,
+            "source": "instrumented",
+            "next_batch": null
+          },
+          {
+            "timestamp": "2026-11-05T13:31:40.111+00:00",
+            "key": "KEY_19",
+            "strategy": "b",
+            "run": 1,
+            "wait_s": 0.0,
+            "source": "instrumented",
+            "next_batch": null
+          },
+          {
+            "timestamp": "2026-11-05T13:31:43.313+00:00",
+            "key": "KEY_20",
+            "strategy": "b",
+            "run": 1,
+            "wait_s": 0.0,
+            "source": "instrumented",
+            "next_batch": null
+          },
+          {
+            "timestamp": "2026-11-05T13:31:50.398+00:00",
+            "key": "KEY_01",
+            "strategy": "b",
+            "run": 1,
+            "wait_s": 0.0,
+            "source": "instrumented",
+            "next_batch": null
+          },
+          {
+            "timestamp": "2026-11-05T13:31:58.548+00:00",
+            "key": "KEY_02",
+            "strategy": "b",
+            "run": 1,
+            "wait_s": 0.0,
+            "source": "instrumented",
+            "next_batch": null
+          },
+          {
+            "timestamp": "2026-11-05T13:32:08.938+00:00",
+            "key": "KEY_05",
+            "strategy": "b",
+            "run": 1,
+            "wait_s": 0.0,
+            "source": "instrumented",
+            "next_batch": null
+          },
+          {
+            "timestamp": "2026-11-05T13:32:16.364+00:00",
+            "key": "KEY_06",
+            "strategy": "b",
+            "run": 1,
+            "wait_s": 0.0,
+            "source": "instrumented",
+            "next_batch": null
+          },
+          {
+            "timestamp": "2026-11-05T13:32:40.604+00:00",
+            "key": "KEY_09",
+            "strategy": "b",
+            "run": 1,
+            "wait_s": 0.0,
+            "source": "instrumented",
+            "next_batch": null
+          },
+          {
+            "timestamp": "2026-11-05T13:32:49.922+00:00",
+            "key": "KEY_10",
+            "strategy": "b",
+            "run": 1,
+            "wait_s": 0.0,
+            "source": "instrumented",
+            "next_batch": null
+          },
+          {
+            "timestamp": "2026-11-05T13:32:52.666+00:00",
+            "key": "KEY_11",
+            "strategy": "b",
+            "run": 1,
+            "wait_s": 0.0,
+            "source": "instrumented",
+            "next_batch": null
+          },
+          {
+            "timestamp": "2026-11-05T13:32:56.030+00:00",
+            "key": "KEY_12",
+            "strategy": "b",
+            "run": 1,
+            "wait_s": 0.0,
+            "source": "instrumented",
+            "next_batch": null
+          },
+          {
+            "timestamp": "2026-11-05T13:33:01.557+00:00",
+            "key": "KEY_13",
+            "strategy": "b",
+            "run": 1,
+            "wait_s": 0.0,
+            "source": "instrumented",
+            "next_batch": null
+          },
+          {
+            "timestamp": "2026-11-05T13:33:08.818+00:00",
+            "key": "KEY_14",
+            "strategy": "b",
+            "run": 1,
+            "wait_s": 0.0,
+            "source": "instrumented",
+            "next_batch": null
+          },
+          {
+            "timestamp": "2026-11-05T13:33:14.076+00:00",
+            "key": "KEY_15",
+            "strategy": "b",
+            "run": 1,
+            "wait_s": 0.0,
+            "source": "instrumented",
+            "next_batch": null
+          },
+          {
+            "timestamp": "2026-11-05T13:33:19.237+00:00",
+            "key": "KEY_16",
+            "strategy": "b",
+            "run": 1,
+            "wait_s": 0.0,
+            "source": "instrumented",
+            "next_batch": null
+          },
+          {
+            "timestamp": "2026-11-05T13:33:25.249+00:00",
+            "key": "KEY_17",
+            "strategy": "b",
+            "run": 1,
+            "wait_s": 0.0,
+            "source": "instrumented",
+            "next_batch": null
+          },
+          {
+            "timestamp": "2026-11-05T13:33:36.396+00:00",
+            "key": "KEY_19",
+            "strategy": "b",
+            "run": 1,
+            "wait_s": 0.0,
+            "source": "instrumented",
+            "next_batch": null
+          },
+          {
+            "timestamp": "2026-11-05T13:33:44.693+00:00",
+            "key": "KEY_20",
+            "strategy": "b",
+            "run": 1,
+            "wait_s": 0.0,
+            "source": "instrumented",
+            "next_batch": null
+          },
+          {
+            "timestamp": "2026-11-05T13:34:35.531+00:00",
+            "key": "KEY_19",
+            "strategy": "b",
+            "run": 1,
+            "wait_s": 0.0,
+            "source": "instrumented",
+            "next_batch": null
+          },
+          {
+            "timestamp": "2026-11-05T13:34:38.641+00:00",
+            "key": "KEY_19",
+            "strategy": "b",
+            "run": 1,
+            "wait_s": 0.0,
+            "source": "instrumented",
+            "next_batch": null
+          },
+          {
+            "timestamp": "2026-11-05T13:34:43.121+00:00",
+            "key": "KEY_19",
+            "strategy": "b",
+            "run": 1,
+            "wait_s": 0.0,
+            "source": "instrumented",
+            "next_batch": null
+          },
+          {
+            "timestamp": "2026-11-05T13:34:52.551+00:00",
+            "key": "KEY_19",
+            "strategy": "b",
+            "run": 1,
+            "wait_s": 0.0,
+            "source": "instrumented",
+            "next_batch": null
+          },
+          {
+            "timestamp": "2026-11-05T13:35:01.745+00:00",
+            "key": "KEY_01",
+            "strategy": "b",
+            "run": 1,
+            "wait_s": 0.0,
+            "source": "instrumented",
+            "next_batch": null
+          },
+          {
+            "timestamp": "2026-11-05T13:35:05.803+00:00",
+            "key": "KEY_01",
+            "strategy": "b",
+            "run": 1,
+            "wait_s": 0.0,
+            "source": "instrumented",
+            "next_batch": null
+          },
+          {
+            "timestamp": "2026-11-05T13:35:13.959+00:00",
+            "key": "KEY_05",
+            "strategy": "b",
+            "run": 1,
+            "wait_s": 0.0,
+            "source": "instrumented",
+            "next_batch": null
+          },
+          {
+            "timestamp": "2026-11-05T13:35:16.718+00:00",
+            "key": "KEY_15",
+            "strategy": "b",
+            "run": 1,
+            "wait_s": 0.0,
+            "source": "instrumented",
+            "next_batch": null
+          },
+          {
+            "timestamp": "2026-11-05T13:35:34.869+00:00",
+            "key": "KEY_16",
+            "strategy": "b",
+            "run": 1,
+            "wait_s": 0.0,
+            "source": "instrumented",
+            "next_batch": null
+          }
+        ]
+      },
+      "usage": {
+        "requests": 49,
+        "successful_requests": 10,
+        "failed_requests": 39,
+        "failure_rate": 0.7959,
+        "retries": 57,
+        "rate_limit_failures": 14,
+        "rate_limit_rate": 0.2857,
+        "cooldown_s_total": 840.0,
+        "cooldown_events": 14,
+        "cooldown_wait_s_total": 0.0,
+        "cooldown_wait_s_max": 0.0,
+        "cooldown_wait_rows": 49,
+        "input_tokens": 10686,
+        "output_tokens": 7402,
+        "cached_tokens": null,
+        "thoughts_tokens": null,
+        "total_tokens": 18088,
+        "image_tokens": 6552,
+        "reported_token_rows": 10,
+        "estimated_token_rows": 0,
+        "cost_usd": 0.035772,
+        "cost_rows": 10,
+        "cost_estimated_rows": 39,
+        "latency_ms_sum": 106370,
+        "latency_ms_mean": 10637,
+        "latency_ms_p50": 7099.5,
+        "latency_ms_max": 23486,
+        "cache_savings_estimate_usd": null,
+        "keys_used": [
+          "KEY_05",
+          "KEY_09",
+          "KEY_13",
+          "KEY_14",
+          "KEY_16",
+          "KEY_17",
+          "KEY_19"
+        ],
+        "pools_used": [
+          "POOL_OBSERVED_1",
+          "POOL_UNKNOWN_KEY_09",
+          "POOL_UNKNOWN_KEY_13",
+          "POOL_UNKNOWN_KEY_14",
+          "POOL_UNKNOWN_KEY_16",
+          "POOL_UNKNOWN_KEY_17",
+          "POOL_UNKNOWN_KEY_19"
+        ]
+      },
+      "extraction": {
+        "requests": 40,
+        "successful_requests": 6,
+        "failed_requests": 34,
+        "failure_rate": 0.85,
+        "retries": 50,
+        "rate_limit_failures": 14,
+        "rate_limit_rate": 0.35,
+        "cooldown_s_total": 840.0,
+        "cooldown_events": 14,
+        "cooldown_wait_s_total": 0.0,
+        "cooldown_wait_s_max": 0.0,
+        "cooldown_wait_rows": 40,
+        "input_tokens": 7636,
+        "output_tokens": 2605,
+        "cached_tokens": null,
+        "thoughts_tokens": null,
+        "total_tokens": 10241,
+        "image_tokens": 6552,
+        "reported_token_rows": 6,
+        "estimated_token_rows": 0,
+        "cost_usd": 0.01549575,
+        "cost_rows": 6,
+        "cost_estimated_rows": 34,
+        "latency_ms_sum": 67600,
+        "latency_ms_mean": 11266.7,
+        "latency_ms_p50": 6265.0,
+        "latency_ms_max": 23486,
+        "cache_savings_estimate_usd": null,
+        "keys_used": [
+          "KEY_09",
+          "KEY_13",
+          "KEY_14",
+          "KEY_16",
+          "KEY_17",
+          "KEY_19"
+        ],
+        "pools_used": [
+          "POOL_UNKNOWN_KEY_09",
+          "POOL_UNKNOWN_KEY_13",
+          "POOL_UNKNOWN_KEY_14",
+          "POOL_UNKNOWN_KEY_16",
+          "POOL_UNKNOWN_KEY_17",
+          "POOL_UNKNOWN_KEY_19"
+        ]
+      },
+      "marking": {
+        "requests": 9,
+        "successful_requests": 4,
+        "failed_requests": 5,
+        "failure_rate": 0.5556,
+        "retries": 7,
+        "rate_limit_failures": 0,
+        "rate_limit_rate": 0.0,
+        "cooldown_s_total": null,
+        "cooldown_events": 0,
+        "cooldown_wait_s_total": 0.0,
+        "cooldown_wait_s_max": 0.0,
+        "cooldown_wait_rows": 9,
+        "input_tokens": 3050,
+        "output_tokens": 4797,
+        "cached_tokens": null,
+        "thoughts_tokens": null,
+        "total_tokens": 7847,
+        "image_tokens": null,
+        "reported_token_rows": 4,
+        "estimated_token_rows": 0,
+        "cost_usd": 0.02027625,
+        "cost_rows": 4,
+        "cost_estimated_rows": 5,
+        "latency_ms_sum": 38770,
+        "latency_ms_mean": 9692.5,
+        "latency_ms_p50": 7359.5,
+        "latency_ms_max": 17398,
+        "cache_savings_estimate_usd": null,
+        "keys_used": [
+          "KEY_05",
+          "KEY_16",
+          "KEY_19"
+        ],
+        "pools_used": [
+          "POOL_OBSERVED_1"
+        ]
+      },
+      "escalation": {
+        "requests": 0
+      },
+      "escalations_total": 0,
+      "correctly_assessed_papers": 0,
+      "near_correct_papers": 0,
+      "within_three_papers": 0,
+      "cost_per_paper_usd": 0.035772,
+      "cost_per_correctly_assessed_paper_usd": null,
+      "cost_per_near_correct_paper_usd": null,
+      "cost_per_paper_within_3_marks_usd": null,
+      "quota_efficiency_papers_per_1000_requests": 0.0,
+      "requests_per_paper": 49.0,
+      "wall_clock": {
+        "span_s": 390.78,
+        "requests_per_minute": 7.52,
+        "successes_per_minute": 1.54
+      },
+      "per_run": {
+        "1": {
+          "requests": 49,
+          "successful_requests": 10,
+          "failed_requests": 39,
+          "failure_rate": 0.7959,
+          "retries": 57,
+          "rate_limit_failures": 14,
+          "rate_limit_rate": 0.2857,
+          "cooldown_s_total": 840.0,
+          "cooldown_events": 14,
+          "cooldown_wait_s_total": 0.0,
+          "cooldown_wait_s_max": 0.0,
+          "cooldown_wait_rows": 49,
+          "input_tokens": 10686,
+          "output_tokens": 7402,
+          "cached_tokens": null,
+          "thoughts_tokens": null,
+          "total_tokens": 18088,
+          "image_tokens": 6552,
+          "reported_token_rows": 10,
+          "estimated_token_rows": 0,
+          "cost_usd": 0.035772,
+          "cost_rows": 10,
+          "cost_estimated_rows": 39,
+          "latency_ms_sum": 106370,
+          "latency_ms_mean": 10637,
+          "latency_ms_p50": 7099.5,
+          "latency_ms_max": 23486,
+          "cache_savings_estimate_usd": null,
+          "keys_used": [
+            "KEY_05",
+            "KEY_09",
+            "KEY_13",
+            "KEY_14",
+            "KEY_16",
+            "KEY_17",
+            "KEY_19"
+          ],
+          "pools_used": [
+            "POOL_OBSERVED_1",
+            "POOL_UNKNOWN_KEY_09",
+            "POOL_UNKNOWN_KEY_13",
+            "POOL_UNKNOWN_KEY_14",
+            "POOL_UNKNOWN_KEY_16",
+            "POOL_UNKNOWN_KEY_17",
+            "POOL_UNKNOWN_KEY_19"
+          ]
+        }
+      },
+      "band_accuracy_per_run": [
+        {
+          "strategy": "b",
+          "run": 1,
+          "paper_score_awarded": 41,
+          "paper_score_max": 87,
+          "reference_center": 76,
+          "reference_band": [
+            74,
+            78
+          ],
+          "signed_error": -35,
+          "absolute_error": 35,
+          "coverage": 0.6579,
+          "exact_center": false,
+          "within_one": false,
+          "within_band": false,
+          "criterion_f1": 0.6491,
+          "criterion_precision": 0.9737,
+          "criterion_recall": 0.4868,
+          "item_exact_accuracy": 0.5789,
+          "false_awards": 1,
+          "false_deductions": 36,
+          "unresolved_count": 13,
+          "completion_status": "incomplete_output",
+          "strict_correct": false
+        }
+      ],
+      "band_summary": {
+        "runs": 1,
+        "exact_center": 0,
+        "within_one": 0,
+        "within_band": 0,
+        "mean_absolute_error": 35,
+        "max_absolute_error": 35,
+        "mean_signed_error": -35,
+        "mean_criterion_f1": 0.6491,
+        "total_false_awards": 1,
+        "total_false_deductions": 36,
+        "mean_item_exact_accuracy": 0.5789,
+        "unresolved_total": 13
+      },
+      "cost_per_within_band_paper_usd": null
+    },
+    "c": {
+      "runs": 1,
+      "attempt_id": null,
+      "models": {
+        "primary": "gemini-3.6-flash",
+        "lite": "gemini-3.1-flash-lite",
+        "strong": "gemini-3.6-flash",
+        "notes": [
+          "primary: gemini-3.6-flash verified on KEY_01",
+          "lite: gemini-3.1-flash-lite verified on KEY_01",
+          "strong: gemini-3.1-pro-preview not verified on the first 3 healthy key(s)",
+          "strong: gemini-3.6-flash verified on KEY_01"
+        ]
+      },
+      "paper_max_marks": 87,
+      "paper_reference_marks": 76,
+      "accuracy": {
+        "runs": 1,
+        "strict_correct": 0,
+        "coverage": 1.0,
+        "item_exact_accuracy": 0.8684,
+        "mean_absolute_score_error": 0.158,
+        "criterion_precision": 0.9481,
+        "criterion_recall": 0.9605,
+        "criterion_f1": 0.9542,
+        "false_awards": 4,
+        "false_deductions": 2,
+        "unresolved_count": 0
+      },
+      "accuracy_per_run": [
+        {
+          "strategy": "c",
+          "run": 1,
+          "items_expected": 38,
+          "items_returned": 38,
+          "completion_status": "complete",
+          "coverage": 1.0,
+          "items_exact": 33,
+          "item_exact_accuracy": 0.8684,
+          "paper_score_awarded": 78,
+          "paper_score_expected": 76,
+          "score_error": 2,
+          "exact_paper_score": false,
+          "mean_absolute_score_error": 0.158,
+          "false_awards": 4,
+          "false_deductions": 2,
+          "criterion_precision": 0.9481,
+          "criterion_recall": 0.9605,
+          "criterion_f1": 0.9542,
+          "criterion_counts": {
+            "tp": 73,
+            "fp": 4,
+            "fn": 3,
+            "tn": 7
+          },
+          "criterion_rows": [
+            {
+              "item": "1a",
+              "criterion": "B1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "1d",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "1d",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "2",
+              "criterion": "B1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "3",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "3",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "4",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "4",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "5",
+              "criterion": "B1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "6",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "6",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "6",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "7",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "7",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "8",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "8",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "9",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "9",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "10",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "10",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "11",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "11",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "11",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "13",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "13",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "13",
+              "criterion": "A1#0",
+              "expected": false,
+              "awarded": false
+            },
+            {
+              "item": "14",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "14",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "15",
+              "criterion": "B1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "16b",
+              "criterion": "B1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "17",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "17",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "18",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "18",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "18",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "19",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "19",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "20",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "20",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "21",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "21",
+              "criterion": "A1#0",
+              "expected": false,
+              "awarded": true
+            },
+            {
+              "item": "22",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "22",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "23",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "23",
+              "criterion": "M1#1",
+              "expected": false,
+              "awarded": false
+            },
+            {
+              "item": "23",
+              "criterion": "A1#0",
+              "expected": false,
+              "awarded": false
+            },
+            {
+              "item": "24",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "24",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "25",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "25",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "26",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "26",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "26",
+              "criterion": "A1#0",
+              "expected": false,
+              "awarded": false
+            },
+            {
+              "item": "27",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "27",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "27",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "28",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "28",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "28",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "29",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "29",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "30",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "30",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "30",
+              "criterion": "A1#0",
+              "expected": false,
+              "awarded": true
+            },
+            {
+              "item": "31",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "31",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "31",
+              "criterion": "A1#0",
+              "expected": false,
+              "awarded": true
+            },
+            {
+              "item": "32",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "32",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "32",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": false
+            },
+            {
+              "item": "33",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "33",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "34",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "34",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "34",
+              "criterion": "A1#0",
+              "expected": false,
+              "awarded": true
+            },
+            {
+              "item": "35",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "35",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "35",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "36",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "36",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "36",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "37a",
+              "criterion": "M1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "37a",
+              "criterion": "M1#1",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "37a",
+              "criterion": "A1#0",
+              "expected": true,
+              "awarded": true
+            },
+            {
+              "item": "37b",
+              "criterion": "M1#0",
+              "expected": false,
+              "awarded": false
+            },
+            {
+              "item": "37b",
+              "criterion": "M1#1",
+              "expected": false,
+              "awarded": false
+            },
+            {
+              "item": "37b",
+              "criterion": "A1#0",
+              "expected": false,
+              "awarded": false
+            }
+          ],
+          "unresolved_items": [],
+          "unresolved_count": 0,
+          "invalid_responses": 0,
+          "verification_status_counts": {
+            "equivalent": 32,
+            "different": 5,
+            "unknown": 1
+          },
+          "verification_different": 5,
+          "escalation_count": 5,
+          "escalation_gap": false,
+          "hallucination_suspects": [],
+          "errors": [
+            "missing items: 7, 8, 9, 10, 11, 13, 14, 15, 16b, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37a, 37b",
+            "missing items: 1a, 1d, 2, 3, 4, 5, 6, 13, 14, 15, 16b, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37a, 37b",
+            "missing items: 1a, 1d, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37a, 37b",
+            "missing items: 1a, 1d, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 16b, 17, 18, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37a, 37b",
+            "missing items: 1a, 1d, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 16b, 17, 18, 19, 20, 21, 22, 23, 24, 25, 32, 33, 34, 35, 36, 37a, 37b",
+            "missing items: 1a, 1d, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 16b, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31"
+          ],
+          "strict_correct": false,
+          "near_correct_within_one": false,
+          "reference_status": "user_ruled_not_teacher_signed"
+        }
+      ],
+      "disagreements": [
+        {
+          "run": 1,
+          "item": "21",
+          "awarded": 2,
+          "expected": 1,
+          "reason": ""
+        },
+        {
+          "run": 1,
+          "item": "30",
+          "awarded": 3,
+          "expected": 2,
+          "reason": ""
+        },
+        {
+          "run": 1,
+          "item": "31",
+          "awarded": 3,
+          "expected": 2,
+          "reason": ""
+        },
+        {
+          "run": 1,
+          "item": "32",
+          "awarded": 1,
+          "expected": 3,
+          "reason": "Student provided the expression 15x^3 - 10x^2 - 40x without intermediate working. Per mark scheme, single-stage expansion allows up to two errors for the initial M mark, but the final accuracy mark requires the correct expanded expression."
+        },
+        {
+          "run": 1,
+          "item": "34",
+          "awarded": 3,
+          "expected": 2,
+          "reason": ""
+        }
+      ],
+      "run_meta": [
+        {
+          "run": 1,
+          "completion_status": "complete",
+          "request_count": 13,
+          "splits": [],
+          "errors": [
+            "missing items: 7, 8, 9, 10, 11, 13, 14, 15, 16b, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37a, 37b",
+            "missing items: 1a, 1d, 2, 3, 4, 5, 6, 13, 14, 15, 16b, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37a, 37b",
+            "missing items: 1a, 1d, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37a, 37b",
+            "missing items: 1a, 1d, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 16b, 17, 18, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37a, 37b",
+            "missing items: 1a, 1d, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 16b, 17, 18, 19, 20, 21, 22, 23, 24, 25, 32, 33, 34, 35, 36, 37a, 37b",
+            "missing items: 1a, 1d, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 16b, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31"
+          ],
+          "extractions": {
+            "doc_questions": 38
+          },
+          "escalations": [
+            "11",
+            "13",
+            "26",
+            "32",
+            "37b"
+          ],
+          "escalation_changes": [
+            {
+              "item": "32",
+              "before": 2,
+              "after": 1,
+              "reason": "SymPy says transcribed answer differs from the scheme's expected answer"
+            },
+            {
+              "item": "37b",
+              "before": 1,
+              "after": 0,
+              "reason": "SymPy says transcribed answer differs from the scheme's expected answer"
+            }
+          ]
+        }
+      ],
+      "throughput": {
+        "requests": 23,
+        "successes": 13,
+        "span_s": 188.76,
+        "requests_per_minute": 7.31,
+        "successes_per_minute": 4.13,
+        "concurrency_peak": 1,
+        "concurrency_observed_max": 1,
+        "rate_limit_failures": 0,
+        "rate_limit_rate": 0.0,
+        "suspensions": 0,
+        "cooldown_wait_s_total": 0.0,
+        "cooldown_wait_s_max": 0.0,
+        "cooldown_wait_sources": {
+          "instrumented": 23,
+          "next_observed_use": 0,
+          "unreconstructable": 0
+        },
+        "cooldown_records": [
+          {
+            "timestamp": "2026-11-05T13:35:38.216+00:00",
+            "key": "KEY_13",
+            "strategy": "c",
+            "run": 1,
+            "wait_s": 0.0,
+            "source": "instrumented",
+            "next_batch": null
+          },
+          {
+            "timestamp": "2026-11-05T13:35:44.544+00:00",
+            "key": "KEY_14",
+            "strategy": "c",
+            "run": 1,
+            "wait_s": 0.0,
+            "source": "instrumented",
+            "next_batch": null
+          },
+          {
+            "timestamp": "2026-11-05T13:35:48.941+00:00",
+            "key": "KEY_15",
+            "strategy": "c",
+            "run": 1,
+            "wait_s": 0.0,
+            "source": "instrumented",
+            "next_batch": null
+          },
+          {
+            "timestamp": "2026-11-05T13:36:09.935+00:00",
+            "key": "KEY_16",
+            "strategy": "c",
+            "run": 1,
+            "wait_s": 0.0,
+            "source": "instrumented",
+            "next_batch": null
+          },
+          {
+            "timestamp": "2026-11-05T13:36:25.075+00:00",
+            "key": "KEY_17",
+            "strategy": "c",
+            "run": 1,
+            "wait_s": 0.0,
+            "source": "instrumented",
+            "next_batch": null
+          },
+          {
+            "timestamp": "2026-11-05T13:36:58.174+00:00",
+            "key": "KEY_19",
+            "strategy": "c",
+            "run": 1,
+            "wait_s": 0.0,
+            "source": "instrumented",
+            "next_batch": null
+          },
+          {
+            "timestamp": "2026-11-05T13:37:02.253+00:00",
+            "key": "KEY_20",
+            "strategy": "c",
+            "run": 1,
+            "wait_s": 0.0,
+            "source": "instrumented",
+            "next_batch": null
+          },
+          {
+            "timestamp": "2026-11-05T13:37:04.256+00:00",
+            "key": "KEY_01",
+            "strategy": "c",
+            "run": 1,
+            "wait_s": 0.0,
+            "source": "instrumented",
+            "next_batch": null
+          },
+          {
+            "timestamp": "2026-11-05T13:37:07.414+00:00",
+            "key": "KEY_02",
+            "strategy": "c",
+            "run": 1,
+            "wait_s": 0.0,
+            "source": "instrumented",
+            "next_batch": null
+          },
+          {
+            "timestamp": "2026-11-05T13:37:12.651+00:00",
+            "key": "KEY_05",
+            "strategy": "c",
+            "run": 1,
+            "wait_s": 0.0,
+            "source": "instrumented",
+            "next_batch": null
+          },
+          {
+            "timestamp": "2026-11-05T13:37:17.388+00:00",
+            "key": "KEY_06",
+            "strategy": "c",
+            "run": 1,
+            "wait_s": 0.0,
+            "source": "instrumented",
+            "next_batch": null
+          },
+          {
+            "timestamp": "2026-11-05T13:37:20.158+00:00",
+            "key": "KEY_09",
+            "strategy": "c",
+            "run": 1,
+            "wait_s": 0.0,
+            "source": "instrumented",
+            "next_batch": null
+          },
+          {
+            "timestamp": "2026-11-05T13:37:28.715+00:00",
+            "key": "KEY_10",
+            "strategy": "c",
+            "run": 1,
+            "wait_s": 0.0,
+            "source": "instrumented",
+            "next_batch": null
+          },
+          {
+            "timestamp": "2026-11-05T13:37:34.378+00:00",
+            "key": "KEY_11",
+            "strategy": "c",
+            "run": 1,
+            "wait_s": 0.0,
+            "source": "instrumented",
+            "next_batch": null
+          },
+          {
+            "timestamp": "2026-11-05T13:37:43.607+00:00",
+            "key": "KEY_12",
+            "strategy": "c",
+            "run": 1,
+            "wait_s": 0.0,
+            "source": "instrumented",
+            "next_batch": null
+          },
+          {
+            "timestamp": "2026-11-05T13:37:46.161+00:00",
+            "key": "KEY_13",
+            "strategy": "c",
+            "run": 1,
+            "wait_s": 0.0,
+            "source": "instrumented",
+            "next_batch": null
+          },
+          {
+            "timestamp": "2026-11-05T13:37:50.022+00:00",
+            "key": "KEY_14",
+            "strategy": "c",
+            "run": 1,
+            "wait_s": 0.0,
+            "source": "instrumented",
+            "next_batch": null
+          },
+          {
+            "timestamp": "2026-11-05T13:37:53.698+00:00",
+            "key": "KEY_15",
+            "strategy": "c",
+            "run": 1,
+            "wait_s": 0.0,
+            "source": "instrumented",
+            "next_batch": null
+          },
+          {
+            "timestamp": "2026-11-05T13:38:03.123+00:00",
+            "key": "KEY_16",
+            "strategy": "c",
+            "run": 1,
+            "wait_s": 0.0,
+            "source": "instrumented",
+            "next_batch": null
+          },
+          {
+            "timestamp": "2026-11-05T13:38:07.632+00:00",
+            "key": "KEY_17",
+            "strategy": "c",
+            "run": 1,
+            "wait_s": 0.0,
+            "source": "instrumented",
+            "next_batch": null
+          },
+          {
+            "timestamp": "2026-11-05T13:38:33.618+00:00",
+            "key": "KEY_19",
+            "strategy": "c",
+            "run": 1,
+            "wait_s": 0.0,
+            "source": "instrumented",
+            "next_batch": null
+          },
+          {
+            "timestamp": "2026-11-05T13:38:37.149+00:00",
+            "key": "KEY_20",
+            "strategy": "c",
+            "run": 1,
+            "wait_s": 0.0,
+            "source": "instrumented",
+            "next_batch": null
+          },
+          {
+            "timestamp": "2026-11-05T13:38:44.048+00:00",
+            "key": "KEY_01",
+            "strategy": "c",
+            "run": 1,
+            "wait_s": 0.0,
+            "source": "instrumented",
+            "next_batch": null
+          }
+        ]
+      },
+      "usage": {
+        "requests": 23,
+        "successful_requests": 13,
+        "failed_requests": 10,
+        "failure_rate": 0.4348,
+        "retries": 16,
+        "rate_limit_failures": 0,
+        "rate_limit_rate": 0.0,
+        "cooldown_s_total": null,
+        "cooldown_events": 0,
+        "cooldown_wait_s_total": 0.0,
+        "cooldown_wait_s_max": 0.0,
+        "cooldown_wait_rows": 23,
+        "input_tokens": 43375,
+        "output_tokens": 17132,
+        "cached_tokens": null,
+        "thoughts_tokens": null,
+        "total_tokens": 60507,
+        "image_tokens": 30786,
+        "reported_token_rows": 13,
+        "estimated_token_rows": 0,
+        "cost_usd": 0.0811395,
+        "cost_rows": 13,
+        "cost_estimated_rows": 10,
+        "latency_ms_sum": 126836,
+        "latency_ms_mean": 9756.6,
+        "latency_ms_p50": 6146,
+        "latency_ms_max": 32329,
+        "cache_savings_estimate_usd": null,
+        "keys_used": [
+          "KEY_01",
+          "KEY_02",
+          "KEY_05",
+          "KEY_06",
+          "KEY_09",
+          "KEY_10",
+          "KEY_12",
+          "KEY_16",
+          "KEY_19",
+          "KEY_20"
+        ],
+        "pools_used": [
+          "POOL_OBSERVED_1",
+          "POOL_UNKNOWN_KEY_01",
+          "POOL_UNKNOWN_KEY_02",
+          "POOL_UNKNOWN_KEY_06",
+          "POOL_UNKNOWN_KEY_09",
+          "POOL_UNKNOWN_KEY_10",
+          "POOL_UNKNOWN_KEY_12"
+        ]
+      },
+      "extraction": {
+        "requests": 6,
+        "successful_requests": 2,
+        "failed_requests": 4,
+        "failure_rate": 0.6667,
+        "retries": 7,
+        "rate_limit_failures": 0,
+        "rate_limit_rate": 0.0,
+        "cooldown_s_total": null,
+        "cooldown_events": 0,
+        "cooldown_wait_s_total": 0.0,
+        "cooldown_wait_s_max": 0.0,
+        "cooldown_wait_rows": 6,
+        "input_tokens": 32137,
+        "output_tokens": 10554,
+        "cached_tokens": null,
+        "thoughts_tokens": null,
+        "total_tokens": 42691,
+        "image_tokens": 30786,
+        "reported_token_rows": 2,
+        "estimated_token_rows": 0,
+        "cost_usd": 0.06368025,
+        "cost_rows": 2,
+        "cost_estimated_rows": 4,
+        "latency_ms_sum": 50310,
+        "latency_ms_mean": 25155,
+        "latency_ms_p50": 25155.0,
+        "latency_ms_max": 32329,
+        "cache_savings_estimate_usd": null,
+        "keys_used": [
+          "KEY_16",
+          "KEY_19"
+        ],
+        "pools_used": [
+          "POOL_OBSERVED_1"
+        ]
+      },
+      "marking": {
+        "requests": 6,
+        "successful_requests": 6,
+        "failed_requests": 0,
+        "failure_rate": 0.0,
+        "retries": 0,
+        "rate_limit_failures": 0,
+        "rate_limit_rate": 0.0,
+        "cooldown_s_total": null,
+        "cooldown_events": 0,
+        "cooldown_wait_s_total": 0.0,
+        "cooldown_wait_s_max": 0.0,
+        "cooldown_wait_rows": 6,
+        "input_tokens": 8715,
+        "output_tokens": 5013,
+        "cached_tokens": null,
+        "thoughts_tokens": null,
+        "total_tokens": 13728,
+        "image_tokens": null,
+        "reported_token_rows": 6,
+        "estimated_token_rows": 0,
+        "cost_usd": 0.00969825,
+        "cost_rows": 6,
+        "cost_estimated_rows": 0,
+        "latency_ms_sum": 21697,
+        "latency_ms_mean": 3616.2,
+        "latency_ms_p50": 3482.0,
+        "latency_ms_max": 5234,
+        "cache_savings_estimate_usd": null,
+        "keys_used": [
+          "KEY_01",
+          "KEY_02",
+          "KEY_05",
+          "KEY_06",
+          "KEY_09",
+          "KEY_20"
+        ],
+        "pools_used": [
+          "POOL_OBSERVED_1",
+          "POOL_UNKNOWN_KEY_01",
+          "POOL_UNKNOWN_KEY_02",
+          "POOL_UNKNOWN_KEY_06",
+          "POOL_UNKNOWN_KEY_09"
+        ]
+      },
+      "escalation": {
+        "requests": 11,
+        "successful_requests": 5,
+        "failed_requests": 6,
+        "failure_rate": 0.5455,
+        "retries": 9,
+        "rate_limit_failures": 0,
+        "rate_limit_rate": 0.0,
+        "cooldown_s_total": null,
+        "cooldown_events": 0,
+        "cooldown_wait_s_total": 0.0,
+        "cooldown_wait_s_max": 0.0,
+        "cooldown_wait_rows": 11,
+        "input_tokens": 2523,
+        "output_tokens": 1565,
+        "cached_tokens": null,
+        "thoughts_tokens": null,
+        "total_tokens": 4088,
+        "image_tokens": null,
+        "reported_token_rows": 5,
+        "estimated_token_rows": 0,
+        "cost_usd": 0.007761,
+        "cost_rows": 5,
+        "cost_estimated_rows": 6,
+        "latency_ms_sum": 54829,
+        "latency_ms_mean": 10965.8,
+        "latency_ms_p50": 8476,
+        "latency_ms_max": 25233,
+        "cache_savings_estimate_usd": null,
+        "keys_used": [
+          "KEY_01",
+          "KEY_10",
+          "KEY_12",
+          "KEY_16",
+          "KEY_19"
+        ],
+        "pools_used": [
+          "POOL_OBSERVED_1",
+          "POOL_UNKNOWN_KEY_01",
+          "POOL_UNKNOWN_KEY_10",
+          "POOL_UNKNOWN_KEY_12"
+        ]
+      },
+      "escalations_total": 5,
+      "correctly_assessed_papers": 0,
+      "near_correct_papers": 0,
+      "within_three_papers": 1,
+      "cost_per_paper_usd": 0.0811395,
+      "cost_per_correctly_assessed_paper_usd": null,
+      "cost_per_near_correct_paper_usd": null,
+      "cost_per_paper_within_3_marks_usd": 0.0811395,
+      "quota_efficiency_papers_per_1000_requests": 0.0,
+      "requests_per_paper": 23.0,
+      "wall_clock": {
+        "span_s": 188.76,
+        "requests_per_minute": 7.31,
+        "successes_per_minute": 4.13
+      },
+      "per_run": {
+        "1": {
+          "requests": 23,
+          "successful_requests": 13,
+          "failed_requests": 10,
+          "failure_rate": 0.4348,
+          "retries": 16,
+          "rate_limit_failures": 0,
+          "rate_limit_rate": 0.0,
+          "cooldown_s_total": null,
+          "cooldown_events": 0,
+          "cooldown_wait_s_total": 0.0,
+          "cooldown_wait_s_max": 0.0,
+          "cooldown_wait_rows": 23,
+          "input_tokens": 43375,
+          "output_tokens": 17132,
+          "cached_tokens": null,
+          "thoughts_tokens": null,
+          "total_tokens": 60507,
+          "image_tokens": 30786,
+          "reported_token_rows": 13,
+          "estimated_token_rows": 0,
+          "cost_usd": 0.0811395,
+          "cost_rows": 13,
+          "cost_estimated_rows": 10,
+          "latency_ms_sum": 126836,
+          "latency_ms_mean": 9756.6,
+          "latency_ms_p50": 6146,
+          "latency_ms_max": 32329,
+          "cache_savings_estimate_usd": null,
+          "keys_used": [
+            "KEY_01",
+            "KEY_02",
+            "KEY_05",
+            "KEY_06",
+            "KEY_09",
+            "KEY_10",
+            "KEY_12",
+            "KEY_16",
+            "KEY_19",
+            "KEY_20"
+          ],
+          "pools_used": [
+            "POOL_OBSERVED_1",
+            "POOL_UNKNOWN_KEY_01",
+            "POOL_UNKNOWN_KEY_02",
+            "POOL_UNKNOWN_KEY_06",
+            "POOL_UNKNOWN_KEY_09",
+            "POOL_UNKNOWN_KEY_10",
+            "POOL_UNKNOWN_KEY_12"
+          ]
+        }
+      },
+      "band_accuracy_per_run": [
+        {
+          "strategy": "c",
+          "run": 1,
+          "paper_score_awarded": 78,
+          "paper_score_max": 87,
+          "reference_center": 76,
+          "reference_band": [
+            74,
+            78
+          ],
+          "signed_error": 2,
+          "absolute_error": 2,
+          "coverage": 1.0,
+          "exact_center": false,
+          "within_one": false,
+          "within_band": true,
+          "criterion_f1": 0.9542,
+          "criterion_precision": 0.9481,
+          "criterion_recall": 0.9605,
+          "item_exact_accuracy": 0.8684,
+          "false_awards": 4,
+          "false_deductions": 2,
+          "unresolved_count": 0,
+          "completion_status": "complete",
+          "strict_correct": false
+        }
+      ],
+      "band_summary": {
+        "runs": 1,
+        "exact_center": 0,
+        "within_one": 0,
+        "within_band": 1,
+        "mean_absolute_error": 2,
+        "max_absolute_error": 2,
+        "mean_signed_error": 2,
+        "mean_criterion_f1": 0.9542,
+        "total_false_awards": 4,
+        "total_false_deductions": 2,
+        "mean_item_exact_accuracy": 0.8684,
+        "unresolved_total": 0
+      },
+      "cost_per_within_band_paper_usd": 0.0811395
+    }
+  },
+  "keys": {
+    "keys_total": 20,
+    "eligible_keys": 15,
+    "keys_used_in_benchmark": 13,
+    "successful_benchmark_requests": 26,
+    "min_successful_requests_for_full_coverage": 15,
+    "full_coverage_achieved": false,
+    "pools": {
+      "POOL_UNKNOWN_KEY_01": {
+        "keys": [
+          "KEY_01"
+        ],
+        "requests": 8,
+        "successes": 3,
+        "benchmark_successes": 2,
+        "rate_limit_hits": 1
+      },
+      "POOL_UNKNOWN_KEY_02": {
+        "keys": [
+          "KEY_02"
+        ],
+        "requests": 6,
+        "successes": 2,
+        "benchmark_successes": 1,
+        "rate_limit_hits": 1
+      },
+      "POOL_UNKNOWN_KEY_03": {
+        "keys": [
+          "KEY_03"
+        ],
+        "requests": 1,
+        "successes": 0,
+        "benchmark_successes": 0,
+        "rate_limit_hits": 0
+      },
+      "POOL_UNKNOWN_KEY_04": {
+        "keys": [
+          "KEY_04"
+        ],
+        "requests": 1,
+        "successes": 0,
+        "benchmark_successes": 0,
+        "rate_limit_hits": 0
+      },
+      "POOL_OBSERVED_1": {
+        "keys": [
+          "KEY_05",
+          "KEY_16",
+          "KEY_19",
+          "KEY_20"
+        ],
+        "requests": 29,
+        "successes": 16,
+        "benchmark_successes": 12,
+        "rate_limit_hits": 3
+      },
+      "POOL_UNKNOWN_KEY_06": {
+        "keys": [
+          "KEY_06"
+        ],
+        "requests": 6,
+        "successes": 3,
+        "benchmark_successes": 2,
+        "rate_limit_hits": 1
+      },
+      "POOL_EXCLUDED_KEY_07": {
+        "keys": [
+          "KEY_07"
+        ],
+        "requests": 0,
+        "successes": 0,
+        "benchmark_successes": 0,
+        "rate_limit_hits": 0
+      },
+      "POOL_EXCLUDED_KEY_08": {
+        "keys": [
+          "KEY_08"
+        ],
+        "requests": 0,
+        "successes": 0,
+        "benchmark_successes": 0,
+        "rate_limit_hits": 0
+      },
+      "POOL_UNKNOWN_KEY_09": {
+        "keys": [
+          "KEY_09"
+        ],
+        "requests": 6,
+        "successes": 4,
+        "benchmark_successes": 3,
+        "rate_limit_hits": 1
+      },
+      "POOL_UNKNOWN_KEY_10": {
+        "keys": [
+          "KEY_10"
+        ],
+        "requests": 6,
+        "successes": 2,
+        "benchmark_successes": 1,
+        "rate_limit_hits": 1
+      },
+      "POOL_UNKNOWN_KEY_11": {
+        "keys": [
+          "KEY_11"
+        ],
+        "requests": 6,
+        "successes": 1,
+        "benchmark_successes": 0,
+        "rate_limit_hits": 1
+      },
+      "POOL_UNKNOWN_KEY_12": {
+        "keys": [
+          "KEY_12"
+        ],
+        "requests": 6,
+        "successes": 3,
+        "benchmark_successes": 2,
+        "rate_limit_hits": 1
+      },
+      "POOL_UNKNOWN_KEY_13": {
+        "keys": [
+          "KEY_13"
+        ],
+        "requests": 6,
+        "successes": 2,
+        "benchmark_successes": 1,
+        "rate_limit_hits": 1
+      },
+      "POOL_UNKNOWN_KEY_14": {
+        "keys": [
+          "KEY_14"
+        ],
+        "requests": 6,
+        "successes": 2,
+        "benchmark_successes": 1,
+        "rate_limit_hits": 1
+      },
+      "POOL_UNKNOWN_KEY_15": {
+        "keys": [
+          "KEY_15"
+        ],
+        "requests": 7,
+        "successes": 1,
+        "benchmark_successes": 0,
+        "rate_limit_hits": 1
+      },
+      "POOL_UNKNOWN_KEY_17": {
+        "keys": [
+          "KEY_17"
+        ],
+        "requests": 6,
+        "successes": 2,
+        "benchmark_successes": 1,
+        "rate_limit_hits": 1
+      },
+      "POOL_UNKNOWN_KEY_18": {
+        "keys": [
+          "KEY_18"
+        ],
+        "requests": 1,
+        "successes": 0,
+        "benchmark_successes": 0,
+        "rate_limit_hits": 0
+      }
+    }
+  },
+  "probes": {
+    "requests": 26,
+    "successful_requests": 18,
+    "failed_requests": 8,
+    "failure_rate": 0.3077,
+    "retries": 0,
+    "rate_limit_failures": 3,
+    "rate_limit_rate": 0.1154,
+    "cooldown_s_total": null,
+    "cooldown_events": 0,
+    "cooldown_wait_s_total": null,
+    "cooldown_wait_s_max": null,
+    "cooldown_wait_rows": 0,
+    "input_tokens": 90,
+    "output_tokens": null,
+    "cached_tokens": null,
+    "thoughts_tokens": null,
+    "total_tokens": 90,
+    "image_tokens": null,
+    "reported_token_rows": 18,
+    "estimated_token_rows": 0,
+    "cost_usd": null,
+    "cost_rows": 0,
+    "cost_estimated_rows": 26,
+    "latency_ms_sum": 147172,
+    "latency_ms_mean": 8176.2,
+    "latency_ms_p50": 4089.0,
+    "latency_ms_max": 47650,
+    "cache_savings_estimate_usd": null,
+    "keys_used": [
+      "KEY_01",
+      "KEY_02",
+      "KEY_05",
+      "KEY_06",
+      "KEY_09",
+      "KEY_10",
+      "KEY_11",
+      "KEY_12",
+      "KEY_13",
+      "KEY_14",
+      "KEY_15",
+      "KEY_16",
+      "KEY_17",
+      "KEY_19",
+      "KEY_20"
+    ],
+    "pools_used": [
+      "POOL_UNKNOWN_KEY_01",
+      "POOL_UNKNOWN_KEY_02",
+      "POOL_UNKNOWN_KEY_05",
+      "POOL_UNKNOWN_KEY_06",
+      "POOL_UNKNOWN_KEY_09",
+      "POOL_UNKNOWN_KEY_10",
+      "POOL_UNKNOWN_KEY_11",
+      "POOL_UNKNOWN_KEY_12",
+      "POOL_UNKNOWN_KEY_13",
+      "POOL_UNKNOWN_KEY_14",
+      "POOL_UNKNOWN_KEY_15",
+      "POOL_UNKNOWN_KEY_16",
+      "POOL_UNKNOWN_KEY_17",
+      "POOL_UNKNOWN_KEY_19",
+      "POOL_UNKNOWN_KEY_20"
+    ]
+  },
+  "benchmark_totals": {
+    "requests": 84,
+    "successful_requests": 26,
+    "failed_requests": 58,
+    "failure_rate": 0.6905,
+    "retries": 85,
+    "rate_limit_failures": 14,
+    "rate_limit_rate": 0.1667,
+    "cooldown_s_total": 840.0,
+    "cooldown_events": 14,
+    "cooldown_wait_s_total": 0.0,
+    "cooldown_wait_s_max": 0.0,
+    "cooldown_wait_rows": 84,
+    "input_tokens": 111109,
+    "output_tokens": 37511,
+    "cached_tokens": null,
+    "thoughts_tokens": null,
+    "total_tokens": 148620,
+    "image_tokens": 92358,
+    "reported_token_rows": 26,
+    "estimated_token_rows": 0,
+    "cost_usd": 0.20836125,
+    "cost_rows": 26,
+    "cost_estimated_rows": 58,
+    "latency_ms_sum": 378281,
+    "latency_ms_mean": 14549.3,
+    "latency_ms_p50": 7099.5,
+    "latency_ms_max": 70856,
+    "cache_savings_estimate_usd": null,
+    "keys_used": [
+      "KEY_01",
+      "KEY_02",
+      "KEY_05",
+      "KEY_06",
+      "KEY_09",
+      "KEY_10",
+      "KEY_12",
+      "KEY_13",
+      "KEY_14",
+      "KEY_16",
+      "KEY_17",
+      "KEY_19",
+      "KEY_20"
+    ],
+    "pools_used": [
+      "POOL_OBSERVED_1",
+      "POOL_UNKNOWN_KEY_01",
+      "POOL_UNKNOWN_KEY_02",
+      "POOL_UNKNOWN_KEY_06",
+      "POOL_UNKNOWN_KEY_09",
+      "POOL_UNKNOWN_KEY_10",
+      "POOL_UNKNOWN_KEY_12",
+      "POOL_UNKNOWN_KEY_13",
+      "POOL_UNKNOWN_KEY_14",
+      "POOL_UNKNOWN_KEY_16",
+      "POOL_UNKNOWN_KEY_17",
+      "POOL_UNKNOWN_KEY_19"
+    ]
+  },
+  "throughput": {
+    "requests": 84,
+    "successes": 26,
+    "span_s": 1005.4,
+    "requests_per_minute": 5.01,
+    "successes_per_minute": 1.55,
+    "concurrency_peak": 1,
+    "concurrency_observed_max": 1,
+    "rate_limit_failures": 14,
+    "rate_limit_rate": 0.1667,
+    "suspensions": 14,
+    "cooldown_wait_s_total": 0.0,
+    "cooldown_wait_s_max": 0.0,
+    "cooldown_wait_sources": {
+      "instrumented": 84,
+      "next_observed_use": 0,
+      "unreconstructable": 0
+    },
+    "cooldown_records": [
+      {
+        "timestamp": "2026-11-05T13:33:46.758+00:00",
+        "key": "KEY_01",
+        "strategy": "b",
+        "run": 1,
+        "wait_s": 0.0,
+        "source": "instrumented",
+        "next_batch": null
+      },
+      {
+        "timestamp": "2026-11-05T13:33:50.252+00:00",
+        "key": "KEY_09",
+        "strategy": "b",
+        "run": 1,
+        "wait_s": 0.0,
+        "source": "instrumented",
+        "next_batch": null
+      },
+      {
+        "timestamp": "2026-11-05T13:33:54.881+00:00",
+        "key": "KEY_13",
+        "strategy": "b",
+        "run": 1,
+        "wait_s": 0.0,
+        "source": "instrumented",
+        "next_batch": null
+      },
+      {
+        "timestamp": "2026-11-05T13:33:56.105+00:00",
+        "key": "KEY_17",
+        "strategy": "b",
+        "run": 1,
+        "wait_s": 0.0,
+        "source": "instrumented",
+        "next_batch": null
+      },
+      {
+        "timestamp": "2026-11-05T13:33:58.113+00:00",
+        "key": "KEY_05",
+        "strategy": "b",
+        "run": 1,
+        "wait_s": 0.0,
+        "source": "instrumented",
+        "next_batch": null
+      },
+      {
+        "timestamp": "2026-11-05T13:34:01.697+00:00",
+        "key": "KEY_14",
+        "strategy": "b",
+        "run": 1,
+        "wait_s": 0.0,
+        "source": "instrumented",
+        "next_batch": null
+      },
+      {
+        "timestamp": "2026-11-05T13:34:06.292+00:00",
+        "key": "KEY_02",
+        "strategy": "b",
+        "run": 1,
+        "wait_s": 0.0,
+        "source": "instrumented",
+        "next_batch": null
+      },
+      {
+        "timestamp": "2026-11-05T13:34:07.560+00:00",
+        "key": "KEY_16",
+        "strategy": "b",
+        "run": 1,
+        "wait_s": 0.0,
+        "source": "instrumented",
+        "next_batch": null
+      },
+      {
+        "timestamp": "2026-11-05T13:34:09.554+00:00",
+        "key": "KEY_12",
+        "strategy": "b",
+        "run": 1,
+        "wait_s": 0.0,
+        "source": "instrumented",
+        "next_batch": null
+      },
+      {
+        "timestamp": "2026-11-05T13:34:13.144+00:00",
+        "key": "KEY_15",
+        "strategy": "b",
+        "run": 1,
+        "wait_s": 0.0,
+        "source": "instrumented",
+        "next_batch": null
+      },
+      {
+        "timestamp": "2026-11-05T13:34:17.837+00:00",
+        "key": "KEY_06",
+        "strategy": "b",
+        "run": 1,
+        "wait_s": 0.0,
+        "source": "instrumented",
+        "next_batch": null
+      },
+      {
+        "timestamp": "2026-11-05T13:34:19.163+00:00",
+        "key": "KEY_11",
+        "strategy": "b",
+        "run": 1,
+        "wait_s": 0.0,
+        "source": "instrumented",
+        "next_batch": null
+      },
+      {
+        "timestamp": "2026-11-05T13:34:21.145+00:00",
+        "key": "KEY_10",
+        "strategy": "b",
+        "run": 1,
+        "wait_s": 0.0,
+        "source": "instrumented",
+        "next_batch": null
+      },
+      {
+        "timestamp": "2026-11-05T13:34:24.735+00:00",
+        "key": "KEY_20",
+        "strategy": "b",
+        "run": 1,
+        "wait_s": 0.0,
+        "source": "instrumented",
+        "next_batch": null
+      },
+      {
+        "timestamp": "2026-11-05T13:28:27.410+00:00",
+        "key": "KEY_01",
+        "strategy": "a",
+        "run": 1,
+        "wait_s": 0.0,
+        "source": "instrumented",
+        "next_batch": null
+      },
+      {
+        "timestamp": "2026-11-05T13:28:36.602+00:00",
+        "key": "KEY_02",
+        "strategy": "a",
+        "run": 1,
+        "wait_s": 0.0,
+        "source": "instrumented",
+        "next_batch": null
+      },
+      {
+        "timestamp": "2026-11-05T13:28:49.024+00:00",
+        "key": "KEY_05",
+        "strategy": "a",
+        "run": 1,
+        "wait_s": 0.0,
+        "source": "instrumented",
+        "next_batch": null
+      },
+      {
+        "timestamp": "2026-11-05T13:28:59.413+00:00",
+        "key": "KEY_06",
+        "strategy": "a",
+        "run": 1,
+        "wait_s": 0.0,
+        "source": "instrumented",
+        "next_batch": null
+      },
+      {
+        "timestamp": "2026-11-05T13:29:08.924+00:00",
+        "key": "KEY_09",
+        "strategy": "b",
+        "run": 1,
+        "wait_s": 0.0,
+        "source": "instrumented",
+        "next_batch": null
+      },
+      {
+        "timestamp": "2026-11-05T13:30:04.326+00:00",
+        "key": "KEY_10",
+        "strategy": "b",
+        "run": 1,
+        "wait_s": 0.0,
+        "source": "instrumented",
+        "next_batch": null
+      },
+      {
+        "timestamp": "2026-11-05T13:30:13.848+00:00",
+        "key": "KEY_11",
+        "strategy": "b",
+        "run": 1,
+        "wait_s": 0.0,
+        "source": "instrumented",
+        "next_batch": null
+      },
+      {
+        "timestamp": "2026-11-05T13:30:47.832+00:00",
+        "key": "KEY_12",
+        "strategy": "b",
+        "run": 1,
+        "wait_s": 0.0,
+        "source": "instrumented",
+        "next_batch": null
+      },
+      {
+        "timestamp": "2026-11-05T13:31:15.297+00:00",
+        "key": "KEY_13",
+        "strategy": "b",
+        "run": 1,
+        "wait_s": 0.0,
+        "source": "instrumented",
+        "next_batch": null
+      },
+      {
+        "timestamp": "2026-11-05T13:31:19.606+00:00",
+        "key": "KEY_14",
+        "strategy": "b",
+        "run": 1,
+        "wait_s": 0.0,
+        "source": "instrumented",
+        "next_batch": null
+      },
+      {
+        "timestamp": "2026-11-05T13:31:22.710+00:00",
+        "key": "KEY_15",
+        "strategy": "b",
+        "run": 1,
+        "wait_s": 0.0,
+        "source": "instrumented",
+        "next_batch": null
+      },
+      {
+        "timestamp": "2026-11-05T13:31:30.872+00:00",
+        "key": "KEY_16",
+        "strategy": "b",
+        "run": 1,
+        "wait_s": 0.0,
+        "source": "instrumented",
+        "next_batch": null
+      },
+      {
+        "timestamp": "2026-11-05T13:31:34.924+00:00",
+        "key": "KEY_17",
+        "strategy": "b",
+        "run": 1,
+        "wait_s": 0.0,
+        "source": "instrumented",
+        "next_batch": null
+      },
+      {
+        "timestamp": "2026-11-05T13:31:40.111+00:00",
+        "key": "KEY_19",
+        "strategy": "b",
+        "run": 1,
+        "wait_s": 0.0,
+        "source": "instrumented",
+        "next_batch": null
+      },
+      {
+        "timestamp": "2026-11-05T13:31:43.313+00:00",
+        "key": "KEY_20",
+        "strategy": "b",
+        "run": 1,
+        "wait_s": 0.0,
+        "source": "instrumented",
+        "next_batch": null
+      },
+      {
+        "timestamp": "2026-11-05T13:31:50.398+00:00",
+        "key": "KEY_01",
+        "strategy": "b",
+        "run": 1,
+        "wait_s": 0.0,
+        "source": "instrumented",
+        "next_batch": null
+      },
+      {
+        "timestamp": "2026-11-05T13:31:58.548+00:00",
+        "key": "KEY_02",
+        "strategy": "b",
+        "run": 1,
+        "wait_s": 0.0,
+        "source": "instrumented",
+        "next_batch": null
+      },
+      {
+        "timestamp": "2026-11-05T13:32:08.938+00:00",
+        "key": "KEY_05",
+        "strategy": "b",
+        "run": 1,
+        "wait_s": 0.0,
+        "source": "instrumented",
+        "next_batch": null
+      },
+      {
+        "timestamp": "2026-11-05T13:32:16.364+00:00",
+        "key": "KEY_06",
+        "strategy": "b",
+        "run": 1,
+        "wait_s": 0.0,
+        "source": "instrumented",
+        "next_batch": null
+      },
+      {
+        "timestamp": "2026-11-05T13:32:40.604+00:00",
+        "key": "KEY_09",
+        "strategy": "b",
+        "run": 1,
+        "wait_s": 0.0,
+        "source": "instrumented",
+        "next_batch": null
+      },
+      {
+        "timestamp": "2026-11-05T13:32:49.922+00:00",
+        "key": "KEY_10",
+        "strategy": "b",
+        "run": 1,
+        "wait_s": 0.0,
+        "source": "instrumented",
+        "next_batch": null
+      },
+      {
+        "timestamp": "2026-11-05T13:32:52.666+00:00",
+        "key": "KEY_11",
+        "strategy": "b",
+        "run": 1,
+        "wait_s": 0.0,
+        "source": "instrumented",
+        "next_batch": null
+      },
+      {
+        "timestamp": "2026-11-05T13:32:56.030+00:00",
+        "key": "KEY_12",
+        "strategy": "b",
+        "run": 1,
+        "wait_s": 0.0,
+        "source": "instrumented",
+        "next_batch": null
+      },
+      {
+        "timestamp": "2026-11-05T13:33:01.557+00:00",
+        "key": "KEY_13",
+        "strategy": "b",
+        "run": 1,
+        "wait_s": 0.0,
+        "source": "instrumented",
+        "next_batch": null
+      },
+      {
+        "timestamp": "2026-11-05T13:33:08.818+00:00",
+        "key": "KEY_14",
+        "strategy": "b",
+        "run": 1,
+        "wait_s": 0.0,
+        "source": "instrumented",
+        "next_batch": null
+      },
+      {
+        "timestamp": "2026-11-05T13:33:14.076+00:00",
+        "key": "KEY_15",
+        "strategy": "b",
+        "run": 1,
+        "wait_s": 0.0,
+        "source": "instrumented",
+        "next_batch": null
+      },
+      {
+        "timestamp": "2026-11-05T13:33:19.237+00:00",
+        "key": "KEY_16",
+        "strategy": "b",
+        "run": 1,
+        "wait_s": 0.0,
+        "source": "instrumented",
+        "next_batch": null
+      },
+      {
+        "timestamp": "2026-11-05T13:33:25.249+00:00",
+        "key": "KEY_17",
+        "strategy": "b",
+        "run": 1,
+        "wait_s": 0.0,
+        "source": "instrumented",
+        "next_batch": null
+      },
+      {
+        "timestamp": "2026-11-05T13:33:36.396+00:00",
+        "key": "KEY_19",
+        "strategy": "b",
+        "run": 1,
+        "wait_s": 0.0,
+        "source": "instrumented",
+        "next_batch": null
+      },
+      {
+        "timestamp": "2026-11-05T13:33:44.693+00:00",
+        "key": "KEY_20",
+        "strategy": "b",
+        "run": 1,
+        "wait_s": 0.0,
+        "source": "instrumented",
+        "next_batch": null
+      },
+      {
+        "timestamp": "2026-11-05T13:34:35.531+00:00",
+        "key": "KEY_19",
+        "strategy": "b",
+        "run": 1,
+        "wait_s": 0.0,
+        "source": "instrumented",
+        "next_batch": null
+      },
+      {
+        "timestamp": "2026-11-05T13:34:38.641+00:00",
+        "key": "KEY_19",
+        "strategy": "b",
+        "run": 1,
+        "wait_s": 0.0,
+        "source": "instrumented",
+        "next_batch": null
+      },
+      {
+        "timestamp": "2026-11-05T13:34:43.121+00:00",
+        "key": "KEY_19",
+        "strategy": "b",
+        "run": 1,
+        "wait_s": 0.0,
+        "source": "instrumented",
+        "next_batch": null
+      },
+      {
+        "timestamp": "2026-11-05T13:34:52.551+00:00",
+        "key": "KEY_19",
+        "strategy": "b",
+        "run": 1,
+        "wait_s": 0.0,
+        "source": "instrumented",
+        "next_batch": null
+      },
+      {
+        "timestamp": "2026-11-05T13:35:01.745+00:00",
+        "key": "KEY_01",
+        "strategy": "b",
+        "run": 1,
+        "wait_s": 0.0,
+        "source": "instrumented",
+        "next_batch": null
+      },
+      {
+        "timestamp": "2026-11-05T13:35:05.803+00:00",
+        "key": "KEY_01",
+        "strategy": "b",
+        "run": 1,
+        "wait_s": 0.0,
+        "source": "instrumented",
+        "next_batch": null
+      },
+      {
+        "timestamp": "2026-11-05T13:35:13.959+00:00",
+        "key": "KEY_05",
+        "strategy": "b",
+        "run": 1,
+        "wait_s": 0.0,
+        "source": "instrumented",
+        "next_batch": null
+      },
+      {
+        "timestamp": "2026-11-05T13:35:16.718+00:00",
+        "key": "KEY_15",
+        "strategy": "b",
+        "run": 1,
+        "wait_s": 0.0,
+        "source": "instrumented",
+        "next_batch": null
+      },
+      {
+        "timestamp": "2026-11-05T13:35:34.869+00:00",
+        "key": "KEY_16",
+        "strategy": "b",
+        "run": 1,
+        "wait_s": 0.0,
+        "source": "instrumented",
+        "next_batch": null
+      },
+      {
+        "timestamp": "2026-11-05T13:35:38.216+00:00",
+        "key": "KEY_13",
+        "strategy": "c",
+        "run": 1,
+        "wait_s": 0.0,
+        "source": "instrumented",
+        "next_batch": null
+      },
+      {
+        "timestamp": "2026-11-05T13:35:44.544+00:00",
+        "key": "KEY_14",
+        "strategy": "c",
+        "run": 1,
+        "wait_s": 0.0,
+        "source": "instrumented",
+        "next_batch": null
+      },
+      {
+        "timestamp": "2026-11-05T13:35:48.941+00:00",
+        "key": "KEY_15",
+        "strategy": "c",
+        "run": 1,
+        "wait_s": 0.0,
+        "source": "instrumented",
+        "next_batch": null
+      },
+      {
+        "timestamp": "2026-11-05T13:36:09.935+00:00",
+        "key": "KEY_16",
+        "strategy": "c",
+        "run": 1,
+        "wait_s": 0.0,
+        "source": "instrumented",
+        "next_batch": null
+      },
+      {
+        "timestamp": "2026-11-05T13:36:25.075+00:00",
+        "key": "KEY_17",
+        "strategy": "c",
+        "run": 1,
+        "wait_s": 0.0,
+        "source": "instrumented",
+        "next_batch": null
+      },
+      {
+        "timestamp": "2026-11-05T13:36:58.174+00:00",
+        "key": "KEY_19",
+        "strategy": "c",
+        "run": 1,
+        "wait_s": 0.0,
+        "source": "instrumented",
+        "next_batch": null
+      },
+      {
+        "timestamp": "2026-11-05T13:37:02.253+00:00",
+        "key": "KEY_20",
+        "strategy": "c",
+        "run": 1,
+        "wait_s": 0.0,
+        "source": "instrumented",
+        "next_batch": null
+      },
+      {
+        "timestamp": "2026-11-05T13:37:04.256+00:00",
+        "key": "KEY_01",
+        "strategy": "c",
+        "run": 1,
+        "wait_s": 0.0,
+        "source": "instrumented",
+        "next_batch": null
+      },
+      {
+        "timestamp": "2026-11-05T13:37:07.414+00:00",
+        "key": "KEY_02",
+        "strategy": "c",
+        "run": 1,
+        "wait_s": 0.0,
+        "source": "instrumented",
+        "next_batch": null
+      },
+      {
+        "timestamp": "2026-11-05T13:37:12.651+00:00",
+        "key": "KEY_05",
+        "strategy": "c",
+        "run": 1,
+        "wait_s": 0.0,
+        "source": "instrumented",
+        "next_batch": null
+      },
+      {
+        "timestamp": "2026-11-05T13:37:17.388+00:00",
+        "key": "KEY_06",
+        "strategy": "c",
+        "run": 1,
+        "wait_s": 0.0,
+        "source": "instrumented",
+        "next_batch": null
+      },
+      {
+        "timestamp": "2026-11-05T13:37:20.158+00:00",
+        "key": "KEY_09",
+        "strategy": "c",
+        "run": 1,
+        "wait_s": 0.0,
+        "source": "instrumented",
+        "next_batch": null
+      },
+      {
+        "timestamp": "2026-11-05T13:37:28.715+00:00",
+        "key": "KEY_10",
+        "strategy": "c",
+        "run": 1,
+        "wait_s": 0.0,
+        "source": "instrumented",
+        "next_batch": null
+      },
+      {
+        "timestamp": "2026-11-05T13:37:34.378+00:00",
+        "key": "KEY_11",
+        "strategy": "c",
+        "run": 1,
+        "wait_s": 0.0,
+        "source": "instrumented",
+        "next_batch": null
+      },
+      {
+        "timestamp": "2026-11-05T13:37:43.607+00:00",
+        "key": "KEY_12",
+        "strategy": "c",
+        "run": 1,
+        "wait_s": 0.0,
+        "source": "instrumented",
+        "next_batch": null
+      },
+      {
+        "timestamp": "2026-11-05T13:37:46.161+00:00",
+        "key": "KEY_13",
+        "strategy": "c",
+        "run": 1,
+        "wait_s": 0.0,
+        "source": "instrumented",
+        "next_batch": null
+      },
+      {
+        "timestamp": "2026-11-05T13:37:50.022+00:00",
+        "key": "KEY_14",
+        "strategy": "c",
+        "run": 1,
+        "wait_s": 0.0,
+        "source": "instrumented",
+        "next_batch": null
+      },
+      {
+        "timestamp": "2026-11-05T13:37:53.698+00:00",
+        "key": "KEY_15",
+        "strategy": "c",
+        "run": 1,
+        "wait_s": 0.0,
+        "source": "instrumented",
+        "next_batch": null
+      },
+      {
+        "timestamp": "2026-11-05T13:38:03.123+00:00",
+        "key": "KEY_16",
+        "strategy": "c",
+        "run": 1,
+        "wait_s": 0.0,
+        "source": "instrumented",
+        "next_batch": null
+      },
+      {
+        "timestamp": "2026-11-05T13:38:07.632+00:00",
+        "key": "KEY_17",
+        "strategy": "c",
+        "run": 1,
+        "wait_s": 0.0,
+        "source": "instrumented",
+        "next_batch": null
+      },
+      {
+        "timestamp": "2026-11-05T13:38:33.618+00:00",
+        "key": "KEY_19",
+        "strategy": "c",
+        "run": 1,
+        "wait_s": 0.0,
+        "source": "instrumented",
+        "next_batch": null
+      },
+      {
+        "timestamp": "2026-11-05T13:38:37.149+00:00",
+        "key": "KEY_20",
+        "strategy": "c",
+        "run": 1,
+        "wait_s": 0.0,
+        "source": "instrumented",
+        "next_batch": null
+      },
+      {
+        "timestamp": "2026-11-05T13:38:44.048+00:00",
+        "key": "KEY_01",
+        "strategy": "c",
+        "run": 1,
+        "wait_s": 0.0,
+        "source": "instrumented",
+        "next_batch": null
+      },
+      {
+        "timestamp": "2026-11-05T13:39:50.590+00:00",
+        "key": "KEY_02",
+        "strategy": "a",
+        "run": 2,
+        "wait_s": 0.0,
+        "source": "instrumented",
+        "next_batch": null
+      },
+      {
+        "timestamp": "2026-11-05T13:41:16.434+00:00",
+        "key": "KEY_05",
+        "strategy": "a",
+        "run": 2,
+        "wait_s": 0.0,
+        "source": "instrumented",
+        "next_batch": null
+      },
+      {
+        "timestamp": "2026-11-05T13:42:18.437+00:00",
+        "key": "KEY_06",
+        "strategy": "a",
+        "run": 2,
+        "wait_s": 0.0,
+        "source": "instrumented",
+        "next_batch": null
+      },
+      {
+        "timestamp": "2026-11-05T13:43:29.938+00:00",
+        "key": "KEY_09",
+        "strategy": "b",
+        "run": 2,
+        "wait_s": 0.0,
+        "source": "instrumented",
+        "next_batch": null
+      },
+      {
+        "timestamp": "2026-11-05T13:43:40.948+00:00",
+        "key": "KEY_10",
+        "strategy": "b",
+        "run": 2,
+        "wait_s": 0.0,
+        "source": "instrumented",
+        "next_batch": null
+      },
+      {
+        "timestamp": "2026-11-05T13:44:36.460+00:00",
+        "key": "KEY_11",
+        "strategy": "b",
+        "run": 2,
+        "wait_s": 0.0,
+        "source": "instrumented",
+        "next_batch": null
+      },
+      {
+        "timestamp": "2026-11-05T13:44:51.715+00:00",
+        "key": "KEY_12",
+        "strategy": "b",
+        "run": 2,
+        "wait_s": 0.0,
+        "source": "instrumented",
+        "next_batch": null
+      },
+      {
+        "timestamp": "2026-11-05T13:44:54.778+00:00",
+        "key": "KEY_13",
+        "strategy": "b",
+        "run": 2,
+        "wait_s": 0.0,
+        "source": "instrumented",
+        "next_batch": null
+      }
+    ]
+  },
+  "reference_marks_lost": 11,
+  "reference_band": {
+    "center": 76,
+    "low": 74,
+    "high": 78,
+    "tolerance_marks": 2,
+    "basis": "A human marker can also err. +/-2 marks on an 87-mark paper is the primary tolerance band around the user's 11-mark loss. Exact equality to 76 is still reported separately and is not the sole correctness criterion.",
+    "uncertain_items": {
+      "13": {
+        "central": 2,
+        "alternative": 3,
+        "why": "Final line is messy and partly outside the answer box."
+      },
+      "21": {
+        "central": 1,
+        "alternative": 2,
+        "why": "Wrong final powers; partial expansion is clear."
+      },
+      "23": {
+        "central": 1,
+        "alternative": 2,
+        "why": "Second dependent M1 is not evidenced by the truncated wrong cubic."
+      },
+      "26": {
+        "central": 2,
+        "alternative": 3,
+        "why": "x coefficient reads 84; a misread of 81 would change the award."
+      },
+      "30": {
+        "central": 2,
+        "alternative": 3,
+        "why": "Scheme A1 says Working required; correct answer alone."
+      },
+      "31": {
+        "central": 2,
+        "alternative": 3,
+        "why": "Scheme A1 says Working required; correct answer alone."
+      },
+      "34": {
+        "central": 2,
+        "alternative": 3,
+        "why": "Scheme A1 says Working required; correct answer alone."
+      }
+    },
+    "scheme_policy_envelope": {
+      "low": 70,
+      "high": 83,
+      "note": "Combinatorial effect of the flagged readings; not used for the headline verdict."
+    }
+  },
+  "estimate": {
+    "basis": "historical measured token averages for a same-size workbook; not a quote",
+    "runs_per_strategy": 2,
+    "planned_benchmark_requests": 46,
+    "max_escalation_requests": 12,
+    "per_strategy": {
+      "a": {
+        "requests_per_run": 1,
+        "estimate_usd_per_run": 0.045225,
+        "estimate_usd_for_runs": [
+          0.09045,
+          0.14472
+        ]
+      },
+      "b": {
+        "requests_per_run": 14,
+        "estimate_usd_per_run": 0.10335,
+        "estimate_usd_for_runs": [
+          0.2067,
+          0.33072
+        ]
+      },
+      "c": {
+        "requests_per_run": 8,
+        "estimate_usd_per_run": 0.055594,
+        "estimate_usd_for_runs": [
+          0.111187,
+          0.1779
+        ]
+      }
+    },
+    "estimate_usd_range": [
+      0.4083,
+      0.8933
+    ],
+    "probe_requests": "20 key probes + up to 9 model-verification probes; excluded from benchmark totals but consumed",
+    "a_whole_paper_payload_mb": 6.17
+  }
+}

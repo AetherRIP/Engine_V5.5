@@ -1,0 +1,31 @@
+{
+  "strategy": "a",
+  "run": 1,
+  "models": {
+    "primary": "gemini-3.6-flash",
+    "lite": "gemini-3.1-flash-lite",
+    "strong": "gemini-3.6-flash",
+    "notes": [
+      "primary: gemini-3.6-flash verified on KEY_01",
+      "lite: gemini-3.1-flash-lite verified on KEY_01",
+      "strong: gemini-3.1-pro-preview not verified on the first 3 healthy key(s)",
+      "strong: gemini-3.6-flash verified on KEY_01"
+    ]
+  },
+  "items": [],
+  "request_count": 1,
+  "invalid_responses": 0,
+  "errors": [
+    "request failed: http_error UNAVAILABLE",
+    "whole-paper request failed (http_error UNAVAILABLE); 38 item(s) unresolved"
+  ],
+  "extractions": {},
+  "verification": {},
+  "escalations": [],
+  "escalation_changes": [],
+  "completion_status": "incomplete_request",
+  "splits": [],
+  "started_at": "2026-11-05T13:28:08+00:00",
+  "finished_at": "2026-11-05T13:29:03+00:00",
+  "paper_id": "ch2-l3-final-01"
+}

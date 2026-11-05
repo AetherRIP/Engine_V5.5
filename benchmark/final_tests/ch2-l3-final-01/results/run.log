@@ -1,0 +1,70 @@
+PRE-FLIGHT ESTIMATE
+{
+  "basis": "historical measured token averages for a same-size workbook; not a quote",
+  "runs_per_strategy": 2,
+  "planned_benchmark_requests": 46,
+  "max_escalation_requests": 12,
+  "per_strategy": {
+    "a": {
+      "requests_per_run": 1,
+      "estimate_usd_per_run": 0.045225,
+      "estimate_usd_for_runs": [
+        0.09045,
+        0.14472
+      ]
+    },
+    "b": {
+      "requests_per_run": 14,
+      "estimate_usd_per_run": 0.10335,
+      "estimate_usd_for_runs": [
+        0.2067,
+        0.33072
+      ]
+    },
+    "c": {
+      "requests_per_run": 8,
+      "estimate_usd_per_run": 0.055594,
+      "estimate_usd_for_runs": [
+        0.111187,
+        0.1779
+      ]
+    }
+  },
+  "estimate_usd_range": [
+    0.4083,
+    0.8933
+  ],
+  "probe_requests": "20 key probes + up to 9 model-verification probes; excluded from benchmark totals but consumed",
+  "a_whole_paper_payload_mb": 6.17
+}
+Probing 20 keys (values are never printed)...
+  KEY_01: VALID / AVAILABLE / REACHABLE / POOL_UNKNOWN_KEY_01
+  KEY_02: VALID / AVAILABLE / REACHABLE / POOL_UNKNOWN_KEY_02
+  KEY_03: VALID / UNKNOWN / REACHABLE / POOL_UNKNOWN_KEY_03
+  KEY_04: VALID / UNKNOWN / REACHABLE / POOL_UNKNOWN_KEY_04
+  KEY_05: VALID / AVAILABLE / REACHABLE / POOL_UNKNOWN_KEY_05
+  KEY_06: VALID / AVAILABLE / REACHABLE / POOL_UNKNOWN_KEY_06
+  KEY_07: INVALID / UNKNOWN / REACHABLE / POOL_EXCLUDED_KEY_07
+  KEY_08: INVALID / UNKNOWN / REACHABLE / POOL_EXCLUDED_KEY_08
+  KEY_09: VALID / AVAILABLE / REACHABLE / POOL_UNKNOWN_KEY_09
+  KEY_10: VALID / AVAILABLE / REACHABLE / POOL_UNKNOWN_KEY_10
+  KEY_11: VALID / AVAILABLE / REACHABLE / POOL_UNKNOWN_KEY_11
+  KEY_12: VALID / AVAILABLE / REACHABLE / POOL_UNKNOWN_KEY_12
+  KEY_13: VALID / AVAILABLE / REACHABLE / POOL_UNKNOWN_KEY_13
+  KEY_14: VALID / AVAILABLE / REACHABLE / POOL_UNKNOWN_KEY_14
+  KEY_15: VALID / AVAILABLE / REACHABLE / POOL_UNKNOWN_KEY_15
+  KEY_16: VALID / AVAILABLE / REACHABLE / POOL_UNKNOWN_KEY_16
+  KEY_17: VALID / AVAILABLE / REACHABLE / POOL_UNKNOWN_KEY_17
+  KEY_18: VALID / UNKNOWN / REACHABLE / POOL_UNKNOWN_KEY_18
+  KEY_19: VALID / AVAILABLE / REACHABLE / POOL_UNKNOWN_KEY_19
+  KEY_20: VALID / AVAILABLE / REACHABLE / POOL_UNKNOWN_KEY_20
+Models: {"primary": "gemini-3.6-flash", "lite": "gemini-3.1-flash-lite", "strong": "gemini-3.6-flash", "notes": ["primary: gemini-3.6-flash verified on KEY_01", "lite: gemini-3.1-flash-lite verified on KEY_01", "strong: gemini-3.1-pro-preview not verified on the first 3 healthy key(s)", "strong: gemini-3.6-flash verified on KEY_01"]}
+Running strategy A run 1...
+  requests=1 items=0 invalid=0 status=incomplete_request errors=2
+Running strategy B run 1...
+  requests=18 items=25 invalid=0 status=incomplete_output errors=15
+Running strategy C run 1...
+  requests=13 items=38 invalid=0 status=complete errors=6
+Running strategy A run 2...
+  requests=1 items=38 invalid=0 status=complete errors=0
+Running strategy B run 2...

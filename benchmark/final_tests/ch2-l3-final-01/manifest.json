@@ -1,0 +1,492 @@
+{
+  "dataset_id": "ch2-l3-final-01",
+  "title": "Algebraic Manipulation (Simplifying Expressions), pages 340-346 - final independent test",
+  "built_at": "2026-11-05T00:00:00+00:00",
+  "provenance": {
+    "project": "user-supplied Downloads PDFs",
+    "student_pdf": "benchmark\\final_tests\\ch2-l3-final-01\\source\\Ch2 L3.pdf",
+    "student_pdf_sha256": "1a0598e17875b601258f88955ff08bc57e346269ba740e2222ab5782f5475678",
+    "scheme_pdf": "benchmark\\final_tests\\ch2-l3-final-01\\source\\Ch2L3MS- Simplifying Expressions.pdf",
+    "scheme_pdf_sha256": "bb89f80b9027a73e7815c9839f094af3c270210250783ca8277eff15f7030b13",
+    "note": "Image-only scans. No teacher annotations. Clean inputs are renders with footer/watermark redacted; no student working altered."
+  },
+  "paper": {
+    "question_count": 37,
+    "markable_item_count": 38,
+    "marks": 87,
+    "pages": 7,
+    "scheme_pages": 21,
+    "handwriting": true,
+    "question_range": "Q1-Q37 (Q1 parts a,d; Q16 part b; Q37 parts a,b)"
+  },
+  "exclusions": [
+    "12",
+    "16d"
+  ],
+  "student_pages": [
+    {
+      "page": 1,
+      "sample": "benchmark\\final_tests\\ch2-l3-final-01\\inputs\\student_p01.png",
+      "sha256": "1242f21660947ea0ec446139e8d5683a0c6290367bcb51d2e684c1f746f451a4",
+      "width": 1240,
+      "height": 1755,
+      "redactions": [
+        [
+          30,
+          1460,
+          600,
+          1570
+        ],
+        [
+          930,
+          1570,
+          1240,
+          1755
+        ]
+      ]
+    },
+    {
+      "page": 2,
+      "sample": "benchmark\\final_tests\\ch2-l3-final-01\\inputs\\student_p02.png",
+      "sha256": "7eb44a0214eed99b0c8ddeae2bbb52f1fd22e569afcce414bc4c9f4dce9dcdbb",
+      "width": 1240,
+      "height": 1755,
+      "redactions": [
+        [
+          30,
+          1460,
+          600,
+          1570
+        ],
+        [
+          930,
+          1570,
+          1240,
+          1755
+        ]
+      ]
+    },
+    {
+      "page": 3,
+      "sample": "benchmark\\final_tests\\ch2-l3-final-01\\inputs\\student_p03.png",
+      "sha256": "642c79ca89a9b02910faf3fe4b988e2cbdfc6f9f427fb1e992019aefc1d4d4b9",
+      "width": 1240,
+      "height": 1755,
+      "redactions": [
+        [
+          30,
+          1460,
+          600,
+          1570
+        ],
+        [
+          930,
+          1570,
+          1240,
+          1755
+        ]
+      ]
+    },
+    {
+      "page": 4,
+      "sample": "benchmark\\final_tests\\ch2-l3-final-01\\inputs\\student_p04.png",
+      "sha256": "347b09003b129ad02e8109afc6a81c6ee07197e211a57d0027a9cbfd7a6b73f8",
+      "width": 1240,
+      "height": 1755,
+      "redactions": [
+        [
+          30,
+          1460,
+          600,
+          1570
+        ],
+        [
+          930,
+          1570,
+          1240,
+          1755
+        ]
+      ]
+    },
+    {
+      "page": 5,
+      "sample": "benchmark\\final_tests\\ch2-l3-final-01\\inputs\\student_p05.png",
+      "sha256": "926adb52687973b2aba804830ef233f2216525fbd58dec26f7ccbc6fda620fcb",
+      "width": 1240,
+      "height": 1755,
+      "redactions": [
+        [
+          30,
+          1460,
+          600,
+          1570
+        ],
+        [
+          930,
+          1570,
+          1240,
+          1755
+        ]
+      ]
+    },
+    {
+      "page": 6,
+      "sample": "benchmark\\final_tests\\ch2-l3-final-01\\inputs\\student_p06.png",
+      "sha256": "042f327c41726fb75f259cbf38e841b36b9f9af24d2209a587b429319f425396",
+      "width": 1240,
+      "height": 1755,
+      "redactions": [
+        [
+          30,
+          1460,
+          600,
+          1570
+        ],
+        [
+          930,
+          1570,
+          1240,
+          1755
+        ]
+      ]
+    },
+    {
+      "page": 7,
+      "sample": "benchmark\\final_tests\\ch2-l3-final-01\\inputs\\student_p07.png",
+      "sha256": "097b2270488b60bda83c048224f505547105cacf058f37dff556ab9a0c677c7f",
+      "width": 1240,
+      "height": 1755,
+      "redactions": [
+        [
+          30,
+          1460,
+          600,
+          1570
+        ],
+        [
+          930,
+          1570,
+          1240,
+          1755
+        ]
+      ]
+    }
+  ],
+  "scheme_pages": [
+    {
+      "page": 1,
+      "sample": "benchmark\\final_tests\\ch2-l3-final-01\\inputs\\scheme_p01.png",
+      "sha256": "56084dbdf0fc85f4558f7ca9b567891e58ccb49af75aa743d79b51fb31f5e4da",
+      "width": 1540,
+      "height": 1190,
+      "redactions": [
+        [
+          60,
+          1000,
+          600,
+          1090
+        ]
+      ]
+    },
+    {
+      "page": 2,
+      "sample": "benchmark\\final_tests\\ch2-l3-final-01\\inputs\\scheme_p02.png",
+      "sha256": "5eaed26bb6a3e3282c43c3913e1d3f6a98f9e8b16a4eec04ab6025b01d848afe",
+      "width": 1540,
+      "height": 1190,
+      "redactions": [
+        [
+          60,
+          1000,
+          600,
+          1090
+        ]
+      ]
+    },
+    {
+      "page": 3,
+      "sample": "benchmark\\final_tests\\ch2-l3-final-01\\inputs\\scheme_p03.png",
+      "sha256": "8f6c1319206d8a07ba3602796dc51b22dcdd475b7f69769b32f049868a584cb6",
+      "width": 1540,
+      "height": 1190,
+      "redactions": [
+        [
+          60,
+          1000,
+          600,
+          1090
+        ]
+      ]
+    },
+    {
+      "page": 4,
+      "sample": "benchmark\\final_tests\\ch2-l3-final-01\\inputs\\scheme_p04.png",
+      "sha256": "9b6ca1f03156c3119da1fbe0e918c4d210ae45593842208d75f69060038bd68a",
+      "width": 1540,
+      "height": 1190,
+      "redactions": [
+        [
+          60,
+          1000,
+          600,
+          1090
+        ]
+      ]
+    },
+    {
+      "page": 5,
+      "sample": "benchmark\\final_tests\\ch2-l3-final-01\\inputs\\scheme_p05.png",
+      "sha256": "c3d77677cad6557e13de1274c5d3b75a31b5f5a337e40161a1928fb54320757b",
+      "width": 1540,
+      "height": 1190,
+      "redactions": [
+        [
+          60,
+          1000,
+          600,
+          1090
+        ]
+      ]
+    },
+    {
+      "page": 6,
+      "sample": "benchmark\\final_tests\\ch2-l3-final-01\\inputs\\scheme_p06.png",
+      "sha256": "16cd683ae4928dcde85f8dbe845e622d061a51fa6503a3a1e28f1222aa3bc706",
+      "width": 1540,
+      "height": 1190,
+      "redactions": [
+        [
+          60,
+          1000,
+          600,
+          1090
+        ]
+      ]
+    },
+    {
+      "page": 7,
+      "sample": "benchmark\\final_tests\\ch2-l3-final-01\\inputs\\scheme_p07.png",
+      "sha256": "2aa0c702202328e3855bc09b32c9be45d700d3b22bb9829e30a287bd785eab53",
+      "width": 1540,
+      "height": 1190,
+      "redactions": [
+        [
+          60,
+          1000,
+          600,
+          1090
+        ]
+      ]
+    },
+    {
+      "page": 8,
+      "sample": "benchmark\\final_tests\\ch2-l3-final-01\\inputs\\scheme_p08.png",
+      "sha256": "8505051691a70ba5545012e82fd29dba2eb01663837c9a253234b610e255adc9",
+      "width": 1540,
+      "height": 1190,
+      "redactions": [
+        [
+          60,
+          1000,
+          600,
+          1090
+        ]
+      ]
+    },
+    {
+      "page": 9,
+      "sample": "benchmark\\final_tests\\ch2-l3-final-01\\inputs\\scheme_p09.png",
+      "sha256": "9a1eb3ddd4cfcf791a88ced6f3768555e647bdfa41d8b2a16a1cfc60d1b91206",
+      "width": 1540,
+      "height": 1190,
+      "redactions": [
+        [
+          60,
+          1000,
+          600,
+          1090
+        ]
+      ]
+    },
+    {
+      "page": 10,
+      "sample": "benchmark\\final_tests\\ch2-l3-final-01\\inputs\\scheme_p10.png",
+      "sha256": "b44043db4ceea4d47e32b0184fac233b1487d1f5dcfdb916edddaa2d50e5e481",
+      "width": 1540,
+      "height": 1190,
+      "redactions": [
+        [
+          60,
+          1000,
+          600,
+          1090
+        ]
+      ]
+    },
+    {
+      "page": 11,
+      "sample": "benchmark\\final_tests\\ch2-l3-final-01\\inputs\\scheme_p11.png",
+      "sha256": "1cf00abd4e425dc0884923425ed8bfd424d1f0851d61e71ca6ae6b4dfeb45df2",
+      "width": 1540,
+      "height": 1190,
+      "redactions": [
+        [
+          60,
+          1000,
+          600,
+          1090
+        ]
+      ]
+    },
+    {
+      "page": 12,
+      "sample": "benchmark\\final_tests\\ch2-l3-final-01\\inputs\\scheme_p12.png",
+      "sha256": "93132134b92e4b955c7e4e465e1ea47fd50ab08c9fed65054328f9b67a477638",
+      "width": 1540,
+      "height": 1190,
+      "redactions": [
+        [
+          60,
+          1000,
+          600,
+          1090
+        ]
+      ]
+    },
+    {
+      "page": 13,
+      "sample": "benchmark\\final_tests\\ch2-l3-final-01\\inputs\\scheme_p13.png",
+      "sha256": "759da679eab4f55fe14468f16970f27144a18f53887c796e98f2f47c70029328",
+      "width": 1540,
+      "height": 1190,
+      "redactions": [
+        [
+          60,
+          1000,
+          600,
+          1090
+        ]
+      ]
+    },
+    {
+      "page": 14,
+      "sample": "benchmark\\final_tests\\ch2-l3-final-01\\inputs\\scheme_p14.png",
+      "sha256": "69ed18b82b4f32124b4b4d96e57657f54c4bfe4653389be03b771748cf0e4ee7",
+      "width": 1540,
+      "height": 1190,
+      "redactions": [
+        [
+          60,
+          1000,
+          600,
+          1090
+        ]
+      ]
+    },
+    {
+      "page": 15,
+      "sample": "benchmark\\final_tests\\ch2-l3-final-01\\inputs\\scheme_p15.png",
+      "sha256": "033ecb0ca1287e2bc41fb54a67e02c9eb903ed020ebaf9e01334f0e138c3b6a6",
+      "width": 1540,
+      "height": 1190,
+      "redactions": [
+        [
+          60,
+          1000,
+          600,
+          1090
+        ]
+      ]
+    },
+    {
+      "page": 16,
+      "sample": "benchmark\\final_tests\\ch2-l3-final-01\\inputs\\scheme_p16.png",
+      "sha256": "1b910b116ab918519473616cd45e3e79ba88cc609a6431b97e4396147c101eb4",
+      "width": 1540,
+      "height": 1190,
+      "redactions": [
+        [
+          60,
+          1000,
+          600,
+          1090
+        ]
+      ]
+    },
+    {
+      "page": 17,
+      "sample": "benchmark\\final_tests\\ch2-l3-final-01\\inputs\\scheme_p17.png",
+      "sha256": "8abdd0e3a00770c171018c9d9285f84c67677ec422c1786e633f5ab0f589657c",
+      "width": 1540,
+      "height": 1190,
+      "redactions": [
+        [
+          60,
+          1000,
+          600,
+          1090
+        ]
+      ]
+    },
+    {
+      "page": 18,
+      "sample": "benchmark\\final_tests\\ch2-l3-final-01\\inputs\\scheme_p18.png",
+      "sha256": "83c60dbd15eb6eb70d6efa5e981bcc8c28b8de5edce51e30e03b894728d1ef33",
+      "width": 1540,
+      "height": 1190,
+      "redactions": [
+        [
+          60,
+          1000,
+          600,
+          1090
+        ]
+      ]
+    },
+    {
+      "page": 19,
+      "sample": "benchmark\\final_tests\\ch2-l3-final-01\\inputs\\scheme_p19.png",
+      "sha256": "22f3a87e9b5295522bff152b15ee1b2f1771673aa5ee06317d143a9bd3f24511",
+      "width": 1540,
+      "height": 1190,
+      "redactions": [
+        [
+          60,
+          1000,
+          600,
+          1090
+        ]
+      ]
+    },
+    {
+      "page": 20,
+      "sample": "benchmark\\final_tests\\ch2-l3-final-01\\inputs\\scheme_p20.png",
+      "sha256": "4b499aff2ee930a6832913e4ba9bf5fc945abfc9293b2f0833a13c7884595d14",
+      "width": 1540,
+      "height": 1190,
+      "redactions": [
+        [
+          60,
+          1000,
+          600,
+          1090
+        ]
+      ]
+    },
+    {
+      "page": 21,
+      "sample": "benchmark\\final_tests\\ch2-l3-final-01\\inputs\\scheme_p21.png",
+      "sha256": "d03e735721342962f896472417219344c9334d7ea31afb58d41a67d59074c4a6",
+      "width": 1540,
+      "height": 1190,
+      "redactions": [
+        [
+          60,
+          1000,
+          600,
+          1090
+        ]
+      ]
+    }
+  ]
+}

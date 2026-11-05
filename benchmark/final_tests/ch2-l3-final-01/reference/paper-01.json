@@ -1,0 +1,1167 @@
+{
+  "paper_id": "ch2-l3-final-01",
+  "title": "Algebraic Manipulation (Simplifying Expressions) workbook, pages 340-346 — final independent test",
+  "reference_source": "Printed 21-page criterion-level mark scheme plus the user's personal correction rulings (11 eligible marks lost; Q30/Q31/Q34 method-only; Q32 scheme maximum).",
+  "verification": {
+    "status": "user_ruled_not_teacher_signed",
+    "verified_by": "user (per-item rulings supplied 2026-11-05)",
+    "verified_on": "2026-11-05",
+    "warning": "The supplied PDF contains no teacher annotations. The criterion-level vector below combines the printed scheme, an independent re-mark, and the user's explicit totals/rulings. Q13, Q21, Q23, Q30, Q31 and Q34 are medium-confidence judgments."
+  },
+  "totals": {
+    "items_total": 40,
+    "items_scored": 38,
+    "items_excluded": 2,
+    "marks_available_scored": 87,
+    "candidate_marks_awarded": 76,
+    "candidate_percentage": 87.36,
+    "printed_marks_all_items": 91,
+    "excluded_marks": 4,
+    "marks_lost_eligible": 11
+  },
+  "reference_range": {
+    "center": 76,
+    "low": 74,
+    "high": 78,
+    "tolerance_marks": 2,
+    "basis": "A human marker can also err. +/-2 marks on an 87-mark paper is the primary tolerance band around the user's 11-mark loss. Exact equality to 76 is still reported separately and is not the sole correctness criterion.",
+    "uncertain_items": {
+      "13": {
+        "central": 2,
+        "alternative": 3,
+        "why": "Final line is messy and partly outside the answer box."
+      },
+      "21": {
+        "central": 1,
+        "alternative": 2,
+        "why": "Wrong final powers; partial expansion is clear."
+      },
+      "23": {
+        "central": 1,
+        "alternative": 2,
+        "why": "Second dependent M1 is not evidenced by the truncated wrong cubic."
+      },
+      "26": {
+        "central": 2,
+        "alternative": 3,
+        "why": "x coefficient reads 84; a misread of 81 would change the award."
+      },
+      "30": {
+        "central": 2,
+        "alternative": 3,
+        "why": "Scheme A1 says Working required; correct answer alone."
+      },
+      "31": {
+        "central": 2,
+        "alternative": 3,
+        "why": "Scheme A1 says Working required; correct answer alone."
+      },
+      "34": {
+        "central": 2,
+        "alternative": 3,
+        "why": "Scheme A1 says Working required; correct answer alone."
+      }
+    },
+    "scheme_policy_envelope": {
+      "low": 70,
+      "high": 83,
+      "note": "Combinatorial effect of the flagged readings; not used for the headline verdict."
+    }
+  },
+  "exclusions": [
+    {
+      "id": "12",
+      "status": "excluded_source_mismatch",
+      "marks": 2,
+      "reason": "Incorrect in the mark scheme. The student page repeats the Q11 expression; scheme Q12 (4p+20+7p-14) is a different question. Excluded entirely from scoring."
+    },
+    {
+      "id": "16d",
+      "status": "excluded_not_printed",
+      "marks": 2,
+      "reason": "Added mistakenly to the mark scheme; not printed on the student paper. Excluded entirely from scoring."
+    }
+  ],
+  "items": [
+    {
+      "id": "1a",
+      "prompt": "Expand and simplify 6(4 - 3y)",
+      "student_page": 1,
+      "scheme_page": 2,
+      "scheme_ref": "June 15/4H/Q7 a",
+      "max_marks": 1,
+      "criteria": [
+        {
+          "id": "B11",
+          "code": "B1",
+          "text": "24 - 18y",
+          "awarded": true
+        }
+      ],
+      "expected_mark": 1,
+      "status": "scored",
+      "confidence": "high",
+      "evidence": "Working shows 12x - 18y? Final 24 - 18y is correct."
+    },
+    {
+      "id": "1d",
+      "prompt": "Expand and simplify (y + 10)(y - 2)",
+      "student_page": 1,
+      "scheme_page": 2,
+      "scheme_ref": "June 15/4H/Q7 d",
+      "max_marks": 2,
+      "criteria": [
+        {
+          "id": "M11",
+          "code": "M1",
+          "text": "3 of 4 correct terms or 4 ignoring signs",
+          "awarded": true
+        },
+        {
+          "id": "A12",
+          "code": "A1",
+          "text": "y^2 + 8y - 20",
+          "awarded": true
+        }
+      ],
+      "expected_mark": 2,
+      "status": "scored",
+      "confidence": "high",
+      "evidence": "y^2 + 10y - 2y - 20 then y^2 + 8y - 20."
+    },
+    {
+      "id": "2",
+      "prompt": "Expand and simplify 5(2p - 3)",
+      "student_page": 1,
+      "scheme_page": 2,
+      "scheme_ref": "June 15/4HR/Q9 a",
+      "max_marks": 1,
+      "criteria": [
+        {
+          "id": "B11",
+          "code": "B1",
+          "text": "10p - 15",
+          "awarded": true
+        }
+      ],
+      "expected_mark": 1,
+      "status": "scored",
+      "confidence": "high",
+      "evidence": "Final 10p - 15."
+    },
+    {
+      "id": "3",
+      "prompt": "Expand and simplify (x + 5)(x - 1)",
+      "student_page": 1,
+      "scheme_page": 2,
+      "scheme_ref": "Jan 16/3H/Q4 c",
+      "max_marks": 2,
+      "criteria": [
+        {
+          "id": "M11",
+          "code": "M1",
+          "text": "3 correct terms out of 4",
+          "awarded": true
+        },
+        {
+          "id": "A12",
+          "code": "A1",
+          "text": "x^2 + 4x - 5",
+          "awarded": true
+        }
+      ],
+      "expected_mark": 2,
+      "status": "scored",
+      "confidence": "high",
+      "evidence": "x^2 + 5x - x - 5 then x^2 + 4x - 5."
+    },
+    {
+      "id": "4",
+      "prompt": "Expand and simplify (t - 4)(t + 5)",
+      "student_page": 1,
+      "scheme_page": 2,
+      "scheme_ref": "Jan 16/3HR/Q2 b",
+      "max_marks": 2,
+      "criteria": [
+        {
+          "id": "M11",
+          "code": "M1",
+          "text": "3 correct terms out of 4",
+          "awarded": true
+        },
+        {
+          "id": "A12",
+          "code": "A1",
+          "text": "t^2 + t - 20",
+          "awarded": true
+        }
+      ],
+      "expected_mark": 2,
+      "status": "scored",
+      "confidence": "high",
+      "evidence": "t^2 - 4t + 5t - 20 then t^2 + t - 20."
+    },
+    {
+      "id": "5",
+      "prompt": "Expand and simplify x(x + 2)",
+      "student_page": 1,
+      "scheme_page": 2,
+      "scheme_ref": "Jan 16/4H/Q9 a",
+      "max_marks": 1,
+      "criteria": [
+        {
+          "id": "B11",
+          "code": "B1",
+          "text": "x^2 + 2x",
+          "awarded": true
+        }
+      ],
+      "expected_mark": 1,
+      "status": "scored",
+      "confidence": "high",
+      "evidence": "x^2 + 2x."
+    },
+    {
+      "id": "6",
+      "prompt": "Expand and simplify (2x + 3)^2 - (2x - 3)^2",
+      "student_page": 1,
+      "scheme_page": 3,
+      "scheme_ref": "Jan 16/4HR/Q12",
+      "max_marks": 3,
+      "criteria": [
+        {
+          "id": "M11",
+          "code": "M1",
+          "text": "any one correct expansion",
+          "awarded": true
+        },
+        {
+          "id": "M12",
+          "code": "M1",
+          "text": "fully correct expansions, correct removal of bracket",
+          "awarded": true
+        },
+        {
+          "id": "A13",
+          "code": "A1",
+          "text": "24x",
+          "awarded": true
+        }
+      ],
+      "expected_mark": 3,
+      "status": "scored",
+      "confidence": "high",
+      "evidence": "Both expansions correct, bracket signs handled, final 24x."
+    },
+    {
+      "id": "7",
+      "prompt": "Expand and simplify (x + 2)(x - 9)",
+      "student_page": 1,
+      "scheme_page": 3,
+      "scheme_ref": "June 16/3H/Q7 b",
+      "max_marks": 2,
+      "criteria": [
+        {
+          "id": "M11",
+          "code": "M1",
+          "text": "3 of 4 terms or 4 ignoring signs",
+          "awarded": true
+        },
+        {
+          "id": "A12",
+          "code": "A1",
+          "text": "x^2 - 7x - 18",
+          "awarded": true
+        }
+      ],
+      "expected_mark": 2,
+      "status": "scored",
+      "confidence": "high",
+      "evidence": "x^2 - 9x + 2x - 18 then x^2 - 7x - 18."
+    },
+    {
+      "id": "8",
+      "prompt": "Expand and simplify (2y - 3)(4y + 1)",
+      "student_page": 1,
+      "scheme_page": 3,
+      "scheme_ref": "June 16/3HR/Q12 c",
+      "max_marks": 2,
+      "criteria": [
+        {
+          "id": "M11",
+          "code": "M1",
+          "text": "3 of 4 terms or 4 ignoring signs",
+          "awarded": true
+        },
+        {
+          "id": "A12",
+          "code": "A1",
+          "text": "8y^2 + 10y - 3",
+          "awarded": true
+        }
+      ],
+      "expected_mark": 2,
+      "status": "scored",
+      "confidence": "high",
+      "evidence": "8y^2 + 2y - 12y - 3 then 8y^2 + 10y - 3."
+    },
+    {
+      "id": "9",
+      "prompt": "Expand and simplify 4(2x + 3) + 2(x + 5)",
+      "student_page": 2,
+      "scheme_page": 4,
+      "scheme_ref": "June 16/4H/Q5 d",
+      "max_marks": 2,
+      "criteria": [
+        {
+          "id": "M11",
+          "code": "M1",
+          "text": "any 3 terms correct out of 4",
+          "awarded": true
+        },
+        {
+          "id": "A12",
+          "code": "A1",
+          "text": "10x + 22",
+          "awarded": true
+        }
+      ],
+      "expected_mark": 2,
+      "status": "scored",
+      "confidence": "high",
+      "evidence": "8x + 12 + 2x + 10 then 10x + 22."
+    },
+    {
+      "id": "10",
+      "prompt": "Expand and simplify 2(3y + 3) + 2(y - 4)",
+      "student_page": 2,
+      "scheme_page": 4,
+      "scheme_ref": "June 16/4HR/Q2 b",
+      "max_marks": 2,
+      "criteria": [
+        {
+          "id": "M11",
+          "code": "M1",
+          "text": "3 correct terms",
+          "awarded": true
+        },
+        {
+          "id": "A12",
+          "code": "A1",
+          "text": "8y - 2",
+          "awarded": true
+        }
+      ],
+      "expected_mark": 2,
+      "status": "scored",
+      "confidence": "high",
+      "evidence": "6y + 6 + 2y - 8 then 8y - 2."
+    },
+    {
+      "id": "11",
+      "prompt": "Expand and simplify 4x(x + 3) - (2x - 3)^2",
+      "student_page": 2,
+      "scheme_page": 4,
+      "scheme_ref": "June 16/4HR/Q14 c",
+      "max_marks": 3,
+      "criteria": [
+        {
+          "id": "M11",
+          "code": "M1",
+          "text": "expansion of 4x(x + 3) or (2x - 3)^2",
+          "awarded": true
+        },
+        {
+          "id": "M12",
+          "code": "M1",
+          "text": "fully correct expansions, correct removal of bracket",
+          "awarded": true
+        },
+        {
+          "id": "A13",
+          "code": "A1",
+          "text": "24x - 9",
+          "awarded": true
+        }
+      ],
+      "expected_mark": 3,
+      "status": "scored",
+      "confidence": "high",
+      "evidence": "4x^2 + 12x - (4x^2 - 12x + 9) then 24x - 9."
+    },
+    {
+      "id": "12",
+      "prompt": "Duplicate of Q11 on the student page",
+      "student_page": 2,
+      "scheme_page": 4,
+      "scheme_ref": "Jan 17/3H/Q5 b",
+      "max_marks": 2,
+      "criteria": [],
+      "expected_mark": null,
+      "status": "excluded_source_mismatch",
+      "confidence": "n/a",
+      "evidence": "The printed question is the Q11 expression; the scheme's Q12 is 4p + 20 + 7p - 14. Question paper and mark scheme disagree, so no mark can be awarded honestly."
+    },
+    {
+      "id": "13",
+      "prompt": "Expand and simplify (2x + 3)^2 - (2x + 3)(x - 5)",
+      "student_page": 3,
+      "scheme_page": 5,
+      "scheme_ref": "Jan 17/3H/Q9",
+      "max_marks": 3,
+      "criteria": [
+        {
+          "id": "M11",
+          "code": "M1",
+          "text": "at least 3 terms correct in first expansion",
+          "awarded": true
+        },
+        {
+          "id": "M12",
+          "code": "M1",
+          "text": "at least 3 terms correct in second expansion",
+          "awarded": true
+        },
+        {
+          "id": "A13",
+          "code": "A1",
+          "text": "2x^2 + 19x + 24",
+          "awarded": false
+        }
+      ],
+      "expected_mark": 2,
+      "status": "scored",
+      "confidence": "medium",
+      "evidence": "First expansion 4x^2+12x+9 and second 2x^2-7x-15 are correct; final written x^2+12x+9-2x^2+7x+15 (= -x^2+19x+24), not 2x^2+19x+24. A1 not earned."
+    },
+    {
+      "id": "14",
+      "prompt": "Expand and simplify (k + 9)(k - 5)",
+      "student_page": 3,
+      "scheme_page": 5,
+      "scheme_ref": "Jan 17/3HR/Q11 b",
+      "max_marks": 2,
+      "criteria": [
+        {
+          "id": "M11",
+          "code": "M1",
+          "text": "3 correct terms or 4 ignoring signs",
+          "awarded": true
+        },
+        {
+          "id": "A12",
+          "code": "A1",
+          "text": "k^2 + 4k - 45",
+          "awarded": true
+        }
+      ],
+      "expected_mark": 2,
+      "status": "scored",
+      "confidence": "high",
+      "evidence": "k^2 - 5k + 9k - 45 then k^2 + 4k - 45 (first line's -9k reading is ambiguous, final is correct)."
+    },
+    {
+      "id": "15",
+      "prompt": "Expand and simplify 3(4p + 5)",
+      "student_page": 3,
+      "scheme_page": 5,
+      "scheme_ref": "Jan 17/4HR/Q7 a",
+      "max_marks": 1,
+      "criteria": [
+        {
+          "id": "B11",
+          "code": "B1",
+          "text": "12p + 15",
+          "awarded": true
+        }
+      ],
+      "expected_mark": 1,
+      "status": "scored",
+      "confidence": "high",
+      "evidence": "12p + 15."
+    },
+    {
+      "id": "16b",
+      "prompt": "Expand p(2p - 3)",
+      "student_page": 3,
+      "scheme_page": 6,
+      "scheme_ref": "Jan 18/4H/Q10 b",
+      "max_marks": 1,
+      "criteria": [
+        {
+          "id": "B11",
+          "code": "B1",
+          "text": "2p^2 - 3p",
+          "awarded": true
+        }
+      ],
+      "expected_mark": 1,
+      "status": "scored",
+      "confidence": "high",
+      "evidence": "2p^2 - 3p."
+    },
+    {
+      "id": "16d",
+      "prompt": "Expand and simplify (x + 3)(x - 7)",
+      "student_page": 3,
+      "scheme_page": 6,
+      "scheme_ref": "Jan 18/4H/Q10 d",
+      "max_marks": 2,
+      "criteria": [],
+      "expected_mark": null,
+      "status": "excluded_not_printed",
+      "confidence": "n/a",
+      "evidence": "Part (d) is marked in the scheme but is not printed on the student page."
+    },
+    {
+      "id": "17",
+      "prompt": "Expand and simplify (x + 3)(x - 6)",
+      "student_page": 3,
+      "scheme_page": 6,
+      "scheme_ref": "Jan 18/4HR/Q7 c",
+      "max_marks": 2,
+      "criteria": [
+        {
+          "id": "M11",
+          "code": "M1",
+          "text": "3 correct terms or 4 ignoring signs",
+          "awarded": true
+        },
+        {
+          "id": "A12",
+          "code": "A1",
+          "text": "x^2 - 3x - 18",
+          "awarded": true
+        }
+      ],
+      "expected_mark": 2,
+      "status": "scored",
+      "confidence": "high",
+      "evidence": "x^2 - 6x + 3x - 18 then x^2 - 3x - 18."
+    },
+    {
+      "id": "18",
+      "prompt": "Expand and simplify (2x - 1)(x + 3)(x - 5)",
+      "student_page": 3,
+      "scheme_page": 7,
+      "scheme_ref": "June 18/1H/Q11 a",
+      "max_marks": 3,
+      "criteria": [
+        {
+          "id": "M11",
+          "code": "M1",
+          "text": "expansion of any 2 of 3 brackets",
+          "awarded": true
+        },
+        {
+          "id": "M12",
+          "code": "M1",
+          "text": "dependent second expansion",
+          "awarded": true
+        },
+        {
+          "id": "A13",
+          "code": "A1",
+          "text": "2x^3 - 5x^2 - 28x + 15",
+          "awarded": true
+        }
+      ],
+      "expected_mark": 3,
+      "status": "scored",
+      "confidence": "high",
+      "evidence": "(2x - 1)(x^2 - 2x - 15) then 2x^3 - 5x^2 - 28x + 15."
+    },
+    {
+      "id": "19",
+      "prompt": "Expand and simplify (3x - 4y)(x + 3y)",
+      "student_page": 3,
+      "scheme_page": 7,
+      "scheme_ref": "June 18/1HR/Q14 b",
+      "max_marks": 2,
+      "criteria": [
+        {
+          "id": "M11",
+          "code": "M1",
+          "text": "3 correct terms or 4 ignoring signs",
+          "awarded": true
+        },
+        {
+          "id": "A12",
+          "code": "A1",
+          "text": "3x^2 + 5xy - 12y^2",
+          "awarded": true
+        }
+      ],
+      "expected_mark": 2,
+      "status": "scored",
+      "confidence": "high",
+      "evidence": "3x^2 + 9xy - 4xy - 12y^2 then 3x^2 + 5xy - 12y^2."
+    },
+    {
+      "id": "20",
+      "prompt": "Expand and simplify (e + 3)(e - 5)",
+      "student_page": 4,
+      "scheme_page": 8,
+      "scheme_ref": "Jan 19/1H/Q1 b",
+      "max_marks": 2,
+      "criteria": [
+        {
+          "id": "M11",
+          "code": "M1",
+          "text": "3 correct terms or 4 ignoring signs",
+          "awarded": true
+        },
+        {
+          "id": "A12",
+          "code": "A1",
+          "text": "e^2 - 2e - 15",
+          "awarded": true
+        }
+      ],
+      "expected_mark": 2,
+      "status": "scored",
+      "confidence": "high",
+      "evidence": "e^2 - 5e + 3e - 15 then e^2 - 2e - 15."
+    },
+    {
+      "id": "21",
+      "prompt": "Expand and simplify 4n(n - 3)(n + 5)",
+      "student_page": 4,
+      "scheme_page": 8,
+      "scheme_ref": "Jan 19/1HR/Q15 b",
+      "max_marks": 2,
+      "criteria": [
+        {
+          "id": "M11",
+          "code": "M1",
+          "text": "correct partial expansion",
+          "awarded": true
+        },
+        {
+          "id": "A12",
+          "code": "A1",
+          "text": "4n^3 + 8n^2 - 60n",
+          "awarded": false
+        }
+      ],
+      "expected_mark": 1,
+      "status": "scored",
+      "confidence": "medium",
+      "evidence": "Correct partial expansion 4n(n^2+2n-15) present; final written as 4n^3+8n^3-60n^2 style, not 4n^3+8n^2-60n. A1 not earned."
+    },
+    {
+      "id": "22",
+      "prompt": "Expand and simplify (x + 9)(x - 2)",
+      "student_page": 4,
+      "scheme_page": 8,
+      "scheme_ref": "June 19/1H/Q3 c",
+      "max_marks": 2,
+      "criteria": [
+        {
+          "id": "M11",
+          "code": "M1",
+          "text": "3 correct terms or 4 ignoring signs",
+          "awarded": true
+        },
+        {
+          "id": "A12",
+          "code": "A1",
+          "text": "x^2 + 7x - 18",
+          "awarded": true
+        }
+      ],
+      "expected_mark": 2,
+      "status": "scored",
+      "confidence": "high",
+      "evidence": "x^2 - 2x + 9x - 18 then x^2 + 7x - 18."
+    },
+    {
+      "id": "23",
+      "prompt": "Expand and simplify (x + 2)(2x + 3)(x - 7)",
+      "student_page": 4,
+      "scheme_page": 9,
+      "scheme_ref": "June 19/1HR/Q18 a",
+      "max_marks": 3,
+      "criteria": [
+        {
+          "id": "M11",
+          "code": "M1",
+          "text": "one pair of brackets expanded, 3 of 4 terms",
+          "awarded": true
+        },
+        {
+          "id": "M1dep2",
+          "code": "M1dep",
+          "text": "second expansion, 3 of 6 or 4 of 8 terms",
+          "awarded": false
+        },
+        {
+          "id": "A13",
+          "code": "A1",
+          "text": "2x^3 - 7x^2 - 43x - 42",
+          "awarded": false
+        }
+      ],
+      "expected_mark": 1,
+      "status": "scored",
+      "confidence": "medium",
+      "evidence": "M1 earned: (2x+3)(x-7)=2x^2-14x+3x-21 shown correctly. The dependent second stage is not evidenced: work jumps to (x+2)(2x^2-11x-21)=2x^3-4x^2...(wrong/truncated), which shows only 1 correct term, not the 3-of-6 required. M1dep and A1 not earned."
+    },
+    {
+      "id": "24",
+      "prompt": "Expand and simplify (m - 8)(m + 5)",
+      "student_page": 4,
+      "scheme_page": 9,
+      "scheme_ref": "Jan 20/1H/Q7 a",
+      "max_marks": 2,
+      "criteria": [
+        {
+          "id": "M11",
+          "code": "M1",
+          "text": "3 correct terms or 4 ignoring signs",
+          "awarded": true
+        },
+        {
+          "id": "A12",
+          "code": "A1",
+          "text": "m^2 - 3m - 40",
+          "awarded": true
+        }
+      ],
+      "expected_mark": 2,
+      "status": "scored",
+      "confidence": "high",
+      "evidence": "m^2 + 5m - 8m - 40 then m^2 - 3m - 40."
+    },
+    {
+      "id": "25",
+      "prompt": "Expand and simplify (x + 2)(x - 5)",
+      "student_page": 4,
+      "scheme_page": 10,
+      "scheme_ref": "Jan 20/1HR/Q3 c",
+      "max_marks": 2,
+      "criteria": [
+        {
+          "id": "M11",
+          "code": "M1",
+          "text": "3 correct terms or 4 ignoring signs",
+          "awarded": true
+        },
+        {
+          "id": "A12",
+          "code": "A1",
+          "text": "x^2 - 3x - 10",
+          "awarded": true
+        }
+      ],
+      "expected_mark": 2,
+      "status": "scored",
+      "confidence": "high",
+      "evidence": "x^2 - 5x + 2x - 10 then x^2 - 3x - 10."
+    },
+    {
+      "id": "26",
+      "prompt": "Expand and simplify (4x + 1)(x - 3)(5x + 6)",
+      "student_page": 5,
+      "scheme_page": 10,
+      "scheme_ref": "June 20/1HR/Q14",
+      "max_marks": 3,
+      "criteria": [
+        {
+          "id": "M11",
+          "code": "M1",
+          "text": "two brackets multiplied, 3 of 4 terms",
+          "awarded": true
+        },
+        {
+          "id": "M12",
+          "code": "M1",
+          "text": "dependent third-factor expansion",
+          "awarded": true
+        },
+        {
+          "id": "A13",
+          "code": "A1",
+          "text": "20x^3 - 31x^2 - 81x - 18",
+          "awarded": false
+        }
+      ],
+      "expected_mark": 2,
+      "status": "scored",
+      "confidence": "high",
+      "evidence": "Final 20x^3-31x^2-84x-18; x coefficient 84 should be 81. A1 not earned."
+    },
+    {
+      "id": "27",
+      "prompt": "Expand and simplify 2x(x - 5)(x - 3)",
+      "student_page": 5,
+      "scheme_page": 11,
+      "scheme_ref": "Jan 21/1H/Q12 b",
+      "max_marks": 3,
+      "criteria": [
+        {
+          "id": "M11",
+          "code": "M1",
+          "text": "2x multiplied by a bracket or 3 of 4 terms",
+          "awarded": true
+        },
+        {
+          "id": "M12",
+          "code": "M1",
+          "text": "dependent third-factor expansion",
+          "awarded": true
+        },
+        {
+          "id": "A13",
+          "code": "A1",
+          "text": "2x^3 - 16x^2 + 30x",
+          "awarded": true
+        }
+      ],
+      "expected_mark": 3,
+      "status": "scored",
+      "confidence": "high",
+      "evidence": "2x(x^2 - 8x + 15) then 2x^3 - 16x^2 + 30x."
+    },
+    {
+      "id": "28",
+      "prompt": "Expand and simplify (x + 4)(x - 2)(x + 1)",
+      "student_page": 5,
+      "scheme_page": 12,
+      "scheme_ref": "Jan 21/1HR/Q16 a",
+      "max_marks": 3,
+      "criteria": [
+        {
+          "id": "M11",
+          "code": "M1",
+          "text": "two brackets correctly expanded",
+          "awarded": true
+        },
+        {
+          "id": "M12",
+          "code": "M1",
+          "text": "dependent third-factor expansion",
+          "awarded": true
+        },
+        {
+          "id": "A13",
+          "code": "A1",
+          "text": "x^3 + 3x^2 - 6x - 8",
+          "awarded": true
+        }
+      ],
+      "expected_mark": 3,
+      "status": "scored",
+      "confidence": "high",
+      "evidence": "(x + 4)(x^2 - x - 2) then x^3 + 3x^2 - 6x - 8."
+    },
+    {
+      "id": "29",
+      "prompt": "Expand and simplify 4x(2x + 5) - 3x(2x - 3)",
+      "student_page": 5,
+      "scheme_page": 13,
+      "scheme_ref": "Jan 21/2H/Q5 a",
+      "max_marks": 2,
+      "criteria": [
+        {
+          "id": "M11",
+          "code": "M1",
+          "text": "3 correct terms or 4 ignoring signs",
+          "awarded": true
+        },
+        {
+          "id": "A12",
+          "code": "A1",
+          "text": "2x^2 + 29x",
+          "awarded": true
+        }
+      ],
+      "expected_mark": 2,
+      "status": "scored",
+      "confidence": "high",
+      "evidence": "8x^2 + 20x - 6x^2 + 9x then 2x^2 + 29x."
+    },
+    {
+      "id": "30",
+      "prompt": "Expand and simplify 4x(3x + 1)(2x - 3)",
+      "student_page": 5,
+      "scheme_page": 14,
+      "scheme_ref": "June 21/1H/Q13",
+      "max_marks": 3,
+      "criteria": [
+        {
+          "id": "M11",
+          "code": "M1",
+          "text": "two of three factors expanded",
+          "awarded": true
+        },
+        {
+          "id": "M12",
+          "code": "M1",
+          "text": "dependent third-factor expansion",
+          "awarded": true
+        },
+        {
+          "id": "A13",
+          "code": "A1",
+          "text": "24x^3 - 28x^2 - 12x",
+          "awarded": false
+        }
+      ],
+      "expected_mark": 2,
+      "status": "scored",
+      "confidence": "medium",
+      "evidence": "Correct answer 24x^3-28x^2-12x with no working; scheme A1 row states \"Working required\", so A1 withheld. M1 method marks credited on the correct expansion structure."
+    },
+    {
+      "id": "31",
+      "prompt": "Expand and simplify 4x(x - 5)(2x + 3)",
+      "student_page": 5,
+      "scheme_page": 15,
+      "scheme_ref": "Nov 21/2H/Q12 c",
+      "max_marks": 3,
+      "criteria": [
+        {
+          "id": "M11",
+          "code": "M1",
+          "text": "one factor pair expanded",
+          "awarded": true
+        },
+        {
+          "id": "M12",
+          "code": "M1",
+          "text": "dependent third-factor expansion",
+          "awarded": true
+        },
+        {
+          "id": "A13",
+          "code": "A1",
+          "text": "8x^3 - 28x^2 - 60x",
+          "awarded": false
+        }
+      ],
+      "expected_mark": 2,
+      "status": "scored",
+      "confidence": "medium",
+      "evidence": "Correct answer 8x^3-28x^2-60x with no working; scheme A1 row states \"Working required\", so A1 withheld. M1 method marks credited."
+    },
+    {
+      "id": "32",
+      "prompt": "Expand and simplify 5x(x + 2)(3x - 4)",
+      "student_page": 6,
+      "scheme_page": 16,
+      "scheme_ref": "Jan 22/1H/Q13 a",
+      "max_marks": 3,
+      "criteria": [
+        {
+          "id": "M11",
+          "code": "M1",
+          "text": "two of three factors expanded",
+          "awarded": true
+        },
+        {
+          "id": "M12",
+          "code": "M1",
+          "text": "dependent third-factor expansion",
+          "awarded": true
+        },
+        {
+          "id": "A13",
+          "code": "A1",
+          "text": "15x^3 + 10x^2 - 40x",
+          "awarded": true
+        }
+      ],
+      "expected_mark": 3,
+      "status": "scored",
+      "confidence": "high",
+      "evidence": "15x^3 - 20x^2 + 30x^2 - 40x then 15x^3 + 10x^2 - 40x."
+    },
+    {
+      "id": "33",
+      "prompt": "Expand and simplify n(n - 4)(3n + 5)",
+      "student_page": 6,
+      "scheme_page": 17,
+      "scheme_ref": "Jan 22/1HR/Q12 a",
+      "max_marks": 2,
+      "criteria": [
+        {
+          "id": "M11",
+          "code": "M1",
+          "text": "correct partial expansion",
+          "awarded": true
+        },
+        {
+          "id": "A12",
+          "code": "A1",
+          "text": "3n^3 - 7n^2 - 20n",
+          "awarded": true
+        }
+      ],
+      "expected_mark": 2,
+      "status": "scored",
+      "confidence": "high",
+      "evidence": "3n^3 + 5n^2 - 12n^2 - 20n then 3n^3 - 7n^2 - 20n."
+    },
+    {
+      "id": "34",
+      "prompt": "Expand and simplify 3x(2x - 5)^2",
+      "student_page": 6,
+      "scheme_page": 18,
+      "scheme_ref": "Jan 23/1H/Q13",
+      "max_marks": 3,
+      "criteria": [
+        {
+          "id": "M11",
+          "code": "M1",
+          "text": "3x by (2x - 5) or (2x - 5)^2 expanded",
+          "awarded": true
+        },
+        {
+          "id": "M12",
+          "code": "M1",
+          "text": "dependent expansion",
+          "awarded": true
+        },
+        {
+          "id": "A13",
+          "code": "A1",
+          "text": "12x^3 - 60x^2 + 75x",
+          "awarded": false
+        }
+      ],
+      "expected_mark": 2,
+      "status": "scored",
+      "confidence": "medium",
+      "evidence": "Correct answer 12x^3-60x^2+75x with no working; scheme A1 row states \"Working required\", so A1 withheld. M1 method marks credited."
+    },
+    {
+      "id": "35",
+      "prompt": "Expand and simplify 5x(3x + 4)(2x - 1)",
+      "student_page": 6,
+      "scheme_page": 19,
+      "scheme_ref": "Jan 23/2HR/Q12 c",
+      "max_marks": 3,
+      "criteria": [
+        {
+          "id": "M11",
+          "code": "M1",
+          "text": "two of three factors expanded",
+          "awarded": true
+        },
+        {
+          "id": "M12",
+          "code": "M1",
+          "text": "dependent third-factor expansion",
+          "awarded": true
+        },
+        {
+          "id": "A13",
+          "code": "A1",
+          "text": "30x^3 + 25x^2 - 20x",
+          "awarded": true
+        }
+      ],
+      "expected_mark": 3,
+      "status": "scored",
+      "confidence": "high",
+      "evidence": "Correct answer 30x^3+25x^2-20x; scheme states a correct answer scores full marks."
+    },
+    {
+      "id": "36",
+      "prompt": "Expand and simplify (x + 6)(3x - 2)(x + 6)",
+      "student_page": 6,
+      "scheme_page": 20,
+      "scheme_ref": "June 23/2H/Q17 a",
+      "max_marks": 3,
+      "criteria": [
+        {
+          "id": "M11",
+          "code": "M1",
+          "text": "two brackets correctly expanded",
+          "awarded": true
+        },
+        {
+          "id": "M12",
+          "code": "M1",
+          "text": "dependent third-factor expansion",
+          "awarded": true
+        },
+        {
+          "id": "A13",
+          "code": "A1",
+          "text": "3x^3 + 34x^2 + 84x - 72",
+          "awarded": true
+        }
+      ],
+      "expected_mark": 3,
+      "status": "scored",
+      "confidence": "high",
+      "evidence": "Correct answer 3x^3+34x^2+84x-72 (not 86x); scheme states a correct answer scores full marks."
+    },
+    {
+      "id": "37a",
+      "prompt": "Expand and simplify (3x + 1)(2 - x)(4 + x)",
+      "student_page": 7,
+      "scheme_page": 21,
+      "scheme_ref": "June 24/1HR/Q14 (a)",
+      "max_marks": 3,
+      "criteria": [
+        {
+          "id": "M11",
+          "code": "M1",
+          "text": "two brackets correctly expanded",
+          "awarded": true
+        },
+        {
+          "id": "M12",
+          "code": "M1",
+          "text": "dependent third-factor expansion",
+          "awarded": true
+        },
+        {
+          "id": "A13",
+          "code": "A1",
+          "text": "-3x^3 - 7x^2 + 22x + 8",
+          "awarded": true
+        }
+      ],
+      "expected_mark": 3,
+      "status": "scored",
+      "confidence": "high",
+      "evidence": "(3x + 1)(8 - 2x - x^2) then -3x^3 - 7x^2 + 22x + 8."
+    },
+    {
+      "id": "37b",
+      "prompt": "Simplify fully (a^9 b^5 / (a^3 b))^(1/2)",
+      "student_page": 7,
+      "scheme_page": 21,
+      "scheme_ref": "June 24/1HR/Q14 (b)",
+      "max_marks": 3,
+      "criteria": [
+        {
+          "id": "M11",
+          "code": "M1",
+          "text": "simplify a and b in the fraction",
+          "awarded": false
+        },
+        {
+          "id": "M12",
+          "code": "M1",
+          "text": "apply the power to both terms",
+          "awarded": false
+        },
+        {
+          "id": "A13",
+          "code": "A1",
+          "text": "a^3 b^2",
+          "awarded": false
+        }
+      ],
+      "expected_mark": 0,
+      "status": "scored",
+      "confidence": "high",
+      "evidence": "Answer written a^5 b^2; correct is a^3 b^2. No method evidence."
+    }
+  ]
+}

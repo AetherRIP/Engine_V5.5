@@ -1,0 +1,1722 @@
+{
+  "strategy": "c",
+  "paper_id": "ch2-l3-final-01",
+  "models": {
+    "primary": "gemini-3.6-flash",
+    "lite": "gemini-3.1-flash-lite",
+    "strong": "gemini-3.6-flash",
+    "notes": [
+      "primary: gemini-3.6-flash verified on KEY_01",
+      "lite: gemini-3.1-flash-lite verified on KEY_01",
+      "strong: gemini-3.1-pro-preview not verified on the first 3 healthy key(s)",
+      "strong: gemini-3.6-flash verified on KEY_01"
+    ]
+  },
+  "runs": [
+    {
+      "run": 1,
+      "request_count": 13,
+      "invalid_responses": 0,
+      "completion_status": "complete",
+      "errors": [
+        "missing items: 7, 8, 9, 10, 11, 13, 14, 15, 16b, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37a, 37b",
+        "missing items: 1a, 1d, 2, 3, 4, 5, 6, 13, 14, 15, 16b, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37a, 37b",
+        "missing items: 1a, 1d, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37a, 37b",
+        "missing items: 1a, 1d, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 16b, 17, 18, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37a, 37b",
+        "missing items: 1a, 1d, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 16b, 17, 18, 19, 20, 21, 22, 23, 24, 25, 32, 33, 34, 35, 36, 37a, 37b",
+        "missing items: 1a, 1d, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 16b, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31"
+      ],
+      "items": [
+        {
+          "id": "1a",
+          "student_answer": "24-18y",
+          "awarded": 1,
+          "max_marks": 1,
+          "criteria": [
+            {
+              "code": "B1",
+              "awarded": true,
+              "reason": ""
+            }
+          ],
+          "confidence": 1.0,
+          "flags": [],
+          "reason": "",
+          "source": "primary"
+        },
+        {
+          "id": "1d",
+          "student_answer": "y^2 + 8y - 20",
+          "awarded": 2,
+          "max_marks": 2,
+          "criteria": [
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": ""
+            },
+            {
+              "code": "A1",
+              "awarded": true,
+              "reason": ""
+            }
+          ],
+          "confidence": 1.0,
+          "flags": [],
+          "reason": "",
+          "source": "primary"
+        },
+        {
+          "id": "2",
+          "student_answer": "10p - 15",
+          "awarded": 1,
+          "max_marks": 1,
+          "criteria": [
+            {
+              "code": "B1",
+              "awarded": true,
+              "reason": ""
+            }
+          ],
+          "confidence": 1.0,
+          "flags": [],
+          "reason": "",
+          "source": "primary"
+        },
+        {
+          "id": "3",
+          "student_answer": "x^2 + 4x - 5",
+          "awarded": 2,
+          "max_marks": 2,
+          "criteria": [
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": ""
+            },
+            {
+              "code": "A1",
+              "awarded": true,
+              "reason": ""
+            }
+          ],
+          "confidence": 1.0,
+          "flags": [],
+          "reason": "",
+          "source": "primary"
+        },
+        {
+          "id": "4",
+          "student_answer": "t^2 + t - 20",
+          "awarded": 2,
+          "max_marks": 2,
+          "criteria": [
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": ""
+            },
+            {
+              "code": "A1",
+              "awarded": true,
+              "reason": ""
+            }
+          ],
+          "confidence": 1.0,
+          "flags": [],
+          "reason": "",
+          "source": "primary"
+        },
+        {
+          "id": "5",
+          "student_answer": "x^2 + 2x",
+          "awarded": 1,
+          "max_marks": 1,
+          "criteria": [
+            {
+              "code": "B1",
+              "awarded": true,
+              "reason": ""
+            }
+          ],
+          "confidence": 1.0,
+          "flags": [],
+          "reason": "",
+          "source": "primary"
+        },
+        {
+          "id": "6",
+          "student_answer": "24x",
+          "awarded": 3,
+          "max_marks": 3,
+          "criteria": [
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": ""
+            },
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": ""
+            },
+            {
+              "code": "A1",
+              "awarded": true,
+              "reason": ""
+            }
+          ],
+          "confidence": 1.0,
+          "flags": [],
+          "reason": "",
+          "source": "primary"
+        },
+        {
+          "id": "7",
+          "student_answer": "x^2 - 7x - 18",
+          "awarded": 2,
+          "max_marks": 2,
+          "criteria": [
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": ""
+            },
+            {
+              "code": "A1",
+              "awarded": true,
+              "reason": ""
+            }
+          ],
+          "confidence": 1.0,
+          "flags": [],
+          "reason": "",
+          "source": "primary"
+        },
+        {
+          "id": "8",
+          "student_answer": "8y^2 + 10y - 3",
+          "awarded": 2,
+          "max_marks": 2,
+          "criteria": [
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": ""
+            },
+            {
+              "code": "A1",
+              "awarded": true,
+              "reason": ""
+            }
+          ],
+          "confidence": 1.0,
+          "flags": [],
+          "reason": "",
+          "source": "primary"
+        },
+        {
+          "id": "9",
+          "student_answer": "10x + 22",
+          "awarded": 2,
+          "max_marks": 2,
+          "criteria": [
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": ""
+            },
+            {
+              "code": "A1",
+              "awarded": true,
+              "reason": ""
+            }
+          ],
+          "confidence": 1.0,
+          "flags": [],
+          "reason": "",
+          "source": "primary"
+        },
+        {
+          "id": "10",
+          "student_answer": "8y - 2",
+          "awarded": 2,
+          "max_marks": 2,
+          "criteria": [
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": ""
+            },
+            {
+              "code": "A1",
+              "awarded": true,
+              "reason": ""
+            }
+          ],
+          "confidence": 1.0,
+          "flags": [],
+          "reason": "",
+          "source": "primary"
+        },
+        {
+          "id": "11",
+          "student_answer": "24x - 9",
+          "awarded": 3,
+          "max_marks": 3,
+          "criteria": [
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": "Correctly expanded 4x(x + 3) to get 4x^2 + 12x and (2x - 3)^2 to get 4x^2 - 12x + 9."
+            },
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": "Fully correct expansions with correct removal of brackets: 4x^2 + 12x - 4x^2 + 12x - 9."
+            },
+            {
+              "code": "A1",
+              "awarded": true,
+              "reason": "Correct simplified answer of 24x - 9."
+            }
+          ],
+          "confidence": 1.0,
+          "flags": [],
+          "reason": "All steps are fully correct and clearly written.",
+          "escalation_reason": "SymPy says transcribed answer differs from the scheme's expected answer",
+          "source": "escalated"
+        },
+        {
+          "id": "13",
+          "student_answer": "-x^2 + 5x + 24",
+          "awarded": 2,
+          "max_marks": 3,
+          "criteria": [
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": "Correct expansion of (2x + 3)^2 as 4x^2 + 12x + 9 (all 3 terms correct)."
+            },
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": "Correct expansion of (2x + 3)(x - 5) as (2x^2 - 10x + 3x - 15) before subtraction."
+            },
+            {
+              "code": "A1",
+              "awarded": false,
+              "reason": "Final answer is -x^2 + 5x + 24 instead of 2x^2 + 19x + 24 due to arithmetic errors in collecting terms (4x^2 incorrectly simplified to x^2, and subtraction/addition errors)."
+            }
+          ],
+          "confidence": 1.0,
+          "flags": [],
+          "reason": "Student correctly expanded both sets of brackets, earning both method marks, but made arithmetic errors when combining like terms, failing to reach the final correct simplified expression.",
+          "escalation_reason": "SymPy says transcribed answer differs from the scheme's expected answer",
+          "source": "escalated"
+        },
+        {
+          "id": "14",
+          "student_answer": "k^2 + 4k - 45",
+          "awarded": 2,
+          "max_marks": 2,
+          "criteria": [
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": "Expansion is correct."
+            },
+            {
+              "code": "A1",
+              "awarded": true,
+              "reason": "Final answer is correct."
+            }
+          ],
+          "confidence": 1.0,
+          "flags": [],
+          "reason": "",
+          "source": "primary"
+        },
+        {
+          "id": "15",
+          "student_answer": "12p + 15",
+          "awarded": 1,
+          "max_marks": 1,
+          "criteria": [
+            {
+              "code": "B1",
+              "awarded": true,
+              "reason": "Correct expansion."
+            }
+          ],
+          "confidence": 1.0,
+          "flags": [],
+          "reason": "",
+          "source": "primary"
+        },
+        {
+          "id": "16b",
+          "student_answer": "2p^2 - 3p",
+          "awarded": 1,
+          "max_marks": 1,
+          "criteria": [
+            {
+              "code": "B1",
+              "awarded": true,
+              "reason": "Correct expansion."
+            }
+          ],
+          "confidence": 1.0,
+          "flags": [],
+          "reason": "",
+          "source": "primary"
+        },
+        {
+          "id": "17",
+          "student_answer": "x^2 - 3x - 18",
+          "awarded": 2,
+          "max_marks": 2,
+          "criteria": [
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": "Correct expansion steps shown."
+            },
+            {
+              "code": "A1",
+              "awarded": true,
+              "reason": "Correct final answer."
+            }
+          ],
+          "confidence": 1.0,
+          "flags": [],
+          "reason": "",
+          "source": "primary"
+        },
+        {
+          "id": "18",
+          "student_answer": "2x^3 - 5x^2 - 28x + 15",
+          "awarded": 3,
+          "max_marks": 3,
+          "criteria": [
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": "First expansion correct."
+            },
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": "Second expansion correct."
+            },
+            {
+              "code": "A1",
+              "awarded": true,
+              "reason": "Final answer correct."
+            }
+          ],
+          "confidence": 1.0,
+          "flags": [],
+          "reason": "",
+          "source": "primary"
+        },
+        {
+          "id": "19",
+          "student_answer": "3x^2 + 5xy - 12y^2",
+          "awarded": 2,
+          "max_marks": 2,
+          "criteria": [
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": ""
+            },
+            {
+              "code": "A1",
+              "awarded": true,
+              "reason": ""
+            }
+          ],
+          "confidence": 1.0,
+          "flags": [],
+          "reason": "",
+          "source": "primary"
+        },
+        {
+          "id": "20",
+          "student_answer": "e^2 - 2e - 15",
+          "awarded": 2,
+          "max_marks": 2,
+          "criteria": [
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": ""
+            },
+            {
+              "code": "A1",
+              "awarded": true,
+              "reason": ""
+            }
+          ],
+          "confidence": 1.0,
+          "flags": [],
+          "reason": "",
+          "source": "primary"
+        },
+        {
+          "id": "21",
+          "student_answer": "4n^3 + 8n^2 - 60n",
+          "awarded": 2,
+          "max_marks": 2,
+          "criteria": [
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": ""
+            },
+            {
+              "code": "A1",
+              "awarded": true,
+              "reason": ""
+            }
+          ],
+          "confidence": 1.0,
+          "flags": [],
+          "reason": "",
+          "source": "primary"
+        },
+        {
+          "id": "22",
+          "student_answer": "x^2 + 7x - 18",
+          "awarded": 2,
+          "max_marks": 2,
+          "criteria": [
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": ""
+            },
+            {
+              "code": "A1",
+              "awarded": true,
+              "reason": ""
+            }
+          ],
+          "confidence": 1.0,
+          "flags": [],
+          "reason": "",
+          "source": "primary"
+        },
+        {
+          "id": "23",
+          "student_answer": "2x^3 - 14x^2...",
+          "awarded": 1,
+          "max_marks": 3,
+          "criteria": [
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": ""
+            },
+            {
+              "code": "M1dep",
+              "awarded": false,
+              "reason": ""
+            },
+            {
+              "code": "A1",
+              "awarded": false,
+              "reason": ""
+            }
+          ],
+          "confidence": 1.0,
+          "flags": [],
+          "reason": "",
+          "source": "primary"
+        },
+        {
+          "id": "24",
+          "student_answer": "m^2 - 3m - 40",
+          "awarded": 2,
+          "max_marks": 2,
+          "criteria": [
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": ""
+            },
+            {
+              "code": "A1",
+              "awarded": true,
+              "reason": ""
+            }
+          ],
+          "confidence": 1.0,
+          "flags": [],
+          "reason": "",
+          "source": "primary"
+        },
+        {
+          "id": "25",
+          "student_answer": "x^2 - 3x - 10",
+          "awarded": 2,
+          "max_marks": 2,
+          "criteria": [
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": ""
+            },
+            {
+              "code": "A1",
+              "awarded": true,
+              "reason": ""
+            }
+          ],
+          "confidence": 1.0,
+          "flags": [],
+          "reason": "",
+          "source": "primary"
+        },
+        {
+          "id": "26",
+          "student_answer": "20x^3 - 31x^2 - 84x - 18",
+          "awarded": 2,
+          "max_marks": 3,
+          "criteria": [
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": "Valid implied multiplication of brackets with method shown/used."
+            },
+            {
+              "code": "M2",
+              "awarded": true,
+              "reason": "Multiplied product by third bracket correctly."
+            },
+            {
+              "code": "A1",
+              "awarded": false,
+              "reason": "Final answer 20x^3 - 31x^2 - 84x - 18 has an incorrect x term (-84x instead of -81x)."
+            }
+          ],
+          "confidence": 1.0,
+          "flags": [],
+          "reason": "First two method marks awarded for correct expansion process, but accuracy mark lost due to arithmetic error in the x-coefficient (-84x instead of -81x).",
+          "escalation_reason": "SymPy says transcribed answer differs from the scheme's expected answer",
+          "source": "escalated"
+        },
+        {
+          "id": "27",
+          "student_answer": "2x^3 - 16x^2 + 30x",
+          "awarded": 3,
+          "max_marks": 3,
+          "criteria": [
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": ""
+            },
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": ""
+            },
+            {
+              "code": "A1",
+              "awarded": true,
+              "reason": ""
+            }
+          ],
+          "confidence": 1.0,
+          "flags": [],
+          "reason": "",
+          "source": "primary"
+        },
+        {
+          "id": "28",
+          "student_answer": "x^3 + 3x^2 - 6x - 8",
+          "awarded": 3,
+          "max_marks": 3,
+          "criteria": [
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": ""
+            },
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": ""
+            },
+            {
+              "code": "A1",
+              "awarded": true,
+              "reason": ""
+            }
+          ],
+          "confidence": 1.0,
+          "flags": [],
+          "reason": "",
+          "source": "primary"
+        },
+        {
+          "id": "29",
+          "student_answer": "2x^2 + 29x",
+          "awarded": 2,
+          "max_marks": 2,
+          "criteria": [
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": ""
+            },
+            {
+              "code": "A1",
+              "awarded": true,
+              "reason": ""
+            }
+          ],
+          "confidence": 1.0,
+          "flags": [],
+          "reason": "",
+          "source": "primary"
+        },
+        {
+          "id": "30",
+          "student_answer": "24x^3 - 28x^2 - 12x",
+          "awarded": 3,
+          "max_marks": 3,
+          "criteria": [
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": ""
+            },
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": ""
+            },
+            {
+              "code": "A1",
+              "awarded": true,
+              "reason": ""
+            }
+          ],
+          "confidence": 1.0,
+          "flags": [],
+          "reason": "",
+          "source": "primary"
+        },
+        {
+          "id": "31",
+          "student_answer": "8x^3 - 28x^2 - 60x",
+          "awarded": 3,
+          "max_marks": 3,
+          "criteria": [
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": ""
+            },
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": ""
+            },
+            {
+              "code": "A1",
+              "awarded": true,
+              "reason": ""
+            }
+          ],
+          "confidence": 1.0,
+          "flags": [],
+          "reason": "",
+          "source": "primary"
+        },
+        {
+          "id": "32",
+          "student_answer": "15x^3 - 10x^2 - 40x",
+          "awarded": 1,
+          "max_marks": 3,
+          "criteria": [
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": "Implied single stage or implicit expansion allows up to two errors (15x^3 - 10x^2 - 40x has one sign error relative to 15x^3 + 10x^2 - 40x)."
+            },
+            {
+              "code": "M1dep",
+              "awarded": false,
+              "reason": "Dependent mark or full correct expansion steps not fully demonstrated/satisfied beyond the initial stage allowance."
+            },
+            {
+              "code": "A1",
+              "awarded": false,
+              "reason": "Incorrect final expression (15x^3 - 10x^2 - 40x instead of 15x^3 + 10x^2 - 40x)."
+            }
+          ],
+          "confidence": 0.95,
+          "flags": [],
+          "reason": "Student provided the expression 15x^3 - 10x^2 - 40x without intermediate working. Per mark scheme, single-stage expansion allows up to two errors for the initial M mark, but the final accuracy mark requires the correct expanded expression.",
+          "escalation_reason": "SymPy says transcribed answer differs from the scheme's expected answer",
+          "source": "escalated"
+        },
+        {
+          "id": "33",
+          "student_answer": "3n^3 - 7n^2 - 20n",
+          "awarded": 2,
+          "max_marks": 2,
+          "criteria": [
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": ""
+            },
+            {
+              "code": "A1",
+              "awarded": true,
+              "reason": ""
+            }
+          ],
+          "confidence": 1.0,
+          "flags": [],
+          "reason": "",
+          "source": "primary"
+        },
+        {
+          "id": "34",
+          "student_answer": "12x^3 - 60x^2 + 75x",
+          "awarded": 3,
+          "max_marks": 3,
+          "criteria": [
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": ""
+            },
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": ""
+            },
+            {
+              "code": "A1",
+              "awarded": true,
+              "reason": ""
+            }
+          ],
+          "confidence": 1.0,
+          "flags": [],
+          "reason": "",
+          "source": "primary"
+        },
+        {
+          "id": "35",
+          "student_answer": "30x^3 + 25x^2 - 20x",
+          "awarded": 3,
+          "max_marks": 3,
+          "criteria": [
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": ""
+            },
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": ""
+            },
+            {
+              "code": "A1",
+              "awarded": true,
+              "reason": ""
+            }
+          ],
+          "confidence": 1.0,
+          "flags": [],
+          "reason": "",
+          "source": "primary"
+        },
+        {
+          "id": "36",
+          "student_answer": "3x^3 + 34x^2 + 84x - 72",
+          "awarded": 3,
+          "max_marks": 3,
+          "criteria": [
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": ""
+            },
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": ""
+            },
+            {
+              "code": "A1",
+              "awarded": true,
+              "reason": ""
+            }
+          ],
+          "confidence": 1.0,
+          "flags": [],
+          "reason": "",
+          "source": "primary"
+        },
+        {
+          "id": "37a",
+          "student_answer": "-3x^3 - 7x^2 + 22x + 8",
+          "awarded": 3,
+          "max_marks": 3,
+          "criteria": [
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": ""
+            },
+            {
+              "code": "M1",
+              "awarded": true,
+              "reason": ""
+            },
+            {
+              "code": "A1",
+              "awarded": true,
+              "reason": ""
+            }
+          ],
+          "confidence": 1.0,
+          "flags": [],
+          "reason": "",
+          "source": "primary"
+        },
+        {
+          "id": "37b",
+          "student_answer": "a^5 b^2",
+          "awarded": 0,
+          "max_marks": 3,
+          "criteria": [
+            {
+              "code": "M1",
+              "awarded": false,
+              "reason": "No visible working shown to demonstrate any simplifying of the fraction terms or application of the power."
+            },
+            {
+              "code": "M1",
+              "awarded": false,
+              "reason": "No visible working shown to demonstrate two simplifications or application of powers."
+            },
+            {
+              "code": "A1",
+              "awarded": false,
+              "reason": "Incorrect final answer: student wrote 'a^5 b^2' instead of 'a^3 b^2'."
+            }
+          ],
+          "confidence": 1.0,
+          "flags": [],
+          "reason": "The final answer is incorrect (a^5 b^2) and no working is provided to award any method marks.",
+          "escalation_reason": "SymPy says transcribed answer differs from the scheme's expected answer",
+          "source": "escalated"
+        }
+      ],
+      "extractions": {
+        "doc_questions": 38
+      },
+      "escalations": [
+        "11",
+        "13",
+        "26",
+        "32",
+        "37b"
+      ],
+      "verification": {
+        "1a": {
+          "status": "equivalent",
+          "detail": "simplify(student - expected) = 0"
+        },
+        "1d": {
+          "status": "equivalent",
+          "detail": "simplify(student - expected) = 0"
+        },
+        "2": {
+          "status": "equivalent",
+          "detail": "simplify(student - expected) = 0"
+        },
+        "3": {
+          "status": "equivalent",
+          "detail": "simplify(student - expected) = 0"
+        },
+        "4": {
+          "status": "equivalent",
+          "detail": "simplify(student - expected) = 0"
+        },
+        "5": {
+          "status": "equivalent",
+          "detail": "simplify(student - expected) = 0"
+        },
+        "6": {
+          "status": "equivalent",
+          "detail": "simplify(student - expected) = 0"
+        },
+        "7": {
+          "status": "equivalent",
+          "detail": "simplify(student - expected) = 0"
+        },
+        "8": {
+          "status": "equivalent",
+          "detail": "simplify(student - expected) = 0"
+        },
+        "9": {
+          "status": "equivalent",
+          "detail": "simplify(student - expected) = 0"
+        },
+        "10": {
+          "status": "equivalent",
+          "detail": "simplify(student - expected) = 0"
+        },
+        "11": {
+          "status": "different",
+          "detail": "difference 27*o*r*(8*x - 3) - 9"
+        },
+        "13": {
+          "status": "different",
+          "detail": "difference x*(-3*x - 14)"
+        },
+        "14": {
+          "status": "equivalent",
+          "detail": "simplify(student - expected) = 0"
+        },
+        "15": {
+          "status": "equivalent",
+          "detail": "simplify(student - expected) = 0"
+        },
+        "16b": {
+          "status": "equivalent",
+          "detail": "simplify(student - expected) = 0"
+        },
+        "17": {
+          "status": "equivalent",
+          "detail": "simplify(student - expected) = 0"
+        },
+        "18": {
+          "status": "equivalent",
+          "detail": "simplify(student - expected) = 0"
+        },
+        "19": {
+          "status": "equivalent",
+          "detail": "simplify(student - expected) = 0"
+        },
+        "20": {
+          "status": "equivalent",
+          "detail": "simplify(student - expected) = 0"
+        },
+        "21": {
+          "status": "equivalent",
+          "detail": "simplify(student - expected) = 0"
+        },
+        "22": {
+          "status": "equivalent",
+          "detail": "simplify(student - expected) = 0"
+        },
+        "23": {
+          "status": "unknown",
+          "detail": "SyntaxError",
+          "student": "2x**3-14x**2...",
+          "expected": "2x**3-7x**2-43x-42"
+        },
+        "24": {
+          "status": "equivalent",
+          "detail": "simplify(student - expected) = 0"
+        },
+        "25": {
+          "status": "equivalent",
+          "detail": "simplify(student - expected) = 0"
+        },
+        "26": {
+          "status": "different",
+          "detail": "difference -3*x"
+        },
+        "27": {
+          "status": "equivalent",
+          "detail": "simplify(student - expected) = 0"
+        },
+        "28": {
+          "status": "equivalent",
+          "detail": "simplify(student - expected) = 0"
+        },
+        "29": {
+          "status": "equivalent",
+          "detail": "simplify(student - expected) = 0"
+        },
+        "30": {
+          "status": "equivalent",
+          "detail": "simplify(student - expected) = 0"
+        },
+        "31": {
+          "status": "equivalent",
+          "detail": "simplify(student - expected) = 0"
+        },
+        "32": {
+          "status": "different",
+          "detail": "difference -20*x**2"
+        },
+        "33": {
+          "status": "equivalent",
+          "detail": "simplify(student - expected) = 0"
+        },
+        "34": {
+          "status": "equivalent",
+          "detail": "simplify(student - expected) = 0"
+        },
+        "35": {
+          "status": "equivalent",
+          "detail": "simplify(student - expected) = 0"
+        },
+        "36": {
+          "status": "equivalent",
+          "detail": "simplify(student - expected) = 0"
+        },
+        "37a": {
+          "status": "equivalent",
+          "detail": "simplify(student - expected) = 0"
+        },
+        "37b": {
+          "status": "different",
+          "detail": "difference a**3*b**2*(a**2 - 1)"
+        }
+      },
+      "splits": []
+    }
+  ],
+  "accuracy": [
+    {
+      "strategy": "c",
+      "run": 1,
+      "items_expected": 38,
+      "items_returned": 38,
+      "completion_status": "complete",
+      "coverage": 1.0,
+      "items_exact": 33,
+      "item_exact_accuracy": 0.8684,
+      "paper_score_awarded": 78,
+      "paper_score_expected": 76,
+      "score_error": 2,
+      "exact_paper_score": false,
+      "mean_absolute_score_error": 0.158,
+      "false_awards": 4,
+      "false_deductions": 2,
+      "criterion_precision": 0.9481,
+      "criterion_recall": 0.9605,
+      "criterion_f1": 0.9542,
+      "criterion_counts": {
+        "tp": 73,
+        "fp": 4,
+        "fn": 3,
+        "tn": 7
+      },
+      "criterion_rows": [
+        {
+          "item": "1a",
+          "criterion": "B1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "1d",
+          "criterion": "M1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "1d",
+          "criterion": "A1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "2",
+          "criterion": "B1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "3",
+          "criterion": "M1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "3",
+          "criterion": "A1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "4",
+          "criterion": "M1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "4",
+          "criterion": "A1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "5",
+          "criterion": "B1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "6",
+          "criterion": "M1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "6",
+          "criterion": "M1#1",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "6",
+          "criterion": "A1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "7",
+          "criterion": "M1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "7",
+          "criterion": "A1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "8",
+          "criterion": "M1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "8",
+          "criterion": "A1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "9",
+          "criterion": "M1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "9",
+          "criterion": "A1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "10",
+          "criterion": "M1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "10",
+          "criterion": "A1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "11",
+          "criterion": "M1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "11",
+          "criterion": "M1#1",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "11",
+          "criterion": "A1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "13",
+          "criterion": "M1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "13",
+          "criterion": "M1#1",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "13",
+          "criterion": "A1#0",
+          "expected": false,
+          "awarded": false
+        },
+        {
+          "item": "14",
+          "criterion": "M1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "14",
+          "criterion": "A1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "15",
+          "criterion": "B1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "16b",
+          "criterion": "B1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "17",
+          "criterion": "M1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "17",
+          "criterion": "A1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "18",
+          "criterion": "M1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "18",
+          "criterion": "M1#1",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "18",
+          "criterion": "A1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "19",
+          "criterion": "M1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "19",
+          "criterion": "A1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "20",
+          "criterion": "M1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "20",
+          "criterion": "A1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "21",
+          "criterion": "M1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "21",
+          "criterion": "A1#0",
+          "expected": false,
+          "awarded": true
+        },
+        {
+          "item": "22",
+          "criterion": "M1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "22",
+          "criterion": "A1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "23",
+          "criterion": "M1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "23",
+          "criterion": "M1#1",
+          "expected": false,
+          "awarded": false
+        },
+        {
+          "item": "23",
+          "criterion": "A1#0",
+          "expected": false,
+          "awarded": false
+        },
+        {
+          "item": "24",
+          "criterion": "M1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "24",
+          "criterion": "A1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "25",
+          "criterion": "M1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "25",
+          "criterion": "A1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "26",
+          "criterion": "M1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "26",
+          "criterion": "M1#1",
+          "expected": true,
+          "awarded": false
+        },
+        {
+          "item": "26",
+          "criterion": "A1#0",
+          "expected": false,
+          "awarded": false
+        },
+        {
+          "item": "27",
+          "criterion": "M1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "27",
+          "criterion": "M1#1",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "27",
+          "criterion": "A1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "28",
+          "criterion": "M1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "28",
+          "criterion": "M1#1",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "28",
+          "criterion": "A1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "29",
+          "criterion": "M1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "29",
+          "criterion": "A1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "30",
+          "criterion": "M1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "30",
+          "criterion": "M1#1",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "30",
+          "criterion": "A1#0",
+          "expected": false,
+          "awarded": true
+        },
+        {
+          "item": "31",
+          "criterion": "M1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "31",
+          "criterion": "M1#1",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "31",
+          "criterion": "A1#0",
+          "expected": false,
+          "awarded": true
+        },
+        {
+          "item": "32",
+          "criterion": "M1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "32",
+          "criterion": "M1#1",
+          "expected": true,
+          "awarded": false
+        },
+        {
+          "item": "32",
+          "criterion": "A1#0",
+          "expected": true,
+          "awarded": false
+        },
+        {
+          "item": "33",
+          "criterion": "M1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "33",
+          "criterion": "A1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "34",
+          "criterion": "M1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "34",
+          "criterion": "M1#1",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "34",
+          "criterion": "A1#0",
+          "expected": false,
+          "awarded": true
+        },
+        {
+          "item": "35",
+          "criterion": "M1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "35",
+          "criterion": "M1#1",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "35",
+          "criterion": "A1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "36",
+          "criterion": "M1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "36",
+          "criterion": "M1#1",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "36",
+          "criterion": "A1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "37a",
+          "criterion": "M1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "37a",
+          "criterion": "M1#1",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "37a",
+          "criterion": "A1#0",
+          "expected": true,
+          "awarded": true
+        },
+        {
+          "item": "37b",
+          "criterion": "M1#0",
+          "expected": false,
+          "awarded": false
+        },
+        {
+          "item": "37b",
+          "criterion": "M1#1",
+          "expected": false,
+          "awarded": false
+        },
+        {
+          "item": "37b",
+          "criterion": "A1#0",
+          "expected": false,
+          "awarded": false
+        }
+      ],
+      "unresolved_items": [],
+      "unresolved_count": 0,
+      "invalid_responses": 0,
+      "verification_status_counts": {
+        "equivalent": 32,
+        "different": 5,
+        "unknown": 1
+      },
+      "verification_different": 5,
+      "escalation_count": 5,
+      "escalation_gap": false,
+      "hallucination_suspects": [],
+      "errors": [
+        "missing items: 7, 8, 9, 10, 11, 13, 14, 15, 16b, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37a, 37b",
+        "missing items: 1a, 1d, 2, 3, 4, 5, 6, 13, 14, 15, 16b, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37a, 37b",
+        "missing items: 1a, 1d, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37a, 37b",
+        "missing items: 1a, 1d, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 16b, 17, 18, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37a, 37b",
+        "missing items: 1a, 1d, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 16b, 17, 18, 19, 20, 21, 22, 23, 24, 25, 32, 33, 34, 35, 36, 37a, 37b",
+        "missing items: 1a, 1d, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 16b, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31"
+      ],
+      "strict_correct": false,
+      "near_correct_within_one": false,
+      "reference_status": "user_ruled_not_teacher_signed"
+    }
+  ],
+  "usage": {
+    "requests": 23,
+    "successful_requests": 13,
+    "failed_requests": 10,
+    "failure_rate": 0.4348,
+    "retries": 16,
+    "rate_limit_failures": 0,
+    "rate_limit_rate": 0.0,
+    "cooldown_s_total": null,
+    "cooldown_events": 0,
+    "cooldown_wait_s_total": 0.0,
+    "cooldown_wait_s_max": 0.0,
+    "cooldown_wait_rows": 23,
+    "input_tokens": 43375,
+    "output_tokens": 17132,
+    "cached_tokens": null,
+    "thoughts_tokens": null,
+    "total_tokens": 60507,
+    "image_tokens": 30786,
+    "reported_token_rows": 13,
+    "estimated_token_rows": 0,
+    "cost_usd": 0.0811395,
+    "cost_rows": 13,
+    "cost_estimated_rows": 10,
+    "latency_ms_sum": 126836,
+    "latency_ms_mean": 9756.6,
+    "latency_ms_p50": 6146,
+    "latency_ms_max": 32329,
+    "cache_savings_estimate_usd": null,
+    "keys_used": [
+      "KEY_01",
+      "KEY_02",
+      "KEY_05",
+      "KEY_06",
+      "KEY_09",
+      "KEY_10",
+      "KEY_12",
+      "KEY_16",
+      "KEY_19",
+      "KEY_20"
+    ],
+    "pools_used": [
+      "POOL_OBSERVED_1",
+      "POOL_UNKNOWN_KEY_01",
+      "POOL_UNKNOWN_KEY_02",
+      "POOL_UNKNOWN_KEY_06",
+      "POOL_UNKNOWN_KEY_09",
+      "POOL_UNKNOWN_KEY_10",
+      "POOL_UNKNOWN_KEY_12"
+    ]
+  }
+}

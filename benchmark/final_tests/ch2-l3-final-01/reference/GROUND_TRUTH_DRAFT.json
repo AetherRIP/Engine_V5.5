@@ -1,0 +1,844 @@
+{
+  "paper_id": "ch2-l3-final-01",
+  "reference_status": "DRAFT_PENDING_USER_CONFIRMATION",
+  "totals": {
+    "marks_available_scored": 87,
+    "printed_marks_all_items": 91,
+    "excluded_marks": 4,
+    "resolved_awarded": 71,
+    "pending_items": [
+      "30",
+      "31",
+      "34"
+    ]
+  },
+  "exclusions": [
+    {
+      "id": "12",
+      "marks": 2,
+      "reason": "Incorrect in mark scheme; student page repeats Q11 expression, scheme Q12 is a different question."
+    },
+    {
+      "id": "16d",
+      "marks": 2,
+      "reason": "Added mistakenly to the mark scheme; not printed on the student paper."
+    }
+  ],
+  "items": [
+    {
+      "id": "1a",
+      "max_marks": 1,
+      "criteria": [
+        {
+          "code": "B1",
+          "text": "24 - 18y",
+          "awarded": true
+        }
+      ],
+      "expected_mark": 1,
+      "evidence": "Working shows 12x - 18y? Final 24 - 18y is correct.",
+      "confidence": "high",
+      "status": "scored"
+    },
+    {
+      "id": "1d",
+      "max_marks": 2,
+      "criteria": [
+        {
+          "code": "M1",
+          "text": "3 of 4 correct terms or 4 ignoring signs",
+          "awarded": true
+        },
+        {
+          "code": "A1",
+          "text": "y^2 + 8y - 20",
+          "awarded": true
+        }
+      ],
+      "expected_mark": 2,
+      "evidence": "y^2 + 10y - 2y - 20 then y^2 + 8y - 20.",
+      "confidence": "high",
+      "status": "scored"
+    },
+    {
+      "id": "2",
+      "max_marks": 1,
+      "criteria": [
+        {
+          "code": "B1",
+          "text": "10p - 15",
+          "awarded": true
+        }
+      ],
+      "expected_mark": 1,
+      "evidence": "Final 10p - 15.",
+      "confidence": "high",
+      "status": "scored"
+    },
+    {
+      "id": "3",
+      "max_marks": 2,
+      "criteria": [
+        {
+          "code": "M1",
+          "text": "3 correct terms out of 4",
+          "awarded": true
+        },
+        {
+          "code": "A1",
+          "text": "x^2 + 4x - 5",
+          "awarded": true
+        }
+      ],
+      "expected_mark": 2,
+      "evidence": "x^2 + 5x - x - 5 then x^2 + 4x - 5.",
+      "confidence": "high",
+      "status": "scored"
+    },
+    {
+      "id": "4",
+      "max_marks": 2,
+      "criteria": [
+        {
+          "code": "M1",
+          "text": "3 correct terms out of 4",
+          "awarded": true
+        },
+        {
+          "code": "A1",
+          "text": "t^2 + t - 20",
+          "awarded": true
+        }
+      ],
+      "expected_mark": 2,
+      "evidence": "t^2 - 4t + 5t - 20 then t^2 + t - 20.",
+      "confidence": "high",
+      "status": "scored"
+    },
+    {
+      "id": "5",
+      "max_marks": 1,
+      "criteria": [
+        {
+          "code": "B1",
+          "text": "x^2 + 2x",
+          "awarded": true
+        }
+      ],
+      "expected_mark": 1,
+      "evidence": "x^2 + 2x.",
+      "confidence": "high",
+      "status": "scored"
+    },
+    {
+      "id": "6",
+      "max_marks": 3,
+      "criteria": [
+        {
+          "code": "M1",
+          "text": "any one correct expansion",
+          "awarded": true
+        },
+        {
+          "code": "M1",
+          "text": "fully correct expansions, correct removal of bracket",
+          "awarded": true
+        },
+        {
+          "code": "A1",
+          "text": "24x",
+          "awarded": true
+        }
+      ],
+      "expected_mark": 3,
+      "evidence": "Both expansions correct, bracket signs handled, final 24x.",
+      "confidence": "high",
+      "status": "scored"
+    },
+    {
+      "id": "7",
+      "max_marks": 2,
+      "criteria": [
+        {
+          "code": "M1",
+          "text": "3 of 4 terms or 4 ignoring signs",
+          "awarded": true
+        },
+        {
+          "code": "A1",
+          "text": "x^2 - 7x - 18",
+          "awarded": true
+        }
+      ],
+      "expected_mark": 2,
+      "evidence": "x^2 - 9x + 2x - 18 then x^2 - 7x - 18.",
+      "confidence": "high",
+      "status": "scored"
+    },
+    {
+      "id": "8",
+      "max_marks": 2,
+      "criteria": [
+        {
+          "code": "M1",
+          "text": "3 of 4 terms or 4 ignoring signs",
+          "awarded": true
+        },
+        {
+          "code": "A1",
+          "text": "8y^2 + 10y - 3",
+          "awarded": true
+        }
+      ],
+      "expected_mark": 2,
+      "evidence": "8y^2 + 2y - 12y - 3 then 8y^2 + 10y - 3.",
+      "confidence": "high",
+      "status": "scored"
+    },
+    {
+      "id": "9",
+      "max_marks": 2,
+      "criteria": [
+        {
+          "code": "M1",
+          "text": "any 3 terms correct out of 4",
+          "awarded": true
+        },
+        {
+          "code": "A1",
+          "text": "10x + 22",
+          "awarded": true
+        }
+      ],
+      "expected_mark": 2,
+      "evidence": "8x + 12 + 2x + 10 then 10x + 22.",
+      "confidence": "high",
+      "status": "scored"
+    },
+    {
+      "id": "10",
+      "max_marks": 2,
+      "criteria": [
+        {
+          "code": "M1",
+          "text": "3 correct terms",
+          "awarded": true
+        },
+        {
+          "code": "A1",
+          "text": "8y - 2",
+          "awarded": true
+        }
+      ],
+      "expected_mark": 2,
+      "evidence": "6y + 6 + 2y - 8 then 8y - 2.",
+      "confidence": "high",
+      "status": "scored"
+    },
+    {
+      "id": "11",
+      "max_marks": 3,
+      "criteria": [
+        {
+          "code": "M1",
+          "text": "expansion of 4x(x + 3) or (2x - 3)^2",
+          "awarded": true
+        },
+        {
+          "code": "M1",
+          "text": "fully correct expansions, correct removal of bracket",
+          "awarded": true
+        },
+        {
+          "code": "A1",
+          "text": "24x - 9",
+          "awarded": true
+        }
+      ],
+      "expected_mark": 3,
+      "evidence": "4x^2 + 12x - (4x^2 - 12x + 9) then 24x - 9.",
+      "confidence": "high",
+      "status": "scored"
+    },
+    {
+      "id": "13",
+      "max_marks": 3,
+      "criteria": [
+        {
+          "code": "M1",
+          "text": "at least 3 terms correct in first expansion",
+          "awarded": true
+        },
+        {
+          "code": "M1",
+          "text": "at least 3 terms correct in second expansion",
+          "awarded": true
+        },
+        {
+          "code": "A1",
+          "text": "2x^2 + 19x + 24",
+          "awarded": false
+        }
+      ],
+      "expected_mark": 2,
+      "evidence": "final line reads x^2 + 12x + 9 - 2x^2 + 7x + 15 (and margin 3x^2 ...), not 2x^2+19x+24",
+      "confidence": "medium",
+      "status": "scored"
+    },
+    {
+      "id": "14",
+      "max_marks": 2,
+      "criteria": [
+        {
+          "code": "M1",
+          "text": "3 correct terms or 4 ignoring signs",
+          "awarded": true
+        },
+        {
+          "code": "A1",
+          "text": "k^2 + 4k - 45",
+          "awarded": true
+        }
+      ],
+      "expected_mark": 2,
+      "evidence": "k^2 - 5k + 9k - 45 then k^2 + 4k - 45 (first line's -9k reading is ambiguous, final is correct).",
+      "confidence": "high",
+      "status": "scored"
+    },
+    {
+      "id": "15",
+      "max_marks": 1,
+      "criteria": [
+        {
+          "code": "B1",
+          "text": "12p + 15",
+          "awarded": true
+        }
+      ],
+      "expected_mark": 1,
+      "evidence": "12p + 15.",
+      "confidence": "high",
+      "status": "scored"
+    },
+    {
+      "id": "16b",
+      "max_marks": 1,
+      "criteria": [
+        {
+          "code": "B1",
+          "text": "2p^2 - 3p",
+          "awarded": true
+        }
+      ],
+      "expected_mark": 1,
+      "evidence": "2p^2 - 3p.",
+      "confidence": "high",
+      "status": "scored"
+    },
+    {
+      "id": "17",
+      "max_marks": 2,
+      "criteria": [
+        {
+          "code": "M1",
+          "text": "3 correct terms or 4 ignoring signs",
+          "awarded": true
+        },
+        {
+          "code": "A1",
+          "text": "x^2 - 3x - 18",
+          "awarded": true
+        }
+      ],
+      "expected_mark": 2,
+      "evidence": "x^2 - 6x + 3x - 18 then x^2 - 3x - 18.",
+      "confidence": "high",
+      "status": "scored"
+    },
+    {
+      "id": "18",
+      "max_marks": 3,
+      "criteria": [
+        {
+          "code": "M1",
+          "text": "expansion of any 2 of 3 brackets",
+          "awarded": true
+        },
+        {
+          "code": "M1",
+          "text": "dependent second expansion",
+          "awarded": true
+        },
+        {
+          "code": "A1",
+          "text": "2x^3 - 5x^2 - 28x + 15",
+          "awarded": true
+        }
+      ],
+      "expected_mark": 3,
+      "evidence": "(2x - 1)(x^2 - 2x - 15) then 2x^3 - 5x^2 - 28x + 15.",
+      "confidence": "high",
+      "status": "scored"
+    },
+    {
+      "id": "19",
+      "max_marks": 2,
+      "criteria": [
+        {
+          "code": "M1",
+          "text": "3 correct terms or 4 ignoring signs",
+          "awarded": true
+        },
+        {
+          "code": "A1",
+          "text": "3x^2 + 5xy - 12y^2",
+          "awarded": true
+        }
+      ],
+      "expected_mark": 2,
+      "evidence": "3x^2 + 9xy - 4xy - 12y^2 then 3x^2 + 5xy - 12y^2.",
+      "confidence": "high",
+      "status": "scored"
+    },
+    {
+      "id": "20",
+      "max_marks": 2,
+      "criteria": [
+        {
+          "code": "M1",
+          "text": "3 correct terms or 4 ignoring signs",
+          "awarded": true
+        },
+        {
+          "code": "A1",
+          "text": "e^2 - 2e - 15",
+          "awarded": true
+        }
+      ],
+      "expected_mark": 2,
+      "evidence": "e^2 - 5e + 3e - 15 then e^2 - 2e - 15.",
+      "confidence": "high",
+      "status": "scored"
+    },
+    {
+      "id": "21",
+      "max_marks": 2,
+      "criteria": [
+        {
+          "code": "M1",
+          "text": "correct partial expansion",
+          "awarded": true
+        },
+        {
+          "code": "A1",
+          "text": "4n^3 + 8n^2 - 60n",
+          "awarded": false
+        }
+      ],
+      "expected_mark": 1,
+      "evidence": "partial expansion 4n(n^2+2n-15) seen; final written -60n^2 / 8n^3, not 4n^3+8n^2-60n",
+      "confidence": "medium",
+      "status": "scored"
+    },
+    {
+      "id": "22",
+      "max_marks": 2,
+      "criteria": [
+        {
+          "code": "M1",
+          "text": "3 correct terms or 4 ignoring signs",
+          "awarded": true
+        },
+        {
+          "code": "A1",
+          "text": "x^2 + 7x - 18",
+          "awarded": true
+        }
+      ],
+      "expected_mark": 2,
+      "evidence": "x^2 - 2x + 9x - 18 then x^2 + 7x - 18.",
+      "confidence": "high",
+      "status": "scored"
+    },
+    {
+      "id": "23",
+      "max_marks": 3,
+      "criteria": [
+        {
+          "code": "M1",
+          "text": "one pair of brackets expanded, 3 of 4 terms",
+          "awarded": true
+        },
+        {
+          "code": "M1dep",
+          "text": "second expansion, 3 of 6 or 4 of 8 terms",
+          "awarded": true
+        },
+        {
+          "code": "A1",
+          "text": "2x^3 - 7x^2 - 43x - 42",
+          "awarded": false
+        }
+      ],
+      "expected_mark": 2,
+      "evidence": "both bracket stages correct to (x+2)(2x^2-11x-21); final in box reads 2x^3-4x^2...(truncated), not 2x^3-7x^2-43x-42",
+      "confidence": "medium",
+      "status": "scored"
+    },
+    {
+      "id": "24",
+      "max_marks": 2,
+      "criteria": [
+        {
+          "code": "M1",
+          "text": "3 correct terms or 4 ignoring signs",
+          "awarded": true
+        },
+        {
+          "code": "A1",
+          "text": "m^2 - 3m - 40",
+          "awarded": true
+        }
+      ],
+      "expected_mark": 2,
+      "evidence": "m^2 + 5m - 8m - 40 then m^2 - 3m - 40.",
+      "confidence": "high",
+      "status": "scored"
+    },
+    {
+      "id": "25",
+      "max_marks": 2,
+      "criteria": [
+        {
+          "code": "M1",
+          "text": "3 correct terms or 4 ignoring signs",
+          "awarded": true
+        },
+        {
+          "code": "A1",
+          "text": "x^2 - 3x - 10",
+          "awarded": true
+        }
+      ],
+      "expected_mark": 2,
+      "evidence": "x^2 - 5x + 2x - 10 then x^2 - 3x - 10.",
+      "confidence": "high",
+      "status": "scored"
+    },
+    {
+      "id": "26",
+      "max_marks": 3,
+      "criteria": [
+        {
+          "code": "M1",
+          "text": "two brackets multiplied, 3 of 4 terms",
+          "awarded": true
+        },
+        {
+          "code": "M1",
+          "text": "dependent third-factor expansion",
+          "awarded": true
+        },
+        {
+          "code": "A1",
+          "text": "20x^3 - 31x^2 - 81x - 18",
+          "awarded": false
+        }
+      ],
+      "expected_mark": 2,
+      "evidence": "final 20x^3-31x^2-84x-18; x-term 84 should be 81",
+      "confidence": "high",
+      "status": "scored"
+    },
+    {
+      "id": "27",
+      "max_marks": 3,
+      "criteria": [
+        {
+          "code": "M1",
+          "text": "2x multiplied by a bracket or 3 of 4 terms",
+          "awarded": true
+        },
+        {
+          "code": "M1",
+          "text": "dependent third-factor expansion",
+          "awarded": true
+        },
+        {
+          "code": "A1",
+          "text": "2x^3 - 16x^2 + 30x",
+          "awarded": true
+        }
+      ],
+      "expected_mark": 3,
+      "evidence": "2x(x^2 - 8x + 15) then 2x^3 - 16x^2 + 30x.",
+      "confidence": "high",
+      "status": "scored"
+    },
+    {
+      "id": "28",
+      "max_marks": 3,
+      "criteria": [
+        {
+          "code": "M1",
+          "text": "two brackets correctly expanded",
+          "awarded": true
+        },
+        {
+          "code": "M1",
+          "text": "dependent third-factor expansion",
+          "awarded": true
+        },
+        {
+          "code": "A1",
+          "text": "x^3 + 3x^2 - 6x - 8",
+          "awarded": true
+        }
+      ],
+      "expected_mark": 3,
+      "evidence": "(x + 4)(x^2 - x - 2) then x^3 + 3x^2 - 6x - 8.",
+      "confidence": "high",
+      "status": "scored"
+    },
+    {
+      "id": "29",
+      "max_marks": 2,
+      "criteria": [
+        {
+          "code": "M1",
+          "text": "3 correct terms or 4 ignoring signs",
+          "awarded": true
+        },
+        {
+          "code": "A1",
+          "text": "2x^2 + 29x",
+          "awarded": true
+        }
+      ],
+      "expected_mark": 2,
+      "evidence": "8x^2 + 20x - 6x^2 + 9x then 2x^2 + 29x.",
+      "confidence": "high",
+      "status": "scored"
+    },
+    {
+      "id": "30",
+      "max_marks": 3,
+      "criteria": [
+        {
+          "code": "M1",
+          "text": "two of three factors expanded",
+          "awarded": null
+        },
+        {
+          "code": "M1",
+          "text": "dependent third-factor expansion",
+          "awarded": null
+        },
+        {
+          "code": "A1",
+          "text": "24x^3 - 28x^2 - 12x",
+          "awarded": null
+        }
+      ],
+      "expected_mark": null,
+      "evidence": "correct answer 24x^3-28x^2-12x but no working; scheme A1 row says \"Working required\"",
+      "confidence": "blocked",
+      "status": "pending_policy"
+    },
+    {
+      "id": "31",
+      "max_marks": 3,
+      "criteria": [
+        {
+          "code": "M1",
+          "text": "one factor pair expanded",
+          "awarded": null
+        },
+        {
+          "code": "M1",
+          "text": "dependent third-factor expansion",
+          "awarded": null
+        },
+        {
+          "code": "A1",
+          "text": "8x^3 - 28x^2 - 60x",
+          "awarded": null
+        }
+      ],
+      "expected_mark": null,
+      "evidence": "correct answer 8x^3-28x^2-60x but no working; scheme A1 row says \"Working required\"",
+      "confidence": "blocked",
+      "status": "pending_policy"
+    },
+    {
+      "id": "32",
+      "max_marks": 3,
+      "criteria": [
+        {
+          "code": "M1",
+          "text": "two of three factors expanded",
+          "awarded": true
+        },
+        {
+          "code": "M1",
+          "text": "dependent third-factor expansion",
+          "awarded": true
+        },
+        {
+          "code": "A1",
+          "text": "15x^3 + 10x^2 - 40x",
+          "awarded": true
+        }
+      ],
+      "expected_mark": 3,
+      "evidence": "15x^3 - 20x^2 + 30x^2 - 40x then 15x^3 + 10x^2 - 40x.",
+      "confidence": "high",
+      "status": "scored"
+    },
+    {
+      "id": "33",
+      "max_marks": 2,
+      "criteria": [
+        {
+          "code": "M1",
+          "text": "correct partial expansion",
+          "awarded": true
+        },
+        {
+          "code": "A1",
+          "text": "3n^3 - 7n^2 - 20n",
+          "awarded": true
+        }
+      ],
+      "expected_mark": 2,
+      "evidence": "3n^3 + 5n^2 - 12n^2 - 20n then 3n^3 - 7n^2 - 20n.",
+      "confidence": "high",
+      "status": "scored"
+    },
+    {
+      "id": "34",
+      "max_marks": 3,
+      "criteria": [
+        {
+          "code": "M1",
+          "text": "3x by (2x - 5) or (2x - 5)^2 expanded",
+          "awarded": null
+        },
+        {
+          "code": "M1",
+          "text": "dependent expansion",
+          "awarded": null
+        },
+        {
+          "code": "A1",
+          "text": "12x^3 - 60x^2 + 75x",
+          "awarded": null
+        }
+      ],
+      "expected_mark": null,
+      "evidence": "correct answer 12x^3-60x^2+75x but no working; scheme A1 row says \"Working required\"",
+      "confidence": "blocked",
+      "status": "pending_policy"
+    },
+    {
+      "id": "35",
+      "max_marks": 3,
+      "criteria": [
+        {
+          "code": "M1",
+          "text": "two of three factors expanded",
+          "awarded": true
+        },
+        {
+          "code": "M1",
+          "text": "dependent third-factor expansion",
+          "awarded": true
+        },
+        {
+          "code": "A1",
+          "text": "30x^3 + 25x^2 - 20x",
+          "awarded": true
+        }
+      ],
+      "expected_mark": 3,
+      "evidence": "correct answer 30x^3+25x^2-20x; scheme says correct answer scores full marks",
+      "confidence": "high",
+      "status": "scored"
+    },
+    {
+      "id": "36",
+      "max_marks": 3,
+      "criteria": [
+        {
+          "code": "M1",
+          "text": "two brackets correctly expanded",
+          "awarded": true
+        },
+        {
+          "code": "M1",
+          "text": "dependent third-factor expansion",
+          "awarded": true
+        },
+        {
+          "code": "A1",
+          "text": "3x^3 + 34x^2 + 84x - 72",
+          "awarded": true
+        }
+      ],
+      "expected_mark": 3,
+      "evidence": "correct answer 3x^3+34x^2+84x-72; scheme says correct answer scores full marks",
+      "confidence": "high",
+      "status": "scored"
+    },
+    {
+      "id": "37a",
+      "max_marks": 3,
+      "criteria": [
+        {
+          "code": "M1",
+          "text": "two brackets correctly expanded",
+          "awarded": true
+        },
+        {
+          "code": "M1",
+          "text": "dependent third-factor expansion",
+          "awarded": true
+        },
+        {
+          "code": "A1",
+          "text": "-3x^3 - 7x^2 + 22x + 8",
+          "awarded": true
+        }
+      ],
+      "expected_mark": 3,
+      "evidence": "(3x + 1)(8 - 2x - x^2) then -3x^3 - 7x^2 + 22x + 8.",
+      "confidence": "high",
+      "status": "scored"
+    },
+    {
+      "id": "37b",
+      "max_marks": 3,
+      "criteria": [
+        {
+          "code": "M1",
+          "text": "simplify a and b in the fraction",
+          "awarded": false
+        },
+        {
+          "code": "M1",
+          "text": "apply the power to both terms",
+          "awarded": false
+        },
+        {
+          "code": "A1",
+          "text": "a^3 b^2",
+          "awarded": false
+        }
+      ],
+      "expected_mark": 0,
+      "evidence": "answer written a^5 b^2 (new scan); correct is a^3 b^2",
+      "confidence": "high",
+      "status": "scored"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "basis": "historical measured token averages for a same-size workbook; not a quote",
+  "runs_per_strategy": 2,
+  "planned_benchmark_requests": 46,
+  "max_escalation_requests": 12,
+  "per_strategy": {
+    "a": {
+      "requests_per_run": 1,
+      "estimate_usd_per_run": 0.045225,
+      "estimate_usd_for_runs": [
+        0.09045,
+        0.14472
+      ]
+    },
+    "b": {
+      "requests_per_run": 14,
+      "estimate_usd_per_run": 0.10335,
+      "estimate_usd_for_runs": [
+        0.2067,
+        0.33072
+      ]
+    },
+    "c": {
+      "requests_per_run": 8,
+      "estimate_usd_per_run": 0.055594,
+      "estimate_usd_for_runs": [
+        0.111187,
+        0.1779
+      ]
+    }
+  },
+  "estimate_usd_range": [
+    0.4083,
+    0.8933
+  ],
+  "probe_requests": "20 key probes + up to 9 model-verification probes; excluded from benchmark totals but consumed",
+  "a_whole_paper_payload_mb": 6.17
+}
